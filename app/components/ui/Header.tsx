@@ -50,17 +50,17 @@ export function Header() {
             <span className="sr-only">Menú</span>
             <div className="relative h-5 w-5">
               <span
-                className={`absolute left-0 top-0 block h-0.5 w-full rounded-full bg-current transition-all duration-200 ease-in-out origin-center ${
+                className={`absolute left-0 top-0 block h-0.5 w-full rounded-full bg-current transition-all duration-300 ease-in-out origin-center ${
                   isOpen ? "translate-y-2 rotate-45" : ""
                 }`}
               />
               <span
-                className={`absolute left-0 top-1/2 block h-0.5 w-full -translate-y-1/2 rounded-full bg-current transition-all duration-200 ease-in-out ${
+                className={`absolute left-0 top-1/2 block h-0.5 w-full -translate-y-1/2 rounded-full bg-current transition-all duration-300 ease-in-out ${
                   isOpen ? "opacity-0" : "opacity-100"
                 }`}
               />
               <span
-                className={`absolute left-0 bottom-0 block h-0.5 w-full rounded-full bg-current transition-all duration-200 ease-in-out origin-center ${
+                className={`absolute left-0 bottom-0 block h-0.5 w-full rounded-full bg-current transition-all duration-300 ease-in-out origin-center ${
                   isOpen ? "-translate-y-2 -rotate-45" : ""
                 }`}
               />
@@ -70,7 +70,7 @@ export function Header() {
       </Wrapper>
 
       <div
-        className={`border-t border-zinc-200 bg-white lg:hidden overflow-hidden transition-all duration-300 ease-out ${
+        className={`border-t border-zinc-200 bg-white lg:hidden overflow-hidden transition-all duration-500 ease-in-out ${
           isOpen ? "max-h-[520px] opacity-100" : "max-h-0 opacity-0"
         }`}
         aria-hidden={!isOpen}
@@ -82,10 +82,10 @@ export function Header() {
                 <li key={item}>
                   <a
                     href="#"
-                    className={`block rounded-xl px-3 py-2 transition hover:bg-zinc-100 hover:text-black ${
-                      isOpen ? "translate-y-0 opacity-100" : "translate-y-2 opacity-0"
-                    } duration-300 ease-out`}
-                    style={{ transitionDelay: isOpen ? `${index * 40}ms` : "0ms" }}
+                    className={`block rounded-xl px-3 py-2 transition-all duration-500 ease-in-out hover:bg-zinc-100 hover:text-black ${
+                      isOpen ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
+                    }`}
+                    style={{ transitionDelay: isOpen ? `${index * 60}ms` : "0ms" }}
                     onClick={() => setIsOpen(false)}
                   >
                     {item}
@@ -95,7 +95,7 @@ export function Header() {
             </ul>
           </nav>
 
-          <Button href="/contactar" className={isOpen ? "opacity-100" : "opacity-0"}>
+          <Button href="/contactar" className={isOpen ? "opacity-100 transition-opacity duration-500 ease-in-out" : "opacity-0 transition-opacity duration-500 ease-in-out"}>
             Contactar
           </Button>
         </Wrapper>
