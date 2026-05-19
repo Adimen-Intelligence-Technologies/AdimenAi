@@ -40,9 +40,9 @@ export function Card({ title, description, icon: Icon, index }: CardProps) {
         borderWidth: 1,
         borderStyle: "solid",
         borderColor: "rgba(255, 255, 255, 0.2)",
-        backgroundColor: "rgba(255, 255, 255, 0.1)",
-        borderRadius: 8,
-        boxShadow: "rgba(111, 70, 255, 0.1) 0px 24px 60px -20px",
+        backgroundColor: "rgba(255, 255, 255, 0.28)",
+        borderRadius: 4,
+        
         animationDelay: isVisible ? `${index * 0.08}s` : undefined,
       }}
     >

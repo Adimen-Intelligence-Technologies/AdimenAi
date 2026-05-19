@@ -60,26 +60,26 @@ export function ServicesSection() {
     <section className="border-y border-white">
       <Wrapper>
         <div
-          className="bg-cover bg-bottom bg-white/10 border border-white/10 p-8 sm:p-12"
-          style={{ backgroundImage: "url('/backgrpound-02.jpg')" }}
+          className="bg-cover bg-center bg-no-repeat bg-white/10 border border-white/10 p-6 sm:p-8 lg:p-12"
+          style={{ backgroundImage: "url('/background-02.avif')" }}
         >
-          <div ref={sectionRef} className="mx-auto max-w-3xl text-center">
+          <div ref={sectionRef} className="mx-auto max-w-3xl text-center px-2 sm:px-0">
             <div
-              className={`mb-5 inline-flex items-center justify-center gap-2 text-xl font-semibold ${fadeClass}`}
+              className={`mb-5 inline-flex items-center justify-center gap-2 text-base sm:text-lg font-semibold pt-20 ${fadeClass}`}
               style={{ animationDelay: "0.1s" }}
             >
-              <Sparkles className="h-6 w-6 text-[#6C47FF]" />
+              <Sparkles className="h-5 w-5 text-[#6C47FF]" />
               Nuestros servicios
             </div>
             <h2
-              className={`text-[40px] font-semibold sm:text-[44px] ${fadeClass}`}
+              className={`text-3xl sm:text-4xl md:text-[40px] font-semibold ${fadeClass}`}
               style={{ animationDelay: "0.2s" }}
             >
               Cuatro formas de implementar la inteligencia artificial en tu
               empresa
             </h2>
             <p
-              className={`mx-auto mt-4 max-w-2xl text-[16px] leading-7 ${fadeClass}`}
+              className={`mx-auto mt-4 max-w-2xl text-sm sm:text-base  ${fadeClass}`}
               style={{ animationDelay: "0.3s" }}
             >
               Desde una automatización sencilla hasta un proyecto completo a
@@ -87,7 +87,7 @@ export function ServicesSection() {
             </p>
           </div>
 
-          <div className="mt-12 grid gap-2 md:grid-cols-2 xl:grid-cols-4">
+          <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
             {services.map((service, index) => (
               <Card
                 key={service.title}
