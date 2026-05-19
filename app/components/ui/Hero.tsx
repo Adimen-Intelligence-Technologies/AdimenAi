@@ -3,9 +3,9 @@ import { Wrapper } from "../Wrapper";
 import { Zap, Wallet, TrendingUp } from "lucide-react";
 
 const stats = [
-  { icon: Zap, label: "600+ processes automated" },
-  { icon: Wallet, label: "$250M saved for clients" },
-  { icon: TrendingUp, label: "41-day average ROI" },
+  { icon: Zap, label: "600+ procesos automatizados" },
+  { icon: Wallet, label: "$250M ahorrados en clientes" },
+  { icon: TrendingUp, label: "ROI promedio de 41 días" },
 ];
 
 export function Hero() {
@@ -17,14 +17,14 @@ export function Hero() {
           style={{ backgroundImage: "url('/backgrpound-02.jpg')" }}
         >
           <div className="absolute inset-0" />
-          <div className="relative z-10 flex flex-col items-center justify-center gap-6 text-center px-50">
-            <p className="text-sm font-medium text-gray-600 tracking-wide">
+          <div className="relative z-10 flex flex-col items-center justify-center gap-4 text-center px-30">
+            <p className="text-xl font-medium text-gray-600 tracking-wide">
               Inteligencia artificial para empresas
             </p>
-            <h1 className="text-5xl md:text-6xl font-bold text-black leading-tight">
+            <h1 className="text-5xl md:text-6xl font-bold text-black tracking-tighter leading-tight">
               Automatiza tu empresa con inteligencia artificial
             </h1>
-            <p className="max-w-3xl text-lg text-black leading-relaxed">
+            <p className="max-w-3xl text-lg text-black leading-tight">
               Diseñamos e implementamos agentes de IA, automatizaciones de procesos,
               chatbots y tiendas online a medida. Consultoría presencial disponible
               en toda España.
@@ -37,13 +37,14 @@ export function Hero() {
                 Ver servicios
               </HeroButton>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-16 w-full">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 mt-16 w-full">
               {stats.map((stat, index) => {
                 const Icon = stat.icon;
                 return (
-                  <div key={index} className="flex flex-col items-center gap-3 text-center">
-                    <Icon className="w-8 h-8 text-purple-600" />
-                    <p className="text-sm font-medium text-gray-700">{stat.label}</p>
+                  <div key={index} className="flex items-center gap-2 text-center">
+                      <p>|</p>
+                    <div className="px-2 py-2 rounded bg-white/50 border border-zinc-200"><Icon className="w-3 h-3" /></div>
+                                  <p className="text-base font-medium text-black">{stat.label}</p>
                   </div>
                 );
               })}
