@@ -2,6 +2,7 @@ import { Header } from "./components/ui/Header";
 import { Hero } from "./components/ui/Hero";
 import { HeroMarquee } from "./components/ui/HeroMarquee";
 import { ServicesSection } from "./components/ui/ServicesSection";
+import { Footer } from "./components/ui/Footer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <HeroMarquee />
       <ServicesSection />
+      <Footer />
     </div>
   );
 }

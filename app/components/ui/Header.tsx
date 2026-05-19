@@ -12,7 +12,7 @@ const menuItems = [
   { label: "Comercios", href: "/comercios" },
   { label: "Casos de uso", href: "/casos-de-uso" },
   { label: "Blog", href: "/blog" },
-  { label: "Cookies", href: "/seleccionar-cookies" },
+  
 ];
 
 export function Header() {
@@ -33,7 +33,7 @@ export function Header() {
           </Link>
 
           <nav className="hidden lg:block">
-            <ul className="flex flex-wrap items-center gap-8 text-[18px] text-gray-500">
+            <ul className="flex flex-wrap items-center gap-6 text-[18px] text-gray-500">
               {menuItems.map((item) => (
                 <li key={item.label}>
                   <Link href={item.href} className="transition-colors hover:text-black">
