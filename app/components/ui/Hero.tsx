@@ -4,8 +4,8 @@ import { Zap, Wallet, TrendingUp } from "lucide-react";
 
 const stats = [
   { icon: Zap, label: "600+ procesos automatizados" },
-  { icon: Wallet, label: "$250M ahorrados en clientes" },
-  { icon: TrendingUp, label: "ROI promedio de 41 días" },
+  { icon: Wallet, label: "Operaciones intracomunitarias" },
+  { icon: TrendingUp, label: "Primera consulta gratuita" },
 ];
 
 export function Hero() {
@@ -18,18 +18,30 @@ export function Hero() {
         >
           <div className="absolute inset-0" />
           <div className="relative z-10 flex flex-col items-center justify-center gap-4 text-center px-30">
-            <p className="text-xl font-medium text-gray-600 tracking-wide">
+            <p
+              className="text-xl font-medium text-gray-600 tracking-wide animate-hero-fade"
+              style={{ animationDelay: "0.1s" }}
+            >
               Inteligencia artificial para empresas
             </p>
-            <h1 className="text-5xl md:text-6xl font-bold text-black tracking-tighter leading-tight">
+            <h1
+              className="text-5xl md:text-6xl font-bold text-black tracking-tighter leading-tight animate-hero-fade"
+              style={{ animationDelay: "0.2s" }}
+            >
               Automatiza tu empresa con inteligencia artificial
             </h1>
-            <p className="max-w-3xl text-lg text-black leading-tight">
+            <p
+              className="max-w-3xl text-lg text-black leading-tight animate-hero-fade"
+              style={{ animationDelay: "0.35s" }}
+            >
               Diseñamos e implementamos agentes de IA, automatizaciones de procesos,
               chatbots y tiendas online a medida. Consultoría presencial disponible
               en toda España.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
+            <div
+              className="flex flex-col sm:flex-row gap-4 mt-8 animate-hero-fade"
+              style={{ animationDelay: "0.5s" }}
+            >
               <HeroButton href="/contactar" variant="primary">
                 Llamada gratuita
               </HeroButton>
@@ -37,7 +49,10 @@ export function Hero() {
                 Ver servicios
               </HeroButton>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 mt-16 w-full">
+            <div
+              className="grid grid-cols-1 sm:grid-cols-3 gap-2 mt-16 w-full animate-hero-fade"
+              style={{ animationDelay: "0.65s" }}
+            >
               {stats.map((stat, index) => {
                 const Icon = stat.icon;
                 return (
