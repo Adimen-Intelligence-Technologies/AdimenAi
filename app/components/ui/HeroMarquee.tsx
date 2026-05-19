@@ -21,14 +21,14 @@ export function HeroMarquee() {
           {companyLogos.map((logo, index) => (
             <div
               key={index}
-              className="mx-10 flex h-24 min-w-[10rem] items-center justify-center opacity-80 transition duration-300 hover:opacity-100"
+              className="mx-6 sm:mx-10 flex h-20 sm:h-24 min-w-[8rem] sm:min-w-[10rem] items-center justify-center opacity-80 transition duration-300 hover:opacity-100"
             >
               <Image
                 src={logo}
                 alt={`Logo empresa ${index + 1}`}
-                width={160}
-                height={80}
-                className="max-h-16 object-contain"
+                width={140}
+                height={70}
+                className="max-h-12 sm:max-h-16 object-contain"
               />
             </div>
           ))}
