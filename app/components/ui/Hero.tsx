@@ -14,7 +14,7 @@ export function Hero() {
       <Wrapper className="border-x-0  border-y-fuchsia-300 border-zinc-200 ">
         <div
           className="relative overflow-hidden bg-cover bg-center px-6 py-20 border-x border-zinc-200"
-          style={{ backgroundImage: "url('/backgrpound.jpg')" }}
+          style={{ backgroundImage: "url('/background.avif')" }}
         >
           <div className="absolute inset-0" />
           <div className="relative z-10 flex flex-col items-center justify-center gap-6 text-center px-50">

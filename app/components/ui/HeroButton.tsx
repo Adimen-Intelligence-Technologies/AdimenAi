@@ -21,10 +21,10 @@ export function HeroButton({
   return (
     <Link
       href={href}
-      className={`inline-flex items-center justify-center overflow-hidden rounded-full px-8 py-3 text-base font-semibold transition-colors ${
+      className={`inline-flex items-center justify-center overflow-hidden rounded-full px-8 py-4 font-semibold transition-colors ${
         isPrimary
-          ? "bg-[#7252FF] text-black hover:bg-[#7252FF]"
-          : "border border-black bg-white text-black hover:bg-gray-50"
+          ? "bg-[#7252FF] text-white hover:bg-[#7252FF] text-xl"
+          : "border border-zinc-200 bg-white/50 text-black hover:bg-gray-50/50 text-xl"
       } ${className}`.trim()}
     >
       <motion.span
