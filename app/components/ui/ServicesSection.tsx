@@ -1,67 +1,105 @@
+"use client";
+
+import { useEffect, useRef, useState } from "react";
 import { Cpu, MessageSquare, Settings2, Sparkles } from "lucide-react";
 import { Card } from "./Card";
+import { Wrapper } from "../Wrapper";
 
 const services = [
   {
     title: "Automatización de procesos",
     description:
-      "Eliminamos tareas manuales y repetitivas conectando tus herramientas con flujos inteligentes.",
+      "Automatizamos tus procesos internos para eliminar tareas manuales repetitivas y ganar tiempo.",
     icon: Cpu,
   },
   {
-    title: "Chatbots y asistentes",
+    title: "Agentes de IA a medida",
     description:
-      "Desarrollamos agentes que leen documentos, toman decisiones y actúan de forma autónoma en tus sistemas.",
+      "Creamos agentes inteligentes personalizados que se adaptan a tus casos de uso y procesos específicos.",
     icon: MessageSquare,
   },
   {
     title: "Integración con sistemas",
     description:
-      "Conecta IA con tu ERP, CRM y herramientas internas para un flujo de trabajo fluido.",
+      "Conectamos IA con tu ERP, CRM y herramientas internas para que funcionen como un único sistema.",
     icon: Sparkles,
   },
   {
-    title: "Proyectos a medida",
+    title: "Chatbots con IA para empresas",
     description:
-      "Diseños completos adaptados a tu empresa, tu equipo y tu sistema existente.",
+      "Diseñamos chatbots conversacionales con IA para ventas, soporte y atención corporativa.",
     icon: Settings2,
   },
 ];
 
 export function ServicesSection() {
-  return (
-    <section
-      className="border-y border-white bg-cover bg-center"
-      style={{ backgroundImage: "url('/background-03.jpg')" }}
-    >
-      <div className="mx-auto max-w-7xl px-6 py-16 sm:py-20 lg:py-24">
-        <div className="mx-auto max-w-3xl text-center">
-          <div className="mb-5 inline-flex items-center justify-center gap-2  text-xl font-semibold">
-            <Sparkles className="h-6 w-6 text-[#6C47FF]" />
-            Nuestros servicios
-          </div>
-          <h2 className="text-[40px] font-semibold sm:text-[44px]">
-            Cuatro formas de implementar la inteligencia artificial en tu
-            empresa
-          </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-[16px] leading-7">
-            Desde una automatización sencilla hasta un proyecto completo a
-            medida. Adaptado a tu empresa, tu equipo y tu sistema.
-          </p>
-        </div>
+  const sectionRef = useRef<HTMLDivElement | null>(null);
+  const [isVisible, setIsVisible] = useState(false);
 
-        <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-          {services.map((service, index) => (
-            <Card
-              key={service.title}
-              index={index}
-              title={service.title}
-              description={service.description}
-              icon={service.icon}
-            />
-          ))}
+  useEffect(() => {
+    const element = sectionRef.current;
+    if (!element) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.2 }
+    );
+
+    observer.observe(element);
+    return () => observer.disconnect();
+  }, []);
+
+  const fadeClass = isVisible ? "animate-hero-fade" : "opacity-0";
+
+  return (
+    <section className="border-y border-white">
+      <Wrapper>
+        <div
+          className="bg-cover bg-bottom bg-white/10 border border-white/10 p-8 sm:p-12"
+          style={{ backgroundImage: "url('/backgrpound-02.jpg')" }}
+        >
+          <div ref={sectionRef} className="mx-auto max-w-3xl text-center">
+            <div
+              className={`mb-5 inline-flex items-center justify-center gap-2 text-xl font-semibold ${fadeClass}`}
+              style={{ animationDelay: "0.1s" }}
+            >
+              <Sparkles className="h-6 w-6 text-[#6C47FF]" />
+              Nuestros servicios
+            </div>
+            <h2
+              className={`text-[40px] font-semibold sm:text-[44px] ${fadeClass}`}
+              style={{ animationDelay: "0.2s" }}
+            >
+              Cuatro formas de implementar la inteligencia artificial en tu
+              empresa
+            </h2>
+            <p
+              className={`mx-auto mt-4 max-w-2xl text-[16px] leading-7 ${fadeClass}`}
+              style={{ animationDelay: "0.3s" }}
+            >
+              Desde una automatización sencilla hasta un proyecto completo a
+              medida. Adaptado a tu empresa, tu equipo y tu sistema.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-2 md:grid-cols-2 xl:grid-cols-4">
+            {services.map((service, index) => (
+              <Card
+                key={service.title}
+                index={index}
+                title={service.title}
+                description={service.description}
+                icon={service.icon}
+              />
+            ))}
+          </div>
         </div>
-      </div>
+      </Wrapper>
     </section>
   );
 }
