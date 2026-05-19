@@ -50,9 +50,9 @@ export function FaqSection() {
       <Wrapper>
         <div
           className="relative overflow-hidden border-x-0 border-zinc-200 bg-cover bg-center px-6 py-18 sm:px-10 lg:px-12 lg:py-24"
-          style={{ backgroundImage: "url('/background-03.jpg'),0.2",  }}
+          style={{ backgroundImage: "url('/background-04.jpg')" }}
         >
-          <div className="pointer-events-none absolute inset-0 bg-white/10 backdrop-blur-3xl" />
+          <div className="pointer-events-none absolute inset-0 bg-white/10 backdrop-blur-sm" />
           <div className="pointer-events-none absolute -top-18 right-[15%] h-40 w-56 rounded-full bg-[#7a68ff]/25 blur-3xl" />
           <div className="pointer-events-none absolute top-[44%] right-[8%] h-28 w-44 rounded-full bg-white/60 blur-2xl" />
 

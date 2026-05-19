@@ -60,10 +60,10 @@ export function ServicesSection() {
     <section className="border-y border-white">
       <Wrapper>
         <div
-          className="bg-cover bg-center bg-no-repeat bg-white/10 border border-white/10 p-6 sm:p-8 lg:p-12"
-          style={{ backgroundImage: "url('/background-02.avif')" }}
+          className="bg-cover bg-center bg-no-repeat bg-white/80 p-6 sm:p-8 lg:p-12"
+          style={{ backgroundImage: "url('/background-05.jpg')" }}
         >
-          <div ref={sectionRef} className="mx-auto max-w-3xl text-center px-2 sm:px-0">
+          <div ref={sectionRef} className="mx-auto max-w-3xl text-center px-2 sm:px-0 ">
             <div
               className={`mb-5 inline-flex items-center justify-center gap-2 text-base sm:text-lg font-semibold pt-20 ${fadeClass}`}
               style={{ animationDelay: "0.1s" }}
