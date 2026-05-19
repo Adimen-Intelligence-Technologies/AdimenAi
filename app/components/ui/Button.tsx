@@ -13,7 +13,7 @@ export function Button({ href, children, className = "" }: ButtonProps) {
   return (
     <Link
       href={href}
-      className={`inline-flex items-center justify-center overflow-hidden rounded-full border border-zinc-200 px-5 py-3 text-base font-semibold text-black transition-colors ${className}`.trim()}
+      className={`inline-flex items-center justify-center overflow-hidden rounded-full border border-zinc-200 px-5 py-3 text-xl font-semibold text-black transition-colors ${className}`.trim()}
     >
       <motion.span
         className="relative inline-flex h-7 items-center overflow-hidden leading-none"
