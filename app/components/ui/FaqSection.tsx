@@ -7,34 +7,34 @@ import { HeroButton } from "./HeroButton";
 
 const faqs = [
   {
-    question: "How long does it take to launch an AI solution?",
+    question: "¿Necesito conocimientos técnicos para implementar IA en mi empresa?",
     answer:
-      "Most projects launch between 4 and 10 weeks depending on scope, integrations, and data readiness.",
+      "No. Nos encargamos de todo el desarrollo e integración. Tu equipo solo necesita saber usar el resultado final, que diseñamos para que sea lo más sencillo posible.",
   },
   {
-    question: "Do I need technical skills to use your AI tools?",
+    question: "¿Hacéis consultoría presencial en la empresa?",
     answer:
-      "No. We design interfaces for business teams and provide onboarding so your team can use everything without technical overhead.",
+      "Sí. Nos desplazamos a las instalaciones del cliente para analizar los procesos internos en persona, detectar cuellos de botella y oportunidades de automatización que no son evidentes desde fuera.",
   },
   {
-    question: "How do you protect data and ensure privacy?",
+    question: "¿Podéis crear una tienda online para mi comercio o restaurante?",
     answer:
-      "We apply secure architectures, role-based access, encryption in transit and at rest, and compliance-aligned practices from day one.",
+      "Sí. Implementamos sistemas de pedidos online y páginas web para comercios y restaurantes con un panel de control muy sencillo para que cualquier persona del negocio lo gestione sin conocimientos técnicos.",
   },
   {
-    question: "Which industries do you work with?",
+    question: "¿Funcionan vuestras soluciones con cualquier ERP o sistema?",
     answer:
-      "We work with retail, logistics, services, and industrial teams that want to automate workflows and improve decision-making.",
+      "Sí. Trabajamos con SAP, Dynamics AX, Holded, Sage y cualquier sistema con API o acceso a base de datos.",
   },
   {
-    question: "Can your AI integrate with our current systems?",
+    question: "¿Cuánto tiempo tarda la implementación?",
     answer:
-      "Yes. We integrate with your current stack, including CRMs, ERPs, APIs, and internal tools to avoid replacing what already works.",
+      "Una tienda online para un comercio en 1-2 semanas. Una automatización sencilla en 2 semanas. Un agente de IA completo con integración en ERP entre 4 y 8 semanas.",
   },
   {
-    question: "What support do we get after launch?",
+    question: "¿Emitís factura con IVA?",
     answer:
-      "You get post-launch monitoring, iterative improvements, and direct support to keep the solution stable and improving over time.",
+      "Sí. Somos autónomos registrados en España con todas las obligaciones fiscales al día. Emitimos factura con IVA y operamos con empresas de toda Europa con NIF intracomunitario.",
   },
 ];
 
@@ -48,10 +48,11 @@ export function FaqSection() {
   return (
     <section className="border-b border-zinc-200">
       <Wrapper>
-<div
-            className="relative overflow-hidden border-x-0 border-zinc-200 bg-cover bg-center px-6 py-18 sm:px-10 lg:px-12 lg:py-24"
-            style={{ backgroundImage: "url('/background-02.avif')" }}
-          >
+        <div
+          className="relative overflow-hidden border-x-0 border-zinc-200 bg-cover bg-center px-6 py-18 sm:px-10 lg:px-12 lg:py-24"
+          style={{ backgroundImage: "url('/background-03.jpg'),0.2",  }}
+        >
+          <div className="pointer-events-none absolute inset-0 bg-white/10 backdrop-blur-3xl" />
           <div className="pointer-events-none absolute -top-18 right-[15%] h-40 w-56 rounded-full bg-[#7a68ff]/25 blur-3xl" />
           <div className="pointer-events-none absolute top-[44%] right-[8%] h-28 w-44 rounded-full bg-white/60 blur-2xl" />
 
