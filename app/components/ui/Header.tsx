@@ -8,7 +8,7 @@ export function Header() {
   return (
     <header className="border-b border-zinc-200 bg-white">
       <Wrapper className="flex items-center justify-between py-5 ">
-        <div className="flex items-center gap-10 ">
+        <div className="px-10 flex items-center gap-10 ">
           <Image
             src="/logo/adimenai-logo.svg"
             alt="Adimenai logo"
