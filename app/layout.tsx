@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
-import { CookieBanner } from "./components/ui/CookieBanner";
 
 const lato = Lato({
   variable: "--font-lato",
@@ -23,7 +22,6 @@ export default function RootLayout({
     <html lang="es" className={`${lato.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col font-sans">
         {children}
-        <CookieBanner />
       </body>
     </html>
   );
