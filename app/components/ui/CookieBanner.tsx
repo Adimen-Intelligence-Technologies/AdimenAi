@@ -62,8 +62,12 @@ export function CookieBanner() {
             type="button"
             className="border border-zinc-300 px-3 py-2 text-sm font-semibold text-zinc-800 transition hover:bg-zinc-100"
             onClick={() => {
-              saveCookieConsent(rejectOptionalPreferences, "banner");
               setIsVisible(false);
+              try {
+                saveCookieConsent(rejectOptionalPreferences, "banner");
+              } catch {
+                // Si localStorage está bloqueado, ocultar el banner igualmente.
+              }
             }}
           >
             Rechazar opcionales
@@ -72,8 +76,12 @@ export function CookieBanner() {
             type="button"
             className="border border-zinc-900 bg-zinc-900 px-3 py-2 text-sm font-semibold text-white transition hover:bg-zinc-700"
             onClick={() => {
-              saveCookieConsent(acceptAllPreferences, "banner");
               setIsVisible(false);
+              try {
+                saveCookieConsent(acceptAllPreferences, "banner");
+              } catch {
+                // Si localStorage está bloqueado, ocultar el banner igualmente.
+              }
             }}
           >
             Aceptar todas
