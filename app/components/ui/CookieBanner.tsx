@@ -2,19 +2,32 @@
 
 import Link from "next/link";
 import { Cookie } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   getAllAcceptedCookiePreferences,
   getDefaultCookiePreferences,
-  readCookieConsent,
+  hasCookieConsent,
   saveCookieConsent,
 } from "@/app/lib/cookie-consent";
 
 export function CookieBanner() {
-  const [isVisible, setIsVisible] = useState(() => !readCookieConsent());
+  const [isVisible, setIsVisible] = useState(() => !hasCookieConsent());
 
   const rejectOptionalPreferences = useMemo(() => getDefaultCookiePreferences(), []);
   const acceptAllPreferences = useMemo(() => getAllAcceptedCookiePreferences(), []);
+
+  useEffect(() => {
+    const handleConsentUpdated = () => {
+      if (hasCookieConsent()) {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener("adimenai:cookie-consent-updated", handleConsentUpdated);
+    return () => {
+      window.removeEventListener("adimenai:cookie-consent-updated", handleConsentUpdated);
+    };
+  }, []);
 
   if (!isVisible) {
     return null;

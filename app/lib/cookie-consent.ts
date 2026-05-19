@@ -48,27 +48,26 @@ export function readCookieConsent(): CookieConsentRecord | null {
   }
 
   try {
-    const parsed = JSON.parse(raw) as CookieConsentRecord;
-    if (
-      parsed &&
-      parsed.version === COOKIE_CONSENT_VERSION &&
-      parsed.preferences &&
-      typeof parsed.preferences.analytics === "boolean" &&
-      typeof parsed.preferences.marketing === "boolean" &&
-      typeof parsed.preferences.preferences === "boolean"
-    ) {
-      return {
-        ...parsed,
-        preferences: {
-          necessary: true,
-          preferences: parsed.preferences.preferences,
-          analytics: parsed.preferences.analytics,
-          marketing: parsed.preferences.marketing,
-        },
-      };
+    const parsed = JSON.parse(raw) as Partial<CookieConsentRecord>;
+    if (!parsed || parsed.consentGiven !== true) {
+      return null;
     }
 
-    return null;
+    const preferences = parsed.preferences ?? getDefaultCookiePreferences();
+    const normalizedPreferences = {
+      necessary: true,
+      preferences: typeof preferences.preferences === "boolean" ? preferences.preferences : false,
+      analytics: typeof preferences.analytics === "boolean" ? preferences.analytics : false,
+      marketing: typeof preferences.marketing === "boolean" ? preferences.marketing : false,
+    };
+
+    return {
+      version: parsed.version ?? COOKIE_CONSENT_VERSION,
+      consentGiven: true,
+      source: parsed.source === "settings-page" ? "settings-page" : "banner",
+      updatedAt: typeof parsed.updatedAt === "string" ? parsed.updatedAt : new Date().toISOString(),
+      preferences: normalizedPreferences,
+    };
   } catch {
     return null;
   }
