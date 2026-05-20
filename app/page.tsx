@@ -31,7 +31,7 @@ export default function Home() {
         imageAlt="Equipo trabajando en una solución de IA"
         buttonLabel="Ver cómo funciona"
         buttonHref="/contactar"
-        videoSrc="/automatization-animation.mp4"
+        videoSrc="/dashboard-animation.mp4"
       />
       <CtaSection />
       <FaqSection />
