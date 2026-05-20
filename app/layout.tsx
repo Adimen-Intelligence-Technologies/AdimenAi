@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
-import { Lato } from "next/font/google";
+import { Lato, Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "./components/ui/Header";
 import { Footer } from "./components/ui/Footer";
+import { cn } from "@/lib/utils";
+
+const inter = Inter({subsets:['latin'],variable:'--font-sans'});
 
 const lato = Lato({
   variable: "--font-lato",
@@ -21,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={`${lato.variable} h-full antialiased`}>
+    <html lang="es" className={cn("h-full", "antialiased", lato.variable, "font-sans", inter.variable)}>
       <body className="min-h-full flex min-h-screen flex-col bg-zinc-50 text-zinc-900 font-sans">
         <Header />
         <main className="flex-1">{children}</main>

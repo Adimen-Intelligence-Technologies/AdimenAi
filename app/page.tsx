@@ -1,6 +1,7 @@
 import { Hero } from "./components/ui/Hero";
 import { HeroMarquee } from "./components/ui/HeroMarquee";
 import { ServicesSection } from "./components/ui/ServicesSection";
+import { BeamSection } from "./components/ui/BeamSection";
 import { UseCasesSection } from "./components/ui/UseCasesSection";
 import { InfoSection } from "./components/ui/InfoSection";
 import { FaqSection } from "./components/ui/FaqSection";
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <HeroMarquee />
       <ServicesSection />
+      <BeamSection />
       <UseCasesSection />
       <InfoSection
         eyebrow="Por qué elegirnos"
@@ -25,10 +27,11 @@ export default function Home() {
           "Monitoreo continuo y ajuste automático",
           "Soporte y formación para tu equipo",
         ]}
-        imageSrc="/background-02.avif"
+        imageSrc="/dashboard.png"
         imageAlt="Equipo trabajando en una solución de IA"
         buttonLabel="Ver cómo funciona"
         buttonHref="/contactar"
+        videoSrc="/automatization-animation.mp4"
       />
       <CtaSection />
       <FaqSection />
