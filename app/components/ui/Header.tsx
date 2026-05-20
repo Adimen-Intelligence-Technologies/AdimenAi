@@ -21,7 +21,7 @@ export function Header() {
   return (
     <header className="border-b border-zinc-200 bg-white">
       <Wrapper className="flex flex-wrap items-center justify-between gap-4 py-5 px-4 sm:px-6 lg:px-10">
-        <div className="flex items-center gap-6">
+        <div className="flex items-baseline gap-6">
           <Link href="/" aria-label="Ir a inicio">
             <Image
               src="/logo/adimenai-logo.svg"
