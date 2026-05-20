@@ -64,7 +64,7 @@ export function ContactForm() {
 
           <Button
             type="submit"
-            className="h-14 border-transparent bg-[#7252FF] px-8 text-sm text-white hover:bg-[#5b3fe6]"
+            className="tracking-tight h-14 border-transparent bg-[#7252FF] px-8 text-sm text-white hover:bg-[#5b3fe6]"
           >
             Enviar solicitud
           </Button>

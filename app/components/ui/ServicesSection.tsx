@@ -57,15 +57,15 @@ export function ServicesSection() {
   const fadeClass = isVisible ? "animate-hero-fade" : "opacity-0";
 
   return (
-    <section className="border-y border-white">
+    <section className="border border-zinc-200">
       <Wrapper>
         <div
-          className="bg-cover bg-center bg-no-repeat bg-white/80 p-6 sm:p-8 lg:p-12"
+          className="bg-cover bg-center bg-no-repeat bg-white/80 p-6 sm:p-8 lg:p-30"
           style={{ backgroundImage: "url('/background-05.jpg')" }}
         >
           <div ref={sectionRef} className="mx-auto max-w-3xl text-center px-2 sm:px-0 ">
             <div
-              className={`mb-5 inline-flex items-center justify-center gap-2 text-base sm:text-lg font-semibold pt-20 ${fadeClass}`}
+              className={`mb-5 inline-flex items-center justify-center gap-2 text-base sm:text-lg font-semibold ${fadeClass}`}
               style={{ animationDelay: "0.1s" }}
             >
               <Sparkles className="h-5 w-5 text-[#6C47FF]" />

@@ -10,7 +10,7 @@ const stats = [
 
 export function Hero() {
   return (
-    <section className="relative flex items-center justify-center">
+    <section className="relative flex items-center justify-center border-b border-zinc-200">
       <Wrapper className="border-x-0  border-zinc-200 ">
         <div
           className="relative overflow-hidden bg-cover bg-center px-4 sm:px-6 md:px-8 py-14 sm:py-16 md:py-20 border-x border-zinc-200"

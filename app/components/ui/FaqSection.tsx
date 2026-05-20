@@ -60,32 +60,32 @@ export function FaqSection() {
             <div className="max-w-md">
               <div className="inline-flex items-center gap-2 text-[30px] text-[#6e56ff]">
                 <span className="leading-none">+</span>
-                <p className="text-lg font-medium text-zinc-900">Preguntas frecuentes</p>
+                <p className="text-lg font-medium text-zinc-900 tracking-tight">Preguntas frecuentes</p>
               </div>
 
-              <h2 className="mt-4 text-4xl font-semibold tracking-[-0.02em] text-black sm:text-[54px] sm:leading-[1.06]">
+              <h2 className="mt-4 text-4xl font-semibold tracking-tight text-black sm:text-[54px] sm:leading-[1.06]">
                 Encuentra tus respuestas
               </h2>
 
-              <p className="mt-4 max-w-sm text-xl text-black ">
+              <p className="mt-4 max-w-sm text-xl text-black tracking-tight">
                 Respuestas rápidas sobre nuestras soluciones y cómo ayudamos a tu equipo.
               </p>
 
-              <p className="mt-8 text-xl font-medium text-black">¿Todavía necesitas ayuda?</p>
+              <p className="mt-8 text-xl font-medium text-black tracking-tight">¿Todavía necesitas ayuda?</p>
 
               <HeroButton href="/contactar" className="mt-4 text-2xl">
                 Contáctanos
               </HeroButton>
             </div>
 
-            <div className="space-y-2 sm:space-y-3">
+            <div className="space-y-2 sm:space-y-3 tracking-tight">
               {faqs.map((item, index) => {
                 const isOpen = openIndex === index;
 
                 return (
                   <article
                     key={item.question}
-                    className="overflow-hidden border p-3"
+                    className="overflow-hidden border p-3 tracking-tight"
                     style={{
                       borderWidth: 1,
                       borderStyle: "solid",

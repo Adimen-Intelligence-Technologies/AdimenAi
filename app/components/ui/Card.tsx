@@ -47,19 +47,19 @@ export function Card({ title, description, icon: Icon, index }: CardProps) {
       }}
     >
       <div className="mb-6 flex items-center justify-center">
-        <div className="relative flex h-20 w-20 items-center justify-center  bg-white/20 rounded text-[#6C47FF] shadow-sm">
+        <div className="relative flex h-20 w-20 items-center justify-center  bg-white/30 rounded text-[#6C47FF]">
           <Icon className="h-8 w-8" />
-          <span className="absolute -top-2 -right-2 flex h-7 w-7 items-center justify-center rounded-full bg-[#6C47FF] text-xs font-semibold text-white shadow-lg">
+          <span className="absolute -top-2 -right-2 flex h-7 w-7 items-center justify-center rounded-full bg-[#6C47FF] text-xs font-semibold text-white ">
             {index + 1}
           </span>
         </div>
       </div>
-      <h3 className="text-2xl font-semibold text-slate-950">{title}</h3>
-      <p className="mt-3 text-base text-black">{description}</p>
-      <p className="mt-6 text-base font-medium text-black transition-colors duration-200 hover:text-[#6C47FF] cursor-pointer inline-flex items-center gap-2">
+      <h3 className="text-2xl font-semibold text-slate-950 tracking-tight">{title}</h3>
+      <p className="mt-3 text-sm tracking-tight text-black">{description}</p>
+      {/* <p className="mt-6 text-base tracking-tight font-medium text-black transition-colors duration-200 hover:text-[#6C47FF] cursor-pointer inline-flex items-center gap-2">
         Más información
         <span aria-hidden="true">→</span>
-      </p>
+      </p> */}
     </div>
   );
 }

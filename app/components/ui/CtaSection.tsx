@@ -6,7 +6,7 @@ import { Wrapper } from "../Wrapper";
 
 export function CtaSection() {
   return (
-    <section className="relative overflow-hidden ">
+    <section className="relative overflow-hidden border-b border-zinc-200">
       <div className="pointer-events-none absolute inset-0">
         <MagicRings
           color="#7252FF"
@@ -24,10 +24,10 @@ export function CtaSection() {
       <Wrapper className="py-30">
         <div className="relative mx-auto max-w-3xl px-4 text-center text-black sm:px-6 lg:px-8">
          
-          <h2 className="mt-5 text-3xl font-semibold  sm:text-4xl md:text-5xl">
+          <h2 className="mt-5 text-3xl font-semibold  sm:text-4xl md:text-5xl tracking-tight">
             ¿Listo para dar el siguiente paso?
           </h2>
-           <p className="text-sm font-semibold  mt-4 text-black sm:text-base">
+           <p className="text-sm font-semibold  mt-4 text-black sm:text-base tracking-tight">
             Primera llamada gratuita. Sin compromiso. Con factura si decides seguir.
           </p>
           <div className="mt-5 flex justify-center">

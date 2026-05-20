@@ -15,7 +15,7 @@ const companyLogos = [
 
 export function HeroMarquee() {
   return (
-    <section className="border-t border-zinc-200 ">
+    <section className="border border-zinc-200 ">
       <Wrapper className="px-6">
         <Marquee gradient={false} speed={40} pauseOnHover className="flex items-center">
           {companyLogos.map((logo, index) => (
