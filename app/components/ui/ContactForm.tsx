@@ -5,10 +5,10 @@ import { Button } from "./Button";
 export function ContactForm() {
   return (
     <div className="relative overflow-hidden rounded border border-white/20 bg-white/20 ">
-      <div className="absolute inset-x-0 top-0 h-2  opacity-80 blur-xl" />
+      <div className="absolute inset-x-0 top-0 h-2 opacity-80 blur-xl" />
       <div className="relative px-6 py-8 sm:px-10 sm:py-10">
-        <form className="grid gap-6">
-          <div className="grid gap-6 md:grid-cols-2">
+        <form className="grid gap-3">
+          <div className="grid gap-3 md:grid-cols-2">
             <label className="flex flex-col text-sm  text-zinc-900 tracking-tight">
               Nombre
               <input
@@ -58,7 +58,7 @@ export function ContactForm() {
               name="message"
               rows={6}
               placeholder="Cómo podemos ayudarte?"
-              className="min-h-40 border-b border-zinc-300 bg-transparent px-4 py-4 text-sm text-zinc-900  outline-none transition focus:border-b-[#7252FF] focus:ring-0"
+              className="min-h-3 border-b border-zinc-300 bg-transparent tracking-tight  text-sm text-zinc-900  outline-none transition focus:border-b-[#7252FF] focus:ring-0"
             />
           </label>
 
@@ -70,7 +70,7 @@ export function ContactForm() {
           </Button>
 
           <p className="text-center text-sm text-zinc-600 tracking-tight">
-            Al enviar aceptas nuestra política de privacidad y términos.
+            Al enviar aceptas nuestra <span className="text-[#7252FF] font-bold">política de privacidad</span> y términos.
           </p>
         </form>
       </div>
