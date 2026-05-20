@@ -19,7 +19,7 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="border-b border-zinc-200 bg-white">
+    <header className="relative z-20 border-b border-zinc-200 bg-white transform-gpu" style={{ WebkitTransform: "translateZ(0)", transform: "translateZ(0)", WebkitBackdropFilter: "none", backdropFilter: "none" }}>
       <Wrapper className="flex flex-wrap items-center justify-between gap-4 py-5 px-4 sm:px-6 lg:px-10">
         <div className="flex items-baseline gap-6">
           <Link href="/" aria-label="Ir a inicio">

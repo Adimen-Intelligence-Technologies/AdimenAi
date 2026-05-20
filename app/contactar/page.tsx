@@ -1,11 +1,11 @@
 import { Wrapper } from "../components/Wrapper";
-import { ContactForm } from "../components/ui/ContactForm";
+import { ContactBlock } from "../components/ui/ContactBlock";
 
 export default function ContactPage() {
   return (
     <section className="bg-zinc-50 text-zinc-900">
       <Wrapper className="px-4 py-20 sm:px-6 lg:px-10">
-        <div className="mx-auto max-w-4xl">
+        <div className="mx-auto max-w-6xl">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#6C47FF]">
               Contacto
@@ -18,7 +18,7 @@ export default function ContactPage() {
             </p>
           </div>
 
-          <ContactForm />
+          <ContactBlock />
         </div>
       </Wrapper>
     </section>
