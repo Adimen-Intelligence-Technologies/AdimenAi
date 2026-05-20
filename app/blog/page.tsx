@@ -36,10 +36,10 @@ export default function BlogPage() {
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#6C47FF]">
             Blog
           </p>
-          <h1 className="mt-4 text-3xl font-semibold sm:text-4xl md:text-5xl">
+          <h1 className="mt-4 text-3xl font-semibold sm:text-4xl md:text-5xl tracking-tight">
             Ideas y casos prácticos de IA para empresas.
           </h1>
-          <p className="mt-4 text-base text-zinc-600 sm:text-lg">
+          <p className="mt-4 text-base text-zinc-600 sm:text-lg tracking-tight">
             Descubre contenido pensado para líderes que quieren impulsar su negocio con agentes inteligentes y automatización.
           </p>
         </div>
