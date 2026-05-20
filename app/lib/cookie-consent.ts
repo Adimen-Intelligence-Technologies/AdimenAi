@@ -54,7 +54,7 @@ export function readCookieConsent(): CookieConsentRecord | null {
     }
 
     const preferences = parsed.preferences ?? getDefaultCookiePreferences();
-    const normalizedPreferences = {
+    const normalizedPreferences: CookieConsentPreferences = {
       necessary: true,
       preferences: typeof preferences.preferences === "boolean" ? preferences.preferences : false,
       analytics: typeof preferences.analytics === "boolean" ? preferences.analytics : false,
