@@ -1,21 +1,17 @@
-import { Header } from "./components/ui/Header";
 import { Hero } from "./components/ui/Hero";
 import { HeroMarquee } from "./components/ui/HeroMarquee";
 import { ServicesSection } from "./components/ui/ServicesSection";
 import { FaqSection } from "./components/ui/FaqSection";
-import { Footer } from "./components/ui/Footer";
 import { CtaSection } from "./components/ui/CtaSection";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col bg-zinc-50 text-zinc-900">
-      <Header />
+    <div className="flex flex-col">
       <Hero />
       <HeroMarquee />
       <ServicesSection />
       <CtaSection />
       <FaqSection />
-      <Footer />
     </div>
   );
 }

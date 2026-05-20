@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
+import { Header } from "./components/ui/Header";
+import { Footer } from "./components/ui/Footer";
 
 const lato = Lato({
   variable: "--font-lato",
@@ -20,8 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className={`${lato.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col font-sans">
-        {children}
+      <body className="min-h-full flex min-h-screen flex-col bg-zinc-50 text-zinc-900 font-sans">
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
       </body>
     </html>
   );

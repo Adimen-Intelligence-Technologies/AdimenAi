@@ -38,7 +38,7 @@ export function BlogCard({ title, excerpt, tag, imageSrc, href, index }: BlogCar
   return (
     <div
       ref={cardRef}
-      className={`group relative overflow-hidden rounded-[28px] border border-white/20 bg-white/20 backdrop-blur-xl shadow-2xl shadow-black/5 transition duration-500 ${
+      className={`group relative flex h-full flex-col overflow-hidden rounded-[28px] border border-white/20 bg-white/20 backdrop-blur-xl shadow-2xl shadow-black/5 transition duration-500 ${
         isVisible ? "animate-hero-fade" : "opacity-0"
       }`}
       style={{
@@ -55,25 +55,28 @@ export function BlogCard({ title, excerpt, tag, imageSrc, href, index }: BlogCar
             fill
             className="object-cover transition duration-500 group-hover:scale-105"
           />
-          <div className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold uppercase tracking-[0.25em] text-[#6C47FF] shadow-sm shadow-black/10">
-            {tag}
-          </div>
+          
         </div>
 
-        <div className="flex flex-1 flex-col p-6">
-          <h3 className="text-2xl font-semibold text-slate-950">{title}</h3>
-          <p
-            className="mt-4 text-base text-slate-700"
-            style={{
-              display: "-webkit-box",
-              WebkitLineClamp: 3,
-              WebkitBoxOrient: "vertical",
-              overflow: "hidden",
-            }}
-          >
-            {excerpt}
-          </p>
-          <span className="mt-6 inline-flex items-center font-semibold text-[#6C47FF] transition-colors duration-200 group-hover:text-[#5a3fe6]">
+        <div className="flex flex-1 flex-col justify-between p-6">
+          <div>
+            <div className=" text-xs font-semibold  text-[#6C47FF]">
+            {tag}
+          </div>
+            <h3 className="text-2xl py-2 font-semibold text-slate-950">{title}</h3>
+            <p
+              className="mt-4 text-base text-slate-700"
+              style={{
+                display: "-webkit-box",
+                WebkitLineClamp: 3,
+                WebkitBoxOrient: "vertical",
+                overflow: "hidden",
+              }}
+            >
+              {excerpt}
+            </p>
+          </div>
+          <span className="mt-6 inline-flex items-center font-semibold text-black transition-colors duration-200 group-hover:text-[#6C47FF]">
             Leer artículo <span aria-hidden="true" className="ml-2">→</span>
           </span>
         </div>

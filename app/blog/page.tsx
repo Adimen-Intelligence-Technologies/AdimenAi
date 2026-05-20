@@ -44,7 +44,7 @@ export default function BlogPage() {
           </p>
         </div>
 
-        <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-3 items-stretch">
           {blogPosts.map((post, index) => (
             <BlogCard key={post.href} index={index} {...post} />
           ))}
