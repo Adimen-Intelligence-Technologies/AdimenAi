@@ -46,7 +46,7 @@ export function Header() {
 
         <div className="flex items-center gap-4">
           <div className="hidden lg:block">
-            <Button href="/contactar">Contactar</Button>
+            <Button href="/#contacto">Contactar</Button>
           </div>
 
           <button
@@ -88,7 +88,7 @@ export function Header() {
             </ul>
           </nav>
 
-          <Button href="/contactar" className={isOpen ? "opacity-100 transition-opacity duration-500 ease-in-out" : "opacity-0 transition-opacity duration-500 ease-in-out"}>
+          <Button href="/#contacto" className={isOpen ? "opacity-100 transition-opacity duration-500 ease-in-out" : "opacity-0 transition-opacity duration-500 ease-in-out"}>
             Contactar
           </Button>
         </Wrapper>
