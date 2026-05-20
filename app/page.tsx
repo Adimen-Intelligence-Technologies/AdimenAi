@@ -4,6 +4,7 @@ import { HeroMarquee } from "./components/ui/HeroMarquee";
 import { ServicesSection } from "./components/ui/ServicesSection";
 import { FaqSection } from "./components/ui/FaqSection";
 import { Footer } from "./components/ui/Footer";
+import { CtaSection } from "./components/ui/CtaSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <HeroMarquee />
       <ServicesSection />
+      <CtaSection />
       <FaqSection />
       <Footer />
     </div>
