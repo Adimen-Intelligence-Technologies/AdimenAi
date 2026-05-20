@@ -111,7 +111,7 @@ export function UseCasesSection() {
           </div>
 
           <div className="mt-10 overflow-x-auto pb-6 sm:pb-0 lg:overflow-visible">
-            <div className="flex gap-4 min-w-max snap-x snap-mandatory lg:grid lg:grid-cols-2 xl:grid-cols-4 lg:min-w-full">
+            <div className="flex gap-4 min-w-max snap-x snap-mandatory lg:grid lg:grid-cols-2 xl:grid-cols-3 lg:min-w-full">
               {useCases.map((useCase, index) => (
                 <div key={useCase.title} className="snap-start shrink-0 min-w-65 lg:min-w-0">
                   <Card
