@@ -21,7 +21,7 @@ export function CtaSection() {
 
      
 
-      <Wrapper className="py-30">
+      <Wrapper className="py-16 sm:py-20 lg:py-30">
         <div className="relative mx-auto max-w-3xl px-4 text-center text-black sm:px-6 lg:px-8">
          
           <h2 className="mt-5 text-3xl font-semibold  sm:text-4xl md:text-5xl tracking-tight">

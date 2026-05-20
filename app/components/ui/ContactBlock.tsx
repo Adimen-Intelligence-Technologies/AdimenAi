@@ -10,7 +10,7 @@ export function ContactBlock() {
           className="bg-cover bg-center bg-no-repeat bg-white/80 p-6 sm:p-8 lg:p-12"
           style={{ backgroundImage: "url('/background-05.jpg')" }}
         >
-        <div className="mx-auto max-w-xl text-center px-2 sm:px-0 mb-20">
+        <div className="mx-auto max-w-xl text-center px-2 sm:px-0 mb-10 lg:mb-20">
           <div
             className={`mt-10 inline-flex items-center justify-center gap-2 text-base sm:text-lg font-semibold pt-2 `}
             style={{ animationDelay: "0.1s" }}

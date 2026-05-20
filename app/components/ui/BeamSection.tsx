@@ -53,7 +53,7 @@ export function BeamSection() {
           <div className="mt-12 flex justify-center">
             <div
               ref={containerRef}
-              className="relative flex h-75 w-full max-w-5xl items-center justify-center overflow-hidden  p-10"
+              className="relative flex h-75 w-full max-w-5xl items-center justify-center overflow-hidden p-4 sm:p-6 lg:p-10"
             >
               <div className="flex h-full w-full max-w-lg flex-col justify-between gap-10">
                 <div className="flex items-center justify-between">

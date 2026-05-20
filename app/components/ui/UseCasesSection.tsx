@@ -84,10 +84,10 @@ export function UseCasesSection() {
     <section id="casos-de-uso" className="border-b border-zinc-200">
       <Wrapper>
         <div
-          className="bg-cover bg-center bg-no-repeat bg-white/80 p-6 sm:p-8 lg:p-30"
+          className="bg-cover bg-center bg-no-repeat bg-white/80 p-6 sm:p-8 lg:p-16"
           style={{ backgroundImage: "url('/background-06.jpg')" }}
         >
-        <div className=" p-6 sm:p-8 lg:p-12">
+        <div>
           <div ref={sectionRef} className="mx-auto max-w-3xl text-center px-2 sm:px-0">
             <div
               className={`mb-4 inline-flex items-center justify-center gap-2 text-base sm:text-lg font-semibold ${fadeClass}`}
