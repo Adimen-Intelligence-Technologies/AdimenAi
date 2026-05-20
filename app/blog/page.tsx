@@ -32,6 +32,7 @@ export default function BlogPage() {
   return (
     <div className="bg-zinc-50 text-zinc-900">
       <Wrapper className="px-4 py-16 sm:px-6 lg:px-10">
+       
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#6C47FF]">
             Blog
@@ -49,7 +50,9 @@ export default function BlogPage() {
             <BlogCard key={post.href} index={index} {...post} />
           ))}
         </div>
+      
       </Wrapper>
+      
     </div>
   );
 }

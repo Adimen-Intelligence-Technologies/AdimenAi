@@ -46,11 +46,11 @@ export function FaqSection() {
   };
 
   return (
-    <section id="casos-de-uso" className="border-b border-zinc-200">
+    <section id="faq" className="border-b border-zinc-200">
       <Wrapper>
         <div
           className="relative overflow-hidden border-x-0 border-zinc-200 bg-cover bg-center px-6 py-18 sm:px-10 lg:px-12 lg:py-24"
-          style={{ backgroundImage: "url('/background-04.jpg')" }}
+          style={{ backgroundImage: "url('/background-06.jpg')" }}
         >
           <div className="pointer-events-none absolute inset-0 bg-white/10 backdrop-blur-sm" />
           <div className="pointer-events-none absolute -top-18 right-[15%] h-40 w-56 rounded-full bg-[#7a68ff]/25 blur-3xl" />

@@ -45,7 +45,7 @@ export function ContactBlock() {
             </div>
             <div>
               <p className="text-zinc-700 text-sm tracking-tight mb-2">Email</p>
-              <p className="tracking-tight font-bold">mail@neuora.com</p>
+              <p className="tracking-tight font-bold">info@adimenai.com</p>
             </div>
 
             <div>
