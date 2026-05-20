@@ -91,11 +91,13 @@ export function BeamSection() {
                 toRef={div4Ref}
                 curvature={-75}
                 endYOffset={-10}
+                repeatDelay={0.5}
               />
               <AnimatedBeam
                 containerRef={containerRef}
                 fromRef={div2Ref}
                 toRef={div4Ref}
+                repeatDelay={0.5}
               />
               <AnimatedBeam
                 containerRef={containerRef}
@@ -103,6 +105,7 @@ export function BeamSection() {
                 toRef={div4Ref}
                 curvature={75}
                 endYOffset={10}
+                repeatDelay={0.5}
               />
               <AnimatedBeam
                 containerRef={containerRef}
@@ -111,12 +114,14 @@ export function BeamSection() {
                 curvature={-75}
                 endYOffset={-10}
                 reverse
+                repeatDelay={0.5}
               />
               <AnimatedBeam
                 containerRef={containerRef}
                 fromRef={div6Ref}
                 toRef={div4Ref}
                 reverse
+                repeatDelay={0.5}
               />
               <AnimatedBeam
                 containerRef={containerRef}
@@ -125,6 +130,7 @@ export function BeamSection() {
                 curvature={75}
                 endYOffset={10}
                 reverse
+                repeatDelay={0.5}
               />
             </div>
           </div>
