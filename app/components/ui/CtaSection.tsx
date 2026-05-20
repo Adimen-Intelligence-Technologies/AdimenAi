@@ -6,7 +6,7 @@ import { Wrapper } from "../Wrapper";
 
 export function CtaSection() {
   return (
-    <section className="relative overflow-hidden border-b border-zinc-200">
+    <section id="comercios" className="relative overflow-hidden border-b border-zinc-200">
       <div className="pointer-events-none absolute inset-0">
         <MagicRings
           color="#7252FF"

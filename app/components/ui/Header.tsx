@@ -8,11 +8,10 @@ import { Button } from "./Button";
 import { Wrapper } from "../Wrapper";
 
 const menuItems = [
-  { label: "Servicios", href: "/servicios" },
-  { label: "Comercios", href: "/comercios" },
-  { label: "Casos de uso", href: "/casos-de-uso" },
+  { label: "Servicios", href: "/#servicios" },
+  { label: "Comercios", href: "/#comercios" },
+  { label: "Casos de uso", href: "/#casos-de-uso" },
   { label: "Blog", href: "/blog" },
-  
 ];
 
 export function Header() {

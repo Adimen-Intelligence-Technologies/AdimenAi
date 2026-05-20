@@ -57,7 +57,7 @@ export function ServicesSection() {
   const fadeClass = isVisible ? "animate-hero-fade" : "opacity-0";
 
   return (
-    <section className="border border-zinc-200">
+    <section id="servicios" className="border border-zinc-200">
       <Wrapper>
         <div
           className="bg-cover bg-center bg-no-repeat bg-white/80 p-6 sm:p-8 lg:p-30"

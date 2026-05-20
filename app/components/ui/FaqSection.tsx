@@ -46,7 +46,7 @@ export function FaqSection() {
   };
 
   return (
-    <section className="border-b border-zinc-200">
+    <section id="casos-de-uso" className="border-b border-zinc-200">
       <Wrapper>
         <div
           className="relative overflow-hidden border-x-0 border-zinc-200 bg-cover bg-center px-6 py-18 sm:px-10 lg:px-12 lg:py-24"

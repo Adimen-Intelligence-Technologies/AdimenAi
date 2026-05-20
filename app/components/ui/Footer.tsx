@@ -4,9 +4,9 @@ import { Wrapper } from "../Wrapper";
 
 const pages = [
   { label: "Inicio", href: "/" },
-  { label: "Servicios", href: "/servicios" },
-  { label: "Comercios", href: "/comercios" },
-  { label: "Casos de uso", href: "/casos-de-uso" },
+  { label: "Servicios", href: "/#servicios" },
+  { label: "Comercios", href: "/#comercios" },
+  { label: "Casos de uso", href: "/#casos-de-uso" },
 ];
 
 const otherPages = [

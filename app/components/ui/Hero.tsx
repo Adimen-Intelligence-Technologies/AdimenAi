@@ -45,7 +45,7 @@ export function Hero() {
               <HeroButton href="/contactar" variant="primary">
                 Llamada gratuita
               </HeroButton>
-              <HeroButton href="/servicios" variant="secondary">
+              <HeroButton href="/#servicios" variant="secondary">
                 Ver servicios
               </HeroButton>
             </div>
