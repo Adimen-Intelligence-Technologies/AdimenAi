@@ -7,11 +7,18 @@ interface ButtonProps {
   href?: string;
   type?: "button" | "submit" | "reset";
   children: React.ReactNode;
+  variant?: "default" | "primary" | "secondary";
   className?: string;
 }
 
-export function Button({ href, type = "button", children, className = "" }: ButtonProps) {
-  const commonClasses = `inline-flex items-center justify-center overflow-hidden rounded-full border border-zinc-200 px-5 py-3 text-xl font-semibold text-black transition-colors ${className}`.trim();
+const variantClasses: Record<NonNullable<ButtonProps["variant"]>, string> = {
+  default: "border border-zinc-200 bg-white text-black px-5 py-3",
+  primary: "bg-[#7252FF] text-white hover:bg-[#6c4cff] px-8 py-4",
+  secondary: "border border-zinc-200 bg-white/50 text-black hover:bg-gray-50/50 px-8 py-4",
+};
+
+export function Button({ href, type = "button", children, variant = "default", className = "" }: ButtonProps) {
+  const commonClasses = `inline-flex items-center justify-center overflow-hidden rounded-full font-semibold text-xl transition-colors ${variantClasses[variant]} ${className}`.trim();
 
   const content = (
     <motion.span

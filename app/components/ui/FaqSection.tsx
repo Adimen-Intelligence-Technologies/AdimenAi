@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Plus } from "lucide-react";
 import { Wrapper } from "../Wrapper";
-import { HeroButton } from "./HeroButton";
+import { Button } from "./Button";
 
 const faqs = [
   {
@@ -73,9 +73,9 @@ export function FaqSection() {
 
               <p className="mt-8 text-xl font-medium text-black tracking-tight">¿Todavía necesitas ayuda?</p>
 
-              <HeroButton href="/contactar" className="mt-4 text-2xl">
+              <Button href="/contactar" variant="primary" className="mt-4 text-2xl">
                 Contáctanos
-              </HeroButton>
+              </Button>
             </div>
 
             <div className="space-y-2 sm:space-y-3 tracking-tight">

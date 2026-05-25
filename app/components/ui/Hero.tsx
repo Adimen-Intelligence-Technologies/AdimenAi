@@ -1,4 +1,4 @@
-import { HeroButton } from "./HeroButton";
+import { Button } from "./Button";
 import { Wrapper } from "../Wrapper";
 import { Zap, Wallet, TrendingUp } from "lucide-react";
 
@@ -42,12 +42,12 @@ export function Hero() {
               className="flex flex-col sm:flex-row gap-4 mt-8 animate-hero-fade"
               style={{ animationDelay: "0.5s" }}
             >
-              <HeroButton href="/contactar" variant="primary">
+              <Button href="/contactar" variant="primary">
                 Llamada gratuita
-              </HeroButton>
-              <HeroButton href="/#servicios" variant="secondary">
+              </Button>
+              <Button href="/#servicios" variant="secondary">
                 Ver servicios
-              </HeroButton>
+              </Button>
             </div>
             <div
               className="grid grid-cols-1 sm:grid-cols-3 gap-2 mt-16 w-full animate-hero-fade"
