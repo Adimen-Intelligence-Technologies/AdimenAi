@@ -1,38 +1,28 @@
-import { Wrapper } from "../components/Wrapper";
-import { BlogCard } from "../components/ui/BlogCard";
+import { groq } from "next-sanity"
+import { sanityFetch } from "@/sanity/lib/live"
+import { Wrapper } from "../components/Wrapper"
+import { BlogCard } from "../components/ui/BlogCard"
+import type { Post } from "./types"
 
-const blogPosts = [
-  {
-    title: "Cómo construir un asistente de IA para finanzas en tu empresa",
-    excerpt:
-      "Descubre el proceso paso a paso para diseñar un asistente inteligente capaz de automatizar consultas financieras y mejorar la productividad de tu equipo.",
-    tag: "Conversational AI",
-    imageSrc: "/background-03.jpg",
-    href: "/blog/fintech-ai-assistant",
-  },
-  {
-    title: "Aumenta tu eficiencia con agentes de automatización específicos",
-    excerpt:
-      "Exploramos cómo los agentes de IA personalizados detectan tareas repetitivas y liberan a tu equipo para trabajar en lo que realmente importa.",
-    tag: "Automatización",
-    imageSrc: "/background-04.jpg",
-    href: "/blog/automation-agents",
-  },
-  {
-    title: "Integración de IA con ERP y CRM: casos de éxito",
-    excerpt:
-      "Conoce ejemplos reales de integración de IA con sistemas internos que mejoran la coordinación entre ventas, operaciones y atención al cliente.",
-    tag: "Integración",
-    imageSrc: "/background-05.jpg",
-    href: "/blog/ia-erp-crm",
-  },
-];
+const POSTS_QUERY = groq`*[_type == "post" && defined(slug.current)] | order(publishedAt desc) {
+  _id,
+  title,
+  excerpt,
+  "slug": slug.current,
+  "mainImage": mainImage.asset->url,
+  tags,
+  publishedAt
+}`
 
-export default function BlogPage() {
+export const dynamic = "force-dynamic"
+
+export default async function BlogPage() {
+  const { data } = await sanityFetch({ query: POSTS_QUERY })
+  const posts = (data ?? []) as Post[]
+
   return (
     <div className="bg-zinc-50 text-zinc-900">
       <Wrapper className="px-4 py-16 sm:px-6 lg:px-10">
-       
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#6C47FF]">
             Blog
@@ -41,18 +31,25 @@ export default function BlogPage() {
             Ideas y casos prácticos de IA para empresas.
           </h1>
           <p className="mt-4 text-base text-zinc-600 sm:text-lg tracking-tight">
-            Descubre contenido pensado para líderes que quieren impulsar su negocio con agentes inteligentes y automatización.
+            Descubre contenido pensado para líderes que quieren impulsar su
+            negocio con agentes inteligentes y automatización.
           </p>
         </div>
 
         <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-3 items-stretch">
-          {blogPosts.map((post, index) => (
-            <BlogCard key={post.href} index={index} {...post} />
+          {posts.map((post: Post, index: number) => (
+            <BlogCard
+              key={post._id}
+              index={index}
+              title={post.title}
+              excerpt={post.excerpt}
+              tag={post.tags?.[0] ?? ""}
+              imageSrc={post.mainImage ?? "/background-03.jpg"}
+              href={`/blog/${post.slug}`}
+            />
           ))}
         </div>
-      
       </Wrapper>
-      
     </div>
-  );
+  )
 }
