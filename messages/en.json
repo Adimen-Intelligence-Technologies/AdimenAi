@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "services": "Services",
+    "useCases": "Use Cases",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Artificial Intelligence for your Business",
+    "subtitle": "We transform business processes with personalized AI solutions that generate measurable results.",
+    "cta": "Talk to an Expert"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Solutions tailored to your needs",
+    "chatbots": {
+      "title": "Intelligent Chatbots",
+      "description": "Virtual assistants that understand context and resolve queries in real-time."
+    },
+    "computerVision": {
+      "title": "Computer Vision",
+      "description": "Image detection and analysis systems for industrial automation."
+    },
+    "nlp": {
+      "title": "Natural Language Processing",
+      "description": "Text and document analysis to extract relevant information."
+    },
+    "predictive": {
+      "title": "Predictive Models",
+      "description": "Algorithms that anticipate trends and behaviors for data-driven decisions."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "company": "Company",
+    "message": "Message",
+    "submit": "Send",
+    "sending": "Sending..."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  }
+}

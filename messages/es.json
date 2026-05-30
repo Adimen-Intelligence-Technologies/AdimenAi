@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "useCases": "Casos de Uso",
+    "about": "Nosotros",
+    "contact": "Contactar"
+  },
+  "hero": {
+    "title": "Inteligencia Artificial para tu Empresa",
+    "subtitle": "Transformamos procesos empresariales con soluciones de IA personalizadas que generan resultados medibles.",
+    "cta": "Habla con un Experto"
+  },
+  "services": {
+    "title": "Servicios",
+    "subtitle": "Soluciones adaptadas a tus necesidades",
+    "chatbots": {
+      "title": "Chatbots Inteligentes",
+      "description": "Asistentes virtuales que entienden el contexto y resuelven consultas en tiempo real."
+    },
+    "computerVision": {
+      "title": "Visión por Computador",
+      "description": "Sistemas de detección y análisis de imágenes para automatización industrial."
+    },
+    "nlp": {
+      "title": "Procesamiento de Lenguaje",
+      "description": "Análisis de texto y documentos para extraer información relevante."
+    },
+    "predictive": {
+      "title": "Modelos Predictivos",
+      "description": "Algoritmos que anticipan tendencias y comportamientos para decisiones data-driven."
+    }
+  },
+  "contact": {
+    "title": "Contactar",
+    "name": "Nombre",
+    "email": "Email",
+    "company": "Empresa",
+    "message": "Mensaje",
+    "submit": "Enviar",
+    "sending": "Enviando..."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Privacidad",
+    "terms": "Términos"
+  }
+}

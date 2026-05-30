@@ -1,21 +1,22 @@
 "use client";
 
-import { useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { Menu, X } from "lucide-react";
-import { Button } from "./Button";
-import { Wrapper } from "../Wrapper";
-
-const menuItems = [
-  { label: "Servicios", href: "/#servicios" },
-  { label: "Comercios", href: "/#comercios" },
-  { label: "Casos de uso", href: "/#casos-de-uso" },
-  { label: "Blog", href: "/blog" },
-];
+import {useState} from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import {useTranslations} from 'next-intl';
+import {Menu, X} from 'lucide-react';
+import {Button} from './Button';
+import {Wrapper} from '../Wrapper';
 
 export function Header() {
+  const t = useTranslations('nav');
   const [isOpen, setIsOpen] = useState(false);
+
+  const menuItems = [
+    {label: t('services'), href: '/#servicios'},
+    {label: t('useCases'), href: '/#comercios'},
+    {label: 'Blog', href: '/blog'},
+  ];
 
   return (
     <header className="relative z-20 border-b border-zinc-200 bg-white transform-gpu" style={{ WebkitTransform: "translateZ(0)", transform: "translateZ(0)", WebkitBackdropFilter: "none", backdropFilter: "none" }}>
