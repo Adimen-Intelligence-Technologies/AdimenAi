@@ -9,7 +9,6 @@ import {
   saveCookieConsent,
   type CookieConsentPreferences,
 } from "@/app/lib/cookie-consent";
-import { Header } from "@/app/components/ui/Header";
 
 interface PreferenceItem {
   id: Exclude<keyof CookieConsentPreferences, "necessary">;
@@ -84,7 +83,6 @@ export default function SeleccionarCookiesPage() {
 
   return (
     <div className="min-h-screen bg-zinc-50 text-zinc-900">
-      <Header />
       <main className="mx-auto w-full max-w-4xl px-4 py-10 sm:px-8">
         <p className="text-sm font-semibold uppercase tracking-wide text-zinc-500">RGPD y privacidad</p>
         <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Seleccionar cookies</h1>
