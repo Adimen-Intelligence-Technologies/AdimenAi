@@ -6,6 +6,7 @@ export interface Post {
   mainImage?: string
   tags?: string[]
   publishedAt?: string
+  language?: string
 }
 
 export interface PostPayload extends Post {

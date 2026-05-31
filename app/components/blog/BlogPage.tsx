@@ -1,17 +1,19 @@
 import { groq } from "next-sanity";
 import { sanityFetch } from "@/sanity/lib/live";
+import { translatePostListItem } from "@/sanity/lib/translation";
 import { Wrapper } from "../Wrapper";
 import { BlogCard } from "../ui/BlogCard";
 import type { Post } from "@/app/blog/types";
 
-const POSTS_QUERY = groq`*[_type == "post" && defined(slug.current) && language == $language] | order(publishedAt desc) {
+const POSTS_QUERY = groq`*[_type == "post" && defined(slug.current) && (language == $language || language == "es" || !defined(language))] | order(language == $language desc, publishedAt desc) {
   _id,
   title,
   excerpt,
   "slug": slug.current,
   "mainImage": mainImage.asset->url,
   tags,
-  publishedAt
+  publishedAt,
+  language
 }`;
 
 type Props = {
@@ -21,7 +23,10 @@ type Props = {
 export async function BlogPage({ locale }: Props) {
   const language = locale ?? "es";
   const { data } = await sanityFetch({ query: POSTS_QUERY, params: { language } });
-  const posts = (data ?? []) as Post[];
+  const rawPosts = (data ?? []) as Post[];
+  const posts = await Promise.all(
+    rawPosts.map(async (post) => translatePostListItem(post, language as "es" | "en" | "eu")),
+  );
   const basePath = locale ? `/${locale}` : "";
 
   return (

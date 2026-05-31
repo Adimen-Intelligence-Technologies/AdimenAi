@@ -1,5 +1,6 @@
 import { groq } from "next-sanity";
 import { sanityFetch, SanityLive } from "@/sanity/lib/live";
+import { translatePostContent } from "@/sanity/lib/translation";
 import { Wrapper } from "../Wrapper";
 import { PostBody } from "../../blog/[slug]/PostBody";
 import Image from "next/image";
@@ -7,7 +8,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { draftMode } from "next/headers";
 
-const POST_QUERY = groq`*[_type == "post" && slug.current == $slug && language == $language][0] {
+const POST_QUERY = groq`*[_type == "post" && slug.current == $slug && (language == $language || language == "es" || !defined(language))] | order(language == $language desc)[0] {
   _id,
   title,
   excerpt,
@@ -16,7 +17,8 @@ const POST_QUERY = groq`*[_type == "post" && slug.current == $slug && language =
   "mainImageAlt": mainImage.alt,
   body,
   tags,
-  publishedAt
+  publishedAt,
+  language
 }`;
 
 type Props = {
@@ -34,7 +36,7 @@ export async function BlogPostPage({ params }: Props) {
     params: { slug, language },
   });
 
-  const post = data as
+  let post = data as
     | {
         _id: string;
         title: string;
@@ -45,10 +47,15 @@ export async function BlogPostPage({ params }: Props) {
         body: unknown;
         tags?: string[];
         publishedAt?: string;
+        language?: string;
       }
     | null;
 
   const { isEnabled: isDraftMode } = await draftMode();
+
+  if (post && language !== "es" && post.language !== language) {
+    post = await translatePostContent(post, language as "es" | "en" | "eu");
+  }
 
   if (!post) {
     notFound();
