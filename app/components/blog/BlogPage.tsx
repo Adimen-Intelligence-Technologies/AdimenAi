@@ -4,7 +4,7 @@ import { Wrapper } from "../Wrapper";
 import { BlogCard } from "../ui/BlogCard";
 import type { Post } from "@/app/blog/types";
 
-const POSTS_QUERY = groq`*[_type == "post" && defined(slug.current)] | order(publishedAt desc) {
+const POSTS_QUERY = groq`*[_type == "post" && defined(slug.current) && language == $language] | order(publishedAt desc) {
   _id,
   title,
   excerpt,
@@ -19,7 +19,8 @@ type Props = {
 };
 
 export async function BlogPage({ locale }: Props) {
-  const { data } = await sanityFetch({ query: POSTS_QUERY });
+  const language = locale ?? "es";
+  const { data } = await sanityFetch({ query: POSTS_QUERY, params: { language } });
   const posts = (data ?? []) as Post[];
   const basePath = locale ? `/${locale}` : "";
 

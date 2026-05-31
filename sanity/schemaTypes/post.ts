@@ -12,6 +12,20 @@ export const post = defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
+      name: "language",
+      title: "Language",
+      type: "string",
+      initialValue: "es",
+      options: {
+        list: [
+          { title: "Español", value: "es" },
+          { title: "English", value: "en" },
+          { title: "Euskera", value: "eu" },
+        ],
+      },
+      hidden: true,
+    }),
+    defineField({
       name: "slug",
       title: "Slug",
       type: "slug",

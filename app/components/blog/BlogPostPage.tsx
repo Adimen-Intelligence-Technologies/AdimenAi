@@ -7,7 +7,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { draftMode } from "next/headers";
 
-const POST_QUERY = groq`*[_type == "post" && slug.current == $slug][0] {
+const POST_QUERY = groq`*[_type == "post" && slug.current == $slug && language == $language][0] {
   _id,
   title,
   excerpt,
@@ -28,9 +28,10 @@ type Props = {
 
 export async function BlogPostPage({ params }: Props) {
   const { slug, locale } = params;
+  const language = locale ?? "es";
   const { data } = await sanityFetch({
     query: POST_QUERY,
-    params: { slug },
+    params: { slug, language },
   });
 
   const post = data as
