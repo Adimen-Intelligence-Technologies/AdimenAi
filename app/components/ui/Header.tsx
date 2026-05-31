@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import {useLocale, useTranslations} from 'next-intl';
 import {usePathname} from 'next/navigation';
-import {Menu, X, Globe, Check, ChevronDown, ExternalLink, Bot, TrendingUp, Printer, LayoutDashboard} from 'lucide-react';
+import {Menu, X, Globe, Check, ChevronDown, ExternalLink, Bot, TrendingUp, Printer, LayoutDashboard, Smartphone} from 'lucide-react';
 import {Button} from './Button';
 import {Wrapper} from '../Wrapper';
 import {toLocalePath, stripLocaleFromPath} from '@/lib/locale-path';
@@ -35,12 +35,6 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
   const cleanPathname = stripLocaleFromPath(pathname || '/');
-
-  const aboutDropdown: MenuDropdown = {
-    items: [
-      {label: t('aboutUs'), href: toLocalePath(locale, '/sobre-nosotros')},
-    ],
-  };
 
   const solutionsColumns: MegaMenuColumn[] = [
     {
@@ -98,6 +92,15 @@ export function Header() {
         {label: t('managementSoftwareBeauty'), href: toLocalePath(locale, '/#servicios')},
       ],
     },
+    {
+      icon: Smartphone,
+      title: t('herrikonektApps'),
+      description: t('herrikonektAppsDesc'),
+      items: [
+        {label: t('herrikonektAppsAndroid'), href: toLocalePath(locale, '/#servicios')},
+        {label: t('herrikonektAppsIos'), href: toLocalePath(locale, '/#servicios')},
+      ],
+    },
   ];
 
   const languages = [
@@ -127,7 +130,7 @@ export function Header() {
 
   const navItems = [
     {id: 'home', label: t('home'), href: toLocalePath(locale, '/'), hasDropdown: false},
-    {id: 'aboutUs', label: t('aboutUs'), hasDropdown: true, handler: aboutDropdown, dropdownType: 'dropdown' as const},
+    {id: 'aboutUs', label: t('aboutUs'), href: toLocalePath(locale, '/sobre-nosotros'), hasDropdown: false},
     {id: 'solutions', label: t('solutions'), hasDropdown: true, handler: megaMenuColumns, dropdownType: 'megamenu' as const},
     {id: 'herrikonekt', label: t('herrikonekt'), href: '#', hasDropdown: false, isExternal: true},
     {id: 'blog', label: t('blog'), href: toLocalePath(locale, '/blog'), hasDropdown: false},
@@ -154,7 +157,7 @@ export function Header() {
                         <ChevronDown className="h-3.5 w-3.5 transition-transform duration-200 group-hover:rotate-180" aria-hidden="true" />
                       </button>
                       {item.dropdownType === 'megamenu' && (
-                        <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-[720px] rounded-2xl border border-zinc-200 bg-white shadow-xl z-50 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200">
+                        <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-[800px] rounded-2xl border border-zinc-200 bg-white shadow-xl z-50 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200">
                           <div className="grid grid-cols-3 gap-px bg-zinc-100 rounded-2xl overflow-hidden">
                             {(item.handler as MegaMenuColumn[]).map((col) => {
                               const Icon = col.icon;
@@ -172,7 +175,7 @@ export function Header() {
                                     )}
                                   </div>
                                   <p className="text-xs text-zinc-400 mb-3 ml-9">{col.description}</p>
-                                  <ul className="space-y-1 ml-9 border-l-[3px] border-[#6C47FF]/20 pl-3">
+                                  <ul className="space-y-0.5 ml-8 border-l-2 border-[#6C47FF]/40 pl-2.5">
                                     {col.items.map((sub) => (
                                       <li key={sub.label}>
                                         <Link
