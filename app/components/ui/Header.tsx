@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import {useLocale, useTranslations} from 'next-intl';
 import {usePathname} from 'next/navigation';
-import {Menu, X, Globe, Check, ChevronDown, ExternalLink} from 'lucide-react';
+import {Menu, X, Globe, Check, ChevronDown, ExternalLink, Bot, Palette, TrendingUp, Printer, LayoutDashboard} from 'lucide-react';
 import {Button} from './Button';
 import {Wrapper} from '../Wrapper';
 import {toLocalePath, stripLocaleFromPath} from '@/lib/locale-path';
@@ -16,6 +16,7 @@ interface SubItem {
 }
 
 interface MegaMenuColumn {
+  icon: React.ComponentType<{className?: string}>;
   title: string;
   description: string;
   items: SubItem[];
@@ -46,6 +47,7 @@ export function Header() {
 
   const solutionsColumns: MegaMenuColumn[] = [
     {
+      icon: Bot,
       title: t('aiAutomation'),
       description: t('aiAutomationDesc'),
       items: [
@@ -55,6 +57,7 @@ export function Header() {
       ],
     },
     {
+      icon: Globe,
       title: t('webPresence'),
       description: t('webPresenceDesc'),
       items: [
@@ -65,6 +68,7 @@ export function Header() {
       ],
     },
     {
+      icon: TrendingUp,
       title: t('digitalMarketing'),
       description: t('digitalMarketingDesc'),
       items: [
@@ -74,6 +78,7 @@ export function Header() {
       ],
     },
     {
+      icon: Printer,
       title: t('graphicSolutions'),
       description: t('graphicSolutionsDesc'),
       items: [
@@ -85,6 +90,7 @@ export function Header() {
       ],
     },
     {
+      icon: LayoutDashboard,
       title: t('managementSoftware'),
       description: t('managementSoftwareDesc'),
       badge: 'partner',
@@ -150,14 +156,13 @@ export function Header() {
     setIsOpen(false);
   };
 
-  const solutionsAccordionItems = [
-    ...solutionsColumns.map((col) => ({
-      title: col.title,
-      description: col.description,
-      badge: col.badge,
-      items: col.items,
-    })),
-  ];
+  const solutionsAccordionItems = solutionsColumns.map((col) => ({
+    icon: col.icon,
+    title: col.title,
+    description: col.description,
+    badge: col.badge,
+    items: col.items,
+  }));
 
   return (
     <header ref={headerRef} className="relative z-20 border-b border-zinc-200 bg-white">
@@ -187,37 +192,43 @@ export function Header() {
                       </button>
                       {activeDropdown === item.id && handlers[item.id]?.type === 'megamenu' && (
                         <div
-                          className="absolute left-1/2 -translate-x-1/2 mt-2 w-[620px] xl:w-[700px] rounded-2xl border border-zinc-200 bg-white shadow-xl z-50"
+                          className="absolute left-1/2 -translate-x-1/2 mt-2 w-[560px] rounded-2xl border border-zinc-200 bg-white shadow-xl z-50"
                           onMouseEnter={() => setActiveDropdown(item.id)}
                           onMouseLeave={() => setActiveDropdown(null)}
                         >
-                          <div className="grid grid-cols-2 gap-px bg-zinc-100 rounded-2xl overflow-hidden">
-                            {(handlers[item.id] as {type: 'megamenu'; data: MegaMenuColumn[]}).data.map((col) => (
-                              <div key={col.title} className="bg-white p-5">
-                                <div className="flex items-center gap-2 mb-1">
-                                  <h3 className="text-sm font-semibold text-black">{col.title}</h3>
-                                  {col.badge === 'partner' && (
-                                    <span className="inline-flex items-center rounded-full bg-[#6C47FF]/10 px-2 py-0.5 text-[10px] font-semibold text-[#6C47FF]">
-                                      PARTNER
-                                    </span>
-                                  )}
+                          <div className="grid grid-cols-3 gap-px bg-zinc-100 rounded-2xl overflow-hidden">
+                            {(handlers[item.id] as {type: 'megamenu'; data: MegaMenuColumn[]}).data.map((col) => {
+                              const Icon = col.icon;
+                              return (
+                                <div key={col.title} className="bg-white p-3.5">
+                                  <div className="flex items-center gap-2 mb-0.5">
+                                    <div className="flex h-6 w-6 items-center justify-center rounded-md bg-[#6C47FF]/10 text-[#6C47FF]">
+                                      <Icon className="h-3.5 w-3.5" />
+                                    </div>
+                                    <h3 className="text-xs font-semibold text-black">{col.title}</h3>
+                                    {col.badge === 'partner' && (
+                                      <span className="inline-flex items-center rounded-full bg-[#6C47FF]/10 px-1.5 py-0.5 text-[7px] font-semibold text-[#6C47FF]">
+                                        PARTNER
+                                      </span>
+                                    )}
+                                  </div>
+                                  <p className="text-[10px] text-zinc-400 mb-2 ml-8">{col.description}</p>
+                                  <ul className="space-y-0.5 ml-8">
+                                    {col.items.map((sub) => (
+                                      <li key={sub.label}>
+                                        <Link
+                                          href={sub.href}
+                                          onClick={closeAll}
+                                          className="block rounded-md px-2 py-1 text-xs text-zinc-600 hover:bg-zinc-50 hover:text-[#6C47FF] transition-colors"
+                                        >
+                                          {sub.label}
+                                        </Link>
+                                      </li>
+                                    ))}
+                                  </ul>
                                 </div>
-                                <p className="text-xs text-zinc-400 mb-3">{col.description}</p>
-                                <ul className="space-y-1">
-                                  {col.items.map((sub) => (
-                                    <li key={sub.label}>
-                                      <Link
-                                        href={sub.href}
-                                        onClick={closeAll}
-                                        className="block rounded-lg px-3 py-1.5 text-sm text-zinc-600 hover:bg-zinc-50 hover:text-[#6C47FF] transition-colors"
-                                      >
-                                        {sub.label}
-                                      </Link>
-                                    </li>
-                                  ))}
-                                </ul>
-                              </div>
-                            ))}
+                              );
+                            })}
                           </div>
                         </div>
                       )}
@@ -324,7 +335,7 @@ export function Header() {
                 </Link>
               </li>
               <li>
-                <MobileAccordion title={t('solutions')} items={solutionsAccordionItems} locale={locale} closeAll={closeAll} />
+                <MobileAccordion title={t('solutions')} items={solutionsAccordionItems} closeAll={closeAll} />
               </li>
               <li>
                 <Link href="#" onClick={closeAll} className="inline-flex items-center gap-2 rounded-xl px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors">
@@ -347,15 +358,21 @@ export function Header() {
   );
 }
 
+type AccordionItem = {
+  icon: React.ComponentType<{className?: string}>;
+  title: string;
+  description: string;
+  badge?: 'partner';
+  items: {label: string; href: string}[];
+};
+
 function MobileAccordion({
   title,
   items,
-  locale,
   closeAll,
 }: {
   title: string;
-  items: {title: string; description: string; badge?: 'partner'; items: {label: string; href: string}[]}[];
-  locale: string;
+  items: AccordionItem[];
   closeAll: () => void;
 }) {
   const [openSection, setOpenSection] = useState<string | null>(null);
@@ -372,34 +389,40 @@ function MobileAccordion({
       </button>
       {openSection === title && (
         <div className="ml-4 mt-1 space-y-1 border-l-2 border-zinc-200 pl-4">
-          {items.map((section) => (
-            <div key={section.title} className="py-2">
-              <div className="flex items-center gap-2 px-3 mb-0.5">
-                <span className="text-sm font-medium text-black">{section.title}</span>
-                {section.badge === 'partner' && (
-                  <span className="inline-flex items-center rounded-full bg-[#6C47FF]/10 px-1.5 py-0.5 text-[8px] font-semibold text-[#6C47FF]">
-                    PARTNER
-                  </span>
+          {items.map((section) => {
+            const Icon = section.icon;
+            return (
+              <div key={section.title} className="py-2">
+                <div className="flex items-center gap-2 px-3 mb-0.5">
+                  <div className="flex h-5 w-5 items-center justify-center rounded bg-[#6C47FF]/10 text-[#6C47FF]">
+                    <Icon className="h-3 w-3" />
+                  </div>
+                  <span className="text-sm font-medium text-black">{section.title}</span>
+                  {section.badge === 'partner' && (
+                    <span className="inline-flex items-center rounded-full bg-[#6C47FF]/10 px-1.5 py-0.5 text-[8px] font-semibold text-[#6C47FF]">
+                      PARTNER
+                    </span>
+                  )}
+                </div>
+                {section.description && (
+                  <p className="text-xs text-zinc-400 px-3 mb-1.5 ml-7">{section.description}</p>
                 )}
+                <ul className="space-y-0.5 ml-7">
+                  {section.items.map((sub) => (
+                    <li key={sub.label}>
+                      <Link
+                        href={sub.href}
+                        onClick={closeAll}
+                        className="block rounded-lg px-3 py-1.5 text-sm text-zinc-600 hover:text-[#6C47FF] transition-colors"
+                      >
+                        {sub.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </div>
-              {section.description && (
-                <p className="text-xs text-zinc-400 px-3 mb-1.5">{section.description}</p>
-              )}
-              <ul className="space-y-0.5">
-                {section.items.map((sub) => (
-                  <li key={sub.label}>
-                    <Link
-                      href={sub.href}
-                      onClick={closeAll}
-                      className="block rounded-lg px-3 py-1.5 text-sm text-zinc-600 hover:text-[#6C47FF] transition-colors"
-                    >
-                      {sub.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+            );
+          })}
         </div>
       )}
     </div>
