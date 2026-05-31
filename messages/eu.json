@@ -173,6 +173,11 @@
     "title": "Hitz egin dezagun zure proiektuaz",
     "description": "Bete formularioa eta zurekin harremanetan jarriko gara konpromisorik gabeko hasierako dei baterako."
   },
+  "blogPage": {
+    "eyebrow": "Bloga",
+    "title": "Ideiak eta adimen artifizialaren kasu praktikoak enpresentzat.",
+    "description": "Ezagutu negozioa agente adimendun eta automatizazioarekin bultzatu nahi duten liderrentzako edukia."
+  },
   "footerSection": {
     "sections": {
       "pages": "Orriak",

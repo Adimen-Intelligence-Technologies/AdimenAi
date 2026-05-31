@@ -173,6 +173,11 @@
     "title": "Hablemos de tu proyecto",
     "description": "Completa el formulario y nos pondremos en contacto contigo para una llamada inicial sin compromiso."
   },
+  "blogPage": {
+    "eyebrow": "Blog",
+    "title": "Ideas y casos prácticos de IA para empresas.",
+    "description": "Descubre contenido pensado para líderes que quieren impulsar su negocio con agentes inteligentes y automatización."
+  },
   "footerSection": {
     "sections": {
       "pages": "Páginas",

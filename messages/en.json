@@ -173,6 +173,11 @@
     "title": "Let's talk about your project",
     "description": "Fill out the form and we will get in touch for a no-obligation introductory call."
   },
+  "blogPage": {
+    "eyebrow": "Blog",
+    "title": "Ideas and practical AI cases for businesses.",
+    "description": "Discover content designed for leaders who want to boost their business with intelligent agents and automation."
+  },
   "footerSection": {
     "sections": {
       "pages": "Pages",
