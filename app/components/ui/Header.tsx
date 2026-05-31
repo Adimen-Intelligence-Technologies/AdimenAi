@@ -213,7 +213,7 @@ export function Header() {
                                     )}
                                   </div>
                                   <p className="text-[10px] text-zinc-400 mb-2 ml-8">{col.description}</p>
-                                  <ul className="space-y-0.5 ml-8">
+                                  <ul className="space-y-0.5 ml-8 border-l-[3px] border-[#6C47FF]/20 pl-2">
                                     {col.items.map((sub) => (
                                       <li key={sub.label}>
                                         <Link
@@ -407,7 +407,7 @@ function MobileAccordion({
                 {section.description && (
                   <p className="text-xs text-zinc-400 px-3 mb-1.5 ml-7">{section.description}</p>
                 )}
-                <ul className="space-y-0.5 ml-7">
+                <ul className="space-y-0.5 ml-7 border-l-[2px] border-[#6C47FF] pl-2">
                   {section.items.map((sub) => (
                     <li key={sub.label}>
                       <Link
