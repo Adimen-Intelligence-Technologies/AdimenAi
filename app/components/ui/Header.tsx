@@ -1,6 +1,6 @@
 "use client";
 
-import {useEffect, useRef, useState} from 'react';
+import {useState} from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import {useLocale, useTranslations} from 'next-intl';
@@ -34,10 +34,6 @@ export function Header() {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-  const dropdownTimeoutRef = useRef<NodeJS.Timeout | null>(null);
-  const headerRef = useRef<HTMLDivElement | null>(null);
-  const langMenuRef = useRef<HTMLDivElement | null>(null);
   const cleanPathname = stripLocaleFromPath(pathname || '/');
 
   const aboutDropdown: MenuDropdown = {
@@ -110,10 +106,7 @@ export function Header() {
     {code: 'eu', label: tLang('eu'), short: 'EU'},
   ];
 
-  const handlers: Record<string, {type: 'dropdown'; data: MenuDropdown} | {type: 'megamenu'; data: MegaMenuColumn[]}> = {
-    aboutUs: {type: 'dropdown', data: aboutDropdown},
-    solutions: {type: 'megamenu', data: solutionsColumns},
-  };
+  const megaMenuColumns = solutionsColumns;
 
   const switchLocale = (newLocale: string) => {
     setIsLangOpen(false);
@@ -127,62 +120,21 @@ export function Header() {
     window.location.href = targetPath;
   };
 
-  const clearDropdownTimeout = () => {
-    if (dropdownTimeoutRef.current) {
-      clearTimeout(dropdownTimeoutRef.current);
-      dropdownTimeoutRef.current = null;
-    }
-  };
-
-  const handleDropdownEnter = (id: string) => {
-    clearDropdownTimeout();
-    setActiveDropdown(id);
-  };
-
-  const handleDropdownLeave = () => {
-    dropdownTimeoutRef.current = setTimeout(() => {
-      setActiveDropdown(null);
-    }, 200);
-  };
-
-  useEffect(() => {
-    if (!isLangOpen && !activeDropdown) {
-      return;
-    }
-
-    const handleOutsideClick = (event: MouseEvent) => {
-      if (!langMenuRef.current?.contains(event.target as Node) && !headerRef.current?.contains(event.target as Node)) {
-        setIsLangOpen(false);
-        setActiveDropdown(null);
-      }
-    };
-
-    document.addEventListener('mousedown', handleOutsideClick);
-    return () => document.removeEventListener('mousedown', handleOutsideClick);
-  }, [isLangOpen, activeDropdown]);
-
-  useEffect(() => {
-    if (!isOpen) {
-      setActiveDropdown(null);
-    }
-  }, [isOpen]);
-
-  const navItems = [
-    {id: 'home', label: t('home'), href: toLocalePath(locale, '/'), hasDropdown: false},
-    {id: 'aboutUs', label: t('aboutUs'), hasDropdown: true},
-    {id: 'solutions', label: t('solutions'), hasDropdown: true},
-    {id: 'herrikonekt', label: t('herrikonekt'), href: '#', hasDropdown: false, isExternal: true},
-    {id: 'blog', label: t('blog'), href: toLocalePath(locale, '/blog'), hasDropdown: false},
-  ];
-
   const closeAll = () => {
-    setActiveDropdown(null);
     setIsLangOpen(false);
     setIsOpen(false);
   };
 
+  const navItems = [
+    {id: 'home', label: t('home'), href: toLocalePath(locale, '/'), hasDropdown: false},
+    {id: 'aboutUs', label: t('aboutUs'), hasDropdown: true, handler: aboutDropdown, dropdownType: 'dropdown' as const},
+    {id: 'solutions', label: t('solutions'), hasDropdown: true, handler: megaMenuColumns, dropdownType: 'megamenu' as const},
+    {id: 'herrikonekt', label: t('herrikonekt'), href: '#', hasDropdown: false, isExternal: true},
+    {id: 'blog', label: t('blog'), href: toLocalePath(locale, '/blog'), hasDropdown: false},
+  ];
+
   return (
-    <header ref={headerRef} className="relative z-20 border-b border-zinc-200 bg-white">
+    <header className="relative z-20 border-b border-zinc-200 bg-white">
       <Wrapper className="flex flex-wrap items-center justify-between gap-4 py-5 px-4 sm:px-6 lg:px-10">
         <div className="flex items-center gap-6">
           <Link href={toLocalePath(locale, '/')} aria-label="Ir a inicio">
@@ -193,28 +145,18 @@ export function Header() {
               {navItems.map((item) => (
                 <li key={item.id}>
                   {item.hasDropdown ? (
-                    <div
-                      className="relative"
-                      onMouseEnter={() => handleDropdownEnter(item.id)}
-                      onMouseLeave={handleDropdownLeave}
-                    >
+                    <div className="group relative">
                       <button
                         type="button"
-                        onClick={() => setActiveDropdown(activeDropdown === item.id ? null : item.id)}
-                        aria-expanded={activeDropdown === item.id}
                         className="inline-flex items-center gap-1 rounded-lg px-3 py-2 transition-colors hover:text-black hover:bg-zinc-100"
                       >
                         {item.label}
-                        <ChevronDown className={`h-3.5 w-3.5 transition-transform duration-200 ${activeDropdown === item.id ? 'rotate-180' : ''}`} aria-hidden="true" />
+                        <ChevronDown className="h-3.5 w-3.5 transition-transform duration-200 group-hover:rotate-180" aria-hidden="true" />
                       </button>
-                      {activeDropdown === item.id && handlers[item.id]?.type === 'megamenu' && (
-                        <div
-                          className="absolute left-1/2 -translate-x-1/2 mt-2 w-[560px] rounded-2xl border border-zinc-200 bg-white shadow-xl z-50"
-                          onMouseEnter={() => handleDropdownEnter(item.id)}
-                          onMouseLeave={handleDropdownLeave}
-                        >
+                      {item.dropdownType === 'megamenu' && (
+                        <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-[560px] rounded-2xl border border-zinc-200 bg-white shadow-xl z-50 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200">
                           <div className="grid grid-cols-3 gap-px bg-zinc-100 rounded-2xl overflow-hidden">
-                            {(handlers[item.id] as {type: 'megamenu'; data: MegaMenuColumn[]}).data.map((col) => {
+                            {(item.handler as MegaMenuColumn[]).map((col) => {
                               const Icon = col.icon;
                               return (
                                 <div key={col.title} className="bg-white p-3.5">
@@ -249,23 +191,22 @@ export function Header() {
                           </div>
                         </div>
                       )}
-                      {activeDropdown === item.id && handlers[item.id]?.type === 'dropdown' && (
-                        <div
-                          className="absolute left-0 mt-2 w-56 rounded-xl border border-zinc-200 bg-white shadow-lg z-50"
-                          onMouseEnter={() => handleDropdownEnter(item.id)}
-                          onMouseLeave={handleDropdownLeave}
-                        >
-                          <div className="py-1">
-                            {(handlers[item.id] as {type: 'dropdown'; data: MenuDropdown}).data.items.map((sub) => (
-                              <Link
-                                key={sub.label}
-                                href={sub.href}
-                                onClick={closeAll}
-                                className="block px-4 py-3 hover:bg-zinc-100 transition-colors"
-                              >
-                                {sub.label}
-                              </Link>
-                            ))}
+                      {item.dropdownType === 'dropdown' && (
+                        <div className="absolute left-0 mt-2 w-56 rounded-xl border border-zinc-200 bg-white shadow-lg z-50 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200">
+                          <div className="p-3">
+                            <p className="text-xs text-zinc-400 mb-2 px-3">{t('aboutUsDesc')}</p>
+                            <div className="py-1">
+                              {(item.handler as MenuDropdown).items.map((sub) => (
+                                <Link
+                                  key={sub.label}
+                                  href={sub.href}
+                                  onClick={closeAll}
+                                  className="block px-4 py-2.5 text-sm hover:bg-zinc-100 rounded-lg transition-colors"
+                                >
+                                  {sub.label}
+                                </Link>
+                              ))}
+                            </div>
                           </div>
                         </div>
                       )}
@@ -273,11 +214,15 @@ export function Header() {
                   ) : (
                     <Link
                       href={item.href || '#'}
-                      onClick={closeAll}
                       className="inline-flex items-center gap-1 rounded-lg px-3 py-2 transition-colors hover:text-black hover:bg-zinc-100"
                     >
                       {item.label}
                       {item.isExternal && <ExternalLink className="h-3 w-3" aria-hidden="true" />}
+                      {item.id === 'herrikonekt' && (
+                        <span className="inline-flex items-center rounded-full bg-[#6C47FF]/10 px-1.5 py-0.5 text-[9px] font-semibold text-[#6C47FF] ml-0.5">
+                          APP
+                        </span>
+                      )}
                     </Link>
                   )}
                 </li>
@@ -287,17 +232,17 @@ export function Header() {
         </div>
         <div className="flex items-center gap-4">
           <div className="hidden lg:block">
-            <Button href={toLocalePath(locale, '/contacto')}>{t('contact')}</Button>
+            <Button href={toLocalePath(locale, '/contacto')} className="text-base px-6 py-2.5">{t('contact')}</Button>
           </div>
-          <div className="relative" ref={langMenuRef}>
+          <div className="relative">
             <button
               type="button"
               onClick={() => setIsLangOpen((prev) => !prev)}
               aria-expanded={isLangOpen}
               aria-label={tLang('switch')}
-              className="inline-flex h-11 items-center gap-2 rounded-full border border-zinc-300 px-3 text-sm font-medium hover:border-zinc-400 hover:text-black transition-colors"
+              className="inline-flex h-10 items-center gap-2 rounded-full border border-zinc-300 px-3 text-sm font-medium hover:border-zinc-400 hover:text-black transition-colors"
             >
-              <Globe className="h-4 w-4" aria-hidden="true" />
+              <Globe className="h-3.5 w-3.5" aria-hidden="true" />
               <span>{locale.toUpperCase()}</span>
             </button>
             {isLangOpen && (
@@ -327,7 +272,7 @@ export function Header() {
             onClick={() => setIsOpen((prev) => !prev)}
             aria-expanded={isOpen}
             aria-label={isOpen ? t('closeMenu') : t('openMenu')}
-            className="inline-flex h-11 w-11 items-center justify-center hover:text-black lg:hidden"
+            className="inline-flex h-10 w-10 items-center justify-center hover:text-black lg:hidden"
           >
             <span className="sr-only">{t('menu')}</span>
             {isOpen ? <X className="h-5 w-5" aria-hidden="true" /> : <Menu className="h-5 w-5" aria-hidden="true" />}
@@ -335,33 +280,113 @@ export function Header() {
         </div>
       </Wrapper>
       <div
-        className={`border-t border-zinc-200 bg-white lg:hidden overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
+        className={`border-t border-zinc-200 bg-white lg:hidden overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'}`}
         aria-hidden={!isOpen}
       >
         <Wrapper className="space-y-4 py-5 px-4 sm:px-6">
           <nav>
-            <ul className="space-y-4 text-[18px] text-gray-600">
-              {navItems.map((item, index) => (
-                <li key={item.id}>
-                  <Link
-                    href={item.href || '#'}
-                    onClick={() => {
-                      closeAll();
-                    }}
-                    className={`block rounded-xl px-3 py-2 transition-all duration-500 ease-in-out hover:bg-zinc-100 hover:text-black ${isOpen ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'}`}
-                    style={{transitionDelay: isOpen ? `${index * 60}ms` : '0ms'}}
-                  >
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
+            <ul className="space-y-3 text-[16px] text-gray-600">
+              <li>
+                <Link href={toLocalePath(locale, '/')} onClick={closeAll} className="block rounded-xl px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors">
+                  {t('home')}
+                </Link>
+              </li>
+              <li>
+                <Link href={toLocalePath(locale, '/sobre-nosotros')} onClick={closeAll} className="block rounded-xl px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors">
+                  {t('aboutUs')}
+                </Link>
+              </li>
+              <li>
+                <MobileAccordion title={t('solutions')} items={megaMenuColumns} closeAll={closeAll} />
+              </li>
+              <li>
+                <Link href="#" onClick={closeAll} className="inline-flex items-center gap-2 rounded-xl px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors">
+                  {t('herrikonekt')}
+                  <span className="inline-flex items-center rounded-full bg-[#6C47FF]/10 px-1.5 py-0.5 text-[9px] font-semibold text-[#6C47FF]">APP</span>
+                  <ExternalLink className="h-3 w-3" />
+                </Link>
+              </li>
+              <li>
+                <Link href={toLocalePath(locale, '/blog')} onClick={closeAll} className="block rounded-xl px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors">
+                  {t('blog')}
+                </Link>
+              </li>
             </ul>
           </nav>
-          <Button href={toLocalePath(locale, '/contacto')} className={isOpen ? 'opacity-100 transition-opacity duration-500 ease-in-out' : 'opacity-0 transition-opacity duration-500 ease-in-out'}>
-            {t('contact')}
-          </Button>
+          <Button href={toLocalePath(locale, '/contacto')} className="w-full text-center">{t('contact')}</Button>
         </Wrapper>
       </div>
     </header>
+  );
+}
+
+type AccordionItem = {
+  icon: React.ComponentType<{className?: string}>;
+  title: string;
+  description: string;
+  badge?: 'partner';
+  items: {label: string; href: string}[];
+};
+
+function MobileAccordion({
+  title,
+  items,
+  closeAll,
+}: {
+  title: string;
+  items: AccordionItem[];
+  closeAll: () => void;
+}) {
+  const [openSection, setOpenSection] = useState<string | null>(null);
+
+  return (
+    <div>
+      <button
+        type="button"
+        onClick={() => setOpenSection(openSection === title ? null : title)}
+        className="flex w-full items-center justify-between rounded-xl px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors"
+      >
+        <span>{title}</span>
+        <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${openSection === title ? 'rotate-180' : ''}`} />
+      </button>
+      {openSection === title && (
+        <div className="ml-4 mt-1 space-y-1 border-l-2 border-zinc-200 pl-4">
+          {items.map((section) => {
+            const Icon = section.icon;
+            return (
+              <div key={section.title} className="py-2">
+                <div className="flex items-center gap-2 px-3 mb-0.5">
+                  <div className="flex h-5 w-5 items-center justify-center rounded bg-[#6C47FF]/10 text-[#6C47FF]">
+                    <Icon className="h-3 w-3" />
+                  </div>
+                  <span className="text-sm font-medium text-black">{section.title}</span>
+                  {section.badge === 'partner' && (
+                    <span className="inline-flex items-center rounded-full bg-[#6C47FF]/10 px-1.5 py-0.5 text-[8px] font-semibold text-[#6C47FF]">
+                      PARTNER
+                    </span>
+                  )}
+                </div>
+                {section.description && (
+                  <p className="text-xs text-zinc-400 px-3 mb-1.5 ml-7">{section.description}</p>
+                )}
+                <ul className="space-y-0.5 ml-7 border-l-[3px] border-[#6C47FF]/20 pl-2">
+                  {section.items.map((sub) => (
+                    <li key={sub.label}>
+                      <Link
+                        href={sub.href}
+                        onClick={closeAll}
+                        className="block rounded-lg px-3 py-1.5 text-sm text-zinc-600 hover:text-[#6C47FF] transition-colors"
+                      >
+                        {sub.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            );
+          })}
+        </div>
+      )}
+    </div>
   );
 }
