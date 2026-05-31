@@ -162,7 +162,7 @@ export function Header() {
                             {(item.handler as MegaMenuColumn[]).map((col) => {
                               const Icon = col.icon;
                               return (
-                                <div className="bg-white p-5">
+                                <div key={col.title} className="bg-white p-5">
                                   <div className="flex items-center gap-2.5 mb-1">
                                     <div className="flex h-7 w-7 items-center justify-center rounded-md bg-[#6C47FF]/10 text-[#6C47FF]">
                                       <Icon className="h-4 w-4" />
