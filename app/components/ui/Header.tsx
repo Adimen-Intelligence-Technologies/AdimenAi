@@ -40,7 +40,7 @@ export function Header() {
     }
 
     const targetPath = `${toLocalePath(newLocale, cleanPathname)}${window.location.search}${window.location.hash}`;
-    window.location.assign(targetPath);
+    window.location.href = targetPath;
   };
 
   useEffect(() => {
