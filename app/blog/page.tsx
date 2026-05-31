@@ -1,5 +1,8 @@
-import {redirect} from 'next/navigation';
+import {BlogPage} from '@/app/components/blog/BlogPage';
+import {getLocale} from 'next-intl/server';
 
 export default async function BlogRootPage() {
-  redirect('/blog');
+  const locale = await getLocale();
+
+  return <BlogPage locale={locale} />;
 }

@@ -40,6 +40,7 @@ export function Header() {
     }
 
     const targetPath = `${toLocalePath(newLocale, cleanPathname)}${window.location.search}${window.location.hash}`;
+    document.cookie = `NEXT_LOCALE=${newLocale};path=/;max-age=31536000`;
     window.location.href = targetPath;
   };
 
