@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^Test-Path \"c:\\\\Users\\\\Usuario\\\\Desktop\\\\Proyects-Kronos\\\\AdimenAi\\\\app\\\\components\\\\ui\\\\Header\\.tsx\"; \\(Get-Content \"c:\\\\Users\\\\Usuario\\\\Desktop\\\\Proyects-Kronos\\\\AdimenAi\\\\app\\\\components\\\\ui\\\\Header\\.tsx\" -Raw\\)\\.Length$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
