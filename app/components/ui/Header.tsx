@@ -22,7 +22,7 @@ export function Header() {
   const menuItems = [
     {label: t('services'), href: `/${locale}/#servicios`},
     {label: t('useCases'), href: `/${locale}/#comercios`},
-    {label: t('blog'), href: '/blog'},
+    {label: t('blog'), href: `/${locale}/blog`},
   ];
 
   const languages = [

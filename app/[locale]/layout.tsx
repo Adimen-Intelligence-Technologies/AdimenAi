@@ -1,7 +1,6 @@
 import {notFound} from 'next/navigation';
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
-import {ChromeLayout} from '../components/ChromeLayout';
 
 const locales = ['es', 'en', 'eu'];
 
@@ -25,7 +24,7 @@ export default async function LocaleLayout({children, params}: Props) {
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
-      <ChromeLayout>{children}</ChromeLayout>
+      {children}
     </NextIntlClientProvider>
   );
 }

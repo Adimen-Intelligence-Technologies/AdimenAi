@@ -16,7 +16,7 @@ export function Footer() {
   ];
 
   const otherPages = [
-    { label: t("other.blog"), href: "/blog" },
+    { label: t("other.blog"), href: `/${locale}/blog` },
     { label: t("other.cookies"), href: "/seleccionar-cookies" },
     { label: t("other.privacy"), href: "/privacidad" },
   ];

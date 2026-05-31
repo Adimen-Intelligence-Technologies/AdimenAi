@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from "next-intl";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import esMessages from "../messages/es.json";
+import { ChromeLayout } from "./components/ChromeLayout";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -27,7 +28,7 @@ export default function RootLayout({
     <html className={cn("h-full", "antialiased", lato.variable, "font-sans", inter.variable)}>
       <body className="min-h-full flex min-h-screen flex-col bg-zinc-50 text-zinc-900 font-sans">
         <NextIntlClientProvider locale="es" messages={esMessages}>
-          {children}
+          <ChromeLayout>{children}</ChromeLayout>
         </NextIntlClientProvider>
       </body>
     </html>
