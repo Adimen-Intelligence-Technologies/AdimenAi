@@ -9,6 +9,7 @@ interface ButtonProps {
   children: React.ReactNode;
   variant?: "default" | "primary" | "secondary";
   className?: string;
+  disableAnimation?: boolean;
 }
 
 const variantClasses: Record<NonNullable<ButtonProps["variant"]>, string> = {
@@ -17,8 +18,24 @@ const variantClasses: Record<NonNullable<ButtonProps["variant"]>, string> = {
   secondary: "border border-zinc-200 bg-white/50 text-black hover:bg-gray-50/50 px-8 py-4",
 };
 
-export function Button({ href, type = "button", children, variant = "default", className = "" }: ButtonProps) {
+export function Button({ href, type = "button", children, variant = "default", className = "", disableAnimation = false }: ButtonProps) {
   const commonClasses = `inline-flex items-center justify-center overflow-hidden rounded-full font-semibold text-xl transition-colors ${variantClasses[variant]} ${className}`.trim();
+
+  if (disableAnimation) {
+    const simpleContent = <span>{children}</span>;
+    if (href) {
+      return (
+        <Link href={href} className={commonClasses}>
+          {simpleContent}
+        </Link>
+      );
+    }
+    return (
+      <button type={type} className={commonClasses}>
+        {simpleContent}
+      </button>
+    );
+  }
 
   const content = (
     <motion.span
