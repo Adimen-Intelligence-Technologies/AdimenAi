@@ -33,12 +33,14 @@ export function Header() {
   ];
 
   const switchLocale = (newLocale: string) => {
-    // Build the target URL with explicit locale prefix in path
-    const targetPath = toLocalePath(newLocale, cleanPathname);
-    const search = window.location.search;
-    const hash = window.location.hash;
-    window.location.href = targetPath + search + hash;
     setIsLangOpen(false);
+
+    if (newLocale === locale) {
+      return;
+    }
+
+    const targetPath = `${toLocalePath(newLocale, cleanPathname)}${window.location.search}${window.location.hash}`;
+    window.location.assign(targetPath);
   };
 
   useEffect(() => {
