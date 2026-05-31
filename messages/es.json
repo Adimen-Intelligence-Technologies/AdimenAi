@@ -1,8 +1,9 @@
 {
   "nav": {
-    "services": "Servicios",
-    "useCases": "Casos de uso",
-    "blog": "Blog",
+    "home": "Inicio",
+    "about": "Sobre nosotros",
+    "solutions": "Nuestras soluciones",
+    "news": "Noticias",
     "contact": "Contactar",
     "menu": "Menú",
     "openMenu": "Abrir menú",

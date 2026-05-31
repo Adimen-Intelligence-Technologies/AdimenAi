@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import {useLocale, useTranslations} from 'next-intl';
 import {usePathname} from 'next/navigation';
-import {Menu, X, Globe, Check} from 'lucide-react';
+import {Menu, X, Globe, Check, ChevronDown} from 'lucide-react';
 import {Button} from './Button';
 import {Wrapper} from '../Wrapper';
 import {toLocalePath, stripLocaleFromPath} from '@/lib/locale-path';
@@ -21,9 +21,10 @@ export function Header() {
   const cleanPathname = stripLocaleFromPath(pathname || '/');
 
   const menuItems = [
-    {label: t('services'), href: toLocalePath(locale, '/#servicios')},
-    {label: t('useCases'), href: toLocalePath(locale, '/#comercios')},
-    {label: t('blog'), href: toLocalePath(locale, '/blog')},
+    {label: t('home'), href: toLocalePath(locale, '/')},
+    {label: t('about'), href: toLocalePath(locale, '/sobre-nosotros')},
+    {label: t('solutions'), href: toLocalePath(locale, '/#servicios')},
+    {label: t('news'), href: toLocalePath(locale, '/blog')},
   ];
 
   const languages = [
@@ -78,7 +79,7 @@ export function Header() {
         </div>
         <div className="flex items-center gap-4">
           <div className="hidden lg:block">
-            <Button href={toLocalePath(locale, '/#contacto')}>{t('contact')}</Button>
+            <Button href={toLocalePath(locale, '/contacto')}>{t('contact')}</Button>
           </div>
           <div className="relative" ref={langMenuRef}>
             <button
@@ -132,7 +133,7 @@ export function Header() {
               ))}
             </ul>
           </nav>
-          <Button href={toLocalePath(locale, '/#contacto')} className={isOpen ? "opacity-100 transition-opacity duration-500 ease-in-out" : "opacity-0 transition-opacity duration-500 ease-in-out"}>
+          <Button href={toLocalePath(locale, '/contacto')} className={isOpen ? "opacity-100 transition-opacity duration-500 ease-in-out" : "opacity-0 transition-opacity duration-500 ease-in-out"}>
             {t('contact')}
           </Button>
         </Wrapper>

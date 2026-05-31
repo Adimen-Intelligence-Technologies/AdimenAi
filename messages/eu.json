@@ -1,8 +1,9 @@
 {
   "nav": {
-    "services": "Zerbitzuak",
-    "useCases": "Erabilera kasuak",
-    "blog": "Bloga",
+    "home": "Hasiera",
+    "about": "Guri buruz",
+    "solutions": "Gure soluzioak",
+    "news": "Albisteak",
     "contact": "Harremana",
     "menu": "Menua",
     "openMenu": "Ireki menua",
