@@ -168,6 +168,11 @@
     "legalPrivacy": "política de privacidad",
     "legalSuffix": "y términos."
   },
+  "contactPage": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de tu proyecto",
+    "description": "Completa el formulario y nos pondremos en contacto contigo para una llamada inicial sin compromiso."
+  },
   "footerSection": {
     "sections": {
       "pages": "Páginas",

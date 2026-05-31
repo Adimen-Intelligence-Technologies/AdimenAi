@@ -4,8 +4,9 @@ import { translatePostListItem } from "@/sanity/lib/translation";
 import { Wrapper } from "../Wrapper";
 import { BlogCard } from "../ui/BlogCard";
 import type { Post } from "@/app/blog/types";
+import { toLocalePath } from "@/lib/locale-path";
 
-const POSTS_QUERY = groq`*[_type == "post" && defined(slug.current) && (language == $language || language == "es" || !defined(language))] | order(language == $language desc, publishedAt desc) {
+const POSTS_QUERY = groq`*[_type == "post" && defined(slug.current) && (language == $language || language == "es" || !defined(language))] | order((language == $language) desc, publishedAt desc) {
   _id,
   title,
   excerpt,
@@ -27,7 +28,7 @@ export async function BlogPage({ locale }: Props) {
   const posts = await Promise.all(
     rawPosts.map(async (post) => translatePostListItem(post, language as "es" | "en" | "eu")),
   );
-  const basePath = locale ? `/${locale}` : "";
+  const blogBasePath = toLocalePath(language, "/blog");
 
   return (
     <div className="bg-zinc-50 text-zinc-900">
@@ -54,7 +55,7 @@ export async function BlogPage({ locale }: Props) {
               excerpt={post.excerpt}
               tag={post.tags?.[0] ?? ""}
               imageSrc={post.mainImage ?? "/background-03.jpg"}
-              href={`${basePath}/blog/${post.slug}`}
+              href={`${blogBasePath}/${post.slug}`}
             />
           ))}
         </div>

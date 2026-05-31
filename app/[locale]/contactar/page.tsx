@@ -1,8 +1,8 @@
-import { Wrapper } from "../components/Wrapper";
-import { ContactBlock } from "../components/ui/ContactBlock";
+import { Wrapper } from "@/app/components/Wrapper";
+import { ContactBlock } from "@/app/components/ui/ContactBlock";
 import { getTranslations } from "next-intl/server";
 
-export default async function ContactPage() {
+export default async function LocaleContactPage() {
   const t = await getTranslations("contactPage");
 
   return (

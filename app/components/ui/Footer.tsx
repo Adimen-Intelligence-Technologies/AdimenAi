@@ -4,19 +4,20 @@ import Image from "next/image";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import { Wrapper } from "../Wrapper";
+import { toLocalePath } from "@/lib/locale-path";
 
 export function Footer() {
   const t = useTranslations("footerSection");
   const locale = useLocale();
   const pages = [
-    { label: t("pages.home"), href: `/${locale}` },
-    { label: t("pages.services"), href: `/${locale}/#servicios` },
-    { label: t("pages.commerce"), href: `/${locale}/#comercios` },
-    { label: t("pages.useCases"), href: `/${locale}/#casos-de-uso` },
+    { label: t("pages.home"), href: toLocalePath(locale, "/") },
+    { label: t("pages.services"), href: toLocalePath(locale, "/#servicios") },
+    { label: t("pages.commerce"), href: toLocalePath(locale, "/#comercios") },
+    { label: t("pages.useCases"), href: toLocalePath(locale, "/#casos-de-uso") },
   ];
 
   const otherPages = [
-    { label: t("other.blog"), href: `/${locale}/blog` },
+    { label: t("other.blog"), href: toLocalePath(locale, "/blog") },
     { label: t("other.cookies"), href: "/seleccionar-cookies" },
     { label: t("other.privacy"), href: "/privacidad" },
   ];
@@ -32,7 +33,7 @@ export function Footer() {
       <Wrapper className="px-4 py-15 sm:px-6 lg:px-10">
         <div className="flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
           <div className="max-w-xs">
-            <Link href={`/${locale}`} aria-label="AdimenAI" className="inline-flex items-center">
+            <Link href={toLocalePath(locale, "/")} aria-label="AdimenAI" className="inline-flex items-center">
               <Image
                 src="/logo/adimenai-logo.svg"
                 alt="AdimenAI"

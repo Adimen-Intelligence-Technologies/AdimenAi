@@ -4,25 +4,26 @@ import {useEffect, useRef, useState} from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import {useLocale, useTranslations} from 'next-intl';
-import {usePathname, useRouter} from 'next/navigation';
+import {usePathname} from 'next/navigation';
 import {Menu, X, Globe, Check} from 'lucide-react';
 import {Button} from './Button';
 import {Wrapper} from '../Wrapper';
+import {toLocalePath, stripLocaleFromPath} from '@/lib/locale-path';
 
 export function Header() {
   const t = useTranslations('nav');
   const tLang = useTranslations('language');
   const locale = useLocale();
-  const router = useRouter();
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
   const langMenuRef = useRef<HTMLDivElement | null>(null);
+  const cleanPathname = stripLocaleFromPath(pathname || '/');
 
   const menuItems = [
-    {label: t('services'), href: `/${locale}/#servicios`},
-    {label: t('useCases'), href: `/${locale}/#comercios`},
-    {label: t('blog'), href: `/${locale}/blog`},
+    {label: t('services'), href: toLocalePath(locale, '/#servicios')},
+    {label: t('useCases'), href: toLocalePath(locale, '/#comercios')},
+    {label: t('blog'), href: toLocalePath(locale, '/blog')},
   ];
 
   const languages = [
@@ -32,9 +33,10 @@ export function Header() {
   ];
 
   const switchLocale = (newLocale: string) => {
-    const segments = pathname.split('/');
-    segments[1] = newLocale;
-    router.push(segments.join('/') || '/');
+    const hash = typeof window !== 'undefined' ? window.location.hash : '';
+    const search = typeof window !== 'undefined' ? window.location.search : '';
+    const nextPath = `${toLocalePath(newLocale, cleanPathname)}${search}${hash}`;
+    window.location.assign(nextPath);
     setIsLangOpen(false);
   };
 
@@ -57,7 +59,7 @@ export function Header() {
     <header className="relative z-20 border-b border-zinc-200 bg-white">
       <Wrapper className="flex flex-wrap items-center justify-between gap-4 py-5 px-4 sm:px-6 lg:px-10">
         <div className="flex items-baseline gap-6">
-          <Link href="/" aria-label="Ir a inicio">
+          <Link href={toLocalePath(locale, '/')} aria-label="Ir a inicio">
             <Image src="/logo/adimenai-logo.svg" alt="Adimenai logo" width={140} height={32} className="object-contain" />
           </Link>
           <nav className="hidden lg:block">
@@ -72,7 +74,7 @@ export function Header() {
         </div>
         <div className="flex items-center gap-4">
           <div className="hidden lg:block">
-            <Button href={`/${locale}/#contacto`}>{t('contact')}</Button>
+            <Button href={toLocalePath(locale, '/#contacto')}>{t('contact')}</Button>
           </div>
           <div className="relative" ref={langMenuRef}>
             <button
@@ -126,7 +128,7 @@ export function Header() {
               ))}
             </ul>
           </nav>
-          <Button href={`/${locale}/#contacto`} className={isOpen ? "opacity-100 transition-opacity duration-500 ease-in-out" : "opacity-0 transition-opacity duration-500 ease-in-out"}>
+          <Button href={toLocalePath(locale, '/#contacto')} className={isOpen ? "opacity-100 transition-opacity duration-500 ease-in-out" : "opacity-0 transition-opacity duration-500 ease-in-out"}>
             {t('contact')}
           </Button>
         </Wrapper>

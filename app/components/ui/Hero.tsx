@@ -4,6 +4,7 @@ import { Button } from "./Button";
 import { Wrapper } from "../Wrapper";
 import { Zap, Wallet, TrendingUp } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
+import { toLocalePath } from "@/lib/locale-path";
 
 export function Hero() {
   const t = useTranslations("hero");
@@ -45,10 +46,10 @@ export function Hero() {
               className="flex flex-col sm:flex-row gap-4 mt-8 animate-hero-fade"
               style={{ animationDelay: "0.5s" }}
             >
-              <Button href="/contactar" variant="primary">
+              <Button href={toLocalePath(locale, "/contactar")} variant="primary">
                 {t("ctaPrimary")}
               </Button>
-              <Button href={`/${locale}/#servicios`} variant="secondary">
+              <Button href={toLocalePath(locale, "/#servicios")} variant="secondary">
                 {t("ctaSecondary")}
               </Button>
             </div>

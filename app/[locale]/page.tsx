@@ -7,10 +7,12 @@ import {InfoSection} from '@/app/components/ui/InfoSection';
 import {CtaSection} from '@/app/components/ui/CtaSection';
 import {FaqSection} from '@/app/components/ui/FaqSection';
 import {ContactBlock} from '@/app/components/ui/ContactBlock';
-import {getTranslations} from 'next-intl/server';
+import {getLocale, getTranslations} from 'next-intl/server';
+import {toLocalePath} from '@/lib/locale-path';
 
 export default async function HomePage() {
   const t = await getTranslations('infoSection');
+  const locale = await getLocale();
 
   return (
     <div className="flex flex-col">
@@ -33,7 +35,7 @@ export default async function HomePage() {
         imageAlt={t('imageAlt')}
         videoSrc="/dashboard-animation.mp4"
         buttonLabel={t('button')}
-        buttonHref="/contactar"
+        buttonHref={toLocalePath(locale, '/contactar')}
       />
       <CtaSection />
       <FaqSection />

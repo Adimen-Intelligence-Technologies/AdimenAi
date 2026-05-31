@@ -7,8 +7,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { draftMode } from "next/headers";
+import { toLocalePath } from "@/lib/locale-path";
 
-const POST_QUERY = groq`*[_type == "post" && slug.current == $slug && (language == $language || language == "es" || !defined(language))] | order(language == $language desc)[0] {
+const POST_QUERY = groq`*[_type == "post" && slug.current == $slug && (language == $language || language == "es" || !defined(language))] | order((language == $language) desc)[0] {
   _id,
   title,
   excerpt,
@@ -61,12 +62,12 @@ export async function BlogPostPage({ params }: Props) {
     notFound();
   }
 
-  const basePath = locale ? `/${locale}` : "";
+  const backToBlogHref = toLocalePath(language, "/blog");
 
   return (
     <Wrapper className="px-4 py-16 sm:px-6 lg:px-10 max-w-3xl mx-auto">
       <Link
-        href={`${basePath}/blog`}
+        href={backToBlogHref}
         className="inline-flex items-center text-sm text-zinc-500 hover:text-[#6C47FF] transition-colors mb-8"
       >
         ← Volver al blog

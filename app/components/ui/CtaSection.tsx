@@ -1,12 +1,15 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 import MagicRings from "./MagicRings";
 import { Button } from "./Button";
 import { Wrapper } from "../Wrapper";
+import { toLocalePath } from "@/lib/locale-path";
 
 export function CtaSection() {
   const t = useTranslations("ctaSection");
+  const locale = useLocale();
 
   return (
     <section id="comercios" className="relative overflow-hidden border-b border-zinc-200">
@@ -35,7 +38,7 @@ export function CtaSection() {
           </p>
           <div className="mt-5 flex justify-center">
             <Button
-              href="/contactar"
+              href={toLocalePath(locale, "/contactar")}
               className="bg-[#7252FF] text-white border-transparent hover:bg-[#5b3fe6]"
             >
              {t("button")}

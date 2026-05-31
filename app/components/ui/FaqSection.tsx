@@ -2,12 +2,15 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 import { Plus } from "lucide-react";
 import { Wrapper } from "../Wrapper";
 import { Button } from "./Button";
+import { toLocalePath } from "@/lib/locale-path";
 
 export function FaqSection() {
   const t = useTranslations("faqSection");
+  const locale = useLocale();
   const faqs = Array.from({ length: 6 }, (_, index) => ({
     question: t(`items.${index}.question`),
     answer: t(`items.${index}.answer`),
@@ -47,7 +50,7 @@ export function FaqSection() {
 
               <p className="mt-8 text-xl font-medium text-black tracking-tight">{t("needHelp")}</p>
 
-              <Button href="/contactar" variant="primary" className="mt-4 text-2xl">
+              <Button href={toLocalePath(locale, "/contactar")} variant="primary" className="mt-4 text-2xl">
                 {t("button")}
               </Button>
             </div>

@@ -168,6 +168,11 @@
     "legalPrivacy": "pribatutasun politika",
     "legalSuffix": "eta baldintzak onartzen dituzu."
   },
+  "contactPage": {
+    "eyebrow": "Harremana",
+    "title": "Hitz egin dezagun zure proiektuaz",
+    "description": "Bete formularioa eta zurekin harremanetan jarriko gara konpromisorik gabeko hasierako dei baterako."
+  },
   "footerSection": {
     "sections": {
       "pages": "Orriak",
