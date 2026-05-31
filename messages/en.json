@@ -183,7 +183,7 @@
     "title": "Shall we transform your business?",
     "description": "Discover how artificial intelligence can revolutionize your business. Contact us today.",
     "officeLabel": "Offices in Spain",
-    "officeValue": "We operate across Spain",
+    "officeValue": "Offices in Elgoibar",
     "emailLabel": "Email",
     "phoneLabel": "Phone"
   },
@@ -209,6 +209,7 @@
   "contactPage": {
     "eyebrow": "Contact",
     "title": "Let's talk about your project",
+    "subtitle": "and transform your business",
     "description": "Fill out the form and we will get in touch for a no-obligation introductory call."
   },
   "aboutPage": {

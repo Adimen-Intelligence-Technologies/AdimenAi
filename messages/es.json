@@ -183,7 +183,7 @@
     "title": "¿Transformamos tu negocio?",
     "description": "Descubre cómo la inteligencia artificial puede revolucionar tu negocio. Contáctanos hoy.",
     "officeLabel": "Oficinas en España",
-    "officeValue": "Operamos en toda España",
+    "officeValue": "Oficinas en Elgoibar",
     "emailLabel": "Email",
     "phoneLabel": "Teléfono"
   },
@@ -209,6 +209,7 @@
   "contactPage": {
     "eyebrow": "Contacto",
     "title": "Hablemos de tu proyecto",
+    "subtitle": "y transforma tu negocio",
     "description": "Completa el formulario y nos pondremos en contacto contigo para una llamada inicial sin compromiso."
   },
   "aboutPage": {

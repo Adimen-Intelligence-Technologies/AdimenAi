@@ -183,7 +183,7 @@
     "title": "Zure negozioa eraldatuko dugu?",
     "description": "Ezagutu adimen artifizialak zure negozioa nola iraul dezakeen. Jarri gurekin harremanetan gaur bertan.",
     "officeLabel": "Bulegoak Espainian",
-    "officeValue": "Espainia osoan jarduten dugu",
+    "officeValue": "Bulegoak Elgoibarren",
     "emailLabel": "Emaila",
     "phoneLabel": "Telefonoa"
   },
@@ -209,6 +209,7 @@
   "contactPage": {
     "eyebrow": "Harremana",
     "title": "Hitz egin dezagun zure proiektuaz",
+    "subtitle": "etaeraldatu zure negozioa",
     "description": "Bete formularioa eta zurekin harremanetan jarriko gara konpromisorik gabeko hasierako dei baterako."
   },
   "aboutPage": {
