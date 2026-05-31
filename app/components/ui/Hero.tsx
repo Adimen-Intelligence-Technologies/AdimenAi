@@ -36,6 +36,12 @@ export function Hero() {
             >
               {t("title")}
             </h1>
+            <h2
+              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black tracking-tighter leading-tight -mt-2 animate-hero-fade"
+              style={{ animationDelay: "0.25s" }}
+            >
+              {t("subtitle")}
+            </h2>
             <p
               className="max-w-3xl text-base sm:text-lg text-black leading-tight animate-hero-fade"
               style={{ animationDelay: "0.35s" }}
