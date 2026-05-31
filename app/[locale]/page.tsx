@@ -7,8 +7,11 @@ import {InfoSection} from '@/app/components/ui/InfoSection';
 import {CtaSection} from '@/app/components/ui/CtaSection';
 import {FaqSection} from '@/app/components/ui/FaqSection';
 import {ContactBlock} from '@/app/components/ui/ContactBlock';
+import {getTranslations} from 'next-intl/server';
 
-export default function HomePage() {
+export default async function HomePage() {
+  const t = await getTranslations('infoSection');
+
   return (
     <div className="flex flex-col">
       <Hero />
@@ -17,19 +20,19 @@ export default function HomePage() {
       <BeamSection />
       <UseCasesSection />
       <InfoSection
-        eyebrow="Por qué elegirnos"
-        title="Tu socio en automatización inteligente"
-        subtitle="Creamos soluciones prácticas que funcionan con tus procesos y sistemas existentes."
-        text="Desde la extracción automática de datos hasta la integración con ERP y CRM, ofrecemos una implementación rápida y totalmente adaptada a tu equipo."
+        eyebrow={t('eyebrow')}
+        title={t('title')}
+        subtitle={t('subtitle')}
+        text={t('text')}
         items={[
-          'Diseño de flujo de trabajo personalizado',
-          'Integración segura con tus sistemas actuales',
-          'Monitoreo continuo y ajuste automático',
-          'Soporte y formación para tu equipo',
+          t('items.0'),
+          t('items.1'),
+          t('items.2'),
+          t('items.3'),
         ]}
-        imageAlt="Equipo trabajando en una solución de IA"
+        imageAlt={t('imageAlt')}
         videoSrc="/dashboard-animation.mp4"
-        buttonLabel="Ver cómo funciona"
+        buttonLabel={t('button')}
         buttonHref="/contactar"
       />
       <CtaSection />

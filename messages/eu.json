@@ -1,0 +1,193 @@
+{
+  "nav": {
+    "services": "Zerbitzuak",
+    "useCases": "Erabilera kasuak",
+    "blog": "Bloga",
+    "contact": "Harremana",
+    "menu": "Menua",
+    "openMenu": "Ireki menua",
+    "closeMenu": "Itxi menua"
+  },
+  "language": {
+    "switch": "Hizkuntza aldatu",
+    "es": "Espainiera",
+    "en": "Ingelesa",
+    "eu": "Euskara"
+  },
+  "hero": {
+    "eyebrow": "Adimen artifiziala enpresentzat",
+    "title": "Automatizatu zure enpresa adimen artifizialarekin",
+    "description": "AA agenteak, prozesuen automatizazioak, chatbot-ak eta online dendak neurrira diseinatu eta ezartzen ditugu. Aurrez aurreko aholkularitza eskuragarri Espainia osoan.",
+    "ctaPrimary": "Doako deia",
+    "ctaSecondary": "Zerbitzuak ikusi",
+    "stats": {
+      "processes": "600+ prozesu automatizatu",
+      "operations": "Erkidego barruko eragiketak",
+      "call": "Lehen kontsulta doan"
+    }
+  },
+  "servicesSection": {
+    "badge": "Gure zerbitzuak",
+    "title": "Lau modu adimen artifiziala zure enpresan ezartzeko",
+    "description": "Automatizazio sinple batetik proiektu oso pertsonalizatura. Zure enpresara, taldeara eta sistemetara egokitua.",
+    "items": [
+      {
+        "title": "Prozesuen automatizazioa",
+        "description": "Zure barne-prozesuak automatizatzen ditugu, eskuzko zeregin errepikakorrak ezabatzeko eta denbora irabazteko."
+      },
+      {
+        "title": "Neurrira egindako AA agenteak",
+        "description": "Zure erabilera kasuetara eta prozesu espezifikoetara egokitzen diren agente adimendun pertsonalizatuak sortzen ditugu."
+      },
+      {
+        "title": "Sistemen integrazioa",
+        "description": "AA zure ERP, CRM eta barne-tresnekin konektatzen dugu, sistema bakar gisa funtziona dezaten."
+      },
+      {
+        "title": "Enpresentzako AA chatbot-ak",
+        "description": "Salmenta, euskarria eta arreta korporatiborako elkarrizketa bidezko AA chatbot-ak diseinatzen ditugu."
+      }
+    ]
+  },
+  "useCasesSection": {
+    "badge": "Erabilera kasuak",
+    "title": "Zer automatiza dezake zure enpresak?",
+    "description": "Hauek dira Espainiako gure bezeroentzat automatizatzen ditugun prozesu ohikoenetako batzuk.",
+    "items": [
+      {
+        "title": "Eskaeren kudeaketa",
+        "description": "Langileak hornitzailearen PDF-a birbidaltzen du eta agenteak ERP-an automatikoki erregistratzen du."
+      },
+      {
+        "title": "Fakturazio automatikoa",
+        "description": "Fakturen datuen erauzketa eta kontabilitate-sisteman erregistro automatikoa."
+      },
+      {
+        "title": "Txosten automatikoak",
+        "description": "Asteko txostenak sortu eta bidaltzea, inork kalkulu-orri bat ukitu gabe."
+      },
+      {
+        "title": "Emailen kudeaketa",
+        "description": "Kontsulta motaren arabera sailkapena, erantzun automatikoa eta bideratzea."
+      },
+      {
+        "title": "Lead-en jarraipena",
+        "description": "Kontaktuen kalifikazio automatikoa eta CRM eguneraketa eskuzko esku-hartzerik gabe."
+      },
+      {
+        "title": "Alertak eta jakinarazpenak",
+        "description": "Sistemak anomaliak edo gertaera gakoak detektatzen ditu eta taldea denbora errealean abisatzen du."
+      },
+      {
+        "title": "Stock kontrola",
+        "description": "Inbentarioaren eguneraketa automatikoa eta stocka minimoaren azpitik jaisten denean berritze-alertak."
+      },
+      {
+        "title": "Bezeroarentzako arreta",
+        "description": "Chatbot-ak 24/7 ohiko galderak erantzuten ditu eta behar denean giza agente batera eskalatzen du."
+      }
+    ]
+  },
+  "infoSection": {
+    "eyebrow": "Zergatik gu aukeratu",
+    "title": "Automatizazio adimendunean zure bazkidea",
+    "subtitle": "Zure prozesu eta sistema daudenekin funtzionatzen duten irtenbide praktikoak sortzen ditugu.",
+    "text": "Datuen erauzketa automatikotik ERP eta CRM integraziora, ezarpen azkarra eta zure taldera guztiz egokitua eskaintzen dugu.",
+    "items": [
+      "Lan-fluxuaren diseinu pertsonalizatua",
+      "Zure egungo sistemekin integrazio segurua",
+      "Etengabeko monitorizazioa eta doikuntza automatikoa",
+      "Zure taldearentzako laguntza eta prestakuntza"
+    ],
+    "imageAlt": "AA irtenbide batean lanean ari den taldea",
+    "button": "Ikusi nola funtzionatzen duen"
+  },
+  "ctaSection": {
+    "title": "Hurrengo pausoa emateko prest?",
+    "description": "Lehen deia doan. Konpromisorik gabe. Aurrera eginez gero fakturarekin.",
+    "button": "Erreserbatu doako deia"
+  },
+  "faqSection": {
+    "badge": "Ohiko galderak",
+    "title": "Aurkitu zure erantzunak",
+    "description": "Gure irtenbideei eta zure taldeari nola laguntzen diogun buruzko erantzun azkarrak.",
+    "needHelp": "Laguntza gehiago behar duzu?",
+    "button": "Jarri gurekin harremanetan",
+    "items": [
+      {
+        "question": "Beharrezkoa al da ezagutza teknikoa nire enpresan AA ezartzeko?",
+        "answer": "Ez. Garapen eta integrazio osoaz gu arduratzen gara. Zure taldeak azken emaitza erabiltzea baino ez du behar, ahalik eta errazena izan dadin diseinatzen duguna."
+      },
+      {
+        "question": "Enpresan bertan aurrez aurreko aholkularitza egiten duzue?",
+        "answer": "Bai. Bezeroaren instalazioetara joaten gara barne-prozesuak bertatik bertara aztertzeko eta kanpotik ikusten ez diren automatizazio-aukerak detektatzeko."
+      },
+      {
+        "question": "Online denda bat sor dezakezue nire negozio edo jatetxerako?",
+        "answer": "Bai. Online eskaera-sistemak eta webguneak ezartzen ditugu negozio eta jatetxeentzat, kontrol-panel oso erraz batekin."
+      },
+      {
+        "question": "Zuen irtenbideek edozein ERP edo sistemarekin funtzionatzen dute?",
+        "answer": "Bai. SAP, Dynamics AX, Holded, Sage eta API edo datu-basera sarbidea duen edozein sistemarekin lan egiten dugu."
+      },
+      {
+        "question": "Zenbat denbora behar da ezarpenerako?",
+        "answer": "Online denda bat 1-2 astetan. Automatizazio sinple bat 2 astetan. ERP integrazioa duen AA agente oso bat 4 eta 8 aste artean."
+      },
+      {
+        "question": "BEZarekin faktura ematen duzue?",
+        "answer": "Bai. Espainian erregistratutako autonomoak gara eta betebehar fiskal guztiak egunean ditugu. BEZarekin faktura ematen dugu eta Europako enpresekin lan egiten dugu."
+      }
+    ]
+  },
+  "contactBlock": {
+    "badge": "Harremanetan egon gaitezen",
+    "title": "Zure negozioa eraldatuko dugu?",
+    "description": "Ezagutu adimen artifizialak zure negozioa nola iraul dezakeen. Jarri gurekin harremanetan gaur bertan.",
+    "officeLabel": "Bulegoak Espainian",
+    "officeValue": "Espainia osoan jarduten dugu",
+    "emailLabel": "Emaila",
+    "phoneLabel": "Telefonoa"
+  },
+  "contactForm": {
+    "name": "Izena",
+    "namePlaceholder": "Jane Smith",
+    "email": "Emaila",
+    "emailPlaceholder": "jane@enpresa.com",
+    "phone": "Telefonoa",
+    "phonePlaceholder": "+34 612 345 678",
+    "subject": "Gaia",
+    "subjectPlaceholder": "Hautatu gai bat...",
+    "subjectDemo": "Demo pertsonalizatua",
+    "subjectAutomation": "Automatizazioa",
+    "subjectIntegration": "Sistemen integrazioa",
+    "message": "Mezua",
+    "messagePlaceholder": "Nola lagun zaitzakegu?",
+    "submit": "Bidali eskaera",
+    "legalPrefix": "Bidaltzean gure",
+    "legalPrivacy": "pribatutasun politika",
+    "legalSuffix": "eta baldintzak onartzen dituzu."
+  },
+  "footerSection": {
+    "sections": {
+      "pages": "Orriak",
+      "other": "Beste orriak",
+      "contact": "Harremana"
+    },
+    "pages": {
+      "home": "Hasiera",
+      "services": "Zerbitzuak",
+      "commerce": "Merkataritza",
+      "useCases": "Erabilera kasuak"
+    },
+    "other": {
+      "blog": "Bloga",
+      "cookies": "Cookieak",
+      "privacy": "Pribatutasun politika"
+    },
+    "contact": {
+      "office": "Bilboko bulegoak"
+    },
+    "builtBy": "Sortzailea"
+  }
+}

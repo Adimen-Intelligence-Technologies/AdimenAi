@@ -1,8 +1,11 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { Button } from "./Button";
 
 export function ContactForm() {
+  const t = useTranslations("contactForm");
+
   return (
     <div className="relative overflow-hidden rounded border border-white/20 bg-white/20 ">
       <div className="absolute inset-x-0 top-0 h-2 opacity-80 blur-xl" />
@@ -10,54 +13,54 @@ export function ContactForm() {
         <form className="grid gap-3">
           <div className="grid gap-3 md:grid-cols-2">
             <label className="flex flex-col text-sm  text-zinc-900 tracking-tight">
-              Nombre
+              {t("name")}
               <input
                 type="text"
                 name="name"
-                placeholder="Jane Smith"
+                placeholder={t("namePlaceholder")}
                 className="min-h-13 border-b border-zinc-300 bg-transparent text-zinc-900 outline-none transition focus:border-b-[#7252FF] focus:ring-0"
               />
             </label>
             <label className="flex flex-col text-sm  text-zinc-900 tracking-tight">
-              Email
+              {t("email")}
               <input
                 type="email"
                 name="email"
-                placeholder="jane@framer.com"
+                placeholder={t("emailPlaceholder")}
                 className="min-h-13 border-b border-zinc-300 bg-transparent text-zinc-900 outline-none transition focus:border-b-[#7252FF] focus:ring-0"
               />
             </label>
           </div>
 
           <label className="flex flex-col text-sm  text-zinc-900 tracking-tight">
-            Teléfono
+            {t("phone")}
             <input
               type="tel"
               name="phone"
-              placeholder="+34 612 345 678"
+              placeholder={t("phonePlaceholder")}
               className="min-h-13 border-b border-zinc-300 bg-transparent text-zinc-900 outline-none transition focus:border-b-[#7252FF] focus:ring-0"
             />
           </label>
 
           <label className="flex flex-col gap-2 text-sm text-zinc-900 tracking-tight">
-            Asunto
+            {t("subject")}
             <select
               name="subject"
               className="min-h-13 border-b border-zinc-300 bg-transparent py-1 text-sm text-zinc-900  outline-none transition focus:border-b-[#7252FF] focus:ring-0"
             >
-              <option value="">Selecciona un asunto...</option>
-              <option value="demo">Demo personalizada</option>
-              <option value="automation">Automatización</option>
-              <option value="integration">Integración de sistemas</option>
+              <option value="">{t("subjectPlaceholder")}</option>
+              <option value="demo">{t("subjectDemo")}</option>
+              <option value="automation">{t("subjectAutomation")}</option>
+              <option value="integration">{t("subjectIntegration")}</option>
             </select>
           </label>
 
           <label className="flex flex-col gap-2 text-sm text-zinc-900 tracking-tight">
-            Mensaje
+            {t("message")}
             <textarea
               name="message"
               rows={6}
-              placeholder="Cómo podemos ayudarte?"
+              placeholder={t("messagePlaceholder")}
               className="min-h-3 border-b border-zinc-300 bg-transparent tracking-tight  text-sm text-zinc-900  outline-none transition focus:border-b-[#7252FF] focus:ring-0"
             />
           </label>
@@ -66,11 +69,11 @@ export function ContactForm() {
             type="submit"
             className="tracking-tight h-14 border-transparent bg-[#7252FF] px-8 text-sm text-white hover:bg-[#5b3fe6]"
           >
-            Enviar solicitud
+            {t("submit")}
           </Button>
 
           <p className="text-center text-sm text-zinc-600 tracking-tight">
-            Al enviar aceptas nuestra <span className="text-[#7252FF] font-bold">política de privacidad</span> y términos.
+            {t("legalPrefix")} <span className="text-[#7252FF] font-bold">{t("legalPrivacy")}</span> {t("legalSuffix")}
           </p>
         </form>
       </div>

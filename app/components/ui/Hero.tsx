@@ -1,14 +1,19 @@
+"use client";
+
 import { Button } from "./Button";
 import { Wrapper } from "../Wrapper";
 import { Zap, Wallet, TrendingUp } from "lucide-react";
-
-const stats = [
-  { icon: Zap, label: "600+ procesos automatizados" },
-  { icon: Wallet, label: "Operaciones intracomunitarias" },
-  { icon: TrendingUp, label: "Primera consulta gratuita" },
-];
+import { useLocale, useTranslations } from "next-intl";
 
 export function Hero() {
+  const t = useTranslations("hero");
+  const locale = useLocale();
+  const stats = [
+    { icon: Zap, label: t("stats.processes") },
+    { icon: Wallet, label: t("stats.operations") },
+    { icon: TrendingUp, label: t("stats.call") },
+  ];
+
   return (
     <section className="relative flex items-center justify-center border-b border-zinc-200">
       <Wrapper className="border-x-0  border-zinc-200 ">
@@ -22,31 +27,29 @@ export function Hero() {
               className="text-base sm:text-lg md:text-xl font-medium text-gray-600 tracking-wide animate-hero-fade"
               style={{ animationDelay: "0.1s" }}
             >
-              Inteligencia artificial para empresas
+              {t("eyebrow")}
             </p>
             <h1
               className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black tracking-tighter leading-tight animate-hero-fade"
               style={{ animationDelay: "0.2s" }}
             >
-              Automatiza tu empresa con inteligencia artificial
+              {t("title")}
             </h1>
             <p
               className="max-w-3xl text-base sm:text-lg text-black leading-tight animate-hero-fade"
               style={{ animationDelay: "0.35s" }}
             >
-              Diseñamos e implementamos agentes de IA, automatizaciones de procesos,
-              chatbots y tiendas online a medida. Consultoría presencial disponible
-              en toda España.
+              {t("description")}
             </p>
             <div
               className="flex flex-col sm:flex-row gap-4 mt-8 animate-hero-fade"
               style={{ animationDelay: "0.5s" }}
             >
               <Button href="/contactar" variant="primary">
-                Llamada gratuita
+                {t("ctaPrimary")}
               </Button>
-              <Button href="/#servicios" variant="secondary">
-                Ver servicios
+              <Button href={`/${locale}/#servicios`} variant="secondary">
+                {t("ctaSecondary")}
               </Button>
             </div>
             <div

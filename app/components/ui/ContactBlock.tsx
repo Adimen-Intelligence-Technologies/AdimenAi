@@ -1,8 +1,11 @@
 import { Wrapper } from "../Wrapper";
 import { ContactForm } from "./ContactForm";
 import { Sparkles } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export function ContactBlock() {
+  const t = useTranslations("contactBlock");
+
   return (
     <section id="contacto">
       <Wrapper>
@@ -16,20 +19,19 @@ export function ContactBlock() {
             style={{ animationDelay: "0.1s" }}
           >
             <Sparkles className="h-5 w-5 text-[#6C47FF] tracking-tight" />
-            Estemos en contacto
+            {t("badge")}
           </div>
           <h2
             className={`text-3xl sm:text-4xl md:text-[40px] font-semibold tracking-tight`}
             style={{ animationDelay: "0.2s" }}
           >
-            ¿Transformamos tu negocio?
+            {t("title")}
           </h2>
           <p
             className={`mx-auto mt-4 max-w-2xl text-sm sm:text-base tracking-tight`}
             style={{ animationDelay: "0.3s" }}
           >
-            Descubre cómo la inteligencia artificial puede revolucionar tu
-            negocio. Contáctanos hoy.
+            {t("description")}
           </p>
         </div>
         <div className="flex flex-col gap-8 mt-10 mx-auto max-w-4xl lg:flex-row">
@@ -39,17 +41,17 @@ export function ContactBlock() {
           <div className=" mt-10 lg:flex-1 space-y-5">
             <div>
               <p className="text-zinc-700 text-sm tracking-tight mb-2">
-                Oficinas en España
+                {t("officeLabel")}
               </p>
-              <p className="tracking-tight font-bold">Operamos en toda España</p>
+              <p className="tracking-tight font-bold">{t("officeValue")}</p>
             </div>
             <div>
-              <p className="text-zinc-700 text-sm tracking-tight mb-2">Email</p>
+              <p className="text-zinc-700 text-sm tracking-tight mb-2">{t("emailLabel")}</p>
               <p className="tracking-tight font-bold">info@adimenai.com</p>
             </div>
 
             <div>
-              <p className="text-zinc-700 text-sm tracking-tight mb-2">Teléfono</p>
+              <p className="text-zinc-700 text-sm tracking-tight mb-2">{t("phoneLabel")}</p>
               <p className="tracking-tight font-bold">+34 123 456 789</p>
             </div>
           </div>

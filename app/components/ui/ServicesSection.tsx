@@ -2,37 +2,34 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Cpu, MessageSquare, Settings2, Sparkles } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { Card } from "./Card";
 import { Wrapper } from "../Wrapper";
 
-const services = [
-  {
-    title: "Automatización de procesos",
-    description:
-      "Automatizamos tus procesos internos para eliminar tareas manuales repetitivas y ganar tiempo.",
-    icon: Cpu,
-  },
-  {
-    title: "Agentes de IA a medida",
-    description:
-      "Creamos agentes inteligentes personalizados que se adaptan a tus casos de uso y procesos específicos.",
-    icon: MessageSquare,
-  },
-  {
-    title: "Integración con sistemas",
-    description:
-      "Conectamos IA con tu ERP, CRM y herramientas internas para que funcionen como un único sistema.",
-    icon: Sparkles,
-  },
-  {
-    title: "Chatbots con IA para empresas",
-    description:
-      "Diseñamos chatbots conversacionales con IA para ventas, soporte y atención corporativa.",
-    icon: Settings2,
-  },
-];
-
 export function ServicesSection() {
+  const t = useTranslations("servicesSection");
+  const services = [
+    {
+      title: t("items.0.title"),
+      description: t("items.0.description"),
+      icon: Cpu,
+    },
+    {
+      title: t("items.1.title"),
+      description: t("items.1.description"),
+      icon: MessageSquare,
+    },
+    {
+      title: t("items.2.title"),
+      description: t("items.2.description"),
+      icon: Sparkles,
+    },
+    {
+      title: t("items.3.title"),
+      description: t("items.3.description"),
+      icon: Settings2,
+    },
+  ];
   const sectionRef = useRef<HTMLDivElement | null>(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -69,21 +66,19 @@ export function ServicesSection() {
               style={{ animationDelay: "0.1s" }}
             >
               <Sparkles className="h-5 w-5 text-[#6C47FF]" />
-              Nuestros servicios
+              {t("badge")}
             </div>
             <h2
               className={`text-3xl sm:text-4xl md:text-[40px] font-semibold ${fadeClass}`}
               style={{ animationDelay: "0.2s" }}
             >
-              Cuatro formas de implementar la inteligencia artificial en tu
-              empresa
+              {t("title")}
             </h2>
             <p
               className={`mx-auto mt-4 max-w-2xl text-sm sm:text-base  ${fadeClass}`}
               style={{ animationDelay: "0.3s" }}
             >
-              Desde una automatización sencilla hasta un proyecto completo a
-              medida. Adaptado a tu empresa, tu equipo y tu sistema.
+              {t("description")}
             </p>
           </div>
 

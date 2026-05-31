@@ -1,62 +1,55 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useTranslations } from "next-intl";
 import { Bell, Box, FileText, Mail, MessageSquare, Truck, Users, BarChart3, Sparkles } from "lucide-react";
 import { Wrapper } from "../Wrapper";
 import { Card } from "./Card";
 
-const useCases = [
-  {
-    title: "Gestión de pedidos",
-    description:
-      "El trabajador reenvía el PDF del proveedor y el agente lo registra automáticamente en el ERP.",
-    icon: Truck,
-  },
-  {
-    title: "Facturación automática",
-    description:
-      "Extracción de datos de facturas y registro automático en el sistema contable.",
-    icon: FileText,
-  },
-  {
-    title: "Informes automáticos",
-    description:
-      "Generación y envío de informes semanales sin que nadie toque una hoja de cálculo.",
-    icon: BarChart3,
-  },
-  {
-    title: "Gestión de emails",
-    description:
-      "Clasificación, respuesta automática y derivación de emails según el tipo de consulta.",
-    icon: Mail,
-  },
-  {
-    title: "Seguimiento de leads",
-    description:
-      "Cualificación automática de contactos y actualización del CRM sin intervención manual.",
-    icon: Users,
-  },
-  {
-    title: "Alertas y notificaciones",
-    description:
-      "El sistema detecta anomalías o eventos clave y notifica al equipo en tiempo real.",
-    icon: Bell,
-  },
-  {
-    title: "Control de stock",
-    description:
-      "Actualización automática del inventario y alertas de reposición cuando el stock baja del mínimo.",
-    icon: Box,
-  },
-  {
-    title: "Atención al cliente",
-    description:
-      "Chatbot que responde preguntas frecuentes 24/7 y escala a un agente humano cuando es necesario.",
-    icon: MessageSquare,
-  },
-];
-
 export function UseCasesSection() {
+  const t = useTranslations("useCasesSection");
+  const useCases = [
+    {
+      title: t("items.0.title"),
+      description: t("items.0.description"),
+      icon: Truck,
+    },
+    {
+      title: t("items.1.title"),
+      description: t("items.1.description"),
+      icon: FileText,
+    },
+    {
+      title: t("items.2.title"),
+      description: t("items.2.description"),
+      icon: BarChart3,
+    },
+    {
+      title: t("items.3.title"),
+      description: t("items.3.description"),
+      icon: Mail,
+    },
+    {
+      title: t("items.4.title"),
+      description: t("items.4.description"),
+      icon: Users,
+    },
+    {
+      title: t("items.5.title"),
+      description: t("items.5.description"),
+      icon: Bell,
+    },
+    {
+      title: t("items.6.title"),
+      description: t("items.6.description"),
+      icon: Box,
+    },
+    {
+      title: t("items.7.title"),
+      description: t("items.7.description"),
+      icon: MessageSquare,
+    },
+  ];
   const sectionRef = useRef<HTMLDivElement | null>(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -94,19 +87,19 @@ export function UseCasesSection() {
               style={{ animationDelay: "0.1s" }}
             >
              <Sparkles className="h-5 w-5 text-[#6C47FF]" />
-              Nuestros servicios
+              {t("badge")}
             </div>
             <h2
               className={`text-3xl sm:text-4xl md:text-[40px] font-semibold ${fadeClass}`}
               style={{ animationDelay: "0.2s" }}
             >
-              ¿Qué puede automatizar tu empresa?
+              {t("title")}
             </h2>
             <p
               className={`mx-auto mt-4 max-w-2xl text-sm sm:text-base ${fadeClass}`}
               style={{ animationDelay: "0.3s" }}
             >
-              Estos son algunos de los procesos más habituales que automatizamos para nuestros clientes en España.
+              {t("description")}
             </p>
           </div>
 

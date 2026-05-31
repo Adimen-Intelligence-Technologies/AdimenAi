@@ -1,31 +1,34 @@
 ﻿"use client";
 
-import {useState} from 'react';
+import {useEffect, useRef, useState} from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import {useLocale, useTranslations} from 'next-intl';
 import {usePathname, useRouter} from 'next/navigation';
-import {Menu, X, Globe} from 'lucide-react';
+import {Menu, X, Globe, Check} from 'lucide-react';
 import {Button} from './Button';
 import {Wrapper} from '../Wrapper';
 
 export function Header() {
   const t = useTranslations('nav');
+  const tLang = useTranslations('language');
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
+  const langMenuRef = useRef<HTMLDivElement | null>(null);
 
   const menuItems = [
-    {label: t('services'), href: '/#servicios'},
-    {label: t('useCases'), href: '/#comercios'},
-    {label: 'Blog', href: '/blog'},
+    {label: t('services'), href: `/${locale}/#servicios`},
+    {label: t('useCases'), href: `/${locale}/#comercios`},
+    {label: t('blog'), href: '/blog'},
   ];
 
   const languages = [
-    {code: 'es', label: 'Espanol', flag: 'ES'},
-    {code: 'en', label: 'English', flag: 'EN'},
+    {code: 'es', label: tLang('es'), short: 'ES'},
+    {code: 'en', label: tLang('en'), short: 'EN'},
+    {code: 'eu', label: tLang('eu'), short: 'EU'},
   ];
 
   const switchLocale = (newLocale: string) => {
@@ -34,6 +37,21 @@ export function Header() {
     router.push(segments.join('/') || '/');
     setIsLangOpen(false);
   };
+
+  useEffect(() => {
+    if (!isLangOpen) {
+      return;
+    }
+
+    const handleOutsideClick = (event: MouseEvent) => {
+      if (!langMenuRef.current?.contains(event.target as Node)) {
+        setIsLangOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleOutsideClick);
+    return () => document.removeEventListener('mousedown', handleOutsideClick);
+  }, [isLangOpen]);
 
   return (
     <header className="relative z-20 border-b border-zinc-200 bg-white">
@@ -54,27 +72,43 @@ export function Header() {
         </div>
         <div className="flex items-center gap-4">
           <div className="hidden lg:block">
-            <Button href="/#contacto">Contactar</Button>
+            <Button href={`/${locale}/#contacto`}>{t('contact')}</Button>
           </div>
-          <div className="relative">
-            <button type="button" onClick={() => setIsLangOpen((prev) => !prev)} aria-expanded={isLangOpen} aria-label="Cambiar idioma" className="inline-flex h-11 w-11 items-center justify-center hover:text-black transition-colors">
-              <Globe className="h-5 w-5" aria-hidden="true" />
+          <div className="relative" ref={langMenuRef}>
+            <button
+              type="button"
+              onClick={() => setIsLangOpen((prev) => !prev)}
+              aria-expanded={isLangOpen}
+              aria-label={tLang('switch')}
+              className="inline-flex h-11 items-center gap-2 rounded-full border border-zinc-300 px-3 text-sm font-medium hover:border-zinc-400 hover:text-black transition-colors"
+            >
+              <Globe className="h-4 w-4" aria-hidden="true" />
+              <span>{locale.toUpperCase()}</span>
             </button>
             {isLangOpen && (
-              <div className="absolute right-0 mt-2 w-40 rounded-xl border border-zinc-200 bg-white shadow-lg z-50">
+              <div className="absolute right-0 mt-2 w-52 rounded-xl border border-zinc-200 bg-white shadow-lg z-50">
                 <div className="py-1">
                   {languages.map((lang) => (
-                    <button key={lang.code} onClick={() => switchLocale(lang.code)} className={`flex w-full items-center gap-3 px-4 py-3 text-left hover:bg-zinc-100 transition-colors ${locale === lang.code ? 'bg-zinc-50 font-medium' : ''}`}>
-                      <span className="text-lg">{lang.flag}</span>
-                      <span>{lang.label}</span>
+                    <button
+                      key={lang.code}
+                      onClick={() => switchLocale(lang.code)}
+                      className={`flex w-full items-center justify-between gap-3 px-4 py-3 text-left hover:bg-zinc-100 transition-colors ${locale === lang.code ? 'bg-zinc-50 font-medium' : ''}`}
+                    >
+                      <span className="flex items-center gap-3">
+                        <span className="inline-flex h-6 w-8 items-center justify-center rounded border border-zinc-300 text-xs font-semibold">
+                          {lang.short}
+                        </span>
+                        <span>{lang.label}</span>
+                      </span>
+                      {locale === lang.code ? <Check className="h-4 w-4" aria-hidden="true" /> : null}
                     </button>
                   ))}
                 </div>
               </div>
             )}
           </div>
-          <button type="button" onClick={() => setIsOpen((prev) => !prev)} aria-expanded={isOpen} aria-label={isOpen ? "Cerrar menu" : "Abrir menu"} className="inline-flex h-11 w-11 items-center justify-center hover:text-black lg:hidden">
-            <span className="sr-only">Menu</span>
+          <button type="button" onClick={() => setIsOpen((prev) => !prev)} aria-expanded={isOpen} aria-label={isOpen ? t('closeMenu') : t('openMenu')} className="inline-flex h-11 w-11 items-center justify-center hover:text-black lg:hidden">
+            <span className="sr-only">{t('menu')}</span>
             {isOpen ? <X className="h-5 w-5" aria-hidden="true" /> : <Menu className="h-5 w-5" aria-hidden="true" />}
           </button>
         </div>
@@ -92,8 +126,8 @@ export function Header() {
               ))}
             </ul>
           </nav>
-          <Button href="/#contacto" className={isOpen ? "opacity-100 transition-opacity duration-500 ease-in-out" : "opacity-0 transition-opacity duration-500 ease-in-out"}>
-            Contactar
+          <Button href={`/${locale}/#contacto`} className={isOpen ? "opacity-100 transition-opacity duration-500 ease-in-out" : "opacity-0 transition-opacity duration-500 ease-in-out"}>
+            {t('contact')}
           </Button>
         </Wrapper>
       </div>

@@ -1,44 +1,18 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import { Plus } from "lucide-react";
 import { Wrapper } from "../Wrapper";
 import { Button } from "./Button";
 
-const faqs = [
-  {
-    question: "¿Necesito conocimientos técnicos para implementar IA en mi empresa?",
-    answer:
-      "No. Nos encargamos de todo el desarrollo e integración. Tu equipo solo necesita saber usar el resultado final, que diseñamos para que sea lo más sencillo posible.",
-  },
-  {
-    question: "¿Hacéis consultoría presencial en la empresa?",
-    answer:
-      "Sí. Nos desplazamos a las instalaciones del cliente para analizar los procesos internos en persona, detectar cuellos de botella y oportunidades de automatización que no son evidentes desde fuera.",
-  },
-  {
-    question: "¿Podéis crear una tienda online para mi comercio o restaurante?",
-    answer:
-      "Sí. Implementamos sistemas de pedidos online y páginas web para comercios y restaurantes con un panel de control muy sencillo para que cualquier persona del negocio lo gestione sin conocimientos técnicos.",
-  },
-  {
-    question: "¿Funcionan vuestras soluciones con cualquier ERP o sistema?",
-    answer:
-      "Sí. Trabajamos con SAP, Dynamics AX, Holded, Sage y cualquier sistema con API o acceso a base de datos.",
-  },
-  {
-    question: "¿Cuánto tiempo tarda la implementación?",
-    answer:
-      "Una tienda online para un comercio en 1-2 semanas. Una automatización sencilla en 2 semanas. Un agente de IA completo con integración en ERP entre 4 y 8 semanas.",
-  },
-  {
-    question: "¿Emitís factura con IVA?",
-    answer:
-      "Sí. Somos autónomos registrados en España con todas las obligaciones fiscales al día. Emitimos factura con IVA y operamos con empresas de toda Europa con NIF intracomunitario.",
-  },
-];
-
 export function FaqSection() {
+  const t = useTranslations("faqSection");
+  const faqs = Array.from({ length: 6 }, (_, index) => ({
+    question: t(`items.${index}.question`),
+    answer: t(`items.${index}.answer`),
+  }));
+
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const handleToggle = (index: number) => {
@@ -60,21 +34,21 @@ export function FaqSection() {
             <div className="max-w-md">
               <div className="inline-flex items-center gap-2 text-[30px] text-[#6e56ff]">
                 <span className="leading-none">+</span>
-                <p className="text-lg font-medium text-zinc-900 tracking-tight">Preguntas frecuentes</p>
+                <p className="text-lg font-medium text-zinc-900 tracking-tight">{t("badge")}</p>
               </div>
 
               <h2 className="mt-4 text-4xl font-semibold tracking-tight text-black sm:text-[54px] sm:leading-[1.06]">
-                Encuentra tus respuestas
+                {t("title")}
               </h2>
 
               <p className="mt-4 max-w-sm text-xl text-black tracking-tight">
-                Respuestas rápidas sobre nuestras soluciones y cómo ayudamos a tu equipo.
+                {t("description")}
               </p>
 
-              <p className="mt-8 text-xl font-medium text-black tracking-tight">¿Todavía necesitas ayuda?</p>
+              <p className="mt-8 text-xl font-medium text-black tracking-tight">{t("needHelp")}</p>
 
               <Button href="/contactar" variant="primary" className="mt-4 text-2xl">
-                Contáctanos
+                {t("button")}
               </Button>
             </div>
 

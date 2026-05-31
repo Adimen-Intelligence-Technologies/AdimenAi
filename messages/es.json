@@ -1,47 +1,193 @@
 {
   "nav": {
     "services": "Servicios",
-    "useCases": "Casos de Uso",
-    "about": "Nosotros",
-    "contact": "Contactar"
+    "useCases": "Casos de uso",
+    "blog": "Blog",
+    "contact": "Contactar",
+    "menu": "Menú",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "language": {
+    "switch": "Cambiar idioma",
+    "es": "Español",
+    "en": "English",
+    "eu": "Euskara"
   },
   "hero": {
-    "title": "Inteligencia Artificial para tu Empresa",
-    "subtitle": "Transformamos procesos empresariales con soluciones de IA personalizadas que generan resultados medibles.",
-    "cta": "Habla con un Experto"
-  },
-  "services": {
-    "title": "Servicios",
-    "subtitle": "Soluciones adaptadas a tus necesidades",
-    "chatbots": {
-      "title": "Chatbots Inteligentes",
-      "description": "Asistentes virtuales que entienden el contexto y resuelven consultas en tiempo real."
-    },
-    "computerVision": {
-      "title": "Visión por Computador",
-      "description": "Sistemas de detección y análisis de imágenes para automatización industrial."
-    },
-    "nlp": {
-      "title": "Procesamiento de Lenguaje",
-      "description": "Análisis de texto y documentos para extraer información relevante."
-    },
-    "predictive": {
-      "title": "Modelos Predictivos",
-      "description": "Algoritmos que anticipan tendencias y comportamientos para decisiones data-driven."
+    "eyebrow": "Inteligencia artificial para empresas",
+    "title": "Automatiza tu empresa con inteligencia artificial",
+    "description": "Diseñamos e implementamos agentes de IA, automatizaciones de procesos, chatbots y tiendas online a medida. Consultoría presencial disponible en toda España.",
+    "ctaPrimary": "Llamada gratuita",
+    "ctaSecondary": "Ver servicios",
+    "stats": {
+      "processes": "600+ procesos automatizados",
+      "operations": "Operaciones intracomunitarias",
+      "call": "Primera consulta gratuita"
     }
   },
-  "contact": {
-    "title": "Contactar",
-    "name": "Nombre",
-    "email": "Email",
-    "company": "Empresa",
-    "message": "Mensaje",
-    "submit": "Enviar",
-    "sending": "Enviando..."
+  "servicesSection": {
+    "badge": "Nuestros servicios",
+    "title": "Cuatro formas de implementar la inteligencia artificial en tu empresa",
+    "description": "Desde una automatización sencilla hasta un proyecto completo a medida. Adaptado a tu empresa, tu equipo y tu sistema.",
+    "items": [
+      {
+        "title": "Automatización de procesos",
+        "description": "Automatizamos tus procesos internos para eliminar tareas manuales repetitivas y ganar tiempo."
+      },
+      {
+        "title": "Agentes de IA a medida",
+        "description": "Creamos agentes inteligentes personalizados que se adaptan a tus casos de uso y procesos específicos."
+      },
+      {
+        "title": "Integración con sistemas",
+        "description": "Conectamos IA con tu ERP, CRM y herramientas internas para que funcionen como un único sistema."
+      },
+      {
+        "title": "Chatbots con IA para empresas",
+        "description": "Diseñamos chatbots conversacionales con IA para ventas, soporte y atención corporativa."
+      }
+    ]
   },
-  "footer": {
-    "rights": "Todos los derechos reservados.",
-    "privacy": "Privacidad",
-    "terms": "Términos"
+  "useCasesSection": {
+    "badge": "Casos de uso",
+    "title": "¿Qué puede automatizar tu empresa?",
+    "description": "Estos son algunos de los procesos más habituales que automatizamos para nuestros clientes en España.",
+    "items": [
+      {
+        "title": "Gestión de pedidos",
+        "description": "El trabajador reenvía el PDF del proveedor y el agente lo registra automáticamente en el ERP."
+      },
+      {
+        "title": "Facturación automática",
+        "description": "Extracción de datos de facturas y registro automático en el sistema contable."
+      },
+      {
+        "title": "Informes automáticos",
+        "description": "Generación y envío de informes semanales sin que nadie toque una hoja de cálculo."
+      },
+      {
+        "title": "Gestión de emails",
+        "description": "Clasificación, respuesta automática y derivación de emails según el tipo de consulta."
+      },
+      {
+        "title": "Seguimiento de leads",
+        "description": "Cualificación automática de contactos y actualización del CRM sin intervención manual."
+      },
+      {
+        "title": "Alertas y notificaciones",
+        "description": "El sistema detecta anomalías o eventos clave y notifica al equipo en tiempo real."
+      },
+      {
+        "title": "Control de stock",
+        "description": "Actualización automática del inventario y alertas de reposición cuando el stock baja del mínimo."
+      },
+      {
+        "title": "Atención al cliente",
+        "description": "Chatbot que responde preguntas frecuentes 24/7 y escala a un agente humano cuando es necesario."
+      }
+    ]
+  },
+  "infoSection": {
+    "eyebrow": "Por qué elegirnos",
+    "title": "Tu socio en automatización inteligente",
+    "subtitle": "Creamos soluciones prácticas que funcionan con tus procesos y sistemas existentes.",
+    "text": "Desde la extracción automática de datos hasta la integración con ERP y CRM, ofrecemos una implementación rápida y totalmente adaptada a tu equipo.",
+    "items": [
+      "Diseño de flujo de trabajo personalizado",
+      "Integración segura con tus sistemas actuales",
+      "Monitoreo continuo y ajuste automático",
+      "Soporte y formación para tu equipo"
+    ],
+    "imageAlt": "Equipo trabajando en una solución de IA",
+    "button": "Ver cómo funciona"
+  },
+  "ctaSection": {
+    "title": "¿Listo para dar el siguiente paso?",
+    "description": "Primera llamada gratuita. Sin compromiso. Con factura si decides seguir.",
+    "button": "Reservar llamada gratuita"
+  },
+  "faqSection": {
+    "badge": "Preguntas frecuentes",
+    "title": "Encuentra tus respuestas",
+    "description": "Respuestas rápidas sobre nuestras soluciones y cómo ayudamos a tu equipo.",
+    "needHelp": "¿Todavía necesitas ayuda?",
+    "button": "Contáctanos",
+    "items": [
+      {
+        "question": "¿Necesito conocimientos técnicos para implementar IA en mi empresa?",
+        "answer": "No. Nos encargamos de todo el desarrollo e integración. Tu equipo solo necesita saber usar el resultado final, que diseñamos para que sea lo más sencillo posible."
+      },
+      {
+        "question": "¿Hacéis consultoría presencial en la empresa?",
+        "answer": "Sí. Nos desplazamos a las instalaciones del cliente para analizar los procesos internos en persona, detectar cuellos de botella y oportunidades de automatización que no son evidentes desde fuera."
+      },
+      {
+        "question": "¿Podéis crear una tienda online para mi comercio o restaurante?",
+        "answer": "Sí. Implementamos sistemas de pedidos online y páginas web para comercios y restaurantes con un panel de control muy sencillo para que cualquier persona del negocio lo gestione sin conocimientos técnicos."
+      },
+      {
+        "question": "¿Funcionan vuestras soluciones con cualquier ERP o sistema?",
+        "answer": "Sí. Trabajamos con SAP, Dynamics AX, Holded, Sage y cualquier sistema con API o acceso a base de datos."
+      },
+      {
+        "question": "¿Cuánto tiempo tarda la implementación?",
+        "answer": "Una tienda online para un comercio en 1-2 semanas. Una automatización sencilla en 2 semanas. Un agente de IA completo con integración en ERP entre 4 y 8 semanas."
+      },
+      {
+        "question": "¿Emitís factura con IVA?",
+        "answer": "Sí. Somos autónomos registrados en España con todas las obligaciones fiscales al día. Emitimos factura con IVA y operamos con empresas de toda Europa con NIF intracomunitario."
+      }
+    ]
+  },
+  "contactBlock": {
+    "badge": "Estemos en contacto",
+    "title": "¿Transformamos tu negocio?",
+    "description": "Descubre cómo la inteligencia artificial puede revolucionar tu negocio. Contáctanos hoy.",
+    "officeLabel": "Oficinas en España",
+    "officeValue": "Operamos en toda España",
+    "emailLabel": "Email",
+    "phoneLabel": "Teléfono"
+  },
+  "contactForm": {
+    "name": "Nombre",
+    "namePlaceholder": "Jane Smith",
+    "email": "Email",
+    "emailPlaceholder": "jane@empresa.com",
+    "phone": "Teléfono",
+    "phonePlaceholder": "+34 612 345 678",
+    "subject": "Asunto",
+    "subjectPlaceholder": "Selecciona un asunto...",
+    "subjectDemo": "Demo personalizada",
+    "subjectAutomation": "Automatización",
+    "subjectIntegration": "Integración de sistemas",
+    "message": "Mensaje",
+    "messagePlaceholder": "¿Cómo podemos ayudarte?",
+    "submit": "Enviar solicitud",
+    "legalPrefix": "Al enviar aceptas nuestra",
+    "legalPrivacy": "política de privacidad",
+    "legalSuffix": "y términos."
+  },
+  "footerSection": {
+    "sections": {
+      "pages": "Páginas",
+      "other": "Otras páginas",
+      "contact": "Contacto"
+    },
+    "pages": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "commerce": "Comercios",
+      "useCases": "Casos de uso"
+    },
+    "other": {
+      "blog": "Blog",
+      "cookies": "Cookies",
+      "privacy": "Política de privacidad"
+    },
+    "contact": {
+      "office": "Oficinas en Bilbao"
+    },
+    "builtBy": "Creado por"
   }
 }

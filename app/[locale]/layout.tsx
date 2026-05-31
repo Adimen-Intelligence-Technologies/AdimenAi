@@ -3,7 +3,7 @@ import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import {ChromeLayout} from '../components/ChromeLayout';
 
-const locales = ['es', 'en'];
+const locales = ['es', 'en', 'eu'];
 
 export function generateStaticParams() {
   return locales.map(locale => ({locale}));
@@ -17,7 +17,7 @@ type Props = {
 export default async function LocaleLayout({children, params}: Props) {
   const {locale} = await params;
 
-  if (!locales.includes(locale as 'es' | 'en')) {
+  if (!locales.includes(locale as 'es' | 'en' | 'eu')) {
     notFound();
   }
 

@@ -1,47 +1,193 @@
 {
   "nav": {
     "services": "Services",
-    "useCases": "Use Cases",
-    "about": "About Us",
-    "contact": "Contact"
+    "useCases": "Use cases",
+    "blog": "Blog",
+    "contact": "Contact",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "language": {
+    "switch": "Change language",
+    "es": "Spanish",
+    "en": "English",
+    "eu": "Basque"
   },
   "hero": {
-    "title": "Artificial Intelligence for your Business",
-    "subtitle": "We transform business processes with personalized AI solutions that generate measurable results.",
-    "cta": "Talk to an Expert"
-  },
-  "services": {
-    "title": "Services",
-    "subtitle": "Solutions tailored to your needs",
-    "chatbots": {
-      "title": "Intelligent Chatbots",
-      "description": "Virtual assistants that understand context and resolve queries in real-time."
-    },
-    "computerVision": {
-      "title": "Computer Vision",
-      "description": "Image detection and analysis systems for industrial automation."
-    },
-    "nlp": {
-      "title": "Natural Language Processing",
-      "description": "Text and document analysis to extract relevant information."
-    },
-    "predictive": {
-      "title": "Predictive Models",
-      "description": "Algorithms that anticipate trends and behaviors for data-driven decisions."
+    "eyebrow": "Artificial intelligence for businesses",
+    "title": "Automate your business with artificial intelligence",
+    "description": "We design and implement AI agents, process automations, chatbots and custom online stores. In-person consulting available across Spain.",
+    "ctaPrimary": "Free call",
+    "ctaSecondary": "View services",
+    "stats": {
+      "processes": "600+ automated processes",
+      "operations": "Intra-community operations",
+      "call": "First consultation free"
     }
   },
-  "contact": {
-    "title": "Contact",
-    "name": "Name",
-    "email": "Email",
-    "company": "Company",
-    "message": "Message",
-    "submit": "Send",
-    "sending": "Sending..."
+  "servicesSection": {
+    "badge": "Our services",
+    "title": "Four ways to implement artificial intelligence in your company",
+    "description": "From a simple automation to a fully custom project. Adapted to your business, your team and your systems.",
+    "items": [
+      {
+        "title": "Process automation",
+        "description": "We automate your internal workflows to remove repetitive manual work and save time."
+      },
+      {
+        "title": "Custom AI agents",
+        "description": "We build tailored intelligent agents that fit your use cases and specific processes."
+      },
+      {
+        "title": "System integration",
+        "description": "We connect AI to your ERP, CRM and internal tools so they work as a single system."
+      },
+      {
+        "title": "AI chatbots for companies",
+        "description": "We design conversational AI chatbots for sales, support and corporate service."
+      }
+    ]
   },
-  "footer": {
-    "rights": "All rights reserved.",
-    "privacy": "Privacy",
-    "terms": "Terms"
+  "useCasesSection": {
+    "badge": "Use cases",
+    "title": "What can your company automate?",
+    "description": "These are some of the most common processes we automate for our clients in Spain.",
+    "items": [
+      {
+        "title": "Order management",
+        "description": "The employee forwards the supplier PDF and the agent registers it automatically in the ERP."
+      },
+      {
+        "title": "Automated invoicing",
+        "description": "Invoice data extraction and automatic registration in your accounting system."
+      },
+      {
+        "title": "Automated reporting",
+        "description": "Weekly report generation and delivery without anyone touching a spreadsheet."
+      },
+      {
+        "title": "Email management",
+        "description": "Classification, automatic responses and routing by request type."
+      },
+      {
+        "title": "Lead tracking",
+        "description": "Automatic lead qualification and CRM updates with no manual intervention."
+      },
+      {
+        "title": "Alerts and notifications",
+        "description": "The system detects anomalies or key events and notifies the team in real time."
+      },
+      {
+        "title": "Stock control",
+        "description": "Automatic inventory updates and replenishment alerts when stock drops below minimum."
+      },
+      {
+        "title": "Customer support",
+        "description": "A chatbot answers frequent questions 24/7 and escalates to a human agent when needed."
+      }
+    ]
+  },
+  "infoSection": {
+    "eyebrow": "Why choose us",
+    "title": "Your partner in intelligent automation",
+    "subtitle": "We build practical solutions that work with your existing workflows and systems.",
+    "text": "From automated data extraction to ERP and CRM integration, we deliver fast implementation fully adapted to your team.",
+    "items": [
+      "Custom workflow design",
+      "Secure integration with your current systems",
+      "Continuous monitoring and automatic optimization",
+      "Support and training for your team"
+    ],
+    "imageAlt": "Team working on an AI solution",
+    "button": "See how it works"
+  },
+  "ctaSection": {
+    "title": "Ready for the next step?",
+    "description": "First call free. No commitment. Invoice available if you continue.",
+    "button": "Book a free call"
+  },
+  "faqSection": {
+    "badge": "Frequently asked questions",
+    "title": "Find your answers",
+    "description": "Quick answers about our solutions and how we help your team.",
+    "needHelp": "Still need help?",
+    "button": "Contact us",
+    "items": [
+      {
+        "question": "Do I need technical knowledge to implement AI in my company?",
+        "answer": "No. We handle the full development and integration. Your team only needs to use the final solution, which we design to be as simple as possible."
+      },
+      {
+        "question": "Do you provide on-site consulting at the company?",
+        "answer": "Yes. We visit client facilities to analyze internal processes in person and identify bottlenecks and automation opportunities that are hard to spot remotely."
+      },
+      {
+        "question": "Can you build an online store for my retail business or restaurant?",
+        "answer": "Yes. We implement online ordering systems and websites for shops and restaurants with a very simple control panel for non-technical teams."
+      },
+      {
+        "question": "Do your solutions work with any ERP or system?",
+        "answer": "Yes. We work with SAP, Dynamics AX, Holded, Sage and any system with an API or database access."
+      },
+      {
+        "question": "How long does implementation take?",
+        "answer": "An online store for a local business in 1-2 weeks. A simple automation in about 2 weeks. A full AI agent with ERP integration in 4 to 8 weeks."
+      },
+      {
+        "question": "Do you issue VAT invoices?",
+        "answer": "Yes. We are registered freelancers in Spain and fully tax compliant. We issue VAT invoices and operate with companies across Europe with intra-community VAT numbers."
+      }
+    ]
+  },
+  "contactBlock": {
+    "badge": "Let's stay in touch",
+    "title": "Shall we transform your business?",
+    "description": "Discover how artificial intelligence can revolutionize your business. Contact us today.",
+    "officeLabel": "Offices in Spain",
+    "officeValue": "We operate across Spain",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone"
+  },
+  "contactForm": {
+    "name": "Name",
+    "namePlaceholder": "Jane Smith",
+    "email": "Email",
+    "emailPlaceholder": "jane@company.com",
+    "phone": "Phone",
+    "phonePlaceholder": "+34 612 345 678",
+    "subject": "Subject",
+    "subjectPlaceholder": "Select a subject...",
+    "subjectDemo": "Custom demo",
+    "subjectAutomation": "Automation",
+    "subjectIntegration": "System integration",
+    "message": "Message",
+    "messagePlaceholder": "How can we help you?",
+    "submit": "Send request",
+    "legalPrefix": "By submitting, you accept our",
+    "legalPrivacy": "privacy policy",
+    "legalSuffix": "and terms."
+  },
+  "footerSection": {
+    "sections": {
+      "pages": "Pages",
+      "other": "Other pages",
+      "contact": "Contact"
+    },
+    "pages": {
+      "home": "Home",
+      "services": "Services",
+      "commerce": "Commerce",
+      "useCases": "Use cases"
+    },
+    "other": {
+      "blog": "Blog",
+      "cookies": "Cookies",
+      "privacy": "Privacy policy"
+    },
+    "contact": {
+      "office": "Offices in Bilbao"
+    },
+    "builtBy": "Built by"
   }
 }

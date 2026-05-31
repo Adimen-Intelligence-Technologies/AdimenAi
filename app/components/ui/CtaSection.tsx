@@ -1,10 +1,13 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import MagicRings from "./MagicRings";
 import { Button } from "./Button";
 import { Wrapper } from "../Wrapper";
 
 export function CtaSection() {
+  const t = useTranslations("ctaSection");
+
   return (
     <section id="comercios" className="relative overflow-hidden border-b border-zinc-200">
       <div className="pointer-events-none absolute inset-0">
@@ -25,17 +28,17 @@ export function CtaSection() {
         <div className="relative mx-auto max-w-3xl px-4 text-center text-black sm:px-6 lg:px-8">
          
           <h2 className="mt-5 text-3xl font-semibold  sm:text-4xl md:text-5xl tracking-tight">
-            ¿Listo para dar el siguiente paso?
+            {t("title")}
           </h2>
            <p className="text-sm font-semibold  mt-4 text-black sm:text-base tracking-tight">
-            Primera llamada gratuita. Sin compromiso. Con factura si decides seguir.
+            {t("description")}
           </p>
           <div className="mt-5 flex justify-center">
             <Button
               href="/contactar"
               className="bg-[#7252FF] text-white border-transparent hover:bg-[#5b3fe6]"
             >
-             Reservar llamada gratuita
+             {t("button")}
             </Button>
           </div>
         </div>
