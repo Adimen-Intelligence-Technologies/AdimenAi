@@ -211,6 +211,28 @@
     "title": "Hablemos de tu proyecto",
     "description": "Completa el formulario y nos pondremos en contacto contigo para una llamada inicial sin compromiso."
   },
+  "aboutPage": {
+    "eyebrow": "Quiénes somos",
+    "title": "Adimen Intelligence Technologies",
+    "subtitle": "Nacidos en Elgoibar",
+    "companyLabel": "Nuestra empresa",
+    "companyTitle": "Adimen Intelligence Technologies S.L.",
+    "companyDescription": "Somos una empresa constituida para el desarrollo, diseño, programación, explotación y comercialización de software, aplicaciones y plataformas tecnológicas basadas en inteligencia artificial (IA).",
+    "companyDescription2": "Nacidos en Elgoibar, un pueblo referente en la industria vasca, siempre apostando por la innovación y las nuevas tendencias.",
+    "missionTitle": "Misión",
+    "missionText": "Ayudar a las organizaciones mediante la creación de ecosistemas tecnológicos inteligentes que transformen datos en decisiones y procesos manuales en flujos de valor automáticos, favoreciendo la transición energética y la sostenibilidad, fomentando el euskera y haciendo disfrutar a nuestro personal y contribuyendo así a la mejora de nuestro entorno.",
+    "visionTitle": "Visión",
+    "visionText": "Ser un referente en Euskadi en soluciones de transformación digital mediante IA aplicada, automatización y análisis de datos de alto impacto.",
+    "locationLabel": "Nuestras instalaciones",
+    "locationTitle": "Posición estratégica en Euskadi",
+    "locationDescription": "Conexión natural entre Gipuzkoa, Bizkaia y Álava, facilitando cercanía y servicio rápido.",
+    "locationCard1Title": "Ubicación",
+    "locationCard1Text": "Elgoibar, corazón de Gipuzkoa",
+    "locationCard2Title": "Industria vasca",
+    "locationCard2Text": "Un pueblo referente en la industria vasca",
+    "locationCard3Title": "Innovación",
+    "locationCard3Text": "Siempre apostando por nuevas tendencias"
+  },
   "blogPage": {
     "eyebrow": "Blog",
     "title": "Ideas y casos prácticos de IA para empresas.",

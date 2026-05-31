@@ -211,6 +211,28 @@
     "title": "Let's talk about your project",
     "description": "Fill out the form and we will get in touch for a no-obligation introductory call."
   },
+  "aboutPage": {
+    "eyebrow": "Who we are",
+    "title": "Adimen Intelligence Technologies",
+    "subtitle": "Born in Elgoibar",
+    "companyLabel": "Our company",
+    "companyTitle": "Adimen Intelligence Technologies S.L.",
+    "companyDescription": "We are a company dedicated to the development, design, programming, operation and commercialization of software, applications and technological platforms based on artificial intelligence (AI).",
+    "companyDescription2": "Born in Elgoibar, a benchmark town in the Basque industry, always committed to innovation and new trends.",
+    "missionTitle": "Mission",
+    "missionText": "Help organizations by creating intelligent technological ecosystems that transform data into decisions and manual processes into automatic value flows, favoring energy transition and sustainability, promoting Basque language and making our staff enjoy their work while contributing to the improvement of our surroundings.",
+    "visionTitle": "Vision",
+    "visionText": "To be a benchmark in the Basque Country for digital transformation solutions through applied AI, automation and high-impact data analysis.",
+    "locationLabel": "Our facilities",
+    "locationTitle": "Strategic position in the Basque Country",
+    "locationDescription": "Natural connection between Gipuzkoa, Bizkaia and Álava, facilitating proximity and fast service.",
+    "locationCard1Title": "Location",
+    "locationCard1Text": "Elgoibar, heart of Gipuzkoa",
+    "locationCard2Title": "Basque industry",
+    "locationCard2Text": "A benchmark town in Basque industry",
+    "locationCard3Title": "Innovation",
+    "locationCard3Text": "Always committed to new trends"
+  },
   "blogPage": {
     "eyebrow": "Blog",
     "title": "Ideas and practical AI cases for businesses.",

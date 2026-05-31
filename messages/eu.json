@@ -211,6 +211,28 @@
     "title": "Hitz egin dezagun zure proiektuaz",
     "description": "Bete formularioa eta zurekin harremanetan jarriko gara konpromisorik gabeko hasierako dei baterako."
   },
+  "aboutPage": {
+    "eyebrow": "Nor gara",
+    "title": "Adimen Intelligence Technologies",
+    "subtitle": "Elgoibarren jaioak",
+    "companyLabel": "Gure enpresa",
+    "companyTitle": "Adimen Intelligence Technologies S.L.",
+    "companyDescription": "Adimen artifizialean (IA) oinarritutako software, aplikazio eta plataforma teknologikoen garapena, diseinua, programazioa, ustiatzea eta komertzializaziora bideratutako enpresa bat gara.",
+    "companyDescription2": "Elgoibarren jaioak, Euskal industriaren erreferentzia den herri batean, beti berrikuntzaren eta joera berrien aldeko apustua eginez.",
+    "missionTitle": "Misioa",
+    "missionText": "Erakundeei lagundu iris-tip: datuak erabakitan bihurtzen dituzten eta prozesu manualak fluxu automatiko bihurtzen dituzten ekosistem teknologiko adimendunak sortuz, energia-trantsizioa eta iraunkortasuna sustatuz, euskera sustatuz eta gure langileei lan egiteko poza emanez eta gure ingurunearen hobekuntzari lagunduz.",
+    "visionTitle": "Ikuspegia",
+    "visionText": "IA aplikatua, automatizazioa eta inpaktu handiko datu-analisia bidezkoeraldaketa digitalaren irtenbideetan EAEn erreferente izatea.",
+    "locationLabel": "Gure instalazioak",
+    "locationTitle": "Kokapen estrategikoa EAEn",
+    "locationDescription": "Gipuzkoa, Bizkaia eta Álava arteko lotura naturala, hurbiltasuna eta zerbitzu azkarra erraztuz.",
+    "locationCard1Title": "Kokapena",
+    "locationCard1Text": "Elgoibar, Gipuzkoaren bihotza",
+    "locationCard2Title": "Euskal industria",
+    "locationCard2Text": "Euskal industriaren erreferentzia den herria",
+    "locationCard3Title": "Berrikuntza",
+    "locationCard3Text": "Betiko joera berrien aldeko apustua"
+  },
   "blogPage": {
     "eyebrow": "Bloga",
     "title": "Ideiak eta adimen artifizialaren kasu praktikoak enpresentzat.",
