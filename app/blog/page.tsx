@@ -1,7 +1,5 @@
-import { BlogPage } from "@/app/components/blog/BlogPage";
-
-export const dynamic = "force-dynamic";
+import {redirect} from 'next/navigation';
 
 export default async function BlogRootPage() {
-  return <BlogPage />;
+  redirect('/blog');
 }

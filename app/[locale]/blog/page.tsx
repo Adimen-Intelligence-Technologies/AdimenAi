@@ -1,11 +1,12 @@
 import { BlogPage } from "@/app/components/blog/BlogPage";
 
 type Props = {
-  params: {
+  params: Promise<{
     locale: string;
-  };
+  }>;
 };
 
 export default async function LocaleBlogPage({ params }: Props) {
-  return <BlogPage locale={params.locale} />;
+  const { locale } = await params;
+  return <BlogPage locale={locale} />;
 }

@@ -33,10 +33,11 @@ export function Header() {
   ];
 
   const switchLocale = (newLocale: string) => {
-    const hash = typeof window !== 'undefined' ? window.location.hash : '';
-    const search = typeof window !== 'undefined' ? window.location.search : '';
-    const nextPath = `${toLocalePath(newLocale, cleanPathname)}${search}${hash}`;
-    window.location.assign(nextPath);
+    // Build the target URL with explicit locale prefix in path
+    const targetPath = toLocalePath(newLocale, cleanPathname);
+    const search = window.location.search;
+    const hash = window.location.hash;
+    window.location.href = targetPath + search + hash;
     setIsLangOpen(false);
   };
 
