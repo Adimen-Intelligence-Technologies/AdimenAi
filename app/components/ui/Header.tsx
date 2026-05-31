@@ -17,8 +17,17 @@ export function Header() {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
+  const [isSolutionsOpen, setIsSolutionsOpen] = useState(false);
+  const solutionsRef = useRef<HTMLDivElement | null>(null);
   const langMenuRef = useRef<HTMLDivElement | null>(null);
   const cleanPathname = stripLocaleFromPath(pathname || '/');
+
+  const solutionsSubmenu = [
+    {label: t('automations'), href: toLocalePath(locale, '/#servicios')},
+    {label: t('aiChatbots'), href: toLocalePath(locale, '/#servicios')},
+    {label: t('crmCms'), href: toLocalePath(locale, '/#servicios')},
+    {label: t('ecommerce'), href: toLocalePath(locale, '/#servicios')},
+  ];
 
   const menuItems = [
     {label: t('home'), href: toLocalePath(locale, '/')},
@@ -46,19 +55,20 @@ export function Header() {
   };
 
   useEffect(() => {
-    if (!isLangOpen) {
+    if (!isLangOpen && !isSolutionsOpen) {
       return;
     }
 
     const handleOutsideClick = (event: MouseEvent) => {
-      if (!langMenuRef.current?.contains(event.target as Node)) {
+      if (!langMenuRef.current?.contains(event.target as Node) && !solutionsRef.current?.contains(event.target as Node)) {
         setIsLangOpen(false);
+        setIsSolutionsOpen(false);
       }
     };
 
     document.addEventListener('mousedown', handleOutsideClick);
     return () => document.removeEventListener('mousedown', handleOutsideClick);
-  }, [isLangOpen]);
+  }, [isLangOpen, isSolutionsOpen]);
 
   return (
     <header className="relative z-20 border-b border-zinc-200 bg-white">
@@ -71,7 +81,37 @@ export function Header() {
             <ul className="flex flex-wrap items-center gap-6 text-[18px] text-gray-500">
               {menuItems.map((item) => (
                 <li key={item.label}>
-                  <Link href={item.href} className="transition-colors hover:text-black">{item.label}</Link>
+                  {item.label === t('solutions') ? (
+                    <div className="relative" ref={solutionsRef}>
+                      <button
+                        type="button"
+                        onClick={() => setIsSolutionsOpen((prev) => !prev)}
+                        aria-expanded={isSolutionsOpen}
+                        className="inline-flex items-center gap-1 transition-colors hover:text-black"
+                      >
+                        {item.label}
+                        <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${isSolutionsOpen ? 'rotate-180' : ''}`} aria-hidden="true" />
+                      </button>
+                      {isSolutionsOpen && (
+                        <div className="absolute left-0 mt-2 w-56 rounded-xl border border-zinc-200 bg-white shadow-lg z-50">
+                          <div className="py-1">
+                            {solutionsSubmenu.map((subitem) => (
+                              <Link
+                                key={subitem.label}
+                                href={subitem.href}
+                                onClick={() => setIsSolutionsOpen(false)}
+                                className="block px-4 py-3 hover:bg-zinc-100 transition-colors"
+                              >
+                                {subitem.label}
+                              </Link>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  ) : (
+                    <Link href={item.href} className="transition-colors hover:text-black">{item.label}</Link>
+                  )}
                 </li>
               ))}
             </ul>
@@ -120,15 +160,47 @@ export function Header() {
           </button>
         </div>
       </Wrapper>
-      <div className={`border-t border-zinc-200 bg-white lg:hidden overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? "max-h-130 opacity-100" : "max-h-0 opacity-0"}`} aria-hidden={!isOpen}>
+      <div className={`border-t border-zinc-200 bg-white lg:hidden overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}`} aria-hidden={!isOpen}>
         <Wrapper className="space-y-4 py-5 px-4 sm:px-6">
           <nav>
             <ul className="space-y-4 text-[18px] text-gray-600">
               {menuItems.map((item, index) => (
                 <li key={item.label}>
-                  <Link href={item.href} className={`block rounded-xl px-3 py-2 transition-all duration-500 ease-in-out hover:bg-zinc-100 hover:text-black ${isOpen ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"}`} style={{transitionDelay: isOpen ? `${index * 60}ms` : "0ms"}} onClick={() => setIsOpen(false)}>
-                    {item.label}
-                  </Link>
+                  {item.label === t('solutions') ? (
+                    <div>
+                      <button
+                        type="button"
+                        onClick={() => setIsSolutionsOpen((prev) => !prev)}
+                        className={`flex w-full items-center justify-between rounded-xl px-3 py-2 transition-all duration-500 ease-in-out hover:bg-zinc-100 hover:text-black ${isOpen ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"}`}
+                        style={{transitionDelay: isOpen ? `${index * 60}ms` : "0ms"}}
+                      >
+                        <span>{item.label}</span>
+                        <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${isSolutionsOpen ? 'rotate-180' : ''}`} aria-hidden="true" />
+                      </button>
+                      {isSolutionsOpen && (
+                        <ul className="ml-4 mt-2 space-y-2 border-l-2 border-zinc-200 pl-4">
+                          {solutionsSubmenu.map((subitem) => (
+                            <li key={subitem.label}>
+                              <Link
+                                href={subitem.href}
+                                onClick={() => {
+                                  setIsSolutionsOpen(false);
+                                  setIsOpen(false);
+                                }}
+                                className="block rounded-lg px-3 py-2 hover:bg-zinc-100 transition-colors"
+                              >
+                                {subitem.label}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  ) : (
+                    <Link href={item.href} className={`block rounded-xl px-3 py-2 transition-all duration-500 ease-in-out hover:bg-zinc-100 hover:text-black ${isOpen ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"}`} style={{transitionDelay: isOpen ? `${index * 60}ms` : "0ms"}} onClick={() => setIsOpen(false)}>
+                      {item.label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>

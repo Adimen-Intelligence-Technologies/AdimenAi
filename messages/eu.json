@@ -7,7 +7,11 @@
     "contact": "Harremana",
     "menu": "Menua",
     "openMenu": "Ireki menua",
-    "closeMenu": "Itxi menua"
+    "closeMenu": "Itxi menua",
+    "automations": "Automatizazioak",
+    "aiChatbots": "IA eta ChatBot-ak",
+    "crmCms": "CRM eta CMS",
+    "ecommerce": "eCommerce eta web orriak"
   },
   "language": {
     "switch": "Hizkuntza aldatu",
