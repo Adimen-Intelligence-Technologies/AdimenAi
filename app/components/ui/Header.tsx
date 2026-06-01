@@ -128,10 +128,15 @@ export function Header() {
     setIsOpen(false);
   };
 
-  const navItems = [
+  type NavItem =
+    | {id: string; label: string; href: string; hasDropdown: false; isExternal?: boolean}
+    | {id: string; label: string; hasDropdown: true; handler: MegaMenuColumn[]; dropdownType: 'megamenu'}
+    | {id: string; label: string; hasDropdown: true; handler: MenuDropdown; dropdownType: 'dropdown'};
+
+  const navItems: NavItem[] = [
     {id: 'home', label: t('home'), href: toLocalePath(locale, '/'), hasDropdown: false},
     {id: 'aboutUs', label: t('aboutUs'), href: toLocalePath(locale, '/sobre-nosotros'), hasDropdown: false},
-    {id: 'solutions', label: t('solutions'), hasDropdown: true, handler: megaMenuColumns, dropdownType: 'megamenu' as const},
+    {id: 'solutions', label: t('solutions'), hasDropdown: true, handler: megaMenuColumns, dropdownType: 'megamenu'},
     {id: 'herrikonekt', label: t('herrikonekt'), href: '#', hasDropdown: false, isExternal: true},
     {id: 'blog', label: t('blog'), href: toLocalePath(locale, '/blog'), hasDropdown: false},
   ];

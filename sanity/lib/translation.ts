@@ -131,7 +131,7 @@ function translateTextNodes(value: unknown, translations: string[], indexRef: { 
   return value
 }
 
-export async function translatePostContent<T extends Record<string, unknown>>(
+export async function translatePostContent<T extends object>(
   post: T,
   targetLocale: Locale,
 ): Promise<T> {
@@ -139,14 +139,16 @@ export async function translatePostContent<T extends Record<string, unknown>>(
     return post
   }
 
-  const postLanguage = typeof post.language === 'string' ? post.language : undefined
+  const postRecord = post as Record<string, unknown>
+
+  const postLanguage = typeof postRecord.language === 'string' ? postRecord.language : undefined
   if (postLanguage === targetLocale) {
     return post
   }
 
-  const title = typeof post.title === 'string' ? post.title : undefined
-  const excerpt = typeof post.excerpt === 'string' ? post.excerpt : undefined
-  const body = post.body
+  const title = typeof postRecord.title === 'string' ? postRecord.title : undefined
+  const excerpt = typeof postRecord.excerpt === 'string' ? postRecord.excerpt : undefined
+  const body = postRecord.body
 
   const hasSpanishSource = title || excerpt || body
   if (!hasSpanishSource) {
@@ -174,7 +176,7 @@ export async function translatePostContent<T extends Record<string, unknown>>(
   }
 }
 
-export async function translatePostListItem<T extends Record<string, unknown>>(
+export async function translatePostListItem<T extends object>(
   post: T,
   targetLocale: Locale,
 ): Promise<T> {
@@ -182,13 +184,15 @@ export async function translatePostListItem<T extends Record<string, unknown>>(
     return post
   }
 
-  const postLanguage = typeof post.language === 'string' ? post.language : undefined
+  const postRecord = post as Record<string, unknown>
+
+  const postLanguage = typeof postRecord.language === 'string' ? postRecord.language : undefined
   if (postLanguage === targetLocale) {
     return post
   }
 
-  const title = typeof post.title === 'string' ? post.title : undefined
-  const excerpt = typeof post.excerpt === 'string' ? post.excerpt : undefined
+  const title = typeof postRecord.title === 'string' ? postRecord.title : undefined
+  const excerpt = typeof postRecord.excerpt === 'string' ? postRecord.excerpt : undefined
   const textSegments: string[] = []
 
   if (title) textSegments.push(title)
