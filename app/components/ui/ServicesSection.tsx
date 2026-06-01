@@ -57,19 +57,19 @@ export function ServicesSection() {
     <section id="servicios" className="border border-zinc-200">
       <Wrapper>
         <div
-          className="bg-cover bg-center bg-no-repeat bg-white/80 p-6 sm:p-8 lg:p-30"
+          className="bg-cover bg-center bg-no-repeat bg-white/80 pt-10 sm:pt-10 lg:pt-30"
           style={{ backgroundImage: "url('/background-05.jpg')" }}
         >
-          <div ref={sectionRef} className="mx-auto max-w-3xl text-center px-2 sm:px-0 ">
+          <div ref={sectionRef} className="mx-auto sm:max-w-3xl text-center px-4 sm:px-0 ">
             <div
-              className={`mb-5 inline-flex items-center justify-center gap-2 text-base sm:text-lg font-semibold ${fadeClass}`}
+              className={`mb-2 inline-flex items-center justify-center gap-2 text-lg font-semibold ${fadeClass}`}
               style={{ animationDelay: "0.1s" }}
             >
               <Sparkles className="h-5 w-5 text-[#6C47FF]" />
               {t("badge")}
             </div>
             <h2
-              className={`text-3xl sm:text-4xl md:text-[40px] font-semibold ${fadeClass}`}
+              className={`text-3xl sm:text-4xl font-semibold ${fadeClass}`}
               style={{ animationDelay: "0.2s" }}
             >
               {t("title")}
