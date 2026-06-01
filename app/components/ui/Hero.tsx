@@ -31,17 +31,11 @@ export function Hero() {
               {t("eyebrow")}
             </p>
             <h1
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black tracking-tighter leading-tight animate-hero-fade"
+              className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black tracking-tighter leading-tight animate-hero-fade"
               style={{ animationDelay: "0.2s" }}
             >
               {t("title")}
             </h1>
-            <h2
-              className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black tracking-tighter leading-tight -mt-4 animate-hero-fade"
-              style={{ animationDelay: "0.25s" }}
-            >
-              {t("subtitle")}
-            </h2>
             <p
               className="max-w-3xl text-xl sm:text-lg text-black leading-tight animate-hero-fade"
               style={{ animationDelay: "0.35s" }}
