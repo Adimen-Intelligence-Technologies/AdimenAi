@@ -154,7 +154,7 @@ export function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white">
+      <header className="relative z-50 border-b border-zinc-200 bg-white">
         <Wrapper className="flex flex-wrap items-center justify-between gap-4 py-5 px-4 sm:px-6 lg:px-10">
           <div className="flex items-center gap-6">
             <Link href={toLocalePath(locale, '/')} aria-label="Ir a inicio">
