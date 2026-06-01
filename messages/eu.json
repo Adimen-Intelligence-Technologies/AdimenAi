@@ -11,14 +11,14 @@
     "herrikonektAppsAndroid": "Android App",
     "herrikonektAppsIos": "iOS App",
     "blog": "Bloga",
-    "contact": "Harremana",
+    "contact": "kontaktua",
     "menu": "Menua",
     "openMenu": "Ireki menua",
     "closeMenu": "Itxi menua",
     "aiAutomation": "Automatizazioa eta IA",
     "aiAutomationDesc": "IA agenteak, RPA eta chatbot-ak zure negozioa optimizatzeko",
     "aiAutomationRpa": "Prozesuen Automatizazioa (RPA)",
-    "aiAutomationChatbots": "IA Laguntzaile Birтуальak",
+    "aiAutomationChatbots": "IA Laguntzaile Birtualak",
     "aiAutomationCrm": "CRM eta CMS Sistemak",
     "webPresence": "Presentzia Digitala",
     "webPresenceDesc": "Web, ecommerce, argazkilaritza eta sare sozialak",
@@ -39,7 +39,7 @@
     "graphicSolutionsStationery": "Papergintza Korporatiboa",
     "graphicSolutionsMerchandising": "Merchandising",
     "managementSoftware": "Kudeaketa Softwarea",
-    "managementSoftwareDesc": "HIOPOS irtenbideak zure sektorerako",
+    "managementSoftwareDesc": "HIOPOS Software zure sektorerako",
     "managementSoftwareRetail": "Retail eta Merkataritza",
     "managementSoftwareHospitality": "Ostalaritza",
     "managementSoftwareFood": "Elikadura",
@@ -67,11 +67,11 @@
   "servicesSection": {
     "badge": "Gure zerbitzuak",
     "title": "Lau modu adimen artifiziala zure enpresan ezartzeko",
-    "description": "Automatizazio sinple batetik proiektu oso pertsonalizatura. Zure enpresara, taldeara eta sistemetara egokitua.",
+    "description": "Automatizazio sinple batetik proiektu oso pertsonalizatura. Zure enpresara, taldera eta sistemetara egokitua.",
     "items": [
       {
         "title": "Prozesuen automatizazioa",
-        "description": "Zure barne-prozesuak automatizatzen ditugu, eskuzko zeregin errepikakorrak ezabatzeko eta denbora irabazteko."
+        "description": "Laneko barne-prozesuak automatizatzen ditugu, eskuzko zeregin errepikakorrak ezabatzeko eta denbora irabazteko."
       },
       {
         "title": "Neurrira egindako AA agenteak",
@@ -114,15 +114,15 @@
       },
       {
         "title": "Alertak eta jakinarazpenak",
-        "description": "Sistemak anomaliak edo gertaera gakoak detektatzen ditu eta taldea denbora errealean abisatzen du."
+        "description": "Sistemaren anomaliak edo gertaera gakoak detektatzen ditu eta taldeari momentuan abisatzen dio."
       },
       {
         "title": "Stock kontrola",
-        "description": "Inbentarioaren eguneraketa automatikoa eta stocka minimoaren azpitik jaisten denean berritze-alertak."
+        "description": "Inbentarioaren eguneraketa automatikoa eta stocka minimoaren azpitik jaisten denean erosketa-alertak."
       },
       {
         "title": "Bezeroarentzako arreta",
-        "description": "Chatbot-ak 24/7 ohiko galderak erantzuten ditu eta behar denean giza agente batera eskalatzen du."
+        "description": "Chatbot-ak 24/7 ohiko galderak erantzuten ditu eta behar denean pertsona batera eskalatzen du."
       }
     ]
   },
@@ -154,7 +154,7 @@
     "items": [
       {
         "question": "Beharrezkoa al da ezagutza teknikoa nire enpresan AA ezartzeko?",
-        "answer": "Ez. Garapen eta integrazio osoaz gu arduratzen gara. Zure taldeak azken emaitza erabiltzea baino ez du behar, ahalik eta errazena izan dadin diseinatzen duguna."
+        "answer": "Ez. Garapen eta integrazio osoaz gu arduratzen gara. Zure taldeak errez erabiltzeko, ahalik eta errazena izan dadin diseinatzen dugu."
       },
       {
         "question": "Enpresan bertan aurrez aurreko aholkularitza egiten duzue?",
@@ -209,7 +209,7 @@
   "contactPage": {
     "eyebrow": "Harremana",
     "title": "Hitz egin dezagun zure proiektuaz",
-    "subtitle": "etaeraldatu zure negozioa",
+    "subtitle": "eta eraldatu zure negozioa",
     "description": "Bete formularioa eta zurekin harremanetan jarriko gara konpromisorik gabeko hasierako dei baterako."
   },
   "aboutPage": {
@@ -221,9 +221,9 @@
     "companyDescription": "Adimen artifizialean (IA) oinarritutako software, aplikazio eta plataforma teknologikoen garapena, diseinua, programazioa, ustiatzea eta komertzializaziora bideratutako enpresa bat gara.",
     "companyDescription2": "Elgoibarren jaioak, Euskal industriaren erreferentzia den herri batean, beti berrikuntzaren eta joera berrien aldeko apustua eginez.",
     "missionTitle": "Misioa",
-    "missionText": "Erakundeei lagundu iris-tip: datuak erabakitan bihurtzen dituzten eta prozesu manualak fluxu automatiko bihurtzen dituzten ekosistem teknologiko adimendunak sortuz, energia-trantsizioa eta iraunkortasuna sustatuz, euskera sustatuz eta gure langileei lan egiteko poza emanez eta gure ingurunearen hobekuntzari lagunduz.",
+    "missionText": "Erakundeei laguntzea: datuak erabakitan bihurtzen dituzten eta prozesu manualak fluxu automatiko bihurtzen dituzten ekosistema teknologiko adimendunak sortuz, energia-trantsizioa eta iraunkortasuna sustatuz, euskera sustatuz eta gure langileei lan egiteko poza emanez eta gure ingurunearen hobekuntzari lagunduz.",
     "visionTitle": "Ikuspegia",
-    "visionText": "IA aplikatua, automatizazioa eta inpaktu handiko datu-analisia bidezkoeraldaketa digitalaren irtenbideetan EAEn erreferente izatea.",
+    "visionText": "IA aplikatua, automatizazioa eta inpaktu handiko datu-analisia bidezko eraldaketa digitalaren irtenbideetan EAEn erreferente izatea.",
     "locationLabel": "Gure instalazioak",
     "locationTitle": "Kokapen estrategikoa EAEn",
     "locationDescription": "Gipuzkoa, Bizkaia eta Álava arteko lotura naturala, hurbiltasuna eta zerbitzu azkarra erraztuz.",
@@ -232,7 +232,7 @@
     "locationCard2Title": "Euskal industria",
     "locationCard2Text": "Euskal industriaren erreferentzia den herria",
     "locationCard3Title": "Berrikuntza",
-    "locationCard3Text": "Betiko joera berrien aldeko apustua"
+    "locationCard3Text": "Joera berrien aldeko apustua"
   },
   "blogPage": {
     "eyebrow": "Bloga",
@@ -253,7 +253,7 @@
     },
     "other": {
       "blog": "Bloga",
-      "cookies": "Cookieak",
+      "cookies": "Cookiak",
       "privacy": "Pribatutasun politika"
     },
     "contact": {
