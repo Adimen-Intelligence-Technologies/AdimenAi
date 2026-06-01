@@ -20,12 +20,18 @@ const STATS: StatItem[] = [
   { icon: TrendingUp, value: 98, suffix: "%", labelKey: "satisfaction" },
 ];
 
-function AnimatedNumber({ value, isVisible }: { value: number; isVisible: boolean }) {
+function AnimatedNumber({
+  value,
+  isVisible,
+}: {
+  value: number;
+  isVisible: boolean;
+}) {
   const [display, setDisplay] = useState(0);
 
   useEffect(() => {
     if (!isVisible) return;
-    const duration = 1400;
+    const duration = 1600;
     const start = performance.now();
     let raf = 0;
 
@@ -58,7 +64,7 @@ export function AboutStats() {
           observer.disconnect();
         }
       },
-      { threshold: 0.25 }
+      { threshold: 0.2 }
     );
     observer.observe(el);
     return () => observer.disconnect();
@@ -69,16 +75,13 @@ export function AboutStats() {
   return (
     <section className="border-b border-zinc-200">
       <Wrapper>
-        <div
-          className="bg-cover bg-center bg-no-repeat bg-white/80 px-4 py-12 sm:px-8 sm:py-16 lg:py-24"
-          style={{ backgroundImage: "url('/background-04.jpg')" }}
-        >
-          <div ref={sectionRef} className="text-left sm:text-center">
+        <div className="px-4 py-12 sm:px-8 sm:py-16 lg:py-24">
+          <div ref={sectionRef} className="mx-auto max-w-3xl text-center">
             <div
-              className={`mb-3 inline-flex items-center justify-start sm:justify-center gap-2 text-lg font-semibold ${fadeClass}`}
+              className={`mb-3 inline-flex items-center justify-center gap-2 text-base font-medium tracking-wide text-zinc-600 ${fadeClass}`}
               style={{ animationDelay: "0.1s" }}
             >
-              <Sparkles className="h-5 w-5 text-[#6C47FF]" />
+              <Sparkles className="h-4 w-4 text-[#6C47FF]" />
               {t("stats.badge")}
             </div>
             <h2
@@ -89,34 +92,42 @@ export function AboutStats() {
             </h2>
           </div>
 
-          <div className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-4 sm:gap-6">
+          <div className="mx-auto mt-12 grid max-w-5xl gap-px overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-200 sm:mt-16 sm:grid-cols-2 lg:grid-cols-4">
             {STATS.map((stat, index) => {
               const Icon = stat.icon;
               return (
                 <div
                   key={stat.labelKey}
-                  className={`flex h-full flex-col justify-between border p-6 sm:p-7 ${fadeClass}`}
-                  style={{
-                    borderWidth: 1,
-                    borderStyle: "solid",
-                    borderColor: "rgba(255, 255, 255, 0.2)",
-                    backgroundColor: "rgba(255, 255, 255, 0.28)",
-                    borderRadius: 4,
-                    animationDelay: `${0.3 + index * 0.08}s`,
-                  }}
+                  className={`group relative flex flex-col gap-6 bg-white p-6 transition-colors duration-300 hover:bg-zinc-50 sm:p-8 ${fadeClass}`}
+                  style={{ animationDelay: `${0.3 + index * 0.08}s` }}
                 >
-                  <div className="mb-6 flex items-center justify-start">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#6C47FF] text-white">
-                      <Icon className="h-5 w-5" />
+                  <div className="flex items-center justify-between">
+                    <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#6C47FF]/10 text-[#6C47FF] transition-transform duration-300 group-hover:scale-110">
+                      <Icon className="h-4 w-4" strokeWidth={2.25} />
+                    </span>
+                    <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-zinc-400">
+                      0{index + 1}
+                    </span>
+                  </div>
+
+                  <div>
+                    <div className="flex items-start gap-0.5 text-slate-950">
+                      <span className="text-5xl font-semibold leading-none tracking-tight sm:text-6xl">
+                        <AnimatedNumber
+                          value={stat.value}
+                          isVisible={isVisible}
+                        />
+                      </span>
+                      {stat.suffix && (
+                        <span className="text-2xl font-semibold leading-none tracking-tight text-[#6C47FF] sm:text-3xl">
+                          {stat.suffix}
+                        </span>
+                      )}
                     </div>
+                    <p className="mt-3 text-sm font-medium leading-snug tracking-tight text-zinc-600 sm:text-base">
+                      {t(`stats.items.${stat.labelKey}`)}
+                    </p>
                   </div>
-                  <div className="flex items-baseline gap-1 text-5xl font-bold tracking-tighter text-slate-950 sm:text-6xl">
-                    <AnimatedNumber value={stat.value} isVisible={isVisible} />
-                    <span className="text-[#6C47FF]">{stat.suffix}</span>
-                  </div>
-                  <p className="mt-3 text-base tracking-tight text-black">
-                    {t(`stats.items.${stat.labelKey}`)}
-                  </p>
                 </div>
               );
             })}
