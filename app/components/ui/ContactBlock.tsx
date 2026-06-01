@@ -52,7 +52,7 @@ export function ContactBlock() {
 
             <div>
               <p className="text-zinc-700 text-sm tracking-tight mb-2">{t("phoneLabel")}</p>
-              <p className="tracking-tight font-bold">+34 123 456 789</p>
+              <a href="tel:+34650609028" className="tracking-tight font-bold hover:text-[#6C47FF] transition-colors">+34 650 60 90 28</a>
             </div>
           </div>
         </div>
