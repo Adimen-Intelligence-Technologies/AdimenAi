@@ -32,19 +32,19 @@ export function InfoSection({
   return (
     <section className="border-b border-zinc-200">
       <Wrapper className="px-4 sm:px-6 lg:px-8">
-        <div className="grid gap-10 items-center py-16 lg:grid-cols-[1fr_1.1fr] lg:gap-16">
+        <div className="grid gap-10 items-center py-12 sm:py-16 lg:py-24 lg:grid-cols-[1fr_1.1fr] lg:gap-16">
           <div>
-            <p className="mb-4 inline-flex items-center gap-2 text-base sm:text-lg font-semibold text-black tracking-tight">
+            <p className="mb-3 inline-flex items-center gap-2 text-lg font-semibold text-black tracking-tight">
               <Sparkles className="h-5 w-5 text-[#6C47FF]" />
               {eyebrow}
             </p>
-            <h2 className="text-3xl sm:text-4xl md:text-[40px] font-semibold tracking-tight text-slate-950">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-tight text-balance text-slate-950">
               {title}
             </h2>
-            <p className="mt-4 max-w-2xl text-sm sm:text-base text-black tracking-tight">
+            <p className="mt-4 max-w-2xl text-lg leading-tight sm:text-base text-black tracking-tight">
               {subtitle}
             </p>
-            <p className="max-w-2xl text-sm sm:text-base text-black leading-relaxed tracking-tight">
+            <p className="max-w-2xl text-lg leading-tight sm:text-base text-black tracking-tight">
               {text}
             </p>
 
@@ -54,7 +54,7 @@ export function InfoSection({
                   <span className="mt-1 text-[#6C47FF]">
                     <Check className="h-4 w-4" />
                   </span>
-                  <span className="text-sm text-black tracking-tight">{item}</span>
+                  <span className="text-base text-black tracking-tight">{item}</span>
                 </li>
               ))}
             </ul>
