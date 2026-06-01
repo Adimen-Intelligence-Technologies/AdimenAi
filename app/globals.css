@@ -90,12 +90,10 @@ body {
   from {
     opacity: 0;
     transform: translateY(24px) scale(0.99);
-    filter: blur(10px);
   }
   to {
     opacity: 1;
     transform: translateY(0) scale(1);
-    filter: blur(0);
   }
 }
 
