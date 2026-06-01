@@ -61,7 +61,7 @@ export function InfoSection({
 
             {buttonLabel && buttonHref ? (
               <div className="mt-8">
-                <Button href={buttonHref} className="bg-[#6C47FF] text-white border-transparent hover:bg-[#5941e6]">
+                <Button href={buttonHref} color="purple">
                   {buttonLabel}
                 </Button>
               </div>

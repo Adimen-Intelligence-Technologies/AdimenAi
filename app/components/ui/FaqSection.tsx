@@ -50,7 +50,7 @@ export function FaqSection() {
 
               <p className="mt-8 text-xl font-medium text-black tracking-tight">{t("needHelp")}</p>
 
-              <Button href={toLocalePath(locale, "/contactar")} variant="primary" className="mt-4 text-2xl">
+              <Button href={toLocalePath(locale, "/contactar")} color="purple" className="mt-4 text-2xl">
                 {t("button")}
               </Button>
             </div>

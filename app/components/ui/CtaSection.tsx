@@ -39,7 +39,7 @@ export function CtaSection() {
           <div className="mt-5 flex justify-center">
             <Button
               href={toLocalePath(locale, "/contactar")}
-              className="bg-[#7252FF] text-white border-transparent hover:bg-[#5b3fe6]"
+              color="purple"
             >
              {t("button")}
             </Button>

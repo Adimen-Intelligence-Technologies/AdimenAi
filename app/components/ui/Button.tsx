@@ -7,35 +7,17 @@ interface ButtonProps {
   href?: string;
   type?: "button" | "submit" | "reset";
   children: React.ReactNode;
-  variant?: "default" | "primary" | "secondary";
+  color?: "purple" | "white";
   className?: string;
-  disableAnimation?: boolean;
 }
 
-const variantClasses: Record<NonNullable<ButtonProps["variant"]>, string> = {
-  default: "border border-zinc-200 bg-white text-black px-5 py-3",
-  primary: "bg-[#7252FF] text-white hover:bg-[#6c4cff] px-8 py-4",
-  secondary: "border border-zinc-200 bg-white/50 text-black hover:bg-gray-50/50 px-8 py-4",
+const colorClasses: Record<NonNullable<ButtonProps["color"]>, string> = {
+  purple: "bg-[#7252FF] text-white hover:bg-[#6c4cff] border border-transparent px-8 py-4",
+  white: "bg-white text-black hover:bg-zinc-50 border border-zinc-200 px-8 py-4",
 };
 
-export function Button({ href, type = "button", children, variant = "default", className = "", disableAnimation = false }: ButtonProps) {
-  const commonClasses = `inline-flex items-center justify-center overflow-hidden rounded-full font-semibold text-xl transition-colors ${variantClasses[variant]} ${className}`.trim();
-
-  if (disableAnimation) {
-    const simpleContent = <span>{children}</span>;
-    if (href) {
-      return (
-        <Link href={href} className={commonClasses}>
-          {simpleContent}
-        </Link>
-      );
-    }
-    return (
-      <button type={type} className={commonClasses}>
-        {simpleContent}
-      </button>
-    );
-  }
+export function Button({ href, type = "button", children, color = "purple", className = "" }: ButtonProps) {
+  const commonClasses = `inline-flex items-center justify-center overflow-hidden rounded-full font-semibold text-xl transition-colors ${colorClasses[color]} ${className}`.trim();
 
   const content = (
     <motion.span

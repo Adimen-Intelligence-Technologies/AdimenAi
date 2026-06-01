@@ -252,7 +252,7 @@ export function Header() {
           </div>
           <div className="flex items-center gap-4">
             <div className="hidden lg:block">
-              <Button href={toLocalePath(locale, '/contacto')} className="text-base px-6 py-2.5">{t('contact')}</Button>
+              <Button href={toLocalePath(locale, '/contacto')} color="white" className="text-base px-6 py-2.5">{t('contact')}</Button>
             </div>
             <div className="relative">
               <button
@@ -347,7 +347,7 @@ export function Header() {
               </li>
             </ul>
           </nav>
-          <Button href={toLocalePath(locale, '/contacto')} className="w-full text-center text-lg py-3.5">{t('contact')}</Button>
+          <Button href={toLocalePath(locale, '/contacto')} color="white" className="w-full text-center text-lg py-3.5">{t('contact')}</Button>
         </Wrapper>
       </div>
     </>
