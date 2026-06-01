@@ -288,113 +288,44 @@ export function Header() {
         </div>
       </Wrapper>
       <div
-        className={`border-t border-zinc-200 bg-white lg:hidden overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'}`}
+        className={`border-t border-zinc-200 bg-white lg:hidden overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-[80vh] opacity-100' : 'max-h-0 opacity-0'}`}
         aria-hidden={!isOpen}
       >
-        <Wrapper className="space-y-4 py-5 px-4 sm:px-6">
+        <Wrapper className="space-y-4 py-6 px-4 sm:px-6">
           <nav>
-            <ul className="space-y-3 text-[16px] text-gray-600">
+            <ul className="space-y-2 text-lg text-gray-700">
               <li>
-                <Link href={toLocalePath(locale, '/')} onClick={closeAll} className="block  px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors">
+                <Link href={toLocalePath(locale, '/')} onClick={closeAll} className="flex items-center rounded-xl px-4 py-3.5 hover:bg-zinc-100 hover:text-black transition-colors">
                   {t('home')}
                 </Link>
               </li>
               <li>
-                <Link href={toLocalePath(locale, '/sobre-nosotros')} onClick={closeAll} className="block  px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors">
+                <Link href={toLocalePath(locale, '/sobre-nosotros')} onClick={closeAll} className="flex items-center rounded-xl px-4 py-3.5 hover:bg-zinc-100 hover:text-black transition-colors">
                   {t('aboutUs')}
                 </Link>
               </li>
               <li>
-                <MobileAccordion title={t('solutions')} items={megaMenuColumns} closeAll={closeAll} />
-              </li>
-              <li>
-                <Link href="#" onClick={closeAll} className="inline-flex items-center gap-2  px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors">
-                  {t('herrikonekt')}
-                  <span className="inline-flex items-center  bg-[#6C47FF]/10 px-1.5 py-0.5 text-[9px] font-semibold text-[#6C47FF]">APP</span>
-                  <ExternalLink className="h-3 w-3" />
+                <Link href={toLocalePath(locale, '/#servicios')} onClick={closeAll} className="flex items-center rounded-xl px-4 py-3.5 hover:bg-zinc-100 hover:text-black transition-colors">
+                  {t('solutions')}
                 </Link>
               </li>
               <li>
-                <Link href={toLocalePath(locale, '/blog')} onClick={closeAll} className="block  px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors">
+                <Link href="#" onClick={closeAll} className="flex items-center gap-2 rounded-xl px-4 py-3.5 hover:bg-zinc-100 hover:text-black transition-colors">
+                  {t('herrikonekt')}
+                  <span className="inline-flex items-center rounded-full bg-[#6C47FF]/10 px-2 py-0.5 text-xs font-semibold text-[#6C47FF]">APP</span>
+                  <ExternalLink className="h-4 w-4" />
+                </Link>
+              </li>
+              <li>
+                <Link href={toLocalePath(locale, '/blog')} onClick={closeAll} className="flex items-center rounded-xl px-4 py-3.5 hover:bg-zinc-100 hover:text-black transition-colors">
                   {t('blog')}
                 </Link>
               </li>
             </ul>
           </nav>
-          <Button href={toLocalePath(locale, '/contacto')} className="w-full text-center">{t('contact')}</Button>
+          <Button href={toLocalePath(locale, '/contacto')} className="w-full text-center text-lg py-3.5">{t('contact')}</Button>
         </Wrapper>
       </div>
     </header>
-  );
-}
-
-type AccordionItem = {
-  icon: React.ComponentType<{className?: string}>;
-  title: string;
-  description: string;
-  badge?: 'partner';
-  items: {label: string; href: string}[];
-};
-
-function MobileAccordion({
-  title,
-  items,
-  closeAll,
-}: {
-  title: string;
-  items: AccordionItem[];
-  closeAll: () => void;
-}) {
-  const [openSection, setOpenSection] = useState<string | null>(null);
-
-  return (
-    <div>
-      <button
-        type="button"
-        onClick={() => setOpenSection(openSection === title ? null : title)}
-        className="flex w-full items-center justify-between  px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors"
-      >
-        <span>{title}</span>
-        <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${openSection === title ? 'rotate-180' : ''}`} />
-      </button>
-      {openSection === title && (
-        <div className="ml-4 mt-1 space-y-1 border-l-2 border-zinc-200 pl-4">
-          {items.map((section) => {
-            const Icon = section.icon;
-            return (
-              <div key={section.title} className="py-2">
-                <div className="flex items-center gap-2 px-3 mb-0.5">
-                  <div className="flex h-5 w-5 items-center justify-center rounded bg-[#6C47FF]/10 text-[#6C47FF]">
-                    <Icon className="h-3 w-3" />
-                  </div>
-                  <span className="text-sm font-medium text-black">{section.title}</span>
-                  {section.badge === 'partner' && (
-                    <span className="inline-flex items-center  bg-[#6C47FF]/10 px-1.5 py-0.5 text-[8px] font-semibold text-[#6C47FF]">
-                      PARTNER
-                    </span>
-                  )}
-                </div>
-                {section.description && (
-                  <p className="text-xs text-zinc-400 px-3 mb-1.5 ml-7">{section.description}</p>
-                )}
-                <ul className="space-y-1 ml-7 border-l-[3px] border-[#6C47FF]/20 pl-2">
-                  {section.items.map((sub) => (
-                    <li key={sub.label}>
-                      <Link
-                        href={sub.href}
-                        onClick={closeAll}
-                        className="block rounded-lg px-3 py-1.5 text-sm text-zinc-600 hover:text-[#6C47FF] transition-colors"
-                      >
-                        {sub.label}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            );
-          })}
-        </div>
-      )}
-    </div>
   );
 }
