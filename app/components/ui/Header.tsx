@@ -248,32 +248,44 @@ export function Header() {
               onClick={() => setIsLangOpen((prev) => !prev)}
               aria-expanded={isLangOpen}
               aria-label={tLang('switch')}
-              className="inline-flex h-10 items-center gap-2  border border-zinc-300 px-3 text-sm font-medium hover:border-zinc-400 hover:text-black transition-colors"
+              className={`inline-flex h-10 items-center gap-2 rounded-full border px-3 text-sm font-medium transition-colors ${
+                isLangOpen
+                  ? 'border-zinc-400 bg-zinc-50 text-black'
+                  : 'border-zinc-300 hover:border-zinc-400 hover:text-black'
+              }`}
             >
               <Globe className="h-3.5 w-3.5" aria-hidden="true" />
               <span>{locale.toUpperCase()}</span>
+              <ChevronDown
+                className={`h-3.5 w-3.5 transition-transform duration-200 ease-out ${isLangOpen ? 'rotate-180' : 'rotate-0'}`}
+                aria-hidden="true"
+              />
             </button>
-            {isLangOpen && (
-              <div className="absolute right-0 mt-2 w-52  border border-zinc-200 bg-white shadow-lg z-50">
-                <div className="py-1">
-                  {languages.map((lang) => (
-                    <button
-                      key={lang.code}
-                      onClick={() => switchLocale(lang.code)}
-                      className={`flex w-full items-center justify-between gap-3 px-4 py-3 text-left hover:bg-zinc-100 transition-colors ${locale === lang.code ? 'bg-zinc-50 font-medium' : ''}`}
-                    >
-                      <span className="flex items-center gap-3">
-                        <span className="inline-flex h-6 w-8 items-center justify-center rounded border border-zinc-300 text-xs font-semibold">
-                          {lang.short}
-                        </span>
-                        <span>{lang.label}</span>
+            <div
+              className={`absolute right-0 mt-2 w-52 origin-top-right rounded-xl border border-zinc-200 bg-white shadow-lg z-50 transition-all duration-200 ease-out ${
+                isLangOpen
+                  ? 'opacity-100 scale-100 translate-y-0 pointer-events-auto'
+                  : 'opacity-0 scale-95 -translate-y-2 pointer-events-none'
+              }`}
+            >
+              <div className="py-1">
+                {languages.map((lang) => (
+                  <button
+                    key={lang.code}
+                    onClick={() => switchLocale(lang.code)}
+                    className={`flex w-full items-center justify-between gap-3 px-4 py-3 text-left transition-colors hover:bg-zinc-100 ${locale === lang.code ? 'bg-zinc-50 font-medium' : ''}`}
+                  >
+                    <span className="flex items-center gap-3">
+                      <span className="inline-flex h-6 w-8 items-center justify-center rounded border border-zinc-300 text-xs font-semibold">
+                        {lang.short}
                       </span>
-                      {locale === lang.code ? <Check className="h-4 w-4" aria-hidden="true" /> : null}
-                    </button>
-                  ))}
-                </div>
+                      <span>{lang.label}</span>
+                    </span>
+                    {locale === lang.code ? <Check className="h-4 w-4 text-[#6C47FF]" aria-hidden="true" /> : null}
+                  </button>
+                ))}
               </div>
-            )}
+            </div>
           </div>
           <button
             type="button"
