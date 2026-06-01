@@ -100,6 +100,97 @@ body {
     opacity: 0;
     animation: heroFadeIn 0.9s ease-out forwards;
   }
+  .animate-spin-slow {
+    animation: spinSlow 60s linear infinite;
+  }
+  .animate-spin-slower {
+    animation: spinSlow 90s linear infinite;
+  }
+  .animate-spin-reverse {
+    animation: spinReverse 75s linear infinite;
+  }
+  .animate-spin-reverse-slow {
+    animation: spinReverse 110s linear infinite;
+  }
+  .animate-pulse-glow {
+    animation: pulseGlow 4s ease-in-out infinite;
+  }
+  .animate-orbit-dot {
+    animation: orbitDot 18s linear infinite;
+  }
+  .animate-orbit-dot-reverse {
+    animation: orbitDot 22s linear infinite reverse;
+  }
+  .animate-orbit-dot-slow {
+    animation: orbitDot 30s linear infinite;
+  }
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinReverse {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(114, 82, 255, 0.35), 0 0 60px 0 rgba(114, 82, 255, 0.25);
+  }
+  50% {
+    transform: scale(1.04);
+    box-shadow: 0 0 0 24px rgba(114, 82, 255, 0), 0 0 80px 0 rgba(114, 82, 255, 0.4);
+  }
+}
+
+@keyframes orbitDot {
+  from {
+    transform: rotate(0deg) translateX(var(--orbit-radius, 50%)) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(var(--orbit-radius, 50%)) rotate(-360deg);
+  }
+}
+
+@keyframes shimmerRing {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-spin-slow,
+  .animate-spin-slower,
+  .animate-spin-reverse,
+  .animate-spin-reverse-slow,
+  .animate-pulse-glow,
+  .animate-orbit-dot,
+  .animate-orbit-dot-reverse,
+  .animate-orbit-dot-slow {
+    animation: none !important;
+  }
+  .animate-hero-fade {
+    animation: none;
+    opacity: 1;
+  }
 }
 
 :root {
