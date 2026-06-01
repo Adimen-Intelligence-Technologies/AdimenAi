@@ -60,9 +60,9 @@ export function ServicesSection() {
           className="bg-cover bg-center bg-no-repeat bg-white/80 px-4 py-12 sm:px-8 sm:py-16 lg:py-24"
           style={{ backgroundImage: "url('/background-05.jpg')" }}
         >
-          <div ref={sectionRef} className="text-center">
+          <div ref={sectionRef} className="text-left sm:text-center">
             <div
-              className={`mb-3 inline-flex items-center justify-center gap-2 text-lg font-semibold ${fadeClass}`}
+              className={`mb-3 inline-flex items-center justify-start sm:justify-center gap-2 text-lg font-semibold ${fadeClass}`}
               style={{ animationDelay: "0.1s" }}
             >
               <Sparkles className="h-5 w-5 text-[#6C47FF]" />
@@ -75,7 +75,7 @@ export function ServicesSection() {
               {t("title")}
             </h2>
             <p
-              className={`mx-auto mt-4 max-w-2xl text-lg leading-tight sm:text-base  ${fadeClass}`}
+              className={`mt-4 max-w-2xl text-lg leading-tight sm:text-base sm:mx-auto ${fadeClass}`}
               style={{ animationDelay: "0.3s" }}
             >
               {t("description")}
