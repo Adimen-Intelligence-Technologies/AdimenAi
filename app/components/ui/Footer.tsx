@@ -35,7 +35,7 @@ export function Footer() {
           <div className="max-w-xs">
             <Link href={toLocalePath(locale, "/")} aria-label="AdimenAI" className="inline-flex items-center">
               <Image
-                src="/logo/adimenai-logo.svg"
+                src="/logo/adimenai-logo.png"
                 alt="AdimenAI"
                 width={280}
                 height={32}

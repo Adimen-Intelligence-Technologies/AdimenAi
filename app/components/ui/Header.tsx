@@ -120,6 +120,7 @@ export function Header() {
 
     const targetPath = `${toLocalePath(newLocale, cleanPathname)}${window.location.search}${window.location.hash}`;
     document.cookie = `NEXT_LOCALE=${newLocale};path=/;max-age=31536000`;
+    window.scrollTo(0, 0);
     window.location.href = targetPath;
   };
 
@@ -146,7 +147,7 @@ export function Header() {
       <Wrapper className="flex flex-wrap items-center justify-between gap-4 py-5 px-4 sm:px-6 lg:px-10">
         <div className="flex items-center gap-6">
           <Link href={toLocalePath(locale, '/')} aria-label="Ir a inicio">
-            <Image src="/logo/adimenai-logo.svg" alt="Adimenai logo" width={140} height={32} className="object-contain" />
+            <Image src="/logo/adimenai-logo.png" alt="Adimenai logo" width={140} height={32} className="object-contain" />
           </Link>
           <nav className="hidden lg:block">
             <ul className="flex items-center gap-1 text-base text-gray-600">

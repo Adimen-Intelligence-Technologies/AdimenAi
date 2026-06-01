@@ -1,6 +1,6 @@
 "use client";
 
-import { ReactNode } from "react";
+import { ReactNode, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { Footer } from "@/app/components/ui/Footer";
 import { Header } from "@/app/components/ui/Header";
@@ -12,6 +12,13 @@ interface ChromeLayoutProps {
 export function ChromeLayout({ children }: ChromeLayoutProps) {
   const pathname = usePathname();
   const isStudioRoute = pathname?.startsWith("/admin");
+
+  useEffect(() => {
+    if (typeof window !== "undefined" && "scrollRestoration" in window.history) {
+      window.history.scrollRestoration = "manual";
+    }
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   if (isStudioRoute) {
     return <>{children}</>;
