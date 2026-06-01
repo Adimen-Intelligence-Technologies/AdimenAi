@@ -14,7 +14,7 @@ const Circle = forwardRef<
     <div
       ref={ref}
       className={cn(
-        "z-10 flex size-12 items-center justify-center rounded-full border-2 bg-white p-3 shadow-[0_0_20px_-12px_rgba(0,0,0,0.8)]",
+        "z-10 flex size-14 sm:size-12 items-center justify-center rounded-full border-2 bg-white p-2 sm:p-3 shadow-[0_0_20px_-12px_rgba(0,0,0,0.8)]",
         className
       )}
     >
@@ -53,9 +53,9 @@ export function BeamSection() {
           <div className="mt-12 flex justify-center">
             <div
               ref={containerRef}
-              className="relative flex h-75 w-full max-w-5xl items-center justify-center overflow-hidden p-4 sm:p-6 lg:p-10"
+              className="relative flex h-95 sm:h-75 w-full max-w-5xl items-center justify-center overflow-hidden p-6 sm:p-6 lg:p-10"
             >
-              <div className="flex h-full w-full max-w-lg flex-col justify-between gap-10">
+              <div className="flex h-full w-full max-w-md sm:max-w-lg flex-col justify-between gap-14 sm:gap-10">
                 <div className="flex items-center justify-between">
                   <Circle ref={div1Ref}>
                     <Icons.googleDrive />
@@ -68,7 +68,7 @@ export function BeamSection() {
                   <Circle ref={div2Ref}>
                     <Icons.notion />
                   </Circle>
-                  <Circle ref={div4Ref} className="size-16">
+                  <Circle ref={div4Ref} className="size-20 sm:size-16">
                     <Icons.openai />
                   </Circle>
                   <Circle ref={div6Ref}>
@@ -468,9 +468,10 @@ const Icons = {
   ),
   zapier: () => (
     <svg
-      width="105"
-      height="28"
+      width="100%"
+      height="100%"
       viewBox="0 0 244 66"
+      preserveAspectRatio="xMidYMid meet"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

@@ -26,7 +26,7 @@ export function FaqSection() {
     <section id="faq" className="border-b border-zinc-200">
       <Wrapper>
         <div
-          className="relative overflow-hidden border-x-0 border-zinc-200 bg-cover bg-center px-6 py-18 sm:px-10 lg:px-12 lg:py-24"
+          className="relative overflow-hidden border-x-0 border-zinc-200 bg-cover bg-center px-4 py-12 sm:px-8 sm:py-16 lg:py-24"
           style={{ backgroundImage: "url('/background-06.jpg')" }}
         >
           <div className="pointer-events-none absolute inset-0 z-0 bg-white/10 backdrop-blur-sm" />
@@ -35,20 +35,20 @@ export function FaqSection() {
 
           <div className="relative z-10 grid gap-10 lg:grid-cols-[1fr_minmax(620px,1.35fr)] lg:gap-14">
             <div className="max-w-md">
-              <div className="inline-flex items-center gap-2 text-[30px] text-[#6e56ff]">
-                <span className="leading-none">+</span>
-                <p className="text-lg font-medium text-zinc-900 tracking-tight">{t("badge")}</p>
+              <div className="mb-3 inline-flex items-center justify-start sm:justify-center gap-2 text-lg font-semibold text-zinc-900 tracking-tight">
+                <span className="leading-none text-[#6C47FF]">+</span>
+                {t("badge")}
               </div>
 
-              <h2 className="mt-4 text-4xl font-semibold tracking-tight text-black sm:text-[54px] sm:leading-[1.06]">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-tight text-balance text-black">
                 {t("title")}
               </h2>
 
-              <p className="mt-4 max-w-sm text-xl text-black tracking-tight">
+              <p className="mt-4 max-w-sm text-lg leading-tight sm:text-base text-black tracking-tight">
                 {t("description")}
               </p>
 
-              <p className="mt-8 text-xl font-medium text-black tracking-tight">{t("needHelp")}</p>
+              <p className="mt-8 text-lg sm:text-base font-medium text-black tracking-tight">{t("needHelp")}</p>
 
               <Button href={toLocalePath(locale, "/contactar")} color="purple" className="mt-4 text-2xl">
                 {t("button")}

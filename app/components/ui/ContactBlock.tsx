@@ -10,35 +10,35 @@ export function ContactBlock() {
     <section id="contacto">
       <Wrapper>
         <div
-          className="bg-cover bg-center bg-no-repeat bg-white/80 p-6 sm:p-8 lg:p-12"
+          className="bg-cover bg-center bg-no-repeat bg-white/80 px-4 py-12 sm:px-8 sm:py-16 lg:py-24"
           style={{ backgroundImage: "url('/background-05.jpg')" }}
         >
-        <div className="mx-auto max-w-xl text-center px-2 sm:px-0 mb-10 lg:mb-20">
+        <div className="mx-auto max-w-3xl text-center">
           <div
-            className={`mt-10 inline-flex items-center justify-center gap-2 text-base sm:text-lg font-semibold pt-2 `}
+            className={`mb-3 inline-flex items-center justify-center gap-2 text-lg font-semibold`}
             style={{ animationDelay: "0.1s" }}
           >
-            <Sparkles className="h-5 w-5 text-[#6C47FF] tracking-tight" />
+            <Sparkles className="h-5 w-5 text-[#6C47FF]" />
             {t("badge")}
           </div>
           <h2
-            className={`text-3xl sm:text-4xl md:text-[40px] font-semibold tracking-tight`}
+            className={`text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-tight text-balance`}
             style={{ animationDelay: "0.2s" }}
           >
             {t("title")}
           </h2>
           <p
-            className={`mx-auto mt-4 max-w-2xl text-sm sm:text-base tracking-tight`}
+            className={`mx-auto mt-4 max-w-2xl text-lg leading-tight sm:text-base tracking-tight`}
             style={{ animationDelay: "0.3s" }}
           >
             {t("description")}
           </p>
         </div>
-        <div className="flex flex-col gap-8 mt-10 mx-auto max-w-4xl lg:flex-row">
+        <div className="mt-12 flex flex-col gap-8 mx-auto max-w-4xl lg:flex-row">
           <div className="lg:flex-2">
             <ContactForm />
           </div>
-          <div className=" mt-10 lg:flex-1 space-y-5">
+          <div className="lg:flex-1 space-y-5">
             <div>
               <p className="text-zinc-700 text-sm tracking-tight mb-2">
                 {t("officeLabel")}

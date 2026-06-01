@@ -26,16 +26,15 @@ export function CtaSection() {
 
      
 
-      <Wrapper className="py-16 sm:py-20 lg:py-30">
-        <div className="relative z-10 mx-auto max-w-3xl px-4 text-center text-black sm:px-6 lg:px-8">
-         
-          <h2 className="mt-5 text-3xl font-semibold  sm:text-4xl md:text-5xl tracking-tight">
+      <Wrapper>
+        <div className="relative z-10 mx-auto max-w-3xl text-center text-black px-4 py-12 sm:px-8 sm:py-16 lg:py-24">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-tight text-balance">
             {t("title")}
           </h2>
-           <p className="text-sm font-semibold  mt-4 text-black sm:text-base tracking-tight">
+          <p className="mx-auto mt-4 max-w-2xl text-lg leading-tight sm:text-base tracking-tight text-black">
             {t("description")}
           </p>
-          <div className="mt-5 flex justify-center">
+          <div className="mt-8 flex justify-center">
             <Button
               href="tel:+34650609028"
               color="purple"

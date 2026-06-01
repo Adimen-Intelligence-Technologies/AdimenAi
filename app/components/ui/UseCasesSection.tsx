@@ -77,34 +77,34 @@ export function UseCasesSection() {
     <section id="casos-de-uso" className="border-b border-zinc-200">
       <Wrapper>
         <div
-          className="bg-cover bg-center bg-no-repeat bg-white/80 p-6 sm:p-8 lg:p-16"
+          className="bg-cover bg-center bg-no-repeat bg-white/80 px-4 py-12 sm:px-8 sm:py-16 lg:py-24"
           style={{ backgroundImage: "url('/background-06.jpg')" }}
         >
         <div>
-          <div ref={sectionRef} className="mx-auto max-w-3xl text-center px-2 sm:px-0">
+          <div ref={sectionRef} className="mx-auto max-w-3xl text-center">
             <div
-              className={`mb-4 inline-flex items-center justify-center gap-2 text-base sm:text-lg font-semibold ${fadeClass}`}
+              className={`mb-3 inline-flex items-center justify-center gap-2 text-lg font-semibold ${fadeClass}`}
               style={{ animationDelay: "0.1s" }}
             >
              <Sparkles className="h-5 w-5 text-[#6C47FF]" />
               {t("badge")}
             </div>
             <h2
-              className={`text-3xl sm:text-4xl md:text-[40px] font-semibold ${fadeClass}`}
+              className={`text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-tight text-balance ${fadeClass}`}
               style={{ animationDelay: "0.2s" }}
             >
               {t("title")}
             </h2>
             <p
-              className={`mx-auto mt-4 max-w-2xl text-sm sm:text-base ${fadeClass}`}
+              className={`mx-auto mt-4 max-w-2xl text-lg leading-tight sm:text-base tracking-tight ${fadeClass}`}
               style={{ animationDelay: "0.3s" }}
             >
               {t("description")}
             </p>
           </div>
 
-          <div className="mt-10 w-full overflow-x-auto pb-6 sm:pb-0 lg:overflow-visible">
-            <div className="flex gap-4 lg:grid lg:grid-cols-2 xl:grid-cols-3">
+          <div className="mt-12 w-full overflow-x-auto pb-6 sm:pb-0 lg:overflow-visible">
+            <div className="flex gap-4 lg:grid lg:grid-cols-2 xl:grid-cols-3 sm:gap-5">
               {useCases.map((useCase, index) => (
                 <div key={useCase.title} className="shrink-0 w-64 sm:w-72 lg:w-auto">
                   <Card
