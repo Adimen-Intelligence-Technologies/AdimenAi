@@ -29,11 +29,11 @@ export function FaqSection() {
           className="relative overflow-hidden border-x-0 border-zinc-200 bg-cover bg-center px-6 py-18 sm:px-10 lg:px-12 lg:py-24"
           style={{ backgroundImage: "url('/background-06.jpg')" }}
         >
-          <div className="pointer-events-none absolute inset-0 bg-white/10 backdrop-blur-sm" />
-          <div className="pointer-events-none absolute -top-18 right-[15%] h-40 w-56 rounded-full bg-[#7a68ff]/25 blur-3xl" />
-          <div className="pointer-events-none absolute top-[44%] right-[8%] h-28 w-44 rounded-full bg-white/60 blur-2xl" />
+          <div className="pointer-events-none absolute inset-0 z-0 bg-white/10 backdrop-blur-sm" />
+          <div className="pointer-events-none absolute -top-18 right-[15%] z-0 h-40 w-56 rounded-full bg-[#7a68ff]/25 blur-3xl" />
+          <div className="pointer-events-none absolute top-[44%] right-[8%] z-0 h-28 w-44 rounded-full bg-white/60 blur-2xl" />
 
-          <div className="relative grid gap-10 lg:grid-cols-[1fr_minmax(620px,1.35fr)] lg:gap-14">
+          <div className="relative z-10 grid gap-10 lg:grid-cols-[1fr_minmax(620px,1.35fr)] lg:gap-14">
             <div className="max-w-md">
               <div className="inline-flex items-center gap-2 text-[30px] text-[#6e56ff]">
                 <span className="leading-none">+</span>
