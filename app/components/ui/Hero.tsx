@@ -25,7 +25,7 @@ export function Hero() {
           <div className="absolute inset-0" />
           <div className="relative z-10 flex flex-col items-center justify-center gap-4 text-center px-2 sm:px-6 lg:px-20 xl:px-30">
             <p
-              className="text-base sm:text-lg md:text-xl font-medium text-gray-600 tracking-wide animate-hero-fade"
+              className="text-xl sm:text-lg md:text-xl font-medium text-gray-600 tracking-wide animate-hero-fade"
               style={{ animationDelay: "0.1s" }}
             >
               {t("eyebrow")}
@@ -37,13 +37,13 @@ export function Hero() {
               {t("title")}
             </h1>
             <h2
-              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black tracking-tighter leading-tight -mt-2 animate-hero-fade"
+              className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black tracking-tighter leading-tight -mt-4 animate-hero-fade"
               style={{ animationDelay: "0.25s" }}
             >
               {t("subtitle")}
             </h2>
             <p
-              className="max-w-3xl text-base sm:text-lg text-black leading-tight animate-hero-fade"
+              className="max-w-3xl text-xl sm:text-lg text-black leading-tight animate-hero-fade"
               style={{ animationDelay: "0.35s" }}
             >
               {t("description")}
@@ -60,7 +60,7 @@ export function Hero() {
               </Button>
             </div>
             <div
-              className="grid grid-cols-1 sm:grid-cols-3 gap-2 mt-16 w-full animate-hero-fade"
+              className="grid grid-cols-1 sm:grid-cols-3 gap-2 xl:mt-16 w-full animate-hero-fade mt-8"
               style={{ animationDelay: "0.65s" }}
             >
               {stats.map((stat, index) => {

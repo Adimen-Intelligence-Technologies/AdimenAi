@@ -1,6 +1,6 @@
 "use client";
 
-import {useState} from 'react';
+import {useEffect, useState} from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import {useLocale, useTranslations} from 'next-intl';
@@ -35,6 +35,16 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
   const cleanPathname = stripLocaleFromPath(pathname || '/');
+
+  useEffect(() => {
+    if (isOpen) {
+      const original = document.body.style.overflow;
+      document.body.style.overflow = "hidden";
+      return () => {
+        document.body.style.overflow = original;
+      };
+    }
+  }, [isOpen]);
 
   const solutionsColumns: MegaMenuColumn[] = [
     {
@@ -143,168 +153,171 @@ export function Header() {
   ];
 
   return (
-    <header className="relative z-20 border-b border-zinc-200 bg-white">
-      <Wrapper className="flex flex-wrap items-center justify-between gap-4 py-5 px-4 sm:px-6 lg:px-10">
-        <div className="flex items-center gap-6">
-          <Link href={toLocalePath(locale, '/')} aria-label="Ir a inicio">
-            <Image src="/logo/adimenai-logo.png" alt="Adimenai logo" width={140} height={32} className="object-contain" />
-          </Link>
-          <nav className="hidden lg:block">
-            <ul className="flex items-center gap-1 text-base text-gray-600">
-              {navItems.map((item) => (
-                <li key={item.id}>
-                  {item.hasDropdown ? (
-                    <div className="group relative">
-                      <button
-                        type="button"
-                        className="inline-flex items-center gap-1  px-3 py-2 transition-colors hover:text-black hover:bg-zinc-100"
-                      >
-                        {item.label}
-                        <ChevronDown className="h-3.5 w-3.5 transition-transform duration-200 group-hover:rotate-180" aria-hidden="true" />
-                      </button>
-                      {item.dropdownType === 'megamenu' && (
-                        <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-230  border border-zinc-200 bg-white shadow-xl z-50 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200">
-                          <div className="grid grid-cols-3 gap-px bg-zinc-100  overflow-hidden">
-                            {(item.handler as MegaMenuColumn[]).map((col) => {
-                              const Icon = col.icon;
-                              return (
-                                <div key={col.title} className="bg-white p-5">
-                                  <div className="flex items-center gap-1 ">
-                                    <div className="flex h-7 w-7 items-center justify-center  bg-[#6C47FF]/10 text-[#6C47FF]">
-                                      <Icon className="h-4 w-4" />
+    <>
+      <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white">
+        <Wrapper className="flex flex-wrap items-center justify-between gap-4 py-5 px-4 sm:px-6 lg:px-10">
+          <div className="flex items-center gap-6">
+            <Link href={toLocalePath(locale, '/')} aria-label="Ir a inicio">
+              <Image src="/logo/adimenai-logo.png" alt="Adimenai logo" width={150} height={42} className="object-contain" />
+            </Link>
+            <nav className="hidden lg:block">
+              <ul className="flex items-center gap-1 text-base text-gray-600">
+                {navItems.map((item) => (
+                  <li key={item.id}>
+                    {item.hasDropdown ? (
+                      <div className="group relative">
+                        <button
+                          type="button"
+                          className="inline-flex items-center gap-1  px-3 py-2 transition-colors hover:text-black hover:bg-zinc-100"
+                        >
+                          {item.label}
+                          <ChevronDown className="h-3.5 w-3.5 transition-transform duration-200 group-hover:rotate-180" aria-hidden="true" />
+                        </button>
+                        {item.dropdownType === 'megamenu' && (
+                          <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-230  border border-zinc-200 bg-white shadow-xl z-50 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200">
+                            <div className="grid grid-cols-3 gap-px bg-zinc-100  overflow-hidden">
+                              {(item.handler as MegaMenuColumn[]).map((col) => {
+                                const Icon = col.icon;
+                                return (
+                                  <div key={col.title} className="bg-white p-5">
+                                    <div className="flex items-center gap-1 ">
+                                      <div className="flex h-7 w-7 items-center justify-center  bg-[#6C47FF]/10 text-[#6C47FF]">
+                                        <Icon className="h-4 w-4" />
+                                      </div>
+                                      <h3 className="text-base font-semibold text-black">{col.title}</h3>
+                                      {col.badge === 'partner' && (
+                                        <span className="inline-flex items-center  bg-[#6C47FF]/20 px-2 py-1 text-[6px] font-semibold text-[#6C47FF]">
+                                          PARTNER
+                                        </span>
+                                      )}
                                     </div>
-                                    <h3 className="text-base font-semibold text-black">{col.title}</h3>
-                                    {col.badge === 'partner' && (
-                                      <span className="inline-flex items-center  bg-[#6C47FF]/20 px-2 py-1 text-[6px] font-semibold text-[#6C47FF]">
-                                        PARTNER
-                                      </span>
-                                    )}
+                                    <p className="text-xs text-zinc-400 mb-2 ml-8">{col.description}</p>
+                                    <ul className=" ml-8 border-l-2 border-[#6C47FF] ">
+                                      {col.items.map((sub) => (
+                                        <li key={sub.label}>
+                                          <Link
+                                            href={sub.href}
+                                            onClick={closeAll}
+                                            className="block rounded-md px-1 py-0.5 text-sm text-zinc-600 hover:bg-zinc-50 hover:text-[#6C47FF] transition-colors"
+                                          >
+                                            {sub.label}
+                                          </Link>
+                                        </li>
+                                      ))}
+                                    </ul>
                                   </div>
-                                  <p className="text-xs text-zinc-400 mb-2 ml-8">{col.description}</p>
-                                  <ul className=" ml-8 border-l-2 border-[#6C47FF] ">
-                                    {col.items.map((sub) => (
-                                      <li key={sub.label}>
-                                        <Link
-                                          href={sub.href}
-                                          onClick={closeAll}
-                                          className="block rounded-md px-1 py-0.5 text-sm text-zinc-600 hover:bg-zinc-50 hover:text-[#6C47FF] transition-colors"
-                                        >
-                                          {sub.label}
-                                        </Link>
-                                      </li>
-                                    ))}
-                                  </ul>
-                                </div>
-                              );
-                            })}
-                          </div>
-                        </div>
-                      )}
-                      {item.dropdownType === 'dropdown' && (
-                        <div className="absolute left-0 mt-2 w-56  border border-zinc-200 bg-white shadow-lg z-50 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200">
-                          <div className="p-3">
-                            <p className="text-xs text-zinc-400 mb-2 px-3">{t('aboutUsDesc')}</p>
-                            <div className="py-1">
-                              {(item.handler as MenuDropdown).items.map((sub) => (
-                                <Link
-                                  key={sub.label}
-                                  href={sub.href}
-                                  onClick={closeAll}
-                                  className="block px-4 py-2.5 text-sm hover:bg-zinc-100 rounded-lg transition-colors"
-                                >
-                                  {sub.label}
-                                </Link>
-                              ))}
+                                );
+                              })}
                             </div>
                           </div>
-                        </div>
-                      )}
-                    </div>
-                  ) : (
-                    <Link
-                      href={item.href || '#'}
-                      className="inline-flex items-center gap-1 rounded-lg px-3 py-2 transition-colors hover:text-black hover:bg-zinc-100"
-                    >
-                      {item.label}
-                      {item.isExternal && <ExternalLink className="h-3 w-3" aria-hidden="true" />}
-                      {item.id === 'herrikonekt' && (
-                        <span className="inline-flex items-center  bg-[#6C47FF]/10 px-1.5 py-0.5 text-[9px] font-semibold text-[#6C47FF] ml-0.5">
-                          APP
-                        </span>
-                      )}
-                    </Link>
-                  )}
-                </li>
-              ))}
-            </ul>
-          </nav>
-        </div>
-        <div className="flex items-center gap-4">
-          <div className="hidden lg:block">
-            <Button href={toLocalePath(locale, '/contacto')} className="text-base px-6 py-2.5">{t('contact')}</Button>
-          </div>
-          <div className="relative">
-            <button
-              type="button"
-              onClick={() => setIsLangOpen((prev) => !prev)}
-              aria-expanded={isLangOpen}
-              aria-label={tLang('switch')}
-              className={`inline-flex h-10 items-center gap-2 rounded-full border px-3 text-sm font-medium transition-colors ${
-                isLangOpen
-                  ? 'border-zinc-400 bg-zinc-50 text-black'
-                  : 'border-zinc-300 hover:border-zinc-400 hover:text-black'
-              }`}
-            >
-              <Globe className="h-3.5 w-3.5" aria-hidden="true" />
-              <span>{locale.toUpperCase()}</span>
-              <ChevronDown
-                className={`h-3.5 w-3.5 transition-transform duration-200 ease-out ${isLangOpen ? 'rotate-180' : 'rotate-0'}`}
-                aria-hidden="true"
-              />
-            </button>
-            <div
-              className={`absolute right-0 mt-2 w-52 origin-top-right rounded-xl border border-zinc-200 bg-white shadow-lg z-50 transition-all duration-200 ease-out ${
-                isLangOpen
-                  ? 'opacity-100 scale-100 translate-y-0 pointer-events-auto'
-                  : 'opacity-0 scale-95 -translate-y-2 pointer-events-none'
-              }`}
-            >
-              <div className="py-1">
-                {languages.map((lang) => (
-                  <button
-                    key={lang.code}
-                    onClick={() => switchLocale(lang.code)}
-                    className={`flex w-full items-center justify-between gap-3 px-4 py-3 text-left transition-colors hover:bg-zinc-100 ${locale === lang.code ? 'bg-zinc-50 font-medium' : ''}`}
-                  >
-                    <span className="flex items-center gap-3">
-                      <span className="inline-flex h-6 w-8 items-center justify-center rounded border border-zinc-300 text-xs font-semibold">
-                        {lang.short}
-                      </span>
-                      <span>{lang.label}</span>
-                    </span>
-                    {locale === lang.code ? <Check className="h-4 w-4 text-[#6C47FF]" aria-hidden="true" /> : null}
-                  </button>
+                        )}
+                        {item.dropdownType === 'dropdown' && (
+                          <div className="absolute left-0 mt-2 w-56  border border-zinc-200 bg-white shadow-lg z-50 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200">
+                            <div className="p-3">
+                              <p className="text-xs text-zinc-400 mb-2 px-3">{t('aboutUsDesc')}</p>
+                              <div className="py-1">
+                                {(item.handler as MenuDropdown).items.map((sub) => (
+                                  <Link
+                                    key={sub.label}
+                                    href={sub.href}
+                                    onClick={closeAll}
+                                    className="block px-4 py-2.5 text-sm hover:bg-zinc-100 rounded-lg transition-colors"
+                                  >
+                                    {sub.label}
+                                  </Link>
+                                ))}
+                              </div>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    ) : (
+                      <Link
+                        href={item.href || '#'}
+                        className="inline-flex items-center gap-1 rounded-lg px-3 py-2 transition-colors hover:text-black hover:bg-zinc-100"
+                      >
+                        {item.label}
+                        {item.isExternal && <ExternalLink className="h-3 w-3" aria-hidden="true" />}
+                        {item.id === 'herrikonekt' && (
+                          <span className="inline-flex items-center  bg-[#6C47FF]/10 px-1.5 py-0.5 text-[9px] font-semibold text-[#6C47FF] ml-0.5">
+                            APP
+                          </span>
+                        )}
+                      </Link>
+                    )}
+                  </li>
                 ))}
+              </ul>
+            </nav>
+          </div>
+          <div className="flex items-center gap-4">
+            <div className="hidden lg:block">
+              <Button href={toLocalePath(locale, '/contacto')} className="text-base px-6 py-2.5">{t('contact')}</Button>
+            </div>
+            <div className="relative">
+              <button
+                type="button"
+                onClick={() => setIsLangOpen((prev) => !prev)}
+                aria-expanded={isLangOpen}
+                aria-label={tLang('switch')}
+                className={`inline-flex h-10 items-center gap-2 rounded-full border px-3 text-sm font-medium transition-colors ${
+                  isLangOpen
+                    ? 'border-zinc-400 bg-zinc-50 text-black'
+                    : 'border-zinc-300 hover:border-zinc-400 hover:text-black'
+                }`}
+              >
+                <Globe className="h-3.5 w-3.5" aria-hidden="true" />
+                <span>{locale.toUpperCase()}</span>
+                <ChevronDown
+                  className={`h-3.5 w-3.5 transition-transform duration-200 ease-out ${isLangOpen ? 'rotate-180' : 'rotate-0'}`}
+                  aria-hidden="true"
+                />
+              </button>
+              <div
+                className={`absolute right-0 mt-2 w-52 origin-top-right rounded-xl border border-zinc-200 bg-white shadow-lg z-50 transition-all duration-200 ease-out ${
+                  isLangOpen
+                    ? 'opacity-100 scale-100 translate-y-0 pointer-events-auto'
+                    : 'opacity-0 scale-95 -translate-y-2 pointer-events-none'
+                }`}
+              >
+                <div className="py-1">
+                  {languages.map((lang) => (
+                    <button
+                      key={lang.code}
+                      onClick={() => switchLocale(lang.code)}
+                      className={`flex w-full items-center justify-between gap-3 px-4 py-3 text-left transition-colors hover:bg-zinc-100 ${locale === lang.code ? 'bg-zinc-50 font-medium' : ''}`}
+                    >
+                      <span className="flex items-center gap-3">
+                        <span className="inline-flex h-6 w-8 items-center justify-center rounded border border-zinc-300 text-xs font-semibold">
+                          {lang.short}
+                        </span>
+                        <span>{lang.label}</span>
+                      </span>
+                      {locale === lang.code ? <Check className="h-4 w-4 text-[#6C47FF]" aria-hidden="true" /> : null}
+                    </button>
+                  ))}
+                </div>
               </div>
             </div>
+            <button
+              type="button"
+              onClick={() => setIsOpen((prev) => !prev)}
+              aria-expanded={isOpen}
+              aria-label={isOpen ? t('closeMenu') : t('openMenu')}
+              className="inline-flex h-10 w-10 items-center justify-center hover:text-black lg:hidden"
+            >
+              <span className="sr-only">{t('menu')}</span>
+              {isOpen ? <X className="h-5 w-5" aria-hidden="true" /> : <Menu className="h-5 w-5" aria-hidden="true" />}
+            </button>
           </div>
-          <button
-            type="button"
-            onClick={() => setIsOpen((prev) => !prev)}
-            aria-expanded={isOpen}
-            aria-label={isOpen ? t('closeMenu') : t('openMenu')}
-            className="inline-flex h-10 w-10 items-center justify-center hover:text-black lg:hidden"
-          >
-            <span className="sr-only">{t('menu')}</span>
-            {isOpen ? <X className="h-5 w-5" aria-hidden="true" /> : <Menu className="h-5 w-5" aria-hidden="true" />}
-          </button>
-        </div>
-      </Wrapper>
+        </Wrapper>
+      </header>
       <div
-        className={`border-t border-zinc-200 bg-white lg:hidden overflow-y-auto transition-all duration-500 ease-in-out ${isOpen ? 'max-h-[80vh] opacity-100' : 'max-h-0 opacity-0'}`}
-        aria-hidden={!isOpen}
+        className={`fixed inset-x-0 top-0 z-40 h-screen bg-white overflow-y-auto transition-opacity duration-300 ease-in-out lg:hidden ${
+          isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
+        }`}
       >
-        <Wrapper className="space-y-4 py-6 px-4 sm:px-6">
+        <Wrapper className="space-y-4 px-4 pt-24 pb-10 sm:px-6">
           <nav>
             <ul className="space-y-2 text-lg text-gray-700">
               <li>
@@ -337,7 +350,7 @@ export function Header() {
           <Button href={toLocalePath(locale, '/contacto')} className="w-full text-center text-lg py-3.5">{t('contact')}</Button>
         </Wrapper>
       </div>
-    </header>
+    </>
   );
 }
 
