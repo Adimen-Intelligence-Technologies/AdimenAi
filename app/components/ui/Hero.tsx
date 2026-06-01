@@ -52,10 +52,10 @@ export function Hero() {
               className="flex flex-col sm:flex-row gap-4 mt-8 animate-hero-fade"
               style={{ animationDelay: "0.5s" }}
             >
-              <Button href={toLocalePath(locale, "/contactar")} variant="primary">
+              <Button href={toLocalePath(locale, "/contactar")} variant="primary" disableAnimation>
                 {t("ctaPrimary")}
               </Button>
-              <Button href={toLocalePath(locale, "/#servicios")} variant="secondary">
+              <Button href={toLocalePath(locale, "/#servicios")} variant="secondary" disableAnimation>
                 {t("ctaSecondary")}
               </Button>
             </div>
