@@ -149,44 +149,44 @@ export function Header() {
             <Image src="/logo/adimenai-logo.svg" alt="Adimenai logo" width={140} height={32} className="object-contain" />
           </Link>
           <nav className="hidden lg:block">
-            <ul className="flex items-center gap-1 text-[15px] text-gray-500">
+            <ul className="flex items-center gap-1 text-base text-gray-600">
               {navItems.map((item) => (
                 <li key={item.id}>
                   {item.hasDropdown ? (
                     <div className="group relative">
                       <button
                         type="button"
-                        className="inline-flex items-center gap-1 rounded-lg px-3 py-2 transition-colors hover:text-black hover:bg-zinc-100"
+                        className="inline-flex items-center gap-1  px-3 py-2 transition-colors hover:text-black hover:bg-zinc-100"
                       >
                         {item.label}
                         <ChevronDown className="h-3.5 w-3.5 transition-transform duration-200 group-hover:rotate-180" aria-hidden="true" />
                       </button>
                       {item.dropdownType === 'megamenu' && (
-                        <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-[800px] rounded-2xl border border-zinc-200 bg-white shadow-xl z-50 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200">
-                          <div className="grid grid-cols-3 gap-px bg-zinc-100 rounded-2xl overflow-hidden">
+                        <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-230  border border-zinc-200 bg-white shadow-xl z-50 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200">
+                          <div className="grid grid-cols-3 gap-px bg-zinc-100  overflow-hidden">
                             {(item.handler as MegaMenuColumn[]).map((col) => {
                               const Icon = col.icon;
                               return (
                                 <div key={col.title} className="bg-white p-5">
-                                  <div className="flex items-center gap-2.5 mb-1">
-                                    <div className="flex h-7 w-7 items-center justify-center rounded-md bg-[#6C47FF]/10 text-[#6C47FF]">
+                                  <div className="flex items-center gap-1 ">
+                                    <div className="flex h-7 w-7 items-center justify-center  bg-[#6C47FF]/10 text-[#6C47FF]">
                                       <Icon className="h-4 w-4" />
                                     </div>
-                                    <h3 className="text-sm font-semibold text-black">{col.title}</h3>
+                                    <h3 className="text-base font-semibold text-black">{col.title}</h3>
                                     {col.badge === 'partner' && (
-                                      <span className="inline-flex items-center rounded-full bg-[#6C47FF]/10 px-2 py-0.5 text-[8px] font-semibold text-[#6C47FF]">
+                                      <span className="inline-flex items-center  bg-[#6C47FF]/20 px-2 py-1 text-[6px] font-semibold text-[#6C47FF]">
                                         PARTNER
                                       </span>
                                     )}
                                   </div>
-                                  <p className="text-xs text-zinc-400 mb-3 ml-9">{col.description}</p>
-                                  <ul className="space-y-0.5 ml-8 border-l-2 border-[#6C47FF]/40 pl-2.5">
+                                  <p className="text-xs text-zinc-400 mb-2 ml-8">{col.description}</p>
+                                  <ul className=" ml-8 border-l-2 border-[#6C47FF] ">
                                     {col.items.map((sub) => (
                                       <li key={sub.label}>
                                         <Link
                                           href={sub.href}
                                           onClick={closeAll}
-                                          className="block rounded-md px-2.5 py-1.5 text-sm text-zinc-600 hover:bg-zinc-50 hover:text-[#6C47FF] transition-colors"
+                                          className="block rounded-md px-1 py-0.5 text-sm text-zinc-600 hover:bg-zinc-50 hover:text-[#6C47FF] transition-colors"
                                         >
                                           {sub.label}
                                         </Link>
@@ -200,7 +200,7 @@ export function Header() {
                         </div>
                       )}
                       {item.dropdownType === 'dropdown' && (
-                        <div className="absolute left-0 mt-2 w-56 rounded-xl border border-zinc-200 bg-white shadow-lg z-50 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200">
+                        <div className="absolute left-0 mt-2 w-56  border border-zinc-200 bg-white shadow-lg z-50 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200">
                           <div className="p-3">
                             <p className="text-xs text-zinc-400 mb-2 px-3">{t('aboutUsDesc')}</p>
                             <div className="py-1">
@@ -227,7 +227,7 @@ export function Header() {
                       {item.label}
                       {item.isExternal && <ExternalLink className="h-3 w-3" aria-hidden="true" />}
                       {item.id === 'herrikonekt' && (
-                        <span className="inline-flex items-center rounded-full bg-[#6C47FF]/10 px-1.5 py-0.5 text-[9px] font-semibold text-[#6C47FF] ml-0.5">
+                        <span className="inline-flex items-center  bg-[#6C47FF]/10 px-1.5 py-0.5 text-[9px] font-semibold text-[#6C47FF] ml-0.5">
                           APP
                         </span>
                       )}
@@ -248,13 +248,13 @@ export function Header() {
               onClick={() => setIsLangOpen((prev) => !prev)}
               aria-expanded={isLangOpen}
               aria-label={tLang('switch')}
-              className="inline-flex h-10 items-center gap-2 rounded-full border border-zinc-300 px-3 text-sm font-medium hover:border-zinc-400 hover:text-black transition-colors"
+              className="inline-flex h-10 items-center gap-2  border border-zinc-300 px-3 text-sm font-medium hover:border-zinc-400 hover:text-black transition-colors"
             >
               <Globe className="h-3.5 w-3.5" aria-hidden="true" />
               <span>{locale.toUpperCase()}</span>
             </button>
             {isLangOpen && (
-              <div className="absolute right-0 mt-2 w-52 rounded-xl border border-zinc-200 bg-white shadow-lg z-50">
+              <div className="absolute right-0 mt-2 w-52  border border-zinc-200 bg-white shadow-lg z-50">
                 <div className="py-1">
                   {languages.map((lang) => (
                     <button
@@ -295,12 +295,12 @@ export function Header() {
           <nav>
             <ul className="space-y-3 text-[16px] text-gray-600">
               <li>
-                <Link href={toLocalePath(locale, '/')} onClick={closeAll} className="block rounded-xl px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors">
+                <Link href={toLocalePath(locale, '/')} onClick={closeAll} className="block  px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors">
                   {t('home')}
                 </Link>
               </li>
               <li>
-                <Link href={toLocalePath(locale, '/sobre-nosotros')} onClick={closeAll} className="block rounded-xl px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors">
+                <Link href={toLocalePath(locale, '/sobre-nosotros')} onClick={closeAll} className="block  px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors">
                   {t('aboutUs')}
                 </Link>
               </li>
@@ -308,14 +308,14 @@ export function Header() {
                 <MobileAccordion title={t('solutions')} items={megaMenuColumns} closeAll={closeAll} />
               </li>
               <li>
-                <Link href="#" onClick={closeAll} className="inline-flex items-center gap-2 rounded-xl px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors">
+                <Link href="#" onClick={closeAll} className="inline-flex items-center gap-2  px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors">
                   {t('herrikonekt')}
-                  <span className="inline-flex items-center rounded-full bg-[#6C47FF]/10 px-1.5 py-0.5 text-[9px] font-semibold text-[#6C47FF]">APP</span>
+                  <span className="inline-flex items-center  bg-[#6C47FF]/10 px-1.5 py-0.5 text-[9px] font-semibold text-[#6C47FF]">APP</span>
                   <ExternalLink className="h-3 w-3" />
                 </Link>
               </li>
               <li>
-                <Link href={toLocalePath(locale, '/blog')} onClick={closeAll} className="block rounded-xl px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors">
+                <Link href={toLocalePath(locale, '/blog')} onClick={closeAll} className="block  px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors">
                   {t('blog')}
                 </Link>
               </li>
@@ -352,7 +352,7 @@ function MobileAccordion({
       <button
         type="button"
         onClick={() => setOpenSection(openSection === title ? null : title)}
-        className="flex w-full items-center justify-between rounded-xl px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors"
+        className="flex w-full items-center justify-between  px-3 py-2 hover:bg-zinc-100 hover:text-black transition-colors"
       >
         <span>{title}</span>
         <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${openSection === title ? 'rotate-180' : ''}`} />
@@ -369,7 +369,7 @@ function MobileAccordion({
                   </div>
                   <span className="text-sm font-medium text-black">{section.title}</span>
                   {section.badge === 'partner' && (
-                    <span className="inline-flex items-center rounded-full bg-[#6C47FF]/10 px-1.5 py-0.5 text-[8px] font-semibold text-[#6C47FF]">
+                    <span className="inline-flex items-center  bg-[#6C47FF]/10 px-1.5 py-0.5 text-[8px] font-semibold text-[#6C47FF]">
                       PARTNER
                     </span>
                   )}
@@ -377,7 +377,7 @@ function MobileAccordion({
                 {section.description && (
                   <p className="text-xs text-zinc-400 px-3 mb-1.5 ml-7">{section.description}</p>
                 )}
-                <ul className="space-y-0.5 ml-7 border-l-[3px] border-[#6C47FF]/20 pl-2">
+                <ul className="space-y-1 ml-7 border-l-[3px] border-[#6C47FF]/20 pl-2">
                   {section.items.map((sub) => (
                     <li key={sub.label}>
                       <Link
