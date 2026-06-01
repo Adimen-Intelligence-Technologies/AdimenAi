@@ -37,16 +37,16 @@ export function BeamSection() {
 
   return (
     <section className="border-b border-zinc-200">
-      <Wrapper className="px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-3xl text-center py-16">
-          <div className="mb-4 inline-flex items-center justify-center gap-2 text-base sm:text-lg font-semibold text-black tracking-tight">
+      <Wrapper>
+        <div className="text-center px-4 py-12 sm:px-8 sm:py-16 lg:py-24">
+          <div className="mb-3 inline-flex items-center justify-center gap-2 text-lg font-semibold text-black tracking-tight">
             <Sparkles className="h-5 w-5 text-[#6C47FF]" />
             Flujo de datos empresarial
           </div>
-          <h2 className="text-3xl sm:text-4xl md:text-[40px] font-semibold tracking-tight text-slate-950">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-tight text-balance text-slate-950">
             Conecta tus herramientas y automatiza el intercambio de información
           </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-sm sm:text-base text-black tracking-tight">
+          <p className="mx-auto mt-4 max-w-2xl text-lg leading-tight sm:text-base text-black tracking-tight">
             Observa cómo tus sistemas y aplicaciones se sincronizan en tiempo real para un flujo de trabajo más eficiente.
           </p>
 

@@ -57,19 +57,19 @@ export function ServicesSection() {
     <section id="servicios" className="border border-zinc-200">
       <Wrapper>
         <div
-          className="bg-cover bg-center bg-no-repeat bg-white/80 pt-10 sm:pt-10 lg:pt-30"
+          className="bg-cover bg-center bg-no-repeat bg-white/80 px-4 py-12 sm:px-8 sm:py-16 lg:py-24"
           style={{ backgroundImage: "url('/background-05.jpg')" }}
         >
-          <div ref={sectionRef} className="mx-auto sm:max-w-3xl text-center px-2 sm:px-0 ">
+          <div ref={sectionRef} className="text-center">
             <div
-              className={`mb-2 inline-flex items-center justify-center gap-2 text-lg font-semibold ${fadeClass}`}
+              className={`mb-3 inline-flex items-center justify-center gap-2 text-lg font-semibold ${fadeClass}`}
               style={{ animationDelay: "0.1s" }}
             >
               <Sparkles className="h-5 w-5 text-[#6C47FF]" />
               {t("badge")}
             </div>
             <h2
-              className={`text-3xl sm:text-4xl font-semibold ${fadeClass}`}
+              className={`text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-tight text-balance ${fadeClass}`}
               style={{ animationDelay: "0.2s" }}
             >
               {t("title")}
@@ -82,7 +82,7 @@ export function ServicesSection() {
             </p>
           </div>
 
-          <div className="mt-10 grid gap-2 md:grid-cols-2 xl:grid-cols-4 px-2 sm:px-8 pb-20 sm:pb-40">
+          <div className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-4 sm:gap-6">
             {services.map((service, index) => (
               <Card
                 key={service.title}

@@ -50,14 +50,14 @@ export function Card({
   return (
     <div
       ref={cardRef}
-      className={`flex h-full flex-col justify-between border p-6 ${isVisible ? "animate-hero-fade" : "opacity-0"}`}
+      className={`flex h-full flex-col justify-between border p-6 sm:p-7 ${isVisible ? "animate-hero-fade" : "opacity-0"}`}
       style={{
         borderWidth: 1,
         borderStyle: "solid",
         borderColor: "rgba(255, 255, 255, 0.2)",
         backgroundColor: "rgba(255, 255, 255, 0.28)",
         borderRadius: 4,
-        
+
         animationDelay: isVisible ? `${index * 0.08}s` : undefined,
       }}
     >
