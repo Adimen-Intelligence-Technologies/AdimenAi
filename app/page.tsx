@@ -33,7 +33,7 @@ export default async function RootPage() {
         imageAlt={t('imageAlt')}
         videoSrc="/dashboard-animation.mp4"
         buttonLabel={t('button')}
-        buttonHref="/contactar"
+        buttonHref="tel:+34650609028"
       />
       <CtaSection />
       <FaqSection />

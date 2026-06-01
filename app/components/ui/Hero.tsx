@@ -52,7 +52,7 @@ export function Hero() {
               className="flex flex-col sm:flex-row gap-4 mt-8 animate-hero-fade"
               style={{ animationDelay: "0.5s" }}
             >
-              <Button href={toLocalePath(locale, "/contactar")} color="purple">
+              <Button href="tel:+34650609028" color="purple">
                 {t("ctaPrimary")}
               </Button>
               <Button href={toLocalePath(locale, "/#servicios")} color="white">

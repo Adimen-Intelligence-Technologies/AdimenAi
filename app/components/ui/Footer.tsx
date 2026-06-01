@@ -23,7 +23,7 @@ export function Footer() {
   ];
 
   const contactItems = [
-    { label: "info@adimenai.com", href: "mailto:info@adimenai.com" },
+    { label: "adimen.tech@gmail.com", href: "mailto:adimen.tech@gmail.com" },
     { label: "+34 650 60 90 28", href: "tel:+34650609028" },
     { label: t("contact.office"), href: "/contactar" },
   ];

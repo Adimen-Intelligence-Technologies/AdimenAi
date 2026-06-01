@@ -60,7 +60,7 @@ export function ServicesSection() {
           className="bg-cover bg-center bg-no-repeat bg-white/80 pt-10 sm:pt-10 lg:pt-30"
           style={{ backgroundImage: "url('/background-05.jpg')" }}
         >
-          <div ref={sectionRef} className="mx-auto sm:max-w-3xl text-center px-4 sm:px-0 ">
+          <div ref={sectionRef} className="mx-auto sm:max-w-3xl text-center px-2 sm:px-0 ">
             <div
               className={`mb-2 inline-flex items-center justify-center gap-2 text-lg font-semibold ${fadeClass}`}
               style={{ animationDelay: "0.1s" }}
@@ -75,14 +75,14 @@ export function ServicesSection() {
               {t("title")}
             </h2>
             <p
-              className={`mx-auto mt-4 max-w-2xl text-sm sm:text-base  ${fadeClass}`}
+              className={`mx-auto mt-4 max-w-2xl text-lg leading-tight sm:text-base  ${fadeClass}`}
               style={{ animationDelay: "0.3s" }}
             >
               {t("description")}
             </p>
           </div>
 
-          <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+          <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-4 px-2">
             {services.map((service, index) => (
               <Card
                 key={service.title}

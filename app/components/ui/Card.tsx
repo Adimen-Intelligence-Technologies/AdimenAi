@@ -27,7 +27,7 @@ export function Card({
   const iconClass = isIconVariant ? "h-5 w-5" : "h-8 w-8";
   const iconContainerClass = isIconVariant ? "mb-30 flex items-start justify-start" : "mb-6 flex items-center justify-center";
   const titleClass = isIconVariant ? "text-lg leading-tight" : "text-2xl";
-  const descriptionClass = isIconVariant ? "mt-2 text-sm tracking-tight text-black" : "mt-3 text-sm tracking-tight text-black";
+  const descriptionClass = isIconVariant ? "mt-2 text-base tracking-tight text-black" : "mt-3 text-base tracking-tight text-black";
 
   useEffect(() => {
     const element = cardRef.current;

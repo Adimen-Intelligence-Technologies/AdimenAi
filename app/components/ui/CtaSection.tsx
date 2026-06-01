@@ -5,7 +5,6 @@ import { useLocale } from "next-intl";
 import MagicRings from "./MagicRings";
 import { Button } from "./Button";
 import { Wrapper } from "../Wrapper";
-import { toLocalePath } from "@/lib/locale-path";
 
 export function CtaSection() {
   const t = useTranslations("ctaSection");
@@ -38,7 +37,7 @@ export function CtaSection() {
           </p>
           <div className="mt-5 flex justify-center">
             <Button
-              href={toLocalePath(locale, "/contactar")}
+              href="tel:+34650609028"
               color="purple"
             >
              {t("button")}
