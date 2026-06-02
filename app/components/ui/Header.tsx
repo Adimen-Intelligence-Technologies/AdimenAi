@@ -251,9 +251,6 @@ export function Header() {
             </nav>
           </div>
           <div className="flex items-center gap-4">
-            <div className="hidden lg:block">
-              <Button href={toLocalePath(locale, '/contacto')} color="white" className="text-base px-6 py-2.5">{t('contact')}</Button>
-            </div>
             <div className="relative">
               <button
                 type="button"
@@ -299,6 +296,7 @@ export function Header() {
                 </div>
               </div>
             </div>
+            <Button href={toLocalePath(locale, '/contacto')} color="white" className="text-sm px-4 py-2 lg:text-base lg:px-6 lg:py-2.5">{t('contact')}</Button>
             <button
               type="button"
               onClick={() => setIsOpen((prev) => !prev)}
