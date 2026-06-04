@@ -26,8 +26,8 @@ export function Card({
     : "relative flex h-20 w-20 items-center justify-center bg-white/30 rounded text-[#6C47FF]";
   const iconClass = isIconVariant ? "h-5 w-5" : "h-8 w-8";
   const iconContainerClass = isIconVariant ? "mb-30 flex items-start justify-start" : "mb-6 flex items-center justify-center";
-  const titleClass = isIconVariant ? "text-lg leading-tight" : "text-2xl";
-  const descriptionClass = isIconVariant ? "mt-2 text-base tracking-tight text-black" : "mt-3 text-base tracking-tight text-black";
+  const titleClass = isIconVariant ? "text-lg leading-tight" : "text-xl xl:text-lg leading-tight";
+  const descriptionClass = isIconVariant ? "mt-2 text-base tracking-tight text-black" : "mt-2 text-base tracking-tight text-black";
 
   useEffect(() => {
     const element = cardRef.current;
