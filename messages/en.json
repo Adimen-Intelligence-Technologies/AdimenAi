@@ -65,24 +65,24 @@
   },
   "servicesSection": {
     "badge": "Our services",
-    "title": "Four ways to implement artificial intelligence in your company",
-    "description": "From a simple automation to a fully custom project. Adapted to your business, your team and your systems.",
+    "title": "360° solutions for your business",
+    "description": "From AI automation to POS, web, mobile or digital marketing. Every solution your business needs in one place.",
     "items": [
       {
-        "title": "Process automation",
-        "description": "We automate your internal workflows to remove repetitive manual work and save time."
+        "title": "AI automation",
+        "description": "We remove repetitive tasks by building automated workflows that save time and connect your tools."
       },
       {
-        "title": "Custom AI agents",
-        "description": "We build tailored intelligent agents that fit your use cases and specific processes."
+        "title": "AI agents and chatbots",
+        "description": "Custom conversational assistants in Basque, Spanish and English, integrated with your systems and data."
       },
       {
-        "title": "System integration",
-        "description": "We connect AI to your ERP, CRM and internal tools so they work as a single system."
+        "title": "POS and management software",
+        "description": "Point of sale and management for retail, hospitality, food and beauty. Tailored to your sector."
       },
       {
-        "title": "AI chatbots for companies",
-        "description": "We design conversational AI chatbots for sales, support and corporate service."
+        "title": "Web, eCommerce and digital marketing",
+        "description": "Online stores, websites, SEO, SEM and campaigns to grow your online presence."
       }
     ]
   },

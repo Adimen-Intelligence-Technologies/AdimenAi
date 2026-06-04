@@ -65,24 +65,24 @@
   },
   "servicesSection": {
     "badge": "Nuestros servicios",
-    "title": "Cuatro formas de implementar la IA en tu empresa",
-    "description": "Desde una automatización sencilla hasta un proyecto completo a medida. Adaptado a tu empresa, tu equipo y tu sistema.",
+    "title": "Soluciones 360° para tu empresa",
+    "description": "Desde automatización con IA hasta tu TPV, web, app o marketing digital. Todas las soluciones que tu negocio necesita en un solo lugar.",
     "items": [
       {
-        "title": "Automatización de procesos",
-        "description": "Automatizamos tus procesos internos para eliminar tareas manuales repetitivas y ganar tiempo."
+        "title": "Automatización con IA",
+        "description": "Eliminamos tareas repetitivas creando flujos automáticos que ahorran tiempo y conectan tus herramientas."
       },
       {
-        "title": "Agentes de IA a medida",
-        "description": "Creamos agentes inteligentes personalizados que se adaptan a tus casos de uso y procesos específicos."
+        "title": "Agentes y chatbots de IA",
+        "description": "Asistentes conversacionales a medida en euskera, castellano e inglés, integrados con tus sistemas y datos."
       },
       {
-        "title": "Integración con sistemas",
-        "description": "Conectamos IA con tu ERP, CRM y herramientas internas para que funcionen como un único sistema."
+        "title": "TPV y software de gestión",
+        "description": "Punto de venta y gestión para retail, hostelería, alimentación y belleza. Adaptado a tu sector."
       },
       {
-        "title": "Chatbots con IA para empresas",
-        "description": "Diseñamos chatbots conversacionales con IA para ventas, soporte y atención corporativa."
+        "title": "Web, eCommerce y marketing digital",
+        "description": "Tiendas online, páginas web, SEO, SEM y campañas para hacer crecer tu presencia en internet."
       }
     ]
   },

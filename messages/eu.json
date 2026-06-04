@@ -65,24 +65,24 @@
   },
   "servicesSection": {
     "badge": "Gure zerbitzuak",
-    "title": "Lau modu adimen artifiziala zure enpresan ezartzeko",
-    "description": "Automatizazio sinple batetik proiektu oso pertsonalizatura. Zure enpresara, taldera eta sistemetara egokitua.",
+    "title": "360° soluzioak zure enpresarentzat",
+    "description": "AA automatizaziotik TPVra, webera, aplikazioetara edo marketin digitalera. Zure negozioak behar dituen irtenbide guztiak leku bakarrean.",
     "items": [
       {
-        "title": "Prozesuen automatizazioa",
-        "description": "Laneko barne-prozesuak automatizatzen ditugu, eskuzko zeregin errepikakorrak ezabatzeko eta denbora irabazteko."
+        "title": "AA automatizazioa",
+        "description": "Zeregin errepikakorrak ezabatzen ditugu automatizazio-fluxuak sortuz, denbora aurrezten dutenak eta zure tresnak konektatzen dituztenak."
       },
       {
-        "title": "Neurrira egindako AA agenteak",
-        "description": "Zure erabilera kasuetara eta prozesu espezifikoetara egokitzen diren agente adimendun pertsonalizatuak sortzen ditugu."
+        "title": "AA agenteak eta chatbot-ak",
+        "description": "Neurrira egindako elkarrizketa-asistenteak euskaraz, gaztelaniaz eta ingelesez, zure sistema eta datuekin integratuta."
       },
       {
-        "title": "Sistemen integrazioa",
-        "description": "AA zure ERP, CRM eta barne-tresnekin konektatzen dugu, sistema bakar gisa funtziona dezaten."
+        "title": "TPV eta kudeaketa-softwarea",
+        "description": "Salmenta-puntua eta kudeaketa txikizkako, ostalaritza, elikadura eta edertasun sektoreetarako. Zure sektorerako egokitua."
       },
       {
-        "title": "Enpresentzako AA chatbot-ak",
-        "description": "Salmenta, euskarria eta arreta korporatiborako elkarrizketa bidezko AA chatbot-ak diseinatzen ditugu."
+        "title": "Weba, eCommerce eta marketin digitala",
+        "description": "Online dendak, webguneak, SEO, SEM eta kanpainak zure online presentzia hazteko."
       }
     ]
   },
