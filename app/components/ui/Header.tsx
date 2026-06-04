@@ -114,9 +114,9 @@ export function Header() {
   ];
 
   const languages = [
-    {code: 'es', label: tLang('es'), short: 'ES'},
-    {code: 'en', label: tLang('en'), short: 'EN'},
-    {code: 'eu', label: tLang('eu'), short: 'EU'},
+    {code: 'es', label: tLang('es'), short: 'ES', flag: '/spanish.svg'},
+    {code: 'en', label: tLang('en'), short: 'EN', flag: '/english.svg'},
+    {code: 'eu', label: tLang('eu'), short: 'EU', flag: '/basque.svg'},
   ];
 
   const megaMenuColumns = solutionsColumns;
@@ -263,7 +263,12 @@ export function Header() {
                     : 'border-zinc-300 hover:border-zinc-400 hover:text-black'
                 }`}
               >
-                <Globe className="h-3.5 w-3.5" aria-hidden="true" />
+                {(() => {
+                  const current = languages.find((l) => l.code === locale);
+                  return current?.flag ? (
+                    <Image src={current.flag} alt="" width={24} height={16} className="h-4 w-6 rounded-sm object-cover" />
+                  ) : null;
+                })()}
                 <span>{locale.toUpperCase()}</span>
                 <ChevronDown
                   className={`h-3.5 w-3.5 transition-transform duration-200 ease-out ${isLangOpen ? 'rotate-180' : 'rotate-0'}`}
@@ -285,8 +290,12 @@ export function Header() {
                       className={`flex w-full items-center justify-between gap-3 px-4 py-3 text-left transition-colors hover:bg-zinc-100 ${locale === lang.code ? 'bg-zinc-50 font-medium' : ''}`}
                     >
                       <span className="flex items-center gap-3">
-                        <span className="inline-flex h-6 w-8 items-center justify-center rounded border border-zinc-300 text-xs font-semibold">
-                          {lang.short}
+                        <span className="inline-flex h-4 w-6 items-center justify-center overflow-hidden rounded border border-zinc-300 text-xs font-semibold">
+                          {lang.flag ? (
+                            <Image src={lang.flag} alt="" width={24} height={16} className="h-full w-full object-cover" />
+                          ) : (
+                            lang.short
+                          )}
                         </span>
                         <span>{lang.label}</span>
                       </span>
