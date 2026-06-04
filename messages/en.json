@@ -53,14 +53,14 @@
   },
   "hero": {
     "eyebrow": "360° technology solutions",
-    "title": "Whatever your business, transform it with our 360° technology solutions",
+    "title": "Whatever your business, transform it with our 360° technological solutions",
     "description": "AI agents, automations, POS and management software, online stores, digital marketing, graphic design and mobile apps. Everything your business needs to grow in one place.",
     "ctaPrimary": "Free call",
     "ctaSecondary": "View services",
     "stats": {
       "processes": "600+ automated processes",
-      "operations": "Intra-community operations",
-      "call": "Free initial consultation"
+      "operations": "Service in 3 languages",
+      "call": "Custom solutions"
     }
   },
   "servicesSection": {
