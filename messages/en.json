@@ -212,8 +212,9 @@
     "description": "Fill out the form and we will get in touch for a no-obligation introductory call."
   },
   "hosteleriaPage": {
-    "eyebrow": "Hospitality",
-    "title": "Everything your hospitality business needs in one place"
+    "eyebrow": "Everything you need",
+    "title": "Hospitality",
+    "subtitle": "Point of Sale (POS) systems, electronic ordering devices, self-service kiosks, electronic scales, kitchen robots, digital signage, management software... Discover all our products."
   },
   "aboutPage": {
     "eyebrow": "Who we are",

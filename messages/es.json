@@ -212,8 +212,9 @@
     "description": "Completa el formulario y nos pondremos en contacto contigo para una llamada inicial sin compromiso."
   },
   "hosteleriaPage": {
-    "eyebrow": "Hostelería",
-    "title": "Todo lo que su negocio de hosteleria necesita en un solo lugar"
+    "eyebrow": "Todo lo que necesita",
+    "title": "Hostelería",
+    "subtitle": "Puntos de venta (TPV), Comanderos electrónicos, Kioscos autoservicio, balanzas electrónicas, robots de cocina, Pantallas electrónicas, software de gestión... Descubre todos nuestros productos."
   },
   "aboutPage": {
     "eyebrow": "Quiénes somos",

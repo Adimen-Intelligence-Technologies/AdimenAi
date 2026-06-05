@@ -212,8 +212,9 @@
     "description": "Bete formularioa eta zurekin harremanetan jarriko gara konpromisorik gabeko hasierako dei baterako."
   },
   "hosteleriaPage": {
-    "eyebrow": "Ostalaritza",
-    "title": "Zure ostalaritza negozioak behar duen guztia leku batean"
+    "eyebrow": "Behar duzun guztia",
+    "title": "Ostalaritza",
+    "subtitle": "Salmenta puntuak (TPV), agindu elektronikoko gailuak, autozerbitzu kioskoak, balantza elektronikoak, sukalde robotak, pantaila elektronikoak, kudeaketa softwarea... Ezagutu gure produktu guztiak."
   },
   "aboutPage": {
     "eyebrow": "Nor gara",

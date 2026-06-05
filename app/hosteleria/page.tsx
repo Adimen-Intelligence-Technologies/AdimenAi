@@ -9,7 +9,7 @@ export default async function HosteleriaPage() {
       <section className="relative flex items-center justify-center border-b border-zinc-200">
         <Wrapper className="border-x-0 border-zinc-200">
           <div
-            className="relative overflow-hidden bg-cover bg-center px-4 sm:px-6 md:px-8 py-28 sm:py-36 md:py-48 border-x border-zinc-200"
+            className="relative overflow-hidden bg-cover bg-center px-4 sm:px-6 md:px-8 py-20 sm:py-28 md:py-36 border-x border-zinc-200"
             style={{ backgroundImage: "url('/background.avif')" }}
           >
             <div className="absolute inset-0" />
@@ -21,11 +21,17 @@ export default async function HosteleriaPage() {
                 {t("eyebrow")}
               </p>
               <h1
-                className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black tracking-tighter leading-tight max-w-5xl animate-hero-fade"
+                className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold text-black tracking-tighter leading-none animate-hero-fade"
                 style={{ animationDelay: "0.2s" }}
               >
                 {t("title")}
               </h1>
+              <p
+                className="max-w-4xl text-base sm:text-lg md:text-xl text-black/80 leading-relaxed animate-hero-fade"
+                style={{ animationDelay: "0.35s" }}
+              >
+                {t("subtitle")}
+              </p>
             </div>
           </div>
         </Wrapper>
