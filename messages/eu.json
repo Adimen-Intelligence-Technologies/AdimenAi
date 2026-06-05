@@ -211,6 +211,10 @@
     "subtitle": "eta eraldatu zure negozioa",
     "description": "Bete formularioa eta zurekin harremanetan jarriko gara konpromisorik gabeko hasierako dei baterako."
   },
+  "hosteleriaPage": {
+    "eyebrow": "Ostalaritza",
+    "title": "Zure ostalaritza negozioak behar duen guztia leku batean"
+  },
   "aboutPage": {
     "eyebrow": "Nor gara",
     "title": "Adimen Intelligence Technologies",

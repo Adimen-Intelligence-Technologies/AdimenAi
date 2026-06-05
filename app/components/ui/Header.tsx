@@ -97,7 +97,7 @@ export function Header() {
       badge: 'partner',
       items: [
         {label: t('managementSoftwareRetail'), href: toLocalePath(locale, '/#servicios')},
-        {label: t('managementSoftwareHospitality'), href: toLocalePath(locale, '/#servicios')},
+        {label: t('managementSoftwareHospitality'), href: toLocalePath(locale, '/hosteleria')},
         {label: t('managementSoftwareFood'), href: toLocalePath(locale, '/#servicios')},
         {label: t('managementSoftwareBeauty'), href: toLocalePath(locale, '/#servicios')},
       ],
