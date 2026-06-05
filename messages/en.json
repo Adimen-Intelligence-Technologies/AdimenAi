@@ -178,9 +178,9 @@
     ]
   },
   "contactBlock": {
-    "badge": "Let's stay in touch",
-    "title": "Shall we transform your business?",
-    "description": "Discover how artificial intelligence can revolutionize your business. Contact us today.",
+    "badge": "Need more information?",
+    "title": "Contact us",
+    "description": "",
     "officeLabel": "Offices in Spain",
     "officeValue": "Offices in Elgoibar",
     "emailLabel": "Email",
@@ -204,6 +204,10 @@
     "legalPrefix": "By submitting, you accept our",
     "legalPrivacy": "privacy policy",
     "legalSuffix": "and terms."
+  },
+  "privacyPage": {
+    "eyebrow": "Legal",
+    "title": "Privacy policy"
   },
   "contactPage": {
     "eyebrow": "Contact",

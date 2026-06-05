@@ -178,9 +178,9 @@
     ]
   },
   "contactBlock": {
-    "badge": "Estemos en contacto",
-    "title": "¿Transformamos tu negocio?",
-    "description": "Descubre cómo la inteligencia artificial puede revolucionar tu negocio. Contáctanos hoy.",
+    "badge": "¿Necesitas más información?",
+    "title": "Contacta con nosotros",
+    "description": "",
     "officeLabel": "Oficinas en España",
     "officeValue": "Oficinas en Elgoibar",
     "emailLabel": "Email",
@@ -204,6 +204,10 @@
     "legalPrefix": "Al enviar aceptas nuestra",
     "legalPrivacy": "política de privacidad",
     "legalSuffix": "y términos."
+  },
+  "privacyPage": {
+    "eyebrow": "Legal",
+    "title": "Política de privacidad"
   },
   "contactPage": {
     "eyebrow": "Contacto",

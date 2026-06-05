@@ -178,9 +178,9 @@
     ]
   },
   "contactBlock": {
-    "badge": "Harremanetan egon gaitezen",
-    "title": "Zure negozioa eraldatuko dugu?",
-    "description": "Ezagutu adimen artifizialak zure negozioa nola iraul dezakeen. Jarri gurekin harremanetan gaur bertan.",
+    "badge": "Informazio gehiago behar duzu?",
+    "title": "Jarri gurekin harremanetan",
+    "description": "",
     "officeLabel": "Bulegoak Espainian",
     "officeValue": "Bulegoak Elgoibarren",
     "emailLabel": "Emaila",
@@ -204,6 +204,10 @@
     "legalPrefix": "Bidaltzean gure",
     "legalPrivacy": "pribatutasun politika",
     "legalSuffix": "eta baldintzak onartzen dituzu."
+  },
+  "privacyPage": {
+    "eyebrow": "Legala",
+    "title": "Pribatutasun politika"
   },
   "contactPage": {
     "eyebrow": "Harremana",
