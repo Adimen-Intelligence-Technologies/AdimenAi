@@ -158,7 +158,7 @@ export function ContactForm() {
                 value={subject}
                 onChange={(e) => setSubject(e.target.value)}
                 disabled={isSending}
-                className="min-h-13 w-full appearance-none border-b border-zinc-300 bg-white/40 py-1 pr-8 text-sm text-zinc-900 outline-none transition focus:border-b-[#7252FF] focus:ring-0 disabled:opacity-50"
+                className="min-h-13 w-full appearance-none border-b border-zinc-300 bg-transparent py-1 pr-8 text-sm text-zinc-900 outline-none transition focus:border-b-[#7252FF] focus:ring-0 disabled:opacity-50"
               >
                 <option value="">{t("subjectPlaceholder")}</option>
                 <option value="ai-automation">{tNav("aiAutomation")}</option>
@@ -167,6 +167,7 @@ export function ContactForm() {
                 <option value="graphic-solutions">{tNav("graphicSolutions")}</option>
                 <option value="management-software">{tNav("managementSoftware")}</option>
                 <option value="herrikonekt-apps">{tNav("herrikonektApps")}</option>
+                <option value="pos">{t("subjectPos")}</option>
                 <option value="other">{t("subjectOther")}</option>
               </select>
               <svg
