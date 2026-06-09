@@ -1,9 +1,11 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { useTranslations } from "next-intl";
+import Link from "next/link";
+import { useLocale, useTranslations } from "next-intl";
 import { Button } from "./Button";
 import { CheckCircle2, AlertCircle } from "lucide-react";
+import { toLocalePath } from "@/lib/locale-path";
 
 type Status = "idle" | "sending" | "success" | "error";
 
@@ -12,6 +14,7 @@ const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 export function ContactForm() {
   const t = useTranslations("contactForm");
   const tNav = useTranslations("nav");
+  const locale = useLocale();
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -234,7 +237,14 @@ export function ContactForm() {
           </Button>
 
           <p className="text-center text-sm text-zinc-600 tracking-tight">
-            {t("legalPrefix")} <span className="text-[#7252FF] font-bold">{t("legalPrivacy")}</span> {t("legalSuffix")}
+            {t("legalPrefix")}{" "}
+            <Link
+              href={toLocalePath(locale, "/privacidad")}
+              className="text-[#7252FF] font-bold underline-offset-2 hover:underline focus:outline-none focus-visible:underline"
+            >
+              {t("legalPrivacy")}
+            </Link>{" "}
+            {t("legalSuffix")}
           </p>
         </form>
       </div>
