@@ -9,6 +9,7 @@ interface ButtonProps {
   children: React.ReactNode;
   color?: "purple" | "white";
   className?: string;
+  disabled?: boolean;
 }
 
 const colorClasses: Record<NonNullable<ButtonProps["color"]>, string> = {
@@ -16,10 +17,24 @@ const colorClasses: Record<NonNullable<ButtonProps["color"]>, string> = {
   white: "bg-white text-black hover:bg-zinc-50 border border-zinc-200 px-8 py-4",
 };
 
-export function Button({ href, type = "button", children, color = "purple", className = "" }: ButtonProps) {
-  const commonClasses = `inline-flex items-center justify-center overflow-hidden rounded-full font-semibold text-xl transition-colors ${colorClasses[color]} ${className}`.trim();
+export function Button({
+  href,
+  type = "button",
+  children,
+  color = "purple",
+  className = "",
+  disabled = false,
+}: ButtonProps) {
+  const stateClasses = disabled
+    ? "opacity-60 cursor-not-allowed pointer-events-none"
+    : "";
+  const commonClasses = `inline-flex items-center justify-center overflow-hidden rounded-full font-semibold text-xl transition-colors ${colorClasses[color]} ${stateClasses} ${className}`.trim();
 
-  const content = (
+  const content = disabled ? (
+    <span className="relative inline-flex h-7 items-center leading-none">
+      {children}
+    </span>
+  ) : (
     <motion.span
       className="relative inline-flex h-7 items-center overflow-hidden leading-none"
       initial="initial"
@@ -46,14 +61,14 @@ export function Button({ href, type = "button", children, color = "purple", clas
 
   if (href) {
     return (
-      <Link href={href} className={commonClasses}>
+      <Link href={href} className={commonClasses} aria-disabled={disabled} tabIndex={disabled ? -1 : undefined}>
         {content}
       </Link>
     );
   }
 
   return (
-    <button type={type} className={commonClasses}>
+    <button type={type} className={commonClasses} disabled={disabled}>
       {content}
     </button>
   );

@@ -203,7 +203,19 @@
     "submit": "Send request",
     "legalPrefix": "By submitting, you accept our",
     "legalPrivacy": "privacy policy",
-    "legalSuffix": "and terms."
+    "legalSuffix": "and terms.",
+    "sending": "Sending…",
+    "successTitle": "Message sent!",
+    "successMessage": "Thanks for reaching out. We'll get back to you as soon as possible.",
+    "errorValidation": "Please fill in all required fields (message must be at least 10 characters).",
+    "errorEmail": "The email address is not valid.",
+    "errorRateLimit": "You've sent too many requests. Please try again in a few minutes.",
+    "errorNetwork": "Could not reach the server. Check your connection and try again.",
+    "errorGeneric": "We couldn't send your message. Please try again later."
+  },
+  "terminosPage": {
+    "eyebrow": "Legal",
+    "title": "Terms and conditions"
   },
   "privacyPage": {
     "eyebrow": "Legal",
@@ -303,7 +315,8 @@
     "other": {
       "blog": "Blog",
       "cookies": "Cookies",
-      "privacy": "Privacy policy"
+      "privacy": "Privacy policy",
+      "terminos": "Terms and conditions"
     },
     "contact": {
       "office": "Offices in Elgoibar"

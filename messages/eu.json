@@ -203,7 +203,19 @@
     "submit": "Bidali eskaera",
     "legalPrefix": "Bidaltzean gure",
     "legalPrivacy": "pribatutasun politika",
-    "legalSuffix": "eta baldintzak onartzen dituzu."
+    "legalSuffix": "eta baldintzak onartzen dituzu.",
+    "sending": "Bidaltzen…",
+    "successTitle": "Mezua bidalita!",
+    "successMessage": "Eskerrik asko gurekin harremanetan jartzeagatik. Ahal bezain laster erantzungo dizugu.",
+    "errorValidation": "Mesedez, bete beharrezko eremu guztiak (mezuak gutxienez 10 karaktere izan behar ditu).",
+    "errorEmail": "Sartutako emaila ez da baliozkoa.",
+    "errorRateLimit": "Eskaera gehiegi bidali dituzu. Saiatu berriz minutu batzuen buruan.",
+    "errorNetwork": "Ezin izan da zerbitzariarekin konektatu. Egiaztatu zure konexioa eta saiatu berriro.",
+    "errorGeneric": "Ezin izan da mezua bidali. Saiatu berriz geroago."
+  },
+  "terminosPage": {
+    "eyebrow": "Legala",
+    "title": "Termino eta kondizioak"
   },
   "privacyPage": {
     "eyebrow": "Legala",
@@ -301,9 +313,10 @@
       "useCases": "Erabilera kasuak"
     },
     "other": {
-      "blog": "Bloga",
-      "cookies": "Cookiak",
-      "privacy": "Pribatutasun politika"
+      "blog": "Blog",
+      "cookies": "Cookies",
+      "privacy": "Pribatutasun politika",
+      "terminos": "Termino eta kondizioak"
     },
     "contact": {
       "office": "Bulegoak Elgoibarren"

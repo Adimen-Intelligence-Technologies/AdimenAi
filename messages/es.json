@@ -203,7 +203,19 @@
     "submit": "Enviar solicitud",
     "legalPrefix": "Al enviar aceptas nuestra",
     "legalPrivacy": "política de privacidad",
-    "legalSuffix": "y términos."
+    "legalSuffix": "y términos.",
+    "sending": "Enviando…",
+    "successTitle": "¡Mensaje enviado!",
+    "successMessage": "Gracias por contactar con nosotros. Te responderemos lo antes posible.",
+    "errorValidation": "Por favor, completa todos los campos obligatorios (mensaje mínimo 10 caracteres).",
+    "errorEmail": "El email introducido no es válido.",
+    "errorRateLimit": "Has realizado demasiados envíos. Inténtalo de nuevo en unos minutos.",
+    "errorNetwork": "No se pudo conectar con el servidor. Revisa tu conexión e inténtalo de nuevo.",
+    "errorGeneric": "No se pudo enviar el mensaje. Inténtalo de nuevo más tarde."
+  },
+  "terminosPage": {
+    "eyebrow": "Legal",
+    "title": "Términos y condiciones"
   },
   "privacyPage": {
     "eyebrow": "Legal",
@@ -303,7 +315,8 @@
     "other": {
       "blog": "Blog",
       "cookies": "Cookies",
-      "privacy": "Política de privacidad"
+      "privacy": "Política de privacidad",
+      "terminos": "Términos y condiciones"
     },
     "contact": {
       "office": "Oficinas en Elgoibar"

@@ -20,6 +20,7 @@ export function Footer() {
     { label: t("other.blog"), href: toLocalePath(locale, "/blog") },
     { label: t("other.cookies"), href: "/seleccionar-cookies" },
     { label: t("other.privacy"), href: "/privacidad" },
+    { label: t("other.terminos"), href: "/terminos" },
   ];
 
   const contactItems = [
