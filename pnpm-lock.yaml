@@ -11,6 +11,9 @@ importers:
       '@base-ui/react':
         specifier: ^1.5.0
         version: 1.5.0(@date-fns/tz@1.5.0)(@types/react@19.2.14)(date-fns@4.3.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      '@next/third-parties':
+        specifier: ^16.2.7
+        version: 16.2.7(next@16.2.6(@babel/core@7.29.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)
       '@sanity/document-internationalization':
         specifier: 6.2.1
         version: 6.2.1(@emotion/is-prop-valid@1.4.0)(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react-is@19.2.6)(react@19.2.4)(sanity-plugin-internationalized-array@5.1.3(e763c190bdf3eb90cd6687a207a21f79))(sanity@5.26.0(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.2.0)(@oclif/core@4.11.4)(@sanity/cli-core@1.3.2(@noble/hashes@2.2.0)(@types/node@20.19.41)(lightningcss@1.32.0)(yaml@2.9.0))(@types/node@20.19.41)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(jiti@2.7.0)(lightningcss@1.32.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(styled-components@6.4.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@5.9.3))(styled-components@6.4.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4))
@@ -1923,6 +1926,12 @@ packages:
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
+
+  '@next/third-parties@16.2.7':
+    resolution: {integrity: sha512-mSvF8eg2egIqP0GaPYn0sDvsP45CodwVsavl7RkLsOVQL/CDy7wUg0WUV5uEtlWoWOq0pEYRRsbld7NQIh+Eqg==}
+    peerDependencies:
+      next: ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0-beta.0
+      react: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
 
   '@noble/ciphers@1.3.0':
     resolution: {integrity: sha512-2I0gnIVPtfnMw9ee9h1dJG7tp81+8Ob3OJb3Mv37rx5L40/b0i7djjCVvGOVqc9AEIQyvyu1i6ypKdFw8R8gQw==}
@@ -6418,6 +6427,9 @@ packages:
   text-decoder@1.2.7:
     resolution: {integrity: sha512-vlLytXkeP4xvEq2otHeJfSQIRyWxo/oZGEbXrtEEF9Hnmrdly59sUbzZ/QgyWuLYHctCHxFF4tRQZNQ9k60ExQ==}
 
+  third-party-capital@1.0.20:
+    resolution: {integrity: sha512-oB7yIimd8SuGptespDAZnNkzIz+NWaJCu2RMsbs4Wmp9zSDUM8Nhi3s2OOcqYuv3mN4hitXc8DVx+LyUmbUDiA==}
+
   three@0.184.0:
     resolution: {integrity: sha512-wtTRjG92pM5eUg/KuUnHsqSAlPM296brTOcLgMRqEeylYTh/CdtvKUvCyyCQTzFuStieWxvZb8mVTMvdPyUpxg==}
 
@@ -8853,6 +8865,12 @@ snapshots:
 
   '@next/swc-win32-x64-msvc@16.2.6':
     optional: true
+
+  '@next/third-parties@16.2.7(next@16.2.6(@babel/core@7.29.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)':
+    dependencies:
+      next: 16.2.6(@babel/core@7.29.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      react: 19.2.4
+      third-party-capital: 1.0.20
 
   '@noble/ciphers@1.3.0': {}
 
@@ -14092,6 +14110,8 @@ snapshots:
       b4a: 1.8.1
     transitivePeerDependencies:
       - react-native-b4a
+
+  third-party-capital@1.0.20: {}
 
   three@0.184.0: {}
 

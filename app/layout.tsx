@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Lato, Inter } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ChromeLayout } from "./components/ChromeLayout";
@@ -33,6 +34,9 @@ export default async function RootLayout({
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ChromeLayout>{children}</ChromeLayout>
         </NextIntlClientProvider>
+        {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
+          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
+        )}
       </body>
     </html>
   );
