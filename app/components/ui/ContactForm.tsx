@@ -152,51 +152,36 @@ export function ContactForm() {
 
           <label className="flex flex-col gap-2 text-sm text-zinc-900 tracking-tight">
             {t("subject")}
-            <select
-              name="subject"
-              value={subject}
-              onChange={(e) => setSubject(e.target.value)}
-              disabled={isSending}
-              className="min-h-13 border-b border-zinc-300 bg-transparent py-1 text-sm text-zinc-900  outline-none transition focus:border-b-[#7252FF] focus:ring-0 disabled:opacity-50"
-            >
-              <option value="">{t("subjectPlaceholder")}</option>
-              <optgroup label={tNav("aiAutomation")}>
-                <option value="rpa">{tNav("aiAutomationRpa")}</option>
-                <option value="chatbots">{tNav("aiAutomationChatbots")}</option>
-                <option value="crm">{tNav("aiAutomationCrm")}</option>
-              </optgroup>
-              <optgroup label={tNav("webPresence")}>
-                <option value="websites">{tNav("webPresenceWebsites")}</option>
-                <option value="ecommerce">{tNav("webPresenceEcommerce")}</option>
-                <option value="photography">{tNav("webPresencePhotography")}</option>
-                <option value="social-media">{tNav("webPresenceSocialMedia")}</option>
-              </optgroup>
-              <optgroup label={tNav("digitalMarketing")}>
-                <option value="seo">{tNav("digitalMarketingSeo")}</option>
-                <option value="sem">{tNav("digitalMarketingSem")}</option>
-                <option value="ads">{tNav("digitalMarketingAds")}</option>
-              </optgroup>
-              <optgroup label={tNav("graphicSolutions")}>
-                <option value="design">{tNav("graphicSolutionsDesign")}</option>
-                <option value="business-cards">{tNav("graphicSolutionsBusinessCards")}</option>
-                <option value="guest-books">{tNav("graphicSolutionsGuestBooks")}</option>
-                <option value="stationery">{tNav("graphicSolutionsStationery")}</option>
-                <option value="merchandising">{tNav("graphicSolutionsMerchandising")}</option>
-              </optgroup>
-              <optgroup label={tNav("managementSoftware")}>
-                <option value="retail">{tNav("managementSoftwareRetail")}</option>
-                <option value="hospitality">{tNav("managementSoftwareHospitality")}</option>
-                <option value="food">{tNav("managementSoftwareFood")}</option>
-                <option value="beauty">{tNav("managementSoftwareBeauty")}</option>
-              </optgroup>
-              <optgroup label={tNav("herrikonektApps")}>
-                <option value="android-app">{tNav("herrikonektAppsAndroid")}</option>
-                <option value="ios-app">{tNav("herrikonektAppsIos")}</option>
-              </optgroup>
-              <optgroup label={t("subjectOtherGroup")}>
+            <div className="relative">
+              <select
+                name="subject"
+                value={subject}
+                onChange={(e) => setSubject(e.target.value)}
+                disabled={isSending}
+                className="min-h-13 w-full appearance-none border-b border-zinc-300 bg-white/40 py-1 pr-8 text-sm text-zinc-900 outline-none transition focus:border-b-[#7252FF] focus:ring-0 disabled:opacity-50"
+              >
+                <option value="">{t("subjectPlaceholder")}</option>
+                <option value="ai-automation">{tNav("aiAutomation")}</option>
+                <option value="web-presence">{tNav("webPresence")}</option>
+                <option value="digital-marketing">{tNav("digitalMarketing")}</option>
+                <option value="graphic-solutions">{tNav("graphicSolutions")}</option>
+                <option value="management-software">{tNav("managementSoftware")}</option>
+                <option value="herrikonekt-apps">{tNav("herrikonektApps")}</option>
                 <option value="other">{t("subjectOther")}</option>
-              </optgroup>
-            </select>
+              </select>
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 20 20"
+                className="pointer-events-none absolute right-1 top-1/2 h-4 w-4 -translate-y-1/2 text-zinc-500"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M5 8l5 5 5-5" />
+              </svg>
+            </div>
           </label>
 
           <label className="flex flex-col gap-2 text-sm text-zinc-900 tracking-tight">
