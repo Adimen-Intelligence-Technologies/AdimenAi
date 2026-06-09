@@ -109,7 +109,7 @@ export function ContactForm() {
       <div className="relative px-6 py-8 sm:px-10 sm:py-10">
         <form className="grid gap-3" onSubmit={handleSubmit} noValidate>
           <div className="grid gap-3 md:grid-cols-2">
-            <label className="flex flex-col text-sm  text-zinc-900 tracking-tight">
+            <label className="flex flex-col text-sm font-semibold text-zinc-900 tracking-tight">
               {t("name")}
               <input
                 type="text"
@@ -122,7 +122,7 @@ export function ContactForm() {
                 className="min-h-13 border-b border-zinc-300 bg-transparent text-zinc-900 outline-none transition focus:border-b-[#7252FF] focus:ring-0 disabled:opacity-50"
               />
             </label>
-            <label className="flex flex-col text-sm  text-zinc-900 tracking-tight">
+            <label className="flex flex-col text-sm font-semibold text-zinc-900 tracking-tight">
               {t("email")}
               <input
                 type="email"
@@ -137,7 +137,7 @@ export function ContactForm() {
             </label>
           </div>
 
-          <label className="flex flex-col text-sm  text-zinc-900 tracking-tight">
+          <label className="flex flex-col text-sm font-semibold text-zinc-900 tracking-tight">
             {t("phone")}
             <input
               type="tel"
@@ -150,7 +150,7 @@ export function ContactForm() {
             />
           </label>
 
-          <label className="flex flex-col gap-2 text-sm text-zinc-900 tracking-tight">
+          <label className="flex flex-col gap-2 text-sm font-semibold text-zinc-900 tracking-tight">
             {t("subject")}
             <div className="relative">
               <select
@@ -185,7 +185,7 @@ export function ContactForm() {
             </div>
           </label>
 
-          <label className="flex flex-col gap-2 text-sm text-zinc-900 tracking-tight">
+          <label className="flex flex-col gap-2 text-sm font-semibold text-zinc-900 tracking-tight">
             {t("message")}
             <textarea
               name="message"
