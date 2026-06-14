@@ -146,7 +146,6 @@ export function Header() {
 
   const navItems: NavItem[] = [
     {id: 'home', label: t('home'), href: toLocalePath(locale, '/'), hasDropdown: false},
-    {id: 'aboutUs', label: t('aboutUs'), href: toLocalePath(locale, '/sobre-nosotros'), hasDropdown: false},
     {id: 'solutions', label: t('solutions'), hasDropdown: true, handler: megaMenuColumns, dropdownType: 'megamenu'},
     {id: 'herrikonekt', label: t('herrikonekt'), href: '#', hasDropdown: false, isExternal: true},
     {id: 'blog', label: t('blog'), href: toLocalePath(locale, '/blog'), hasDropdown: false},
@@ -174,25 +173,25 @@ export function Header() {
                           <ChevronDown className="h-3.5 w-3.5 transition-transform duration-200 group-hover:rotate-180" aria-hidden="true" />
                         </button>
                         {item.dropdownType === 'megamenu' && (
-                          <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-230  border border-zinc-200 bg-white shadow-xl z-50 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200">
-                            <div className="grid grid-cols-3 gap-px bg-zinc-100  overflow-hidden">
+                          <div className="absolute left-1/2 -translate-x-[calc(50%-5rem)] mt-2 w-230 border border-zinc-200 bg-white shadow-xl z-50 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200">
+                            <div className="grid grid-cols-3 gap-px bg-zinc-100 overflow-hidden">
                               {(item.handler as MegaMenuColumn[]).map((col) => {
                                 const Icon = col.icon;
                                 return (
                                   <div key={col.title} className="bg-white p-5">
-                                    <div className="flex items-center gap-1 ">
-                                      <div className="flex h-7 w-7 items-center justify-center  bg-[#6C47FF]/10 text-[#6C47FF]">
+                                    <div className="flex items-center gap-1">
+                                      <div className="flex h-7 w-7 items-center justify-center bg-[#6C47FF]/10 text-[#6C47FF]">
                                         <Icon className="h-4 w-4" />
                                       </div>
                                       <h3 className="text-base font-semibold text-black">{col.title}</h3>
                                       {col.badge === 'partner' && (
-                                        <span className="inline-flex items-center  bg-[#6C47FF]/20 px-2 py-1 text-[6px] font-semibold text-[#6C47FF]">
+                                        <span className="inline-flex items-center bg-[#6C47FF]/20 px-2 py-1 text-[6px] font-semibold text-[#6C47FF]">
                                           PARTNER
                                         </span>
                                       )}
                                     </div>
                                     <p className="text-xs text-zinc-400 mb-2 ml-8">{col.description}</p>
-                                    <ul className=" ml-8 border-l-2 border-[#6C47FF] ">
+                                    <ul className="ml-8 border-l-2 border-[#6C47FF]">
                                       {col.items.map((sub) => (
                                         <li key={sub.label}>
                                           <Link
@@ -214,7 +213,6 @@ export function Header() {
                         {item.dropdownType === 'dropdown' && (
                           <div className="absolute left-0 mt-2 w-56  border border-zinc-200 bg-white shadow-lg z-50 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200">
                             <div className="p-3">
-                              <p className="text-xs text-zinc-400 mb-2 px-3">{t('aboutUsDesc')}</p>
                               <div className="py-1">
                                 {(item.handler as MenuDropdown).items.map((sub) => (
                                   <Link
@@ -330,11 +328,6 @@ export function Header() {
               <li>
                 <Link href={toLocalePath(locale, '/')} onClick={closeAll} className="flex items-center rounded-xl px-4 py-3.5 hover:bg-zinc-100 hover:text-black transition-colors">
                   {t('home')}
-                </Link>
-              </li>
-              <li>
-                <Link href={toLocalePath(locale, '/sobre-nosotros')} onClick={closeAll} className="flex items-center rounded-xl px-4 py-3.5 hover:bg-zinc-100 hover:text-black transition-colors">
-                  {t('aboutUs')}
                 </Link>
               </li>
               <li>

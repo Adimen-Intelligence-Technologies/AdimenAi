@@ -1,9 +1,7 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
 import {
-  getAllAcceptedCookiePreferences,
   getDefaultCookiePreferences,
   readCookieConsent,
   saveCookieConsent,
@@ -39,46 +37,15 @@ export default function SeleccionarCookiesPage() {
     const stored = readCookieConsent();
     return stored?.preferences ?? getDefaultCookiePreferences();
   });
-  const [lastUpdatedAt, setLastUpdatedAt] = useState<string | null>(() => {
-    const stored = readCookieConsent();
-    return stored?.updatedAt ?? null;
-  });
   const [savedMessage, setSavedMessage] = useState<string>("");
 
-  const lastUpdatedText = (() => {
-    if (!lastUpdatedAt) {
-      return "Aun no has guardado preferencias.";
-    }
-
-    const date = new Date(lastUpdatedAt);
-    return `Ultima actualizacion: ${date.toLocaleString("es-ES")}`;
-  })();
-
   const handleToggle = (key: PreferenceItem["id"]) => {
-    setPreferences((current) => ({ ...current, [key]: !current[key] }));
-    setSavedMessage("");
-  };
-
-  const handleSave = () => {
-    const record = saveCookieConsent(preferences, "settings-page");
-    setLastUpdatedAt(record?.updatedAt ?? null);
+    setPreferences((current) => {
+      const next = { ...current, [key]: !current[key] };
+      saveCookieConsent(next, "settings-page");
+      return next;
+    });
     setSavedMessage("Preferencias guardadas correctamente.");
-  };
-
-  const handleAcceptAll = () => {
-    const nextPreferences = getAllAcceptedCookiePreferences();
-    setPreferences(nextPreferences);
-    const record = saveCookieConsent(nextPreferences, "settings-page");
-    setLastUpdatedAt(record?.updatedAt ?? null);
-    setSavedMessage("Has aceptado todas las cookies opcionales.");
-  };
-
-  const handleRejectOptional = () => {
-    const nextPreferences = getDefaultCookiePreferences();
-    setPreferences(nextPreferences);
-    const record = saveCookieConsent(nextPreferences, "settings-page");
-    setLastUpdatedAt(record?.updatedAt ?? null);
-    setSavedMessage("Has rechazado todas las cookies opcionales.");
   };
 
   return (
@@ -113,7 +80,7 @@ export default function SeleccionarCookiesPage() {
                 aria-label={`Activar ${item.title}`}
                 onClick={() => handleToggle(item.id)}
                 className={`relative inline-flex h-8 w-14 items-center rounded-full transition ${
-                  preferences[item.id] ? "bg-zinc-900" : "bg-zinc-300"
+                  preferences[item.id] ? "bg-[#6C47FF]" : "bg-zinc-300"
                 }`}
               >
                 <span
@@ -126,41 +93,7 @@ export default function SeleccionarCookiesPage() {
           ))}
         </section>
 
-        <section className="mt-6 flex flex-col gap-3 rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm sm:flex-row sm:items-center sm:justify-between sm:p-6">
-          <p className="text-sm text-zinc-600">{lastUpdatedText}</p>
-          <div className="flex flex-col gap-2 sm:flex-row">
-            <button
-              type="button"
-              onClick={handleRejectOptional}
-              className="rounded-full border border-zinc-300 px-4 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-100"
-            >
-              Rechazar opcionales
-            </button>
-            <button
-              type="button"
-              onClick={handleAcceptAll}
-              className="rounded-full border border-zinc-300 px-4 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-100"
-            >
-              Aceptar todas
-            </button>
-            <button
-              type="button"
-              onClick={handleSave}
-              className="rounded-full border border-zinc-900 bg-zinc-900 px-4 py-2 text-sm font-semibold text-white hover:bg-zinc-700"
-            >
-              Guardar seleccion
-            </button>
-          </div>
-        </section>
-
         {savedMessage ? <p className="mt-4 text-sm font-medium text-emerald-700">{savedMessage}</p> : null}
-
-        <p className="mt-8 text-sm text-zinc-500">
-          Puedes cambiar esta configuracion cuando quieras desde el menu principal.
-          <Link href="/" className="ml-2 font-semibold text-zinc-900 underline-offset-4 hover:underline">
-            Volver al inicio
-          </Link>
-        </p>
       </main>
     </div>
   );

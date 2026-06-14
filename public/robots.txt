@@ -1,0 +1,14 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /admin
+Disallow: /api
+
+# Host
+Host: https://adimenai.com
+
+# Sitemaps
+Sitemap: https://adimenai.com/sitemap.xml

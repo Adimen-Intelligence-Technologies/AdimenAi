@@ -95,11 +95,6 @@ export function Footer() {
             <span>© 2026 <span className="font-bold">Adimen</span>AI</span>
           </div>
 
-          <div className="text-xl text-black">
-            {t("builtBy")} <Link href="https://www.studiokronos.es" target="_blank" rel="noreferrer" className="font-bold transition-colors hover:text-zinc-900">
-              Studio Kronos
-            </Link>
-          </div>
         </Wrapper>
       </div>
     </footer>

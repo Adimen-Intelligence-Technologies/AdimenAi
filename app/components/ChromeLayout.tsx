@@ -2,6 +2,7 @@
 
 import { ReactNode, useEffect } from "react";
 import { usePathname } from "next/navigation";
+import { CookieBanner } from "@/app/components/ui/CookieBanner";
 import { Footer } from "@/app/components/ui/Footer";
 import { Header } from "@/app/components/ui/Header";
 
@@ -29,6 +30,7 @@ export function ChromeLayout({ children }: ChromeLayoutProps) {
       <Header />
       <main className="flex-1">{children}</main>
       <Footer />
+      <CookieBanner />
     </>
   );
 }

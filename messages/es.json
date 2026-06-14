@@ -1,8 +1,6 @@
 {
   "nav": {
     "home": "Inicio",
-    "aboutUs": "Sobre nosotros",
-    "aboutUsDesc": "Tecnología 360 desde Elgoibar",
     "solutions": "Soluciones 360°",
     "herrikonekt": "Herrikonekt",
     "herrikonektDesc": "App de comercio local",
@@ -233,72 +231,9 @@
     "title": "Hostelería",
     "subtitle": "Puntos de venta (TPV), Comanderos electrónicos, Kioscos autoservicio, balanzas electrónicas, robots de cocina, Pantallas electrónicas, software de gestión... Descubre todos nuestros productos."
   },
-  "aboutPage": {
-    "eyebrow": "Quiénes somos",
-    "title": "Adimen Intelligence Technologies",
-    "subtitle": "Nacidos en Elgoibar",
-    "companyLabel": "Nuestra empresa",
-    "companyTitle": "Adimen Intelligence Technologies S.L.",
-    "companyDescription": "Somos una empresa constituida para el desarrollo, diseño, programación, explotación y comercialización de software, aplicaciones y plataformas tecnológicas basadas en inteligencia artificial (IA).",
-    "companyDescription2": "Nacidos en Elgoibar, un pueblo referente en la industria vasca, siempre apostando por la innovación y las nuevas tendencias.",
-    "diagramEyebrow": "Misión y visión",
-    "diagramTitle": "Un ecosistema de IA al servicio del tejido vasco",
-    "diagramSubtitle": "Cada anillo representa un pilar de nuestra propuesta: tecnología, personas, sostenibilidad y territorio.",
-    "diagramCenterLabel": "Inteligencia",
-    "diagramFooter": "Ecosistema IA",
-    "diagramLabels": {
-      "software": "Software",
-      "automation": "Automatización",
-      "ecosystems": "Ecosistemas centralizados",
-      "growth": "Crecimiento económico",
-      "sustainability": "Sostenibilidad",
-      "euskera": "Fomento del euskera",
-      "reference": "Referente en Euskadi",
-      "flows": "Flujos de valor",
-      "digitalization": "Impulso de la digitalización"
-    },
-    "missionTitle": "Misión",
-    "missionText": "Ayudar a las organizaciones mediante la creación de ecosistemas tecnológicos inteligentes que transformen datos en decisiones y procesos manuales en flujos de valor automáticos, favoreciendo la transición energética y la sostenibilidad, fomentando el euskera y haciendo disfrutar a nuestro personal y contribuyendo así a la mejora de nuestro entorno.",
-    "visionTitle": "Visión",
-    "visionText": "Ser un referente en Euskadi en soluciones de transformación digital mediante IA aplicada, automatización y análisis de datos de alto impacto.",
-    "valuesBadge": "Nuestros valores",
-    "valuesTitle": "Cuatro principios que guían cada proyecto",
-    "valuesSubtitle": "Construimos tecnología con criterio, cerca de las personas y comprometida con el entorno.",
-    "value1Title": "Innovación con propósito",
-    "value1Text": "Aplicamos IA y automatización solo donde aportan valor real, no por moda.",
-    "value2Title": "Cercanía vasca",
-    "value2Text": "Atención presencial, escucha activa y un compromiso firme con el euskera y el tejido local.",
-    "value3Title": "Excelencia técnica",
-    "value3Text": "Ingeniería robusta, integraciones seguras y soporte continuo para que tu equipo avance sin fricciones.",
-    "value4Title": "Impacto medible",
-    "value4Text": "Cada proyecto se mide por su retorno: horas ahorradas, decisiones mejores y crecimiento sostenido.",
-    "stats": {
-      "badge": "AdimenAI en cifras",
-      "title": "Resultados que hablan por sí solos",
-      "items": {
-        "processes": "Procesos automatizados",
-        "clients": "Empresas confían en nosotros",
-        "regions": "Regiones atendidas",
-        "satisfaction": "Satisfacción media"
-      }
-    },
-    "storyBadge": "Nuestra historia",
-    "storyTitle": "De Elgoibar al mundo, con raíz vasca",
-    "storyP1": "Nacimos en Elgoibar, un pueblo con una larga tradición industrial y un espíritu inconformista que comparte nuestra forma de entender la tecnología: como una herramienta al servicio de las personas, no como un fin en sí mismo.",
-    "storyP2": "Hoy ayudamos a empresas de toda Euskadi y del norte de España a incorporar inteligencia artificial, automatizar sus operaciones y construir plataformas digitales que escalan con su negocio. Lo hacemos en castellano y en euskera, con la cercanía de quien comparte territorio y cultura.",
-    "locationLabel": "Nuestras instalaciones",
-    "locationTitle": "Posición estratégica en Euskadi",
-    "locationDescription": "Conexión natural entre Gipuzkoa, Bizkaia y Álava, facilitando cercanía y servicio rápido.",
-    "locationCard1Title": "Ubicación",
-    "locationCard1Text": "Elgoibar, corazón de Gipuzkoa",
-    "locationCard2Title": "Industria vasca",
-    "locationCard2Text": "Un pueblo referente en la industria vasca",
-    "locationCard3Title": "Innovación",
-    "locationCard3Text": "Siempre apostando por nuevas tendencias"
-  },
   "blogPage": {
     "eyebrow": "Blog",
-    "title": "Ideas y casos prácticos de IA para empresas.",
+    "title": "Blog de IA y automatización",
     "description": "Descubre contenido pensado para líderes que quieren impulsar su negocio con agentes inteligentes y automatización."
   },
   "footerSection": {
@@ -321,7 +256,6 @@
     },
     "contact": {
       "office": "Oficinas en Elgoibar"
-    },
-    "builtBy": "Creado por"
+    }
   }
 }

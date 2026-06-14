@@ -1,8 +1,6 @@
 {
   "nav": {
     "home": "Hasiera",
-    "aboutUs": "Guri buruz",
-    "aboutUsDesc": "360° Teknologia Elgoibartik",
     "solutions": "Soluzio 360°",
     "herrikonekt": "Herrikonekt",
     "herrikonektDesc": "Tokiko merkataritza app-a",
@@ -233,72 +231,9 @@
     "title": "Ostalaritza",
     "subtitle": "Salmenta puntuak (TPV), agindu elektronikoko gailuak, autozerbitzu kioskoak, balantza elektronikoak, sukalde robotak, pantaila elektronikoak, kudeaketa softwarea... Ezagutu gure produktu guztiak."
   },
-  "aboutPage": {
-    "eyebrow": "Nor gara",
-    "title": "Adimen Intelligence Technologies",
-    "subtitle": "Elgoibarren jaioak",
-    "companyLabel": "Gure enpresa",
-    "companyTitle": "Adimen Intelligence Technologies S.L.",
-    "companyDescription": "Adimen artifizialean (IA) oinarritutako software, aplikazio eta plataforma teknologikoen garapena, diseinua, programazioa, ustiatzea eta komertzializaziora bideratutako enpresa bat gara.",
-    "companyDescription2": "Elgoibarren jaioak, Euskal industriaren erreferentzia den herri batean, beti berrikuntzaren eta joera berrien aldeko apustua eginez.",
-    "diagramEyebrow": "Misioa eta ikuspegia",
-    "diagramTitle": "IA ekosistem bat euskal ehunarentzat",
-    "diagramSubtitle": "Eraztun bakoitzak gure lanaren zutabe bat adierazten du: teknologia, jendea, iraunkortasuna eta lurraldea.",
-    "diagramCenterLabel": "Adimena",
-    "diagramFooter": "IA ekosistema",
-    "diagramLabels": {
-      "software": "Softwarea",
-      "automation": "Automatizazioa",
-      "ecosystems": "Ekosistema zentralizatuak",
-      "growth": "Hazkunde ekonomikoa",
-      "sustainability": "Iraunkortasuna",
-      "euskera": "Euskararen sustapena",
-      "reference": "Euskal erreferentea",
-      "flows": "Balio-fluxuak",
-      "digitalization": "Digitalizazioaren bultzada"
-    },
-    "missionTitle": "Misioa",
-    "missionText": "Erakundeei laguntzea: datuak erabakitan bihurtzen dituzten eta prozesu manualak fluxu automatiko bihurtzen dituzten ekosistema teknologiko adimendunak sortuz, energia-trantsizioa eta iraunkortasuna sustatuz, euskera sustatuz eta gure langileei lan egiteko poza emanez eta gure ingurunearen hobekuntzari lagunduz.",
-    "visionTitle": "Ikuspegia",
-    "visionText": "IA aplikatua, automatizazioa eta inpaktu handiko datu-analisia bidezko eraldaketa digitalaren irtenbideetan EAEn erreferente izatea.",
-    "valuesBadge": "Gure balioak",
-    "valuesTitle": "Proiektu bakoitza gidatzen duten lau printzipio",
-    "valuesSubtitle": "Teknologia zentzuz eraikitzen dugu, jendearengandik hurbil eta ingurunearekin konprometituta.",
-    "value1Title": "Xedearekin berritzea",
-    "value1Text": "IA eta automatizazioa benetan balioa ematen duten tokietan soilik aplikatzen ditugu, ez modagatik.",
-    "value2Title": "Euskal hurbiltasuna",
-    "value2Text": "Aurrez aurreko arreta, entzute aktiboa eta euskararen eta ehun lokalaren aldeko konpromiso sendoa.",
-    "value3Title": "Excelentzia teknikoa",
-    "value3Text": "Ingeniaritza sendoa, integrazio seguruak eta etengabeko laguntza zure taldea marruskadurarik gabe aurreratzeko.",
-    "value4Title": "Eragin neurgarria",
-    "value4Text": "Proiektu bakoitza bere itzulkinagatik neurtzen da: aurreztutako orduak, erabaki hobeak eta hazkunde jarraitua.",
-    "stats": {
-      "badge": "AdimenAI zenbakitan",
-      "title": "Emaitzek beren alde hitz egiten dute",
-      "items": {
-        "processes": "Prozesu automatizatu",
-        "clients": "Enpresa gugan konfiantza du",
-        "regions": "Eskualde atendituak",
-        "satisfaction": "Batez besteko gogobetetasuna"
-      }
-    },
-    "storyBadge": "Gure istorioa",
-    "storyTitle": "Elgoibartik mundura, euskal sustraiekin",
-    "storyP1": "Elgoibarren jaio ginen, industria-tradizio luzeko herri batean, eta bertako izaera ez-konformistak bat egiten du teknologia ulertzen dugun moduarekin: pertsonen zerbitzura dagoen tresna, ez helburu bat beretzat.",
-    "storyP2": "Gaur egun Euskal Autonomia Erkidego osoan eta Espainiako iparraldean laguntzen diegu enpresei adimen artifiziala txertatzen, eragiketak automatizatzen eta beren negozioarekin batera eskalatzen duten plataforma digitalak eraikitzen. Gaztelaniaz eta euskaraz egiten dugu, lurraldea eta kultura partekatzen ditugunon hurbiltasunarekin.",
-    "locationLabel": "Gure instalazioak",
-    "locationTitle": "Kokapen estrategikoa EAEn",
-    "locationDescription": "Gipuzkoa, Bizkaia eta Álava arteko lotura naturala, hurbiltasuna eta zerbitzu azkarra erraztuz.",
-    "locationCard1Title": "Kokapena",
-    "locationCard1Text": "Elgoibar, Gipuzkoaren bihotza",
-    "locationCard2Title": "Euskal industria",
-    "locationCard2Text": "Euskal industriaren erreferentzia den herria",
-    "locationCard3Title": "Berrikuntza",
-    "locationCard3Text": "Joera berrien aldeko apustua"
-  },
   "blogPage": {
     "eyebrow": "Bloga",
-    "title": "Ideiak eta adimen artifizialaren kasu praktikoak enpresentzat.",
+    "title": "IA eta automatizazio bloga",
     "description": "Ezagutu negozioa agente adimendun eta automatizazioarekin bultzatu nahi duten liderrentzako edukia."
   },
   "footerSection": {
@@ -321,7 +256,6 @@
     },
     "contact": {
       "office": "Bulegoak Elgoibarren"
-    },
-    "builtBy": "Sortzailea"
+    }
   }
 }

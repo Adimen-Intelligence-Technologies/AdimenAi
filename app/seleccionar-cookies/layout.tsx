@@ -1,5 +1,4 @@
 import { NextIntlClientProvider } from 'next-intl';
-import { ChromeLayout } from '../components/ChromeLayout';
 import esMessages from '../../messages/es.json';
 
 export default function SeleccionarCookiesLayout({
@@ -9,7 +8,7 @@ export default function SeleccionarCookiesLayout({
 }) {
   return (
     <NextIntlClientProvider locale="es" messages={esMessages}>
-      <ChromeLayout>{children}</ChromeLayout>
+      {children}
     </NextIntlClientProvider>
   );
 }
