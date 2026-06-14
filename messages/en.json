@@ -59,26 +59,27 @@
     "ctaSecondary": "View services",
     "stats": {
       "processes": "600+ automated processes",
-      "operations": "Service in 3 languages",
+      "operations": "Personalized service",
       "call": "Custom solutions"
     }
   },
   "servicesSection": {
     "badge": "Our services",
-    "title": "360° solutions for your business",
+    "title": "Solutions for your business",
     "description": "From AI automation to POS, web, mobile or digital marketing. Every solution your business needs in one place.",
+    "cta": "View all services",
     "items": [
       {
-        "title": "AI automation",
-        "description": "We remove repetitive tasks by building automated workflows that save time and connect your tools."
+        "title": "Automations with Artificial Intelligence",
+        "description": "We eliminate repetitive tasks by creating automated workflows that save time and connect your tools."
       },
       {
-        "title": "AI agents and chatbots",
+        "title": "Artificial Intelligence agents and chatbots",
         "description": "Custom conversational assistants in Basque, Spanish and English, integrated with your systems and data."
       },
       {
-        "title": "POS and management software",
-        "description": "Point of sale and management for retail, hospitality, food and beauty. Tailored to your sector."
+        "title": "POS and business management software",
+        "description": "Point of sale and management for retail, hospitality, food and beauty. Adapted to your sector."
       },
       {
         "title": "Web, eCommerce and digital marketing",
@@ -89,7 +90,7 @@
   "useCasesSection": {
     "badge": "Use cases",
     "title": "What can your company automate?",
-    "description": "These are some of the most common processes we automate for our clients in Spain.",
+    "description": "These are some of the most common processes we automate for our clients.",
     "items": [
       {
         "title": "Order management",

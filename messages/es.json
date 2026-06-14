@@ -59,21 +59,22 @@
     "ctaSecondary": "Ver servicios",
     "stats": {
       "processes": "600+ procesos automatizados",
-      "operations": "Atención en 3 idiomas",
+      "operations": "Atención personalizada",
       "call": "Soluciones a medida"
     }
   },
   "servicesSection": {
     "badge": "Nuestros servicios",
-    "title": "Soluciones 360° para tu empresa",
+    "title": "Soluciones para tu empresa",
     "description": "Desde automatización con IA hasta tu TPV, web, app o marketing digital. Todas las soluciones que tu negocio necesita en un solo lugar.",
+    "cta": "Ver todos los servicios",
     "items": [
       {
-        "title": "Automatización con IA",
+        "title": "Automatizaciones con Inteligencia Artificial",
         "description": "Eliminamos tareas repetitivas creando flujos automáticos que ahorran tiempo y conectan tus herramientas."
       },
       {
-        "title": "Agentes y chatbots de IA",
+        "title": "Agentes y chatbots de Inteligencia Artificial",
         "description": "Asistentes conversacionales a medida en euskera, castellano e inglés, integrados con tus sistemas y datos."
       },
       {
@@ -89,7 +90,7 @@
   "useCasesSection": {
     "badge": "Casos de uso",
     "title": "¿Qué puede automatizar tu empresa?",
-    "description": "Estos son algunos de los procesos más habituales que automatizamos para nuestros clientes en España.",
+    "description": "Estos son algunos de los procesos más habituales que automatizamos para nuestros clientes.",
     "items": [
       {
         "title": "Gestión de pedidos",

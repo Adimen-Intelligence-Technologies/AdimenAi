@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Cpu, MessageSquare, Settings2, Sparkles } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { Button } from "./Button";
 import { Card } from "./Card";
 import { Wrapper } from "../Wrapper";
 
@@ -74,12 +75,6 @@ export function ServicesSection() {
             >
               {t("title")}
             </h2>
-            <p
-              className={`mt-4 max-w-2xl text-lg leading-tight sm:text-base sm:mx-auto ${fadeClass}`}
-              style={{ animationDelay: "0.3s" }}
-            >
-              {t("description")}
-            </p>
           </div>
 
           <div className="mt-12 grid gap-2 sm:gap-2 lg:gap-2 md:grid-cols-2 xl:grid-cols-4">
@@ -92,6 +87,11 @@ export function ServicesSection() {
                 icon={service.icon}
               />
             ))}
+          </div>
+          <div className="mt-10 flex justify-center">
+            <Button href="/#servicios" color="purple">
+              {t("cta")}
+            </Button>
           </div>
         </div>
       </Wrapper>

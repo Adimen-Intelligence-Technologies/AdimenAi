@@ -59,25 +59,26 @@
     "ctaSecondary": "Zerbitzuak ikusi",
     "stats": {
       "processes": "600+ prozesu automatizatu",
-      "operations": "3 hizkuntzatan arreta",
+      "operations": "Arreta pertsonalizatua",
       "call": "Neurriko soluzioak"
     }
   },
   "servicesSection": {
     "badge": "Gure zerbitzuak",
-    "title": "360° soluzioak zure enpresarentzat",
+    "title": "Soluzioak zure enpresarentzat",
     "description": "AA automatizaziotik TPVra, webera, aplikazioetara edo marketin digitalera. Zure negozioak behar dituen irtenbide guztiak leku bakarrean.",
+    "cta": "Ikusi zerbitzu guztiak",
     "items": [
       {
-        "title": "AA automatizazioa",
-        "description": "Zeregin errepikakorrak ezabatzen ditugu automatizazio-fluxuak sortuz, denbora aurrezten dutenak eta zure tresnak konektatzen dituztenak."
+        "title": "Automatizazioak Adimen Artifizialarekin",
+        "description": "Zeregin errepikakorrak ezabatzen ditugu fluxu automatikoak sortuz, denbora aurrezten dutenak eta zure tresnak konektatzen dituztenak."
       },
       {
-        "title": "AA agenteak eta chatbot-ak",
+        "title": "Adimen Artifizialeko agenteak eta chatbot-ak",
         "description": "Neurrira egindako elkarrizketa-asistenteak euskaraz, gaztelaniaz eta ingelesez, zure sistema eta datuekin integratuta."
       },
       {
-        "title": "TPV eta kudeaketa-softwarea",
+        "title": "TPV eta enpresa kudeaketarako softwarea",
         "description": "Salmenta-puntua eta kudeaketa txikizkako, ostalaritza, elikadura eta edertasun sektoreetarako. Zure sektorerako egokitua."
       },
       {
@@ -89,7 +90,7 @@
   "useCasesSection": {
     "badge": "Erabilera kasuak",
     "title": "Zer automatiza dezake zure enpresak?",
-    "description": "Hauek dira Espainiako gure bezeroentzat automatizatzen ditugun prozesu ohikoenetako batzuk.",
+    "description": "Hauek dira gure bezeroentzat automatizatzen ditugun prozesu ohikoenetako batzuk.",
     "items": [
       {
         "title": "Eskaeren kudeaketa",

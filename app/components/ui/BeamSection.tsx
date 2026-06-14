@@ -46,9 +46,7 @@ export function BeamSection() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-tight text-balance text-slate-950">
             Conecta todas tus entidades y sistemas en una sola plataforma.
           </h2>
-          <p className="mt-4 max-w-2xl text-lg leading-tight sm:text-base sm:mx-auto text-black tracking-tight">
-            Observa cómo tus sistemas y aplicaciones se sincronizan en tiempo real para un flujo de trabajo más eficiente.
-          </p>
+
 
           <div className="mt-12 flex justify-center">
             <div
