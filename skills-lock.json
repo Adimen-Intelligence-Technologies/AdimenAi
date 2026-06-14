@@ -1,11 +1,23 @@
 {
   "version": 1,
   "skills": {
+    "blog-post": {
+      "source": "langchain-ai/deepagents",
+      "sourceType": "github",
+      "skillPath": "examples/content-builder-agent/skills/blog-post/SKILL.md",
+      "computedHash": "9cc2da2d8b60cfdeacdc51c910fe9363b95ab568c1203201c909c14f10524432"
+    },
     "css-animations": {
       "source": "heygen-com/hyperframes",
       "sourceType": "github",
       "skillPath": "skills/css-animations/SKILL.md",
       "computedHash": "df468749b06a8ec7369cfea69bf71bf65e46cfc376e837e439e26f4230852c6b"
+    },
+    "seo-audit": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "skillPath": "skills/seo-audit/SKILL.md",
+      "computedHash": "606da61224d9d5687020816292c88152a7fcb27ce375b22f92f429e074f07f34"
     }
   }
 }
