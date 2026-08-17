@@ -47,7 +47,7 @@ export function ContactBlock() {
             </div>
             <div>
               <p className="text-zinc-700 text-sm tracking-tight mb-2">{t("emailLabel")}</p>
-              <a href="mailto:adimen.tech@gmail.com" className="tracking-tight font-bold hover:text-[#6C47FF] transition-colors">adimen.tech@gmail.com</a>
+              <a href="mailto:info@adimenai.com" className="tracking-tight font-bold hover:text-[#6C47FF] transition-colors">info@adimenai.com</a>
             </div>
 
             <div>

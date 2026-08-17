@@ -40,7 +40,7 @@ export default async function LocalePrivacidadPage() {
                   <h2 className="text-xl font-semibold text-black">1. Responsable del tratamiento</h2>
                   <p className="mt-2">
                     Adimen Intelligence Technologies S.L. (en adelante, AdimenAI), con domicilio en Elgoibar, Gipuzkoa, y correo electrónico de contacto{" "}
-                    <a href="mailto:adimen.tech@gmail.com" className="text-[#6C47FF] hover:underline">adimen.tech@gmail.com</a>, es la entidad responsable del tratamiento de los datos personales que facilites a través de este sitio web.
+                    <a href="mailto:info@adimenai.com" className="text-[#6C47FF] hover:underline">info@adimenai.com</a>, es la entidad responsable del tratamiento de los datos personales que facilites a través de este sitio web.
                   </p>
                 </div>
 
@@ -114,7 +114,7 @@ export default async function LocalePrivacidadPage() {
                   </ul>
                   <p className="mt-2">
                     Para ejercer tus derechos, escribe a{" "}
-                    <a href="mailto:adimen.tech@gmail.com" className="text-[#6C47FF] hover:underline">adimen.tech@gmail.com</a>. Si consideras que no hemos atendido tus derechos, puedes presentar una reclamación ante la Autoridad de Control competente (AEPD en España).
+                    <a href="mailto:info@adimenai.com" className="text-[#6C47FF] hover:underline">info@adimenai.com</a>. Si consideras que no hemos atendido tus derechos, puedes presentar una reclamación ante la Autoridad de Control competente (AEPD en España).
                   </p>
                 </div>
 
