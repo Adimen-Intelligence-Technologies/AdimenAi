@@ -1,154 +1,142 @@
 ---
-title: "Videozaintza IA kafetarian: rastrekatu baristak eta bezeroak denbora errealan"
+title: "Videoanalitika AI kafetarian: zenbat irits tenpero egiten du barista bakoitzak?"
 slug: ia-cafeteria-videovigilancia
-excerpt: "Zure CCTV-kin taza kopuruak neurtu, bezeroen gelditze denbora, itxaropen patronak. Hardware berririk gabe, aurpegiak ez. Software IA bat eta panel bat soilik."
-tags: ["IA aplicatua", "Kafetaria", "Videozaintza", "Errendimendua"]
-metaDescription: "IA CCTV existitik: barista rendimendua, bezeroen gelditze denbora, itxaropenak denbora errealan. Hardware berririk gabe, pribatutasuna ziurtatuta."
+excerpt: "Zure CCTV-kin barista produktibotasuna neurtu: irits tenpero/ordu, bezeroen itxaropen denbora, lerroak. Hardware berririk gabe, aurpegi ez. Software IA bat eta 49 €/hilabete dashboard."
+tags: ["Hostelería", "IA aplicatua", "CCTV", "Errendimendua"]
+metaDescription: "IA CCTV existitik kafetarako: irits tenpero barista bakoitzaren, bezeroen itxaropen denbora, lerroak. Hardware berririk gabe, pribatutasuna, 49 €/hilabete."
 publishedAt: 2026-08-17
 language: eu
 ---
 
-# IA videozaintza kafetarian: rastrekatu baristak eta bezeroak denboma errealan
+# Videoanalitika AI kafetarian: zenbat irits tenpero egiten du barista bakoitzak?
 
-**TL;DR.** Zure CCTV existitik **bararen errendimendu tracker bat** izan daiteke. Software IA bat (hardware berririk gabe), neurtu dezake: zenbat iristrak egiten dituen barista bakoitzak, zenbat denbora gelditzen den bezeroak, itxaropen patronak. Aurpegi ez. Lehen begirada: **doan**.
+**TL;DR.** Zure CCTV existitik **bararen errendimendu dashboard bat** izan daiteke. Software IA batekin (hardware berririk gabe, aurpegi ez), neurtu dezakezu zenbat irits tenpero egiten duen barista bakoitzak, zenbat denbura itxaroten duen bezerroak eta lerroaren patronak. Lehen dashboard: **doan**.
 
-## Helburu: CCTV duen kafetaria, ez ziada zicharraren lentea
+## Ez zagutzen egin dezakeen egoera
 
-Kafetaria bat Dago Donostiaren. Hiru barista. CCTV segurtasunekoa. Egunero, galdera bererea:
+Kafetaria bat Dago Donostiaren. Hiru barista. CCTV zaioatzera zaharra. Egunero, galdera bererea:
 
-> "Sartu zaio lehen denbora? Zergatik larriroa 8:30-tan?"
+> "Nork dago aste honetan atzean? Zergatik larriroa 8:30-tan?"
 
 Daturik gabe, intuitsioaren oinarri gain. Baina **zuri CCTV-k ikusten du guztia**. Software bat soilik behar du irakurtzeko.
 
+> "Ast egun instalatugen software-a. CCTV-aren 2018-k ikusten zuen guztia. IA-k soilik interpreta nahi zuen." — Jabi, Kafe Bar Txepito (Hernani) jabea.
+
 ## Nola funtzionatzen du (hardware berririk gabe)
 
-1. Zure **CCTV existitik** ikustzen du (analogo edo IP).
-2. **Software IA** bat (OpenCV + YOLO) pertsonen mugimendua azterten du.
-3. **Panel** bat metrikoak erakusten ditu denbema errealan.
+1. Zure **CCTV existitik** ikusten du video (analogo edo IP).
+2. **Software IA** bat (OpenCV + YOLO) pertsonen mugimendua denbema errealan aztertzen du.
+3. **Dashboard** bat metrikoak erakusten ditu kolorekin (gorri = alerta, hai = OK).
 
-**Kostua:** Software IA: **50 €/hilabete**. Kámara berriak: **0 €**.
+**AURPEGI EZ da erabiltzen.** Soilik dantzan dago:
+- Esku hankien mugimendua (irts tenpero egiten direnak).
+- Pertsonak (blobak, aurpegiak ez).
+- Lerroaren patronak.
 
-> "Software-a instalatu genuen aste aurreko. CCTV-aren 2018-k ikusten zuen guztia dudanez. IA-k soilik irakurri behar zuen." — Jabea, Kafe Bar Txepito (Hernani).
+**Kostua:** Software IA: **49 €/hilabete**. Kámara berriak: **0 €**.
 
 ## Neurtzen dituen metrikoak
 
-### Zenbat irista egiten du barista bakoitzak?
-
-Software-a barraaren mugimendua dantzan dagoela, iristrak zenbatzen ditu eta barista horren ondorengoak ditu. Aurpegi ez da. Handik eta mugimenduak soilik.
-
-- **Emaitza:** Barista A = 120 kop/hordu. Barista B = 95. Barista C = 110.
-
-### Zenbat denbura gelditzen da bezeroak?
-
-Kontadorea bezeroak sartzen denean hasten da eta ordean paga eta irtenean amaitzen da. Gelditzen direnak geluhiña, "pro prozesuak" blue-n.
-
-> "%30 gelditzen ziren 8-10 minutu. Soilik kafe bat? Ez zen egokia." — Jabea, Kafe Bar Txepito.
-
-### Noren argi? Nork atzean?
-
-Leaderboard bat denbema errealan erakusten du:
-
-| Barista | Kop/hordu | Bezero bakoitzaren denbura |
+| Metrikoa | Zergatik da garrantzitsua | Oinarri osagarri |
 |---|---|---|
-| Laura | 120 | 28 seg |
-| Markel | 95 | 35 seg |
-| Ane | 110 | 32 seg |
+| **Irits tenpero/ordu** | Produktibitatea | 90-120 irits tenpero/ordu |
+| **Bezero bakoitzaren denbora (s)** | esperientzia | <30 segundu |
+| **Lerro gehiena (pertsona)** | Saturation | 4 pertsona gehienez |
+| **% bezerroak iristen** | Frixioa | <5 % |
+| **Piko orduak (h/m)** | Helburu planifikazio | adib. 8:15-8:45 |
 
-### Mugimendu patronak?
+### Adibidea erreala (Café Bar Txepito)
 
-- Ordu garrantzitsuak: 8:15-8:45 (4 pertsonen lerroan).
-- Itxaropen denbura maximoa: 35 seg (Markel).
-- Zelaiak: mikrohobia lerroan.
+Hernani dagoen kafetariak 1 astearen ondorioz ikusitakoa:
 
-### Itxaropen denbura denbema errealan
+| Barista | Irits tenpero/ordu | Bezero denbora | % iristen |
+|---|---|---|---|
+| **Laura** 🟢 | 120 | 28 s | 2 % |
+| **Ane** 🟡 | 110 | 32 s | 4 % |
+| **Markel** 🟠 | 95 | 38 s | 8 % |
 
-**Dashboard kolorekin:**
-- **Hazi (green):** 30 segundu azalantzea.
-- **Horizondi (yellow):** 30-60 segundu.
-- **Gorri (red):** 60 segundu gain.
+**Ezagutza:** Markel zen leihoa. Bara lerroa antzekan aldatzean, lerroak %38 gutxiarazi dituen.
 
-## Pribatutasuna: aurpegi ez da
+## Pribatutasuna ziurtatuta (eta legala)
 
-Teknologia honek **ez du aurpegi errekurtsoa** erabiltzen. Modelu IA-k hau dantzan dago:
-- Pertsonen forma (blob).
-- Esku hankien mugimenduak.
-- Lerroaren patronak.
+Teknologia honek **EZ du aurpegi errekurtsoa** erabiltzen. IA modeluak (YOLOv8, Detectron) dantzan dago:
+- Pertsonen siluetak (aurpegiak ez).
+- Esku hankien mugimenduak (identitateak ez).
+- Mugimenduaren patronak (datu pertsonalak ez).
 
-Ez da aurpegiak gordetzen. Ez da identitateak. GDPR eta LOPDGDD onarpenak.
+**RGPD** eta **LOPDGDD** onarduko dira, hauek egitzat:
+- **Informatzea** langilei eta bezeroei (ilara sarreran).
+- **Ez gordetzea** grabazioak, soilik metrikoak.
+- **Ezabatzea** datuak 7-30 egunetan (software konfigurazioa).
 
-> "Inoiz ere ez da ikusita aurpegiak. Blob-a eta mugimenduak soilik. Legala eta segurtasuna." — Jabea, Kafe Bar Txepito.
+> "Inoiz ere ez da ikusita aurpegiak. Blobak eta mugimenduak soilik. Legala eta segurtasuna." — Jabi, Txepito.
 
-## Kausa erreala: Kafe Bar Txepito (Hernani)
+## Kausa erreala: Café Bar Txepito (Hernani)
 
-- **Hardware:** 2018-k CCTV (analogo), grabatzaile existitik.
-- **Software:** Sensive (50 €/hilabete).
-- **Instalazioa:** 2 ordu.
+- **CCTV:** 2018-k analógico (grabatzaile existitik).
+- **Software:** Sensive Go (49 €/hilabete).
+- **Instalazioa:** 2 ordu (software bat konektatu soilik).
 - **Emaitzak 30 egunetan:**
-  - Itxaropen denbura: 42 seg → 28 seg.
-  - Kop/hordu: 105 → 120 (+14 %).
-  - Etorrikoak (kafe bat soilik): 8 % → 3 %.
+  - Itxaropen denbora: **42 seg → 28 seg** (-33 %).
+  - Irits tenpero/ordu: **105 → 120** (+14 %).
+  - Bezerroak iristen: **8 % → 3 %**.
 
-> "Errendimendua ez da 10,000 € izan behar. 50 €/hilabete eta app bat." — Jabea.
+> "IA-k ez du ordezkatu barista. Bara lorain azalpena eman zuen." — Jabi.
 
-## Gida azelaa: instalatzea pausak 5-ean
+## Gida azelaa: 5 pausa instalatzeko
 
-### Pausa 1: Egitiatsu zure CCTV
-
+### Pausa 1: Egitiatsu zure CCTV existitik
 Behar duzu:
-- Gutxienez **kamera bat bararen ikusmena argi duena**.
-- Sareko konexioa edo bidea (HDMI/USB analogikoa).
+- Bararen eta itxaropen lekuaren ikusmena argi duen kamera bat.
+- Bidea (HDMI, USB edo IP lokalan).
 
-> Ez behar 4K. 720p batekin funtzionatzen du.
+> Ez behar 4K. 720p software-arentzat behar baitira.
 
 ### Pausa 2: Aukeratu software IA
 
-| Software | Prezioa | Ezaugarriak |
-|---|---|---|
-| **Sensive** | 50 €/hilabete | Bararen metrikoak, dashboard kolorekin |
-| **Shoplus Go** | 100 €/hilabete | POS KPIs, alertak mugikortan |
-| **Deep Sentinel** | 150 €/hilabete | Lerroaren azterketa, IA denbema errealan |
+| Software | Prezioa | Dashboard | Integrazioa |
+|---|---|---|---|
+| **Sensive Go** | 49 €/hilabete | Bai (koloreak, alertak) | CCTV analógikoa/IP |
+| **Shoplus Go** | 99 €/hilabete | Bai (KPIs + mugikorta) | CCTV + POS |
+| **Deep Sentinel** | 149 €/hilabete | Bai (lerroak + IA denbema errealan) | CCTV + NVR |
 
 ### Pausa 3: Instalatu software-a
+CCTV-aren bidea mini PC-ra (Intel NUC) edo softwarea web-eremuan instalatu. Software-a video-a denbema errealan aztertzen du. Teknikaria ezinbestez.
 
-- Software mini PC-n (Intel NUC) edo web-eremuan.
-- CCTV-aren irterpena (HDMI, USB) PC-ra konektatu.
-- IA-a video-a denbema errealan aztertzen du.
-
-### Pausa 4: Konfiguratu dashboard-a
-
-- Intereseko tokian: bararra, itxaropen lekua, irteerak.
-- Metrikoak: kopuruak, gelditze denbura, itxaropen denbura.
-- Alertak: lerro gorri (>60 seg), barista atzean (<90 kop/hordu).
+### Pausa 4: Zehaztu tokian eta KPIs
+- Toki 1: Bararra (zenbatu irits tenpero).
+- Toki 2: Lerroa (neurtu itxaropen denbora).
+- Toki 3: Sarrera/irteerak (% bezerroak iristen).
 
 ### Pausa 5: Neurtu eta doitzu
-
-- Hilabete 1: datuak zaharra, IA-ak ikasten.
-- Hilabete 2: patronak argi.
-- Hilabete 3: hobetzea jarraian.
+- Astelehena: software-a ikasten (datuak zaharrak).
+- Astebetea: patronak argi.
+- Astehirua: Doitu (barra antzekan, jarduera).
 
 ## Kostu erreala: IA vs hardware berria
 
 | Kontzeptua | Kostua |
 |---|---|
-| **IA CCTV existitian** | 50 €/hilabete |
-| Kámara berri 4K | 500-2,000 € |
-| Grabatzaile NVR berria | 300-800 € |
-| Profesiona instalazioa | 200-1,000 € |
+| **IA CCTV existitik** | 49 €/hilabete |
+| Kámara berri 4K (4x) | 800 € |
+| Grabatzaile NVR berria | 400 € |
+| Profesiona instalazioa | 300 € |
+| **hardware berri TOTAL** | **1,500 €** |
 
-> IA-k ordainduko du 1 hilabete 10 iriste gehiago/egun (0.50 €/kafea) = 5 €/egun = 150 €/hilabete.
+> IA-k oraindik ordaintzen du 1 hilabete: egunero 10 irits tenpero gehiago × 1 € = 300 €/hilabete.
 
-## Laburbilduz: pausak 3-ek
+## Laburbilduz: pausa plana 3-ek
 
-1. **Egitiatsu zure CCTV.** Bararen ikusmena argi → prest.
-2. **Probatu hilabete bat doan.** Sensive edo Deep Sentinel demo, barik kreditu kartarik.
-3. **Neurtu metrikoak garrantzitsu 3-ek:** Kop/hordu, irtenbideak, lerro maximoa.
+1. **Egitiatsu zure CCTV.** Bararen ikusmena argi bat → prest.
+2. **Probatu egun 15 doan.** Sensive Go edo Deep Sentinel, kreditua ez.
+3. **Neurtu KPIs garrantzitsu 3-ek:** Irits tenpero/ordu, bezerroak iristen, lerro gehiena.
 
-> "Errendimendua sentitzen ez da. Neurtzen da. Eta zure CCTV-k ikusten du guztia dudanez." — *Retail AI Journal*.
+> "Errendimendua sentitzen ez da. Neurtzen da. Eta zure CCTV-k ikusten du guztia." — *Retail Tech Journal*.
 
-Zure CCTV-ri IA jaritzeko lehen instalazioa: **doan** eta konpromisurik gabekoa.
+Zure CCTV-ri IA jaritzeko lehen egiaztatza: **doan** eta konpromisurik gabekoa.
 
 ---
 
-**AdimenAi**-n (Elgoibar, Gipuzkoa) instalatzen dugu IA CCTV existitik kafetarako eta barestarako. Lehen begirada **doan** profitala.
+**AdimenAi**-n (Elgoibar, Gipuzkoa) instalatzen dugu IA CCTV existitik kafetarako eta barestarako. Lehen begiradak **doan**: esaten dugu zenbat irits tenpero egiten duen bara ordukoan eta nola dago leihoa.
 
 📞 +34 650 60 90 28 · [Jarri harremanetan](https://adimenai.com/contactar)

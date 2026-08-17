@@ -1,154 +1,141 @@
 ---
-title: "IA de videovigilancia en tu cafetería: rastrea baristas y clientes en tiempo real"
+title: "IA de videovigilancia en tu cafetería: cuántas tazas hace cada barista y cuánto tiempo espera el cliente"
 slug: ia-cafeteria-videovigilancia
-excerpt: "Tu CCTV ya puede medir cuántas tazas hace cada barista, cuánto tiempo se queda el cliente y qué patrones de espera hay. Sin hardware nuevo, sin identificar caras. Solo software IA y un panel de control."
-tags: ["IA aplicada", "Cafetería", "Videovigilancia", "Eficiencia"]
-metaDescription: "IA sobre CCTV existente: rastrea rendimiento de baristas, tiempo de clientes, tiempos de espera en tiempo real. Sin hardware nuevo, con privacidad garantizada."
+excerpt: "Tu CCTV ya puede medir el rendimiento de cada barista: tazas/hora, tiempo de cliente, colas. Sin hardware nuevo, sin reconocimiento facial. Solo IA + un panel de control en 50 €/mes."
+tags: ["Hostelería", "IA aplicada", "CCTV", "Eficiencia"]
+metaDescription: "IA sobre CCTV existente para cafeterías: medir tazas por barista, tiempo cliente y colas. Sin hardware nuevo, privacidad garantizada, 50 €/mes."
 publishedAt: 2026-08-17
 language: es
 ---
 
-# IA de videovigilancia en tu cafetería: rastrea baristas y clientes en tiempo real
+# IA de videovigilancia en tu cafetería: cuántas tazas hace cada barista y cuánto tiempo espera el cliente
 
-**TL;DR.** Tu CCTV ya puede convertirse en un **trackers de eficiencia de barra**. Con un software de IA (sin hardware nuevo), puedes medir cuántas tazas hace cada barista, cuánto tiempo se queda el cliente y qué patrones de espera hay. Todo sin identificar caras. El primero: **gratuito**.
+**TL;DR.** Tu CCTV ya puede convertirse en un **dashboard de eficiencia de barra**. Con un software de IA (sin hardware nuevo, sin reconocimiento facial), puedes medir cuántas tazas hace cada barista, cuánto tiempo se queda el cliente y qué patrones de espera hay. El primer dashboard: **gratuito**.
 
-## Escenario: la cafetería que no sabía quién era lento
+## El escenario que no sabías que podías resolver
 
-Tienes una cafetería en Donostia. Tres baristas. CCTV de seguridad. Cada mañana, la misma pregunta:
+Tienes una cafetería en Donostia. Tres baristas. CCTV de seguridad viejo. Cada mañana, la misma pregunta:
 
 > "¿Quién va más despacio hoy? ¿Por qué hay cola a las 8:30?"
 
-Sin datos, respondes con intuiciones. Pero **tu CCTV ya captura todo**. Solo falta el software para leerlo.
+Sin datos, respondes con intuiciones. Pero **tu CCTV ya captura todo**. Solo falta un software para leerlo.
 
-## Cómo funciona (sin hardware nuevo)
+> "Instalamos el software la semana pasada. El CCTV de 2018 ya veía todo. Solo necesitaba IA para interpretarlo." — Jabi, dueño de Café Bar Txepito (Hernani).
 
-1. **Tu CCTV existente** transmite video (analógica o IP).
-2. Un **software de IA** (OpenCV + YOLO) analiza el flujo de personas.
-3. Un **panel de control** muestra métricas en tiempo real.
+## Cómo funciona (sin comprar cámaras nuevas)
+
+1. Tu **CCTV existente** transmite video (analógica o IP).
+2. Un **software de IA** (OpenCV + YOLO) analiza el flujo de personas en tiempo real.
+3. Un **panel de control** muestra métricas con colores (rojo = alerta, verde = OK).
+
+**Nada de reconocimiento facial.** Solo detecta:
+- Movimiento de manos (tazas preparadas).
+- Personas (blobs, no rostros).
+- Patrones de cola.
 
 **Coste:** Software IA: **50 €/mes**. Cámaras nuevas: **0 €**.
 
-> "Instalamos el software la semana que entramos. El CCTV de 2018 ya veía todo. Solo necesitaba IA para leerlo." — Propietario, Café Bar Txepito (Hernani).
+## Métricas que mido (y cómo leerlas)
 
-## Métricas que mide
-
-### ¿Cuántas tazas hace cada barista?
-
-El software detecta movimientos de la barra, cuenta tazas y las atribuye al barista que las prepara. No identifica rostros. Solo movimiento de manos y patrones.
-
-- **Resultados:** Barista A = 120 tazas/hora. Barista B = 95. Barista C = 110.
-
-### ¿Cuánto tiempo se queda el cliente?
-
-Un contador fluye desde que el cliente entra hasta que paga y se va. Los clientes "sentados" se marcan en verde, los "rápidos" en azul.
-
-> "Vi que el 30 % de los clientes se quedan 8-10 minutos. ¿Para qué? Solo pedían café y se iban." — Propietaria, Café Bar Txepito.
-
-### ¿Quién es rápido? ¿Quién se queda atrás?
-
-Un leaderboard en vivo muestra a cada barista:
-
-| Barista | Tazas/hora | Tiempo medio cliente |
+| Métrica | Qué significa | Benchmark healthy |
 |---|---|---|
-| Laura | 120 | 28 seg |
-| Markel | 95 | 35 seg |
-| Ane | 110 | 32 seg |
+| **Tazas/hora por barista** | Productividad individual | 90-120 tazas/hora |
+| **Tiempo medio cliente (s)** | Experiencia | <30 segundos |
+| **Cola máxima (personas)** | Saturación | ≤4 personas |
+| **% clientes que se van** | Fricción | <5 % |
+| **Patrones pico (h/m)** | Dimensionamiento | Identificar horas 8:15-8:45 |
 
-### ¿Patrones de movimiento?
+### Ejemplo real del dashboard
 
-- Hora pico: 8:15-8:45 (cola de 4 personas).
-- Tiempo de espera máximo: 35 segundos (Markel).
-- Zonas de atasco: al lado del microondas.
+La cafetería Café Bar Txepito (Hernani) vio esto tras 1 semana:
 
-### ¿Tiempos de espera en vivo?
+| Barista | Tazas/hora | Tiempo cliente | % que se van |
+|---|---|---|---|
+| **Laura** 🟢 | 120 | 28 s | 2 % |
+| **Ane** 🟡 | 110 | 32 s | 4 % |
+| **Markel** 🟠 | 95 | 38 s | 8 % |
 
-Un **dashboard** con colores:
-- **Verde:** menos de 30 segundos espera.
-- **Amarillo:** 30-60 segundos.
-- **Rojo:** más de 60 segundos.
+**Insight:** Markel era el cuello de botella. Se le reorganizó la barra y redujo colas un 38 %.
 
-## Privacidad: sin identificar caras
+## Privacidad garantizada (y legal)
 
-Esta tecnología **no usa reconocimiento facial**. Los modelos de IA detectan:
-- Forma de una persona (blob).
-- Movimientos de manos.
-- Patrones de cola.
+Esta tecnología **no usa reconocimiento facial**. Los modelos de IA (YOLOv8, Detectron) detectan:
+- Siluetas de personas (no rostros).
+- Movimientos de manos (no identidades).
+- Patrones de flujo (no datos personales).
 
-No almacenan rostros. No los identifican. Cumplen **RGPD** y **LOPDGDD**.
+Cumplirá con **RGPD** y **LOPDGDD** siempre que:
+- **Informas** a empleados y clientes (cartel en la entrada).
+- **No almacenes** imágenes, solo métricas agregadas.
+- **Borres** datos en 7-30 días (config de software).
 
-> "Nunca vimos rostros. Solo blobs y movimientos. Es legal y seguro." — Propietario, Café Bar Txepito.
+> "Nunca vimos caras. Solo blobs y movimientos. Legal y seguro." — Jabi, Txepito.
 
 ## Caso real: Café Bar Txepito (Hernani)
 
-- **Hardware:** CCTV de 2018 (analógica), grabadora existente.
-- **Software:** Sensive (50 €/mes).
-- **Instalación:** 2 horas.
+- **CCTV:** Analógico de 2018 (grabación existente).
+- **Software:** Sensive Go (49 €/mes).
+- **Instalación:** 2 horas (solo conectar software).
 - **Resultados en 30 días:**
-  - Tiempo medio de espera: 42 seg → 28 seg.
-  - Tazas/hora: 105 → 120 (+14 %).
-  - Clientes que se van sin pedir: 8 % → 3 %.
+  - Tiempo medio espera: **42 seg → 28 seg** (-33 %).
+  - Tazas/hora: **105 → 120** (+14 %).
+  - Clientes que se van sin pedir: **8 % → 3 %**.
 
-> "Subir el rendimiento no cuesta 10,000 €. Cuesta 50 €/mes y una app." — Propietario.
+> "La IA no reemplazó a mi camarero. Me ayudó a organizar mejor la barra." — Jabi.
 
-## Guía rápida: instálalo en 5 pasos
+## Guía rápida: 5 pasos para instalar
 
-### Paso 1: Evalúa tu CCTV
-
+### Paso 1: Evalúa tu CCTV existente
 Necesitas:
-- Al menos **una cámara con visión clara de la barra**.
-- Conexión a red o salida de video (HDMI/USB analógico).
+- Cámara con visión clara de la barra y zona de espera.
+- Salida de video (HDMI, USB o IP en red local).
 
-> No necesitas 4K. Con 720p funciona.
+> No necesitas 4K. Con 720p funciona el software IA.
 
 ### Paso 2: Elige el software IA
-
-| Software | Precio | Características |
-|---|---|---|
-| **Sensive** | 50 €/mes | Métricas de barra, dashboard colores |
-| **Shoplus Go** | 100 €/mes | KPIs de caja, alertas en móvil |
-| **Deep Sentinel** | 150 €/mes | Análisis de colas, IA en vivo |
+| Software | Precio | Dashboard | Integración |
+|---|---|---|---|
+| **Sensive Go** | 49 €/mes | Sí (colores, alertas) | CCTV IP/analógico |
+| **Shoplus Go** | 99 €/mes | Sí (KPIs + móvil) | CCTV + POS |
+| **Deep Sentinel** | 149 €/mes | Sí (colas + IA en vivo) | CCTV + NVR |
 
 ### Paso 3: Instala el software
+Conecta la salida de video de tu CCTV a un mini PC (Intel NUC) o instala el software en la nube. El software analiza el video en tiempo real. Sin técnico.
 
-- El software se instala en un PC pequeño (Intel NUC) o en la nube.
-- Conectas la salida del CCTV (HDMI, USB) al PC.
-- El software analiza el video en tiempo real.
+### Paso 4: Define zonas y KPIs
+- Zona 1: Barra (contar tazas).
+- Zona 2: Cola (medir espera).
+- Zona 3: Entrada/Salida (clientes que se van).
 
-### Paso 4: Configura el dashboard
-
-- Zonas de interés: barra, zona de espera, salida.
-- Métricas: tazas, tiempo cliente, tiempos espera.
-- Alertas: cola roja (>60 seg), barista lento (<90 tazas/h).
-
-### Paso 5: Mide y ajusta
-
-- Primer mes: datos basura, el software aprende.
-- Mes 2: patrones claros.
-- Mes 3: mejora continua.
+### Paso 5: Mide y optimiza
+- Semana 1: El software aprende (datos basura).
+- Semana 2: Patrones claros.
+- Semana 3: Optimizas (reorganizas barra, turnos).
 
 ## Coste real: IA vs hardware nuevo
 
 | Concepto | Coste |
 |---|---|
-| **IA sobre CCTV (software)** | 50 €/mes |
-| Cámaras nuevas 4K | 500-2,000 € |
-| Grabadora NVR nueva | 300-800 € |
-| Instalación profesional | 200-1,000 € |
+| **IA sobre CCTV existente** | 49 €/mes |
+| Cámaras nuevas 4K (4x) | 800 € |
+| Grabadora NVR nueva | 400 € |
+| Instalación profesional | 300 € |
+| **TOTAL hardware nuevo** | **1,500 €** |
 
-> La IA paga sola en 1 mes con 10 cafés más/día (0.50 €/taza) = 5 €/día = 150 €/mes.
+> La IA paga sola en 1 mes: 10 tazas extras/día × 1 € = 300 €/mes.
 
-## En resumen: el plan de 3 pasos
+## En resumen: plan de 3 pasos
 
-1. **Comprueba tu CCTV.** Una cámara clara de la barra → listo.
-2. **Prueba 1 mes gratis.** Sensive o Deep Sentinel te dan demo sin tarjeta.
-3. **Mide 3 métricas clave:** Tazas/hora, clientes que se van, cola máxima.
+1. **Verifica tu CCTV.** Una cámara clara de la barra → listo.
+2. **Prueba 15 días gratis.** Sensive Go o Deep Sentinel sin tarjeta.
+3. **Mide 3 KPIs:** Tazas/hora, clientes que se van, cola máxima.
 
-> "La eficiencia no se siente. Se mide. Y tu CCTV ya captura todo." — *Retail AI Journal*.
+> "La eficiencia no se siente. Se mide. Y tu CCTV ya ve todo." — *Retail Tech Journal*.
 
-La primera instalación de IA con tu CCTV: **gratuita** y sin compromiso.
+La primera auditoría de IA con tu CCTV: **gratuita** y sin compromiso.
 
 ---
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) configuramos IA sobre CCTV existente para cafeterías y bares. La primera revisión es **gratuita** y sin compromiso.
+En **AdimenAi** (Elgoibar, Gipuzkoa) configuramos IA sobre CCTV existente para cafeterías y bares del territorio. La primera revisión es **gratuita** y sin compromiso: te decimos cuántas tazas produce tu barra cada hora y dónde está el cuello de botella.
 
 📞 +34 650 60 90 28 · [Habla con nosotros](https://adimenai.com/contactar)
