@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { Check, Sparkles } from "lucide-react";
 import { Wrapper } from "../Wrapper";
@@ -29,6 +32,31 @@ export function InfoSection({
   buttonHref,
 }: InfoSectionProps) {
   const hasVideo = Boolean(videoSrc);
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const el = videoRef.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.2 }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (isVisible) {
+      videoRef.current?.play().catch(() => {});
+    }
+  }, [isVisible]);
+
   return (
     <section className="border-b border-zinc-200">
       <Wrapper className="px-4 sm:px-6 lg:px-8">
@@ -71,10 +99,11 @@ export function InfoSection({
           <div className="overflow-hidden rounded bg-zinc-100 shadow-sm">
             {hasVideo ? (
               <video
+                ref={videoRef}
                 src={videoSrc}
                 aria-label={imageAlt}
                 className="w-full h-auto object-contain bg-zinc-100"
-                autoPlay
+                preload="none"
                 muted
                 loop
                 playsInline

@@ -1,8 +1,10 @@
 import { Wrapper } from "@/app/components/Wrapper";
-import { getTranslations } from "next-intl/server";
+import { HeroBackgroundImage } from "@/app/components/ui/HeroBackgroundImage";
+import { JsonLd } from "@/app/components/seo/JsonLd";
+import { getLocale, getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import type { AppLocale } from "@/i18n/routing";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, buildBreadcrumbJsonLd, SITE_NAME } from "@/lib/seo";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -20,16 +22,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function LocaleHosteleriaPage() {
+  const locale = (await getLocale()) as AppLocale;
   const t = await getTranslations("hosteleriaPage");
+  const tSeo = await getTranslations({ locale, namespace: "seo.hosteleria" });
+  const breadcrumbJsonLd = buildBreadcrumbJsonLd(locale, [
+    { name: SITE_NAME, path: "/" },
+    { name: tSeo("title"), path: "/hosteleria" },
+  ]);
 
   return (
     <div className="flex flex-col">
+      <JsonLd data={breadcrumbJsonLd} />
       <section className="relative flex items-center justify-center border-b border-zinc-200">
         <Wrapper className="border-x-0 border-zinc-200">
-          <div
-            className="relative overflow-hidden bg-cover bg-center px-4 sm:px-6 md:px-8 py-20 sm:py-28 md:py-36 border-x border-zinc-200"
-            style={{ backgroundImage: "url('/background.avif')" }}
-          >
+          <div className="relative overflow-hidden px-4 sm:px-6 md:px-8 py-20 sm:py-28 md:py-36 border-x border-zinc-200">
+            <HeroBackgroundImage />
             <div className="absolute inset-0" />
             <div className="relative z-10 flex flex-col items-center justify-center gap-6 text-center px-2 sm:px-6 lg:px-20 xl:px-30">
               <p
