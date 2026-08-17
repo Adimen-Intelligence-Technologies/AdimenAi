@@ -257,5 +257,31 @@
     "contact": {
       "office": "Oficinas en Elgoibar"
     }
+  },
+  "seo": {
+    "home": {
+      "title": "AdimenAI | Automatización con IA y soluciones 360° para tu negocio",
+      "description": "Automatizaciones de IA industriales, software de gestión empresarial, ecommerce, páginas web, branding, apps móviles, TPV, gestión de redes sociales y publicidad. Todo en un solo lugar."
+    },
+    "blog": {
+      "title": "Blog de IA y automatización | AdimenAI",
+      "description": "Descubre contenido pensado para líderes que quieren impulsar su negocio con agentes inteligentes y automatización."
+    },
+    "contacto": {
+      "title": "Contacto | AdimenAI",
+      "description": "Cuéntanos tu proyecto y te ayudamos a transformarlo con IA. Solicita una llamada gratuita sin compromiso."
+    },
+    "hosteleria": {
+      "title": "Soluciones para hostelería | AdimenAI",
+      "description": "TPV, comanderos electrónicos, kioscos de autoservicio, básculas electrónicas y software de gestión para hostelería. Descubre todos nuestros productos."
+    },
+    "privacidad": {
+      "title": "Política de privacidad | AdimenAI",
+      "description": "Consulta cómo AdimenAI recoge, trata y protege tus datos personales conforme al RGPD."
+    },
+    "terminos": {
+      "title": "Términos y condiciones | AdimenAI",
+      "description": "Condiciones de uso del sitio web y los servicios de AdimenAI."
+    }
   }
 }

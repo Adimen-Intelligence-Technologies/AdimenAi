@@ -257,5 +257,31 @@
     "contact": {
       "office": "Bulegoak Elgoibarren"
     }
+  },
+  "seo": {
+    "home": {
+      "title": "AdimenAI | IArekin automatizazioa eta 360° soluzioak zure negoziorako",
+      "description": "IA automatizazio industrialak, negozio-kudeaketa softwarea, ecommerce, webguneak, branding, mugikorretarako appak, TPV, sare sozialen kudeaketa eta publizitatea. Guztia leku bakarrean."
+    },
+    "blog": {
+      "title": "IA eta automatizazio bloga | AdimenAI",
+      "description": "Ezagutu negozioa agente adimendun eta automatizazioarekin bultzatu nahi duten liderrentzako edukia."
+    },
+    "contacto": {
+      "title": "Harremana | AdimenAI",
+      "description": "Kontatu zure proiektua eta IArekin eraldatzen lagunduko dizugu. Eskatu doako deia, konpromisorik gabe."
+    },
+    "hosteleria": {
+      "title": "Ostalaritzarako soluzioak | AdimenAI",
+      "description": "TPV, agindu elektronikoko gailuak, autozerbitzu kioskoak, balantza elektronikoak eta kudeaketa softwarea ostalaritzarako. Ezagutu gure produktu guztiak."
+    },
+    "privacidad": {
+      "title": "Pribatutasun politika | AdimenAI",
+      "description": "Ikusi nola biltzen, tratatzen eta babesten dituen AdimenAI-k zure datu pertsonalak, RGPDaren arabera."
+    },
+    "terminos": {
+      "title": "Termino eta kondizioak | AdimenAI",
+      "description": "AdimenAI webgunearen eta zerbitzuen erabilera-baldintzak."
+    }
   }
 }

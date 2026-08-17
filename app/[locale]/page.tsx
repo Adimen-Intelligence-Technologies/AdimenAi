@@ -9,6 +9,24 @@ import {FaqSection} from '@/app/components/ui/FaqSection';
 import {ContactBlock} from '@/app/components/ui/ContactBlock';
 import {getLocale, getTranslations} from 'next-intl/server';
 import {toLocalePath} from '@/lib/locale-path';
+import type {Metadata} from 'next';
+import type {AppLocale} from '@/i18n/routing';
+import {buildMetadata} from '@/lib/seo';
+
+type Props = {
+  params: Promise<{locale: string}>;
+};
+
+export async function generateMetadata({params}: Props): Promise<Metadata> {
+  const {locale} = await params;
+  const t = await getTranslations({locale, namespace: 'seo.home'});
+  return buildMetadata({
+    locale: locale as AppLocale,
+    path: '/',
+    title: t('title'),
+    description: t('description'),
+  });
+}
 
 export default async function HomePage() {
   const t = await getTranslations('infoSection');
