@@ -10,7 +10,7 @@ language: en
 
 # When to Rebrand Your Company: 9 Signs and How to Do It Right
 
-**TL;DR.** A company needs a **rebrand** when its brand no longer represents what it does, doesn't connect with its current customers, is holding back growth, or looks outdated next to the competition. In practice, these are the **9 clearest signs**: a change of business activity, a merger, a damaged reputation, an outdated website, not showing up on Google, expansion into new markets, multiple logos in use at once, a generational change in leadership, and a competitor's redesign leaving you behind. **In Gipuzkoa, a complete professional rebrand in 2026 costs between €1,500 and €18,000**, depending on size and depth. Doing it properly takes 2–4 months and needs a transition plan — you don't change everything on a Monday and forget about it on Tuesday.
+**** A company needs a **rebrand** when its brand no longer represents what it does, doesn't connect with its current customers, is holding back growth, or looks outdated next to the competition. In practice, these are the **9 clearest signs**: a change of business activity, a merger, a damaged reputation, an outdated website, not showing up on Google, expansion into new markets, multiple logos in use at once, a generational change in leadership, and a competitor's redesign leaving you behind. **In Gipuzkoa, a complete professional rebrand in 2026 costs between €1,500 and €18,000**, depending on size and depth. Doing it properly takes 2–4 months and needs a transition plan — you don't change everything on a Monday and forget about it on Tuesday.
 
 ## What exactly is a rebrand?
 

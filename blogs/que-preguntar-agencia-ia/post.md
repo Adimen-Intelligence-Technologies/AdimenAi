@@ -10,7 +10,7 @@ language: es
 
 # Qué preguntar a una agencia de IA antes de contratarla (12 preguntas clave)
 
-**TL;DR.** Una **agencia de IA seria** te responde con claridad a 12 preguntas: ¿qué problema resuelve exactamente?, ¿quéROI puedo esperar?, ¿con qué herramientas trabaja?, ¿quién programa y supervisa?, ¿qué datos necesita?, ¿cómo prueba el sistema antes de entregarlo?, ¿qué pasa si falla?, ¿qué mantenimiento tiene?, ¿en qué idioma trabaja el agente?, ¿cumple RGPD y dónde se procesan los datos?, ¿qué entregables recibo y en qué formato?, ¿cuánto cuesta real y qué pasa si me quiero salir?. **Si una agencia no te puede contestar a estas 12 con plazos, cifras y ejemplos concretos, no la contrates.** En **AdimenAi** (Elgoibar, Gipuzkoa) las respondemos todas en la primera llamada, que es gratuita.
+**** Una **agencia de IA seria** te responde con claridad a 12 preguntas: ¿qué problema resuelve exactamente?, ¿quéROI puedo esperar?, ¿con qué herramientas trabaja?, ¿quién programa y supervisa?, ¿qué datos necesita?, ¿cómo prueba el sistema antes de entregarlo?, ¿qué pasa si falla?, ¿qué mantenimiento tiene?, ¿en qué idioma trabaja el agente?, ¿cumple RGPD y dónde se procesan los datos?, ¿qué entregables recibo y en qué formato?, ¿cuánto cuesta real y qué pasa si me quiero salir?. **Si una agencia no te puede contestar a estas 12 con plazos, cifras y ejemplos concretos, no la contrates.** En **AdimenAi** (Elgoibar, Gipuzkoa) las respondemos todas en la primera llamada, que es gratuita.
 
 ## ¿Por qué importa tanto preguntar antes de firmar?
 

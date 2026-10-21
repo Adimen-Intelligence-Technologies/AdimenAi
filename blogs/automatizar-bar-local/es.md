@@ -10,7 +10,7 @@ language: es
 
 # Si soy dueño de un bar ¿qué puedo automatizar? 5 procesos que te devuelven horas
 
-**TL;DR.** No trates de automatizar todo. Automatiza lo que te **roba tiempo de frente al mostrador**: ticket digital, reservas, stock, proveedores y nóminas. Cada una te devuelve 2-3 horas/semana sin perder el toque humano de tu bar. La primera revisión de estos 5 puntos cuesta **0 €**.
+**** No trates de automatizar todo. Automatiza lo que te **roba tiempo de frente al mostrador**: ticket digital, reservas, stock, proveedores y nóminas. Cada una te devuelve 2-3 horas/semana sin perder el toque humano de tu bar. La primera revisión de estos 5 puntos cuesta **0 €**.
 
 ## El problema de fondo
 

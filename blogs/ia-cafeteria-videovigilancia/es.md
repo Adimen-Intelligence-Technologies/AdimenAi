@@ -10,7 +10,7 @@ language: es
 
 # IA de videovigilancia en tu cafetería: cuántas tazas hace cada barista y cuánto tiempo espera el cliente
 
-**TL;DR.** Tu CCTV ya puede convertirse en un **dashboard de eficiencia de barra**. Con un software de IA (sin hardware nuevo, sin reconocimiento facial), puedes medir cuántas tazas hace cada barista, cuánto tiempo se queda el cliente y qué patrones de espera hay. El primer dashboard: **gratuito**.
+**** Tu CCTV ya puede convertirse en un **dashboard de eficiencia de barra**. Con un software de IA (sin hardware nuevo, sin reconocimiento facial), puedes medir cuántas tazas hace cada barista, cuánto tiempo se queda el cliente y qué patrones de espera hay. El primer dashboard: **gratuito**.
 
 ## El escenario que no sabías que podías resolver
 

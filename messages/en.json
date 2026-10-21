@@ -236,6 +236,15 @@
     "title": "AI and automation blog",
     "description": "Discover content designed for leaders who want to boost their business with intelligent agents and automation."
   },
+  "blogPost": {
+    "back": "Back to blog",
+    "readingTime": "{minutes} min read",
+    "related": "Related articles",
+    "allPosts": "See all articles",
+    "contactBadge": "Does this fit your business?",
+    "contactTitle": "Let's talk about your case",
+    "contactDescription": "Tell us what you want to improve and we'll get back to you within 24 hours."
+  },
   "footerSection": {
     "sections": {
       "pages": "Pages",

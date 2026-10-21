@@ -11,9 +11,10 @@ interface BlogCardProps {
   imageSrc: string;
   href: string;
   index: number;
+  variant?: "default" | "compact";
 }
 
-export function BlogCard({ title, excerpt, tag, imageSrc, href, index }: BlogCardProps) {
+export function BlogCard({ title, excerpt, tag, imageSrc, href, index, variant = "default" }: BlogCardProps) {
   const cardRef = useRef<HTMLDivElement | null>(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -34,6 +35,46 @@ export function BlogCard({ title, excerpt, tag, imageSrc, href, index }: BlogCar
     observer.observe(element);
     return () => observer.disconnect();
   }, []);
+
+  if (variant === "compact") {
+    return (
+      <div
+        ref={cardRef}
+        className={`group relative overflow-hidden rounded-[20px] border border-zinc-200/70 bg-white/60 backdrop-blur-xl transition-colors duration-200 hover:border-[#6C47FF]/40 ${
+          isVisible ? "animate-hero-fade" : "opacity-0"
+        }`}
+        style={{
+          animationDelay: isVisible ? `${index * 0.08}s` : undefined,
+        }}
+      >
+        <Link href={href} className="flex items-center gap-4 p-3">
+          <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-[14px]">
+            <Image
+              src={imageSrc}
+              alt=""
+              fill
+              sizes="80px"
+              className="object-cover transition duration-500 group-hover:scale-105"
+            />
+          </div>
+          <div className="min-w-0">
+            {tag && <div className="text-xs font-semibold text-[#6C47FF]">{tag}</div>}
+            <h3
+              className="mt-1 text-base font-semibold leading-snug tracking-tight text-slate-950 transition-colors duration-200 group-hover:text-[#6C47FF]"
+              style={{
+                display: "-webkit-box",
+                WebkitLineClamp: 3,
+                WebkitBoxOrient: "vertical",
+                overflow: "hidden",
+              }}
+            >
+              {title}
+            </h3>
+          </div>
+        </Link>
+      </div>
+    );
+  }
 
   return (
     <div

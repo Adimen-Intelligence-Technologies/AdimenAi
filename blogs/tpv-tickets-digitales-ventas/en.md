@@ -10,7 +10,7 @@ language: en
 
 # TPV and digital receipts: how to sell 30% more without changing TPV
 
-**TL;DR.** A digital receipt isn't just "saving paper". It's a **second sales channel** your customer carries in their pocket. With a QR code linking to your website, a WhatsApp message and a product catalog, you can go from 2 extra sales/month to 8 or 10. The key is configuring it in **20 minutes**, not changing your TPV. If you use Tactil, ICG, Bridge or Clover, the function already exists—you just need to activate it.
+**** A digital receipt isn't just "saving paper". It's a **second sales channel** your customer carries in their pocket. With a QR code linking to your website, a WhatsApp message and a product catalog, you can go from 2 extra sales/month to 8 or 10. The key is configuring it in **20 minutes**, not changing your TPV. If you use Tactil, ICG, Bridge or Clover, the function already exists—you just need to activate it.
 
 ## Why digital receipts sell more
 

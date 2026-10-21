@@ -10,7 +10,7 @@ language: eu
 
 # Videoanalitika AI kafetarian: zenbat irits tenpero egiten du barista bakoitzak?
 
-**TL;DR.** Zure CCTV existitik **bararen errendimendu dashboard bat** izan daiteke. Software IA batekin (hardware berririk gabe, aurpegi ez), neurtu dezakezu zenbat irits tenpero egiten duen barista bakoitzak, zenbat denbura itxaroten duen bezerroak eta lerroaren patronak. Lehen dashboard: **doan**.
+**** Zure CCTV existitik **bararen errendimendu dashboard bat** izan daiteke. Software IA batekin (hardware berririk gabe, aurpegi ez), neurtu dezakezu zenbat irits tenpero egiten duen barista bakoitzak, zenbat denbura itxaroten duen bezerroak eta lerroaren patronak. Lehen dashboard: **doan**.
 
 ## Ez zagutzen egin dezakeen egoera
 

@@ -10,7 +10,7 @@ language: eu
 
 # Bar baten jabea naizenez, zer automatizatu dezaket? 5 prozesu ordu gehiago itzurtzen laguntzen dituenak
 
-**TL;DR.** Ez saiatu dena batera automatizatzen. Automatizatu neurtu duen gauza, mostratikoaren aurrean zure lana ezabatzen duena: ticket digitala, erreserbak, stocka, hornitzaileak eta nómina. Bakoitzak astean ordu 2-3 itzortzen ditu, gizartearen ekarpenik gabe. Puntu hauek frogatzeko lehen begirada **0 €** profitala.
+**** Ez saiatu dena batera automatizatzen. Automatizatu neurtu duen gauza, mostratikoaren aurrean zure lana ezabatzen duena: ticket digitala, erreserbak, stocka, hornitzaileak eta nómina. Bakoitzak astean ordu 2-3 itzortzen ditu, gizartearen ekarpenik gabe. Puntu hauek frogatzeko lehen begirada **0 €** profitala.
 
 ## Azalpen azpian dagoen problema
 

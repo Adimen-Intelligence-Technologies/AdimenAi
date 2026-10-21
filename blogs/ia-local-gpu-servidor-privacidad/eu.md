@@ -10,7 +10,7 @@ language: eu
 
 # AI lokala GPU zerbitzuetan: zergatik konfiatzen datuetan handi enpresak
 
-**TL;DR.** Claude, OpenAI edo Gemini-ra galdera bidaltzen baduzu, datuak zuregaina zerbitzuan dagoela irakurtzen duzu. GPU bat zure zerbituarena (NVIDIA H100, A100) **RGPD pribatutasuna, ISO 27001 beti ez daude eta 3 urtean 30% kostu gehiago askotan** ematen dio. Gakoa: "txikiko edo lokala", "datuak ezin diren kanporatzea". Gure lea audi ezaugarpen bat **doan** profitala.
+**** Claude, OpenAI edo Gemini-ra galdera bidaltzen baduzu, datuak zuregaina zerbitzuan dagoela irakurtzen duzu. GPU bat zure zerbituarena (NVIDIA H100, A100) **RGPD pribatutasuna, ISO 27001 beti ez daude eta 3 urtean 30% kostu gehiago askotan** ematen dio. Gakoa: "txikiko edo lokala", "datuak ezin diren kanporatzea". Gure lea audi ezaugarpen bat **doan** profitala.
 
 ## Helburu erreala: CISO-aren deia
 

@@ -10,7 +10,7 @@ language: es
 
 # RPA vs IA: diferencias reales y cuándo usar cada una en tu empresa
 
-**TL;DR.** **RPA** (Robotic Process Automation) es un robot software que ejecuta tareas repetitivas siguiendo reglas fijas: copiar datos de un Excel a un programa, mover un archivo, rellenar un formulario. **IA** (Inteligencia Artificial) interpreta información no estructurada (texto, imágenes, voz) y toma decisiones. La RPA cuesta entre 1.500 € y 6.000 € por proceso, la IA entre 6.000 € y 25.000 € por agente. En la práctica, los proyectos que más retorno dan **combinan las dos**: la IA entiende el dato y la RPA lo mete en el sistema. Si tu proceso es estructurado y repetitivo, RPA. Si hay emails, PDFs, lenguaje natural o decisiones, necesitas IA (o las dos juntas).
+**** **RPA** (Robotic Process Automation) es un robot software que ejecuta tareas repetitivas siguiendo reglas fijas: copiar datos de un Excel a un programa, mover un archivo, rellenar un formulario. **IA** (Inteligencia Artificial) interpreta información no estructurada (texto, imágenes, voz) y toma decisiones. La RPA cuesta entre 1.500 € y 6.000 € por proceso, la IA entre 6.000 € y 25.000 € por agente. En la práctica, los proyectos que más retorno dan **combinan las dos**: la IA entiende el dato y la RPA lo mete en el sistema. Si tu proceso es estructurado y repetitivo, RPA. Si hay emails, PDFs, lenguaje natural o decisiones, necesitas IA (o las dos juntas).
 
 ## ¿Qué es RPA? (Robotic Process Automation)
 

@@ -10,7 +10,7 @@ language: es
 
 # Cuando dependes de un solo cliente: riesgos y cómo diversificar
 
-**TL;DR.** Un cliente grande que representa más del 20 % de tu facturación no es una ventaja, es una hipoteca. Cuando ese cliente se va, cambia sus condiciones o recorta pedidos, toda tu estructura tiembla. La clave no es abandonarlo, sino **entender el riesgo, medirlo y preparar el terreno** para que su marcha no te hunda. Este artículo explica las señales de alerta y las estrategias para diversificar sin renunciar a la cuenta que te hace crecer.
+**** Un cliente grande que representa más del 20 % de tu facturación no es una ventaja, es una hipoteca. Cuando ese cliente se va, cambia sus condiciones o recorta pedidos, toda tu estructura tiembla. La clave no es abandonarlo, sino **entender el riesgo, medirlo y preparar el terreno** para que su marcha no te hunda. Este artículo explica las señales de alerta y las estrategias para diversificar sin renunciar a la cuenta que te hace crecer.
 
 ## ¿Por qué es un problema tener un cliente grande?
 

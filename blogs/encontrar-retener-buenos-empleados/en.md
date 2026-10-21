@@ -10,7 +10,7 @@ language: en
 
 # How to find (and keep) good employees: what's often overlooked
 
-**TL;DR.** The best time to look for an employee was yesterday, and the second best is now. Most SMEs lose good candidates not because they pay too little, but because they take too long, improvise, and treat hiring as paperwork. This guide covers what works for attracting and, above all, retaining talent in small teams.
+**** The best time to look for an employee was yesterday, and the second best is now. Most SMEs lose good candidates not because they pay too little, but because they take too long, improvise, and treat hiring as paperwork. This guide covers what works for attracting and, above all, retaining talent in small teams.
 
 ## Why hiring is hard in an SME
 

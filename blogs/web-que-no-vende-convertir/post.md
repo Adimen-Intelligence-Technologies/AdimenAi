@@ -10,7 +10,7 @@ language: es
 
 # Web que no vende: cómo convertir visitas en clientes (guía 2026)
 
-**TL;DR.** La web media de una pyme convierte el **1–2 % de las visitas en clientes**. Las webs optimizadas, el **5–8 %**. Si tu web recibe 1.000 visitas/mes y convierte al 1 %, tienes 10 clientes potenciales/mes. Si la subes al 5 %, tienes 50. **Eso es hacer 5× más negocio con el mismo tráfico, sin gastar más en Ads.** Esta guía te explica cómo detectar dónde falla tu web, los 11 cambios que mejor funcionan en 2026 y por qué orden aplicarlos.
+**** La web media de una pyme convierte el **1–2 % de las visitas en clientes**. Las webs optimizadas, el **5–8 %**. Si tu web recibe 1.000 visitas/mes y convierte al 1 %, tienes 10 clientes potenciales/mes. Si la subes al 5 %, tienes 50. **Eso es hacer 5× más negocio con el mismo tráfico, sin gastar más en Ads.** Esta guía te explica cómo detectar dónde falla tu web, los 11 cambios que mejor funcionan en 2026 y por qué orden aplicarlos.
 
 ## ¿Por qué tu web no convierte? (las 7 causas reales)
 

@@ -10,7 +10,7 @@ language: es
 
 # TPV para hostelería: cómo elegir el mejor sistema en 2026
 
-**TL;DR.** Un buen TPV para hostelería en 2026 cuesta entre **40 € y 250 €/mes** (software + hardware) según si eliges una solución en la nube (Tactil, ICG, Bridge) o un sistema tradicional (Autec, Micros). Las funciones indispensables hoy son: comanderos electrónicos, integración con delivery (Glovo, Uber Eats, Just Eat), control de mesas por sala, conexión con tu ERP o sistema contable y, sobre todo, que **funcione aunque se caiga internet**. Esta guía te explica qué preguntar, qué pagar y cómo evitar los 7 errores más caros que vemos en bares y restaurantes.
+**** Un buen TPV para hostelería en 2026 cuesta entre **40 € y 250 €/mes** (software + hardware) según si eliges una solución en la nube (Tactil, ICG, Bridge) o un sistema tradicional (Autec, Micros). Las funciones indispensables hoy son: comanderos electrónicos, integración con delivery (Glovo, Uber Eats, Just Eat), control de mesas por sala, conexión con tu ERP o sistema contable y, sobre todo, que **funcione aunque se caiga internet**. Esta guía te explica qué preguntar, qué pagar y cómo evitar los 7 errores más caros que vemos en bares y restaurantes.
 
 ## ¿Qué es exactamente un TPV de hostelería?
 

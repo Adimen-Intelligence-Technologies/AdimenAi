@@ -10,7 +10,7 @@ language: es
 
 # Cómo encontrar (y retener) buenos empleados: lo que se da por sentado
 
-**TL;DR.** El mejor momento para buscar empleado era ayer, y el segundo mejor es ahora. La mayoría de pymes pierde a los buenos candidatos no porque pague poco, sino porque tarda, improvisa y trata la contratación como un trámite. Esta guía repasa lo que funciona para atraer y sobre todo retener talento en equipos pequeños.
+**** El mejor momento para buscar empleado era ayer, y el segundo mejor es ahora. La mayoría de pymes pierde a los buenos candidatos no porque pague poco, sino porque tarda, improvisa y trata la contratación como un trámite. Esta guía repasa lo que funciona para atraer y sobre todo retener talento en equipos pequeños.
 
 ## Por qué contratar es difícil en una pyme
 

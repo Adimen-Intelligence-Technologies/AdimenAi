@@ -10,7 +10,7 @@ language: en
 
 # How to prioritize tasks in a small business: the quick system to stop losing the day
 
-**TL;DR.** Prioritizing isn't about making prettier lists. It's about deciding, at every moment, **what brings you closer to your business goal**. 80% of the stress of being an entrepreneur comes from confusing "urgent" with "important". This 3-step method + AI helps you work on what actually moves the business, not what sounds more urgent.
+**** Prioritizing isn't about making prettier lists. It's about deciding, at every moment, **what brings you closer to your business goal**. 80% of the stress of being an entrepreneur comes from confusing "urgent" with "important". This 3-step method + AI helps you work on what actually moves the business, not what sounds more urgent.
 
 ## The mistake we all make
 

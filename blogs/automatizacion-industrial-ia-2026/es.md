@@ -10,7 +10,7 @@ language: es
 
 # Automatización industrial con IA en 2026: guía práctica para empresas
 
-**TL;DR.** La automatización industrial con IA consiste en usar software inteligente (no solo robots físicos) para ejecutar tareas repetitivas de fábrica, almacén u oficina: registrar pedidos, cruzar facturas con albaranes, controlar stock, generar informes o responder emails. En 2026 una pyme española puede implantarla entre 2 y 8 semanas, con costes desde 1.500 € para automatizaciones puntuales y desde 12.000 € para un agente de IA conectado a su ERP. Ya no es cosa solo de multinacionales: el 62 % de las empresas manufactureras europeas de 10–250 empleados está usando o explorando alguna forma de automatización inteligente, según datos de Eurostat de 2025.
+**** La automatización industrial con IA consiste en usar software inteligente (no solo robots físicos) para ejecutar tareas repetitivas de fábrica, almacén u oficina: registrar pedidos, cruzar facturas con albaranes, controlar stock, generar informes o responder emails. En 2026 una pyme española puede implantarla entre 2 y 8 semanas, con costes desde 1.500 € para automatizaciones puntuales y desde 12.000 € para un agente de IA conectado a su ERP. Ya no es cosa solo de multinacionales: el 62 % de las empresas manufactureras europeas de 10–250 empleados está usando o explorando alguna forma de automatización inteligente, según datos de Eurostat de 2025.
 
 ## ¿Qué es exactamente la automatización industrial con IA?
 

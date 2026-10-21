@@ -236,6 +236,15 @@
     "title": "IA eta automatizazio bloga",
     "description": "Ezagutu negozioa agente adimendun eta automatizazioarekin bultzatu nahi duten liderrentzako edukia."
   },
+  "blogPost": {
+    "back": "Itzuli blogera",
+    "readingTime": "{minutes} min irakurtzeko",
+    "related": "Lotutako artikuluak",
+    "allPosts": "Ikusi artikulu guztiak",
+    "contactBadge": "Zure enpresarako egokia da?",
+    "contactTitle": "Hitz egin dezagun zure kasuaz",
+    "contactDescription": "Kontaiguzu zer hobetu nahi duzun eta 24 ordu baino lehen erantzungo dizugu."
+  },
   "footerSection": {
     "sections": {
       "pages": "Orriak",

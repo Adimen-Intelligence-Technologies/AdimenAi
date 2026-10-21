@@ -10,7 +10,7 @@ language: es
 
 # IA y RGPD: qué datos puedes (y no puedes) meter en ChatGPT, Claude o Gemini
 
-**TL;DR.** La pregunta más frecuente que escuchamos en pymes vascongadas es: **"¿puedo meter mis facturas en ChatGPT sin romper nada?"** La respuesta corta es: **depende de la herramienta y del volumen de datos**. En 2026, la normativa exige que **cualquier empresa que trate datos de clientes tenga cuidado**. Aquí te decimos qué puedes hacer con seguridad y qué implica cada alternativa.
+**** La pregunta más frecuente que escuchamos en pymes vascongadas es: **"¿puedo meter mis facturas en ChatGPT sin romper nada?"** La respuesta corta es: **depende de la herramienta y del volumen de datos**. En 2026, la normativa exige que **cualquier empresa que trate datos de clientes tenga cuidado**. Aquí te decimos qué puedes hacer con seguridad y qué implica cada alternativa.
 
 ## ¿Por qué la IA y la privacidad generan miedo?
 

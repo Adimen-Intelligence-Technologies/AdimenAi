@@ -10,7 +10,7 @@ language: es
 
 # Cómo cobrar a tiempo: estrategias para reducir la morosidad
 
-**TL;DR.** Los retrasos en el pago son casi el estandar en muchas pymes, pero no tienen por qué serlo. Combinar contratos claros, anticipos, plazos de pago cortos, recordatorios automáticos y descuentos por pronto pago funciona mejor que reclamar después. Esta guía recoge estrategias reales para cobrar antes, sin que se resienta la relación con tus clientes.
+**** Los retrasos en el pago son casi el estandar en muchas pymes, pero no tienen por qué serlo. Combinar contratos claros, anticipos, plazos de pago cortos, recordatorios automáticos y descuentos por pronto pago funciona mejor que reclamar después. Esta guía recoge estrategias reales para cobrar antes, sin que se resienta la relación con tus clientes.
 
 ## ¿Por qué tu cliente no te paga a tiempo?
 

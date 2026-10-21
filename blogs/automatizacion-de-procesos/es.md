@@ -10,7 +10,7 @@ language: es
 
 # Automatización de procesos: qué es y cómo aplicarla
 
-**TL;DR.** La automatización de procesos es poner a trabajar al software en las tareas que hoy hace una persona una y otra vez: registrar un pedido, cruzar una factura con su albarán, avisar de que falta material, preparar el informe del lunes. No es un robot en la fábrica: es que los pasos repetitivos se ejecuten solos, con tus mismas reglas, sin que nadie se aburra ni se equivoque por cansancio. En este post te lo explicamos sin tecnicismos, con ejemplos que verás en cualquier empresa, y te contamos por qué en **Adimen** nos hemos especializado en automatizar **procesos industriales**: porque es donde una hora ahorrada se nota en el almacén, en la línea y en la factura.
+**** La automatización de procesos es poner a trabajar al software en las tareas que hoy hace una persona una y otra vez: registrar un pedido, cruzar una factura con su albarán, avisar de que falta material, preparar el informe del lunes. No es un robot en la fábrica: es que los pasos repetitivos se ejecuten solos, con tus mismas reglas, sin que nadie se aburra ni se equivoque por cansancio. En este post te lo explicamos sin tecnicismos, con ejemplos que verás en cualquier empresa, y te contamos por qué en **Adimen** nos hemos especializado en automatizar **procesos industriales**: porque es donde una hora ahorrada se nota en el almacén, en la línea y en la factura.
 
 ## Un proceso no es más que una cadena de pasos
 

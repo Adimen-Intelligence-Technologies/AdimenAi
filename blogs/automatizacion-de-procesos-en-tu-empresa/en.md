@@ -10,7 +10,7 @@ language: en
 
 # Process automation: how to apply it in your company
 
-**TL;DR.** Process automation is not decided in a brainstorming meeting: it is applied in steps, and in the right order. This is the method we follow at **Adimen** to take it inside a company (increasingly, an industrial one): how to decide where to start, how to document the process as it is actually done rather than as it is written down, how to run a pilot that works in four weeks, which three numbers to watch and how to scale. At the end you get a 10-question checklist to know whether your process is ready, and a call to go through your case with us.
+**** Process automation is not decided in a brainstorming meeting: it is applied in steps, and in the right order. This is the method we follow at **Adimen** to take it inside a company (increasingly, an industrial one): how to decide where to start, how to document the process as it is actually done rather than as it is written down, how to run a pilot that works in four weeks, which three numbers to watch and how to scale. At the end you get a 10-question checklist to know whether your process is ready, and a call to go through your case with us.
 
 If you are still not clear on what process automation actually is, start here: *[what it is and what you can automate](https://www.adimenai.com/en/blog/automatizacion-de-procesos)*. And if what you need is costs and timelines for 2026, they are in *[industrial automation with AI in 2026](https://www.adimenai.com/en/blog/automatizacion-industrial-ia-2026)*.
 

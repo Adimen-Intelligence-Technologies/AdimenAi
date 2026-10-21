@@ -10,7 +10,7 @@ language: en
 
 # TPV + website + WhatsApp: the end of paper and lost orders
 
-**TL;DR.** If you scribble orders on paper and then type them into the TPV by hand, **you lose 25% of orders** to errors or forgetfulness. The fix isn't "a new system": it's **connecting WhatsApp directly to your TPV**. In 1 hour, you can make orders from WhatsApp, website or Instagram arrive at the TPV without touching a single sheet. 80% of businesses that achieve this gain 15-30% more sales in the first month.
+**** If you scribble orders on paper and then type them into the TPV by hand, **you lose 25% of orders** to errors or forgetfulness. The fix isn't "a new system": it's **connecting WhatsApp directly to your TPV**. In 1 hour, you can make orders from WhatsApp, website or Instagram arrive at the TPV without touching a single sheet. 80% of businesses that achieve this gain 15-30% more sales in the first month.
 
 ## The problem with paper
 

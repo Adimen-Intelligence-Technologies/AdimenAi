@@ -10,7 +10,7 @@ language: en
 
 # Local AI with server GPUs: why large enterprises trust their own data
 
-**TL;DR.** Every time you send a prompt to Claude, OpenAI or Gemini, you're trusting your data to servers you don't control. A GPU in your own server (NVIDIA H100, A100) gives you **GDPR privacy, ISO 27001 compliance and 30% lower cost over 3 years**. The key: don't think "cloud vs local", think "what data cannot leave". Our first infrastructure audit is **free**.
+**** Every time you send a prompt to Claude, OpenAI or Gemini, you're trusting your data to servers you don't control. A GPU in your own server (NVIDIA H100, A100) gives you **GDPR privacy, ISO 27001 compliance and 30% lower cost over 3 years**. The key: don't think "cloud vs local", think "what data cannot leave". Our first infrastructure audit is **free**.
 
 ## Real scenario: the call that stops a CISO
 

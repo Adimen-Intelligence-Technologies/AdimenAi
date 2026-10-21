@@ -10,7 +10,7 @@ language: en
 
 # How to use AI in your business without complications: 7 tips that work
 
-**TL;DR.** AI isn't a marketing trick. It's an extension of human thinking that, when used well, saves hours and reduces errors. These 7 tips work today in real companies, without large teams.
+**** AI isn't a marketing trick. It's an extension of human thinking that, when used well, saves hours and reduces errors. These 7 tips work today in real companies, without large teams.
 
 > AI isn't for **looking innovative**. It's for **stopping tasks that eat up your time**.
 

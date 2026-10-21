@@ -10,7 +10,7 @@ language: es
 
 # TPV y tickets digitales: cómo vender un 30% más sin cambiar de TPV
 
-**TL;DR.** Un ticket digital no es solo "ahorrar papel". Es un **segundo canal de venta** que tu cliente lleva en el bolsillo. Con un QR en el ticket, un enlace a tu web y un botón de WhatsApp puedes pasar de 2 ventas/mes a tu cliente al mes a **8 o 10**. La clave está en configurarlo en **20 minutos**, no en cambiar de TPV. Si usas Tactil, ICG, Bridge o Clover, ya tienes la función; solo falta activarla.
+**** Un ticket digital no es solo "ahorrar papel". Es un **segundo canal de venta** que tu cliente lleva en el bolsillo. Con un QR en el ticket, un enlace a tu web y un botón de WhatsApp puedes pasar de 2 ventas/mes a tu cliente al mes a **8 o 10**. La clave está en configurarlo en **20 minutos**, no en cambiar de TPV. Si usas Tactil, ICG, Bridge o Clover, ya tienes la función; solo falta activarla.
 
 ## ¿Por qué un ticket digital vende más?
 

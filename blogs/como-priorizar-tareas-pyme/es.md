@@ -10,7 +10,7 @@ language: es
 
 # Cómo priorizar tareas en una pyme: el sistema rápido para no perder el día
 
-**TL;DR.** Priorizar no es hacer listas más bonitas. Es decidir, en cada momento, **qué te acerca más a tu objetivo de negocio**. El 80 % del estrés de ser empresario viene de confundir "urgente" con "importante". Este método de 3 pasos + IA te ayuda a trabajar en lo que realmente mueve el negocio, no en lo que suena más urgente.
+**** Priorizar no es hacer listas más bonitas. Es decidir, en cada momento, **qué te acerca más a tu objetivo de negocio**. El 80 % del estrés de ser empresario viene de confundir "urgente" con "importante". Este método de 3 pasos + IA te ayuda a trabajar en lo que realmente mueve el negocio, no en lo que suena más urgente.
 
 ## El error que todos cometemos
 

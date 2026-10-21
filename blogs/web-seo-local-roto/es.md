@@ -10,7 +10,7 @@ language: es
 
 # Web que no aparece en Google Maps: diagnóstico rápido de SEO local roto
 
-**TL;DR.** Si tu web no aparece cuando alguien busca tu servicio en tu pueblo, el problema casi nunca es "SEO" en general: es **SEO local roto**. La mayoría de pymes de Gipuzkoa (y España) pierden clientes porque su ficha de Google no está completa, su NAP es inconsistente o no tienen reseñas. Esta checklist de 7 puntos te ayuda a diagnosticar y arreglar en 1 día lo que llevas meses preguntándote por qué no apareces.
+**** Si tu web no aparece cuando alguien busca tu servicio en tu pueblo, el problema casi nunca es "SEO" en general: es **SEO local roto**. La mayoría de pymes de Gipuzkoa (y España) pierden clientes porque su ficha de Google no está completa, su NAP es inconsistente o no tienen reseñas. Esta checklist de 7 puntos te ayuda a diagnosticar y arreglar en 1 día lo que llevas meses preguntándote por qué no apareces.
 
 ## El primer error: confundir SEO con SEO local
 

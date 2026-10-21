@@ -10,7 +10,7 @@ language: en
 
 # How to Get More Customers Without Spending More on Ads (2026 Guide)
 
-**TL;DR.** Getting more customers without blowing up your ad budget is possible by combining **9 channels**: local SEO, Google Business Profile, a referral program, partnerships with complementary businesses, useful content, email marketing, reviews, automated lead follow-up, and a properly set-up CRM. **For an SME with 5–50 employees, consistently applying 4–5 of these channels generates 20% to 60% more leads/month** within 6–12 months, at a monthly cost of €200–800 (versus €1,500–5,000 for an Ads-only campaign). This guide explains each channel, how much it costs and how to start this week.
+**** Getting more customers without blowing up your ad budget is possible by combining **9 channels**: local SEO, Google Business Profile, a referral program, partnerships with complementary businesses, useful content, email marketing, reviews, automated lead follow-up, and a properly set-up CRM. **For an SME with 5–50 employees, consistently applying 4–5 of these channels generates 20% to 60% more leads/month** within 6–12 months, at a monthly cost of €200–800 (versus €1,500–5,000 for an Ads-only campaign). This guide explains each channel, how much it costs and how to start this week.
 
 ## Why this article exists
 

@@ -10,7 +10,7 @@ language: es
 
 # TPV en San Sebastián y Gipuzkoa: precios reales y proveedores en 2026
 
-**TL;DR.** Instalar un TPV profesional en **San Sebastián, Irun, Rentería, Tolosa, Zarautz, Eibar o Elgoibar** cuesta en 2026 entre **1.500 € y 8.000 €** (hardware + software del primer mes) **más una cuota mensual de 40 € a 250 €**. Los tres proveedores locales más instalados son **Tactil** (Tactil Pos, con soporte en Gipuzkoa), **ICG** (cubierta nacional con oficina comercial en Euskadi) y **Bridge** (especializado en delivery). Si quieres un **TPV conectado a tu web, app de delivery y sistema contable** (Holded, Sage, A3) con un único interlocutor local, **AdimenAi en Elgoibar** es la opción que más crece en Gipuzkoa. La primera consulta es gratuita y te pasamos presupuesto cerrado en 48 horas.
+**** Instalar un TPV profesional en **San Sebastián, Irun, Rentería, Tolosa, Zarautz, Eibar o Elgoibar** cuesta en 2026 entre **1.500 € y 8.000 €** (hardware + software del primer mes) **más una cuota mensual de 40 € a 250 €**. Los tres proveedores locales más instalados son **Tactil** (Tactil Pos, con soporte en Gipuzkoa), **ICG** (cubierta nacional con oficina comercial en Euskadi) y **Bridge** (especializado en delivery). Si quieres un **TPV conectado a tu web, app de delivery y sistema contable** (Holded, Sage, A3) con un único interlocutor local, **AdimenAi en Elgoibar** es la opción que más crece en Gipuzkoa. La primera consulta es gratuita y te pasamos presupuesto cerrado en 48 horas.
 
 ## ¿Qué necesitas realmente en un TPV en Gipuzkoa?
 

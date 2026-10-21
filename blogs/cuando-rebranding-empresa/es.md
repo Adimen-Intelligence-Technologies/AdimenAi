@@ -10,7 +10,7 @@ language: es
 
 # Cuándo hacer un rebranding de empresa: 9 señales y cómo abordarlo bien
 
-**TL;DR.** Una empresa necesita **rebranding** cuando su marca ya no representa lo que hace, no conecta con sus clientes actuales, frena su crecimiento o se ve anticuada frente a la competencia. En la práctica, estas son las **9 señales más claras**: cambio de actividad, fusión, mala reputación, web desactualizada, no aparecer en Google, crecimiento a nuevos mercados, varios logos a la vez, cambio generacional en la dirección y rediseño de competencia que te deja atrás. **En Gipuzkoa, un rebranding profesional completo en 2026 cuesta entre 1.500 € y 18.000 €** según tamaño y profundidad. Hacerlo bien tarda 2–4 meses y requiere un plan de transición (no se cambia todo el lunes y se olvida el martes).
+**** Una empresa necesita **rebranding** cuando su marca ya no representa lo que hace, no conecta con sus clientes actuales, frena su crecimiento o se ve anticuada frente a la competencia. En la práctica, estas son las **9 señales más claras**: cambio de actividad, fusión, mala reputación, web desactualizada, no aparecer en Google, crecimiento a nuevos mercados, varios logos a la vez, cambio generacional en la dirección y rediseño de competencia que te deja atrás. **En Gipuzkoa, un rebranding profesional completo en 2026 cuesta entre 1.500 € y 18.000 €** según tamaño y profundidad. Hacerlo bien tarda 2–4 meses y requiere un plan de transición (no se cambia todo el lunes y se olvida el martes).
 
 ## ¿Qué es exactamente un rebranding?
 

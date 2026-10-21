@@ -10,7 +10,7 @@ language: es
 
 # Gestión de facturas y albaranes con proveedores: cómo dejar de perder dinero
 
-**TL;DR.** Una pyme española pierde de media entre el **2 % y el 5 % de su facturación anual** por errores en la gestión de facturas y albaranes con proveedores: facturas duplicadas, albaranes que no llegaron, importes mal grabados, IVA mal contabilizado. La buena noticia es que **un agente de IA + un ERP bien conectado elimina el 80 % de esos errores en 4–6 semanas**, con un coste de entre 6.000 € y 18.000 € y un payback típico de 6–12 meses. Esta guía explica exactamente qué duele, qué automatizar primero y cómo no romper la operativa durante el cambio.
+**** Una pyme española pierde de media entre el **2 % y el 5 % de su facturación anual** por errores en la gestión de facturas y albaranes con proveedores: facturas duplicadas, albaranes que no llegaron, importes mal grabados, IVA mal contabilizado. La buena noticia es que **un agente de IA + un ERP bien conectado elimina el 80 % de esos errores en 4–6 semanas**, con un coste de entre 6.000 € y 18.000 € y un payback típico de 6–12 meses. Esta guía explica exactamente qué duele, qué automatizar primero y cómo no romper la operativa durante el cambio.
 
 ## ¿Cuánto dinero estás perdiendo con facturas y albaranes hoy?
 

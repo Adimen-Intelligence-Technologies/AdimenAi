@@ -10,7 +10,7 @@ language: en
 
 # Website not appearing in Google Maps: quick audit of broken local SEO
 
-**TL;DR.** If your website doesn't appear when someone searches for your service in your town, the problem is almost never "SEO" in general: it's **broken local SEO**. Most SMEs in Gipuzkoa (and Spain) lose customers because their Google listing is incomplete, their NAP is inconsistent, or they have no reviews. This 7-point checklist helps you diagnose and fix it in 1 day.
+**** If your website doesn't appear when someone searches for your service in your town, the problem is almost never "SEO" in general: it's **broken local SEO**. Most SMEs in Gipuzkoa (and Spain) lose customers because their Google listing is incomplete, their NAP is inconsistent, or they have no reviews. This 7-point checklist helps you diagnose and fix it in 1 day.
 
 ## The first mistake: confusing SEO with local SEO
 

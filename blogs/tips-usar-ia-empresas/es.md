@@ -10,7 +10,7 @@ language: es
 
 # Cómo usar la IA en tu empresa sin complicaciones: 7 tips que funcionan
 
-**TL;DR.** La IA no es un truco de marketing. Es una extensión del pensamiento humano que, bien usada, ahorra horas y reduce errores. Estos 7 tips funcionan hoy en empresas reales, sin necesidad de grandes equipos.
+**** La IA no es un truco de marketing. Es una extensión del pensamiento humano que, bien usada, ahorra horas y reduce errores. Estos 7 tips funcionan hoy en empresas reales, sin necesidad de grandes equipos.
 
 > La IA no es para **tener la apariencia de innovar**. Es para **dejar de hacer cosas que consumen tu tiempo**.
 

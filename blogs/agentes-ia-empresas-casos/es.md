@@ -10,7 +10,7 @@ language: es
 
 # Agentes de IA para empresas: qué pueden hacer (y qué no) en 2026
 
-**TL;DR.** Un agente de IA es un programa que **ejecuta tareas reales por sí solo** en los sistemas de tu empresa: lee un email, busca el pedido en el ERP, lo registra, responde al cliente y avisa al almacén. No es un chatbot que solo contesta preguntas. En 2026 un agente bien diseñado cuesta entre 6.000 € y 25.000 € + 200–800 €/mes de mantenimiento, y se implanta en 4–8 semanas. Los usos con retorno más rápido en pymes son: gestión de pedidos por email, extracción de datos de facturas, informes automáticos, cualificación de leads y atención al cliente 24/7. Lo que **no** puede hacer (todavía) es sustituir decisiones estratégicas, cerrar ventas complejas o entender instrucciones ambiguas.
+**** Un agente de IA es un programa que **ejecuta tareas reales por sí solo** en los sistemas de tu empresa: lee un email, busca el pedido en el ERP, lo registra, responde al cliente y avisa al almacén. No es un chatbot que solo contesta preguntas. En 2026 un agente bien diseñado cuesta entre 6.000 € y 25.000 € + 200–800 €/mes de mantenimiento, y se implanta en 4–8 semanas. Los usos con retorno más rápido en pymes son: gestión de pedidos por email, extracción de datos de facturas, informes automáticos, cualificación de leads y atención al cliente 24/7. Lo que **no** puede hacer (todavía) es sustituir decisiones estratégicas, cerrar ventas complejas o entender instrucciones ambiguas.
 
 ## ¿Qué es un agente de IA? (sin jargon)
 

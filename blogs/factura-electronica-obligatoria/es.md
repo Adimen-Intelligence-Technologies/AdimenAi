@@ -10,7 +10,7 @@ language: es
 
 # Factura electrónica 2026: qué tienes que cambiar y por qué casi nadie lo sabe
 
-**TL;DR.** La factura electrónica pasará de ser una opción a una **obligación progresiva** en España hasta 2026. Si eres empresa o autónomo, necesitas saber quién está obligado, qué tipo de factura emitir y qué software puedes usar sin cambiar todo de golpe. La clave: la **VeriFactu** (verificación en tiempo real) empezó en 2025 con grandes empresas y se extenderá a pymes. No es un "tema de burocracia", es un cambio de cómo se controla el dinero.
+**** La factura electrónica pasará de ser una opción a una **obligación progresiva** en España hasta 2026. Si eres empresa o autónomo, necesitas saber quién está obligado, qué tipo de factura emitir y qué software puedes usar sin cambiar todo de golpe. La clave: la **VeriFactu** (verificación en tiempo real) empezó en 2025 con grandes empresas y se extenderá a pymes. No es un "tema de burocracia", es un cambio de cómo se controla el dinero.
 
 ## ¿Estás obligado a facturar electrónicamente?
 

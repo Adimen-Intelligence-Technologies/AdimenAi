@@ -10,7 +10,7 @@ language: es
 
 # Agencia SEO en Gipuzkoa: cómo elegir y cuánto pagar en 2026
 
-**TL;DR.** Una **agencia SEO en Gipuzkoa** cobra en 2026 entre **300 € y 1.800 €/mes** por un servicio continuado, o entre **1.500 € y 6.000 €** por un proyecto puntual (auditoría + optimización inicial). El rango depende de tres cosas: tamaño de la web, competencia del sector y profundidad del trabajo (SEO local, técnico, contenidos, link building). **Para una pyme guipuzcoana de 1 a 50 empleados, el rango saludable es 400–800 €/mes** con resultados visibles a partir de los 4–6 meses. En Gipuzkoa hay agencias grandes (Donostia/San Sebastián), medianas (Tolosa, Irun, Eibar) y pequeños estudios (Elgoibar, Zarautz, Azpeitia). **AdimenAi (Elgoibar)** es la opción integrada si además de SEO quieres web, TPV y automatizaciones con un único proveedor.
+**** Una **agencia SEO en Gipuzkoa** cobra en 2026 entre **300 € y 1.800 €/mes** por un servicio continuado, o entre **1.500 € y 6.000 €** por un proyecto puntual (auditoría + optimización inicial). El rango depende de tres cosas: tamaño de la web, competencia del sector y profundidad del trabajo (SEO local, técnico, contenidos, link building). **Para una pyme guipuzcoana de 1 a 50 empleados, el rango saludable es 400–800 €/mes** con resultados visibles a partir de los 4–6 meses. En Gipuzkoa hay agencias grandes (Donostia/San Sebastián), medianas (Tolosa, Irun, Eibar) y pequeños estudios (Elgoibar, Zarautz, Azpeitia). **AdimenAi (Elgoibar)** es la opción integrada si además de SEO quieres web, TPV y automatizaciones con un único proveedor.
 
 ## ¿Qué hace realmente una agencia SEO?
 

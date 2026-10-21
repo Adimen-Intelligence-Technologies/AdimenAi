@@ -10,7 +10,7 @@ language: es
 
 # Cuánto cuesta una página web profesional en España en 2026
 
-**TL;DR.** En 2026 el precio de una página web profesional en España se mueve entre **600 € y 15.000 €** dependiendo del tipo: una web corporativa básica cuesta entre 600 € y 2.500 €, una tienda online entre 2.500 € y 8.000 €, y un proyecto a medida (multi-idioma, integraciones, lógica compleja) entre 8.000 € y 15.000 € o más. La horquilla es enorme porque depende de tres cosas: quién la hace (freelance, agencia, plataforma), si usas plantilla (WordPress, Shopify) o es desarrollo a medida, y qué incluye el precio (diseño, SEO, copywriting, mantenimiento).
+**** En 2026 el precio de una página web profesional en España se mueve entre **600 € y 15.000 €** dependiendo del tipo: una web corporativa básica cuesta entre 600 € y 2.500 €, una tienda online entre 2.500 € y 8.000 €, y un proyecto a medida (multi-idioma, integraciones, lógica compleja) entre 8.000 € y 15.000 € o más. La horquilla es enorme porque depende de tres cosas: quién la hace (freelance, agencia, plataforma), si usas plantilla (WordPress, Shopify) o es desarrollo a medida, y qué incluye el precio (diseño, SEO, copywriting, mantenimiento).
 
 ## Rango de precios reales en 2026
 

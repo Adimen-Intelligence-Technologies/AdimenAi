@@ -10,7 +10,7 @@ language: es
 
 # IA local con GPU de servidor: por qué las grandes empresas confían en sus propios datos
 
-**TL;DR.** Cada vez que envías un prompt a Claude, OpenAI o Gemini, confías tus datos a un servidor que no controlas. Una GPU en tu propio servidor (NVIDIA H100, A100) te da privacidad RGPD, compliance ISO 27001 y **30 % menos de coste a 3 años**. La clave: no pienses "nube vs local", piensa "qué datos no pueden salir". La primera auditoría de infraestructura IA es **gratuita**.
+**** Cada vez que envías un prompt a Claude, OpenAI o Gemini, confías tus datos a un servidor que no controlas. Una GPU en tu propio servidor (NVIDIA H100, A100) te da privacidad RGPD, compliance ISO 27001 y **30 % menos de coste a 3 años**. La clave: no pienses "nube vs local", piensa "qué datos no pueden salir". La primera auditoría de infraestructura IA es **gratuita**.
 
 ## Escenario real: la llamada que detiene a un CISO
 

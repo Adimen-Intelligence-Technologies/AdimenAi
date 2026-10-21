@@ -10,7 +10,7 @@ language: eu
 
 # Markaren koloreak: zergatik komunikatzen duen kolore psikologia segiben
 
-**TL;DR.** Bezeroaren lortzeko erabakiaren %85-a kolorea eragiten du (Labrecque, 2015). Gorri intitsua energia eta apetitoa komunikatzen du; udarrek korporatibotasuna eta profesionalitatea. Taulen definizioa, sektore bakoitzeko. Markaren lehen paleta kolorea **0 €** profitala.
+**** Bezeroaren lortzeko erabakiaren %85-a kolorea eragiten du (Labrecque, 2015). Gorri intitsua energia eta apetitoa komunikatzen du; udarrek korporatibotasuna eta profesionalitatea. Taulen definizioa, sektore bakoitzeko. Markaren lehen paleta kolorea **0 €** profitala.
 
 ## Helburu: kolorea eietsia dudabidea
 

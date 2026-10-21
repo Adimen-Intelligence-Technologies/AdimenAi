@@ -10,7 +10,7 @@ language: es
 
 # Fidelizar clientes: cómo vender más a los que ya te conocen (guía 2026)
 
-**TL;DR.** **Conseguir un cliente nuevo cuesta entre 5 y 7 veces más que retener uno existente** (Harvard Business Review). Y un cliente fidelizado compra hasta un **67 % más** que uno nuevo. El problema es que la mayoría de pymes gasta el 90 % del marketing en captar y solo el 10 % en fidelizar. Cuando inviertes esa proporción, la cuenta de resultados cambia. Esta guía explica las 9 tácticas de fidelización que mejor funcionan en 2026, cuánto cuestan, cómo medirlas y cómo automatizarlas con IA.
+**** **Conseguir un cliente nuevo cuesta entre 5 y 7 veces más que retener uno existente** (Harvard Business Review). Y un cliente fidelizado compra hasta un **67 % más** que uno nuevo. El problema es que la mayoría de pymes gasta el 90 % del marketing en captar y solo el 10 % en fidelizar. Cuando inviertes esa proporción, la cuenta de resultados cambia. Esta guía explica las 9 tácticas de fidelización que mejor funcionan en 2026, cuánto cuestan, cómo medirlas y cómo automatizarlas con IA.
 
 ## ¿Por qué importa la fidelización?
 

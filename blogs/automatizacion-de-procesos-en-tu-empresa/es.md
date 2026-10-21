@@ -10,7 +10,7 @@ language: es
 
 # Automatización de procesos: cómo aplicarla en tu empresa
 
-**TL;DR.** La automatización de procesos no se decide en una reunión de brainstorming: se aplica en pasos, y en el orden correcto. Este es el método que seguimos en **Adimen** para llevarla dentro de una empresa (cada vez más, industrial): cómo elegir por dónde empezar, cómo documentar el proceso como se hace de verdad y no como está escrito, cómo montar un piloto que funciona en cuatro semanas, qué tres números mirar y cómo escalar. Al final tienes un checklist de 10 preguntas para saber si tu proceso está preparado y una llamada para que lo valoremos contigo.
+**** La automatización de procesos no se decide en una reunión de brainstorming: se aplica en pasos, y en el orden correcto. Este es el método que seguimos en **Adimen** para llevarla dentro de una empresa (cada vez más, industrial): cómo elegir por dónde empezar, cómo documentar el proceso como se hace de verdad y no como está escrito, cómo montar un piloto que funciona en cuatro semanas, qué tres números mirar y cómo escalar. Al final tienes un checklist de 10 preguntas para saber si tu proceso está preparado y una llamada para que lo valoremos contigo.
 
 Si todavía no tienes claro qué es exactamente la automatización de procesos, empieza por aquí: *[qué es y qué se puede automatizar](https://www.adimenai.com/blog/automatizacion-de-procesos)*. Y si lo que necesitas son números de coste y plazos para 2026, los tienes en *[automatización industrial con IA en 2026](https://www.adimenai.com/blog/automatizacion-industrial-ia-2026)*.
 

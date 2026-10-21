@@ -10,7 +10,7 @@ language: en
 
 # Industrial Automation with AI in 2026: A Practical Guide for Businesses
 
-**TL;DR.** Industrial automation with AI means using intelligent software (not just physical robots) to run repetitive factory, warehouse or office tasks: logging orders, matching invoices against delivery notes, controlling stock, generating reports, or answering emails. In 2026, a Spanish SME can deploy it in 2 to 8 weeks, with costs starting at €1,500 for one-off automations and from €12,000 for an AI agent connected to its ERP. It's no longer just for multinationals: 62% of European manufacturing companies with 10–250 employees are using or exploring some form of intelligent automation, according to 2025 Eurostat data.
+**** Industrial automation with AI means using intelligent software (not just physical robots) to run repetitive factory, warehouse or office tasks: logging orders, matching invoices against delivery notes, controlling stock, generating reports, or answering emails. In 2026, a Spanish SME can deploy it in 2 to 8 weeks, with costs starting at €1,500 for one-off automations and from €12,000 for an AI agent connected to its ERP. It's no longer just for multinationals: 62% of European manufacturing companies with 10–250 employees are using or exploring some form of intelligent automation, according to 2025 Eurostat data.
 
 ## What exactly is industrial automation with AI?
 

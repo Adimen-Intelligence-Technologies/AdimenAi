@@ -10,7 +10,7 @@ language: en
 
 # Branding with zero budget: how to have a consistent brand without a designer
 
-**TL;DR.** You don't need a €10,000 branding nor a designer to be recognizable. With **6 simple rules** you can align colors, fonts, tone of voice and visual style around your business without leaving your desk. 90% of SMEs confuse branding with "having a pretty logo". Real branding is **being recognizable even when they can't see your face**.
+**** You don't need a €10,000 branding nor a designer to be recognizable. With **6 simple rules** you can align colors, fonts, tone of voice and visual style around your business without leaving your desk. 90% of SMEs confuse branding with "having a pretty logo". Real branding is **being recognizable even when they can't see your face**.
 
 ## What branding is (and isn't)
 

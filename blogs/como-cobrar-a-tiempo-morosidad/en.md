@@ -10,7 +10,7 @@ language: en
 
 # How to get paid on time: strategies to reduce late payments
 
-**TL;DR.** Payment delays are almost the norm in many SMEs, but they don't have to be. Combining clear contracts, deposits, short payment terms, automatic reminders and early-payment discounts works better than chasing invoices afterwards. This guide covers practical ways to get paid sooner without damaging customer relationships.
+**** Payment delays are almost the norm in many SMEs, but they don't have to be. Combining clear contracts, deposits, short payment terms, automatic reminders and early-payment discounts works better than chasing invoices afterwards. This guide covers practical ways to get paid sooner without damaging customer relationships.
 
 ## Why doesn't your customer pay on time?
 

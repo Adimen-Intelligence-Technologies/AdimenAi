@@ -10,7 +10,7 @@ language: en
 
 # AI video analytics in your café: how many coffees does each barista make?
 
-**TL;DR.** Your existing CCTV can become a **bar efficiency dashboard**. With simple AI software (no new hardware, no face recognition), you can measure how many coffees each barista makes, how long customers wait and what queue patterns emerge. First dashboard: **free**.
+**** Your existing CCTV can become a **bar efficiency dashboard**. With simple AI software (no new hardware, no face recognition), you can measure how many coffees each barista makes, how long customers wait and what queue patterns emerge. First dashboard: **free**.
 
 ## The scenario you didn't know you could fix
 

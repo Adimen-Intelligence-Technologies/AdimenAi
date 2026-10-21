@@ -10,7 +10,7 @@ language: en
 
 # How Much Does a Professional Website Cost in Spain in 2026
 
-**TL;DR.** In 2026, the price of a professional website in Spain ranges from **€600 to €15,000**, depending on the type: a basic corporate site costs between €600 and €2,500, an online store between €2,500 and €8,000, and a custom project (multilingual, integrations, complex logic) between €8,000 and €15,000 or more. The range is huge because it depends on three things: who builds it (freelancer, agency, platform), whether you use a template (WordPress, Shopify) or a custom build, and what the price actually includes (design, SEO, copywriting, maintenance).
+**** In 2026, the price of a professional website in Spain ranges from **€600 to €15,000**, depending on the type: a basic corporate site costs between €600 and €2,500, an online store between €2,500 and €8,000, and a custom project (multilingual, integrations, complex logic) between €8,000 and €15,000 or more. The range is huge because it depends on three things: who builds it (freelancer, agency, platform), whether you use a template (WordPress, Shopify) or a custom build, and what the price actually includes (design, SEO, copywriting, maintenance).
 
 ## Real price ranges in 2026
 

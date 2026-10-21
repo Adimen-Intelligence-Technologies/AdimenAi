@@ -10,7 +10,7 @@ language: en
 
 # AI and data protection: what you can (and cannot) feed to ChatGPT, Claude or Gemini
 
-**TL;DR.** The most frequent question we hear in Basque SMEs is: **"can I paste my invoices into ChatGPT without breaking anything?"** The short answer is: **it depends on the tool and the volume of data**. In 2026, regulations demand that **any company handling customer data must be careful**. Here's what you can do safely and what each alternative means.
+**** The most frequent question we hear in Basque SMEs is: **"can I paste my invoices into ChatGPT without breaking anything?"** The short answer is: **it depends on the tool and the volume of data**. In 2026, regulations demand that **any company handling customer data must be careful**. Here's what you can do safely and what each alternative means.
 
 ## Why does AI and privacy generate fear?
 

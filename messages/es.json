@@ -236,6 +236,15 @@
     "title": "Blog de IA y automatización",
     "description": "Descubre contenido pensado para líderes que quieren impulsar su negocio con agentes inteligentes y automatización."
   },
+  "blogPost": {
+    "back": "Volver al blog",
+    "readingTime": "{minutes} min de lectura",
+    "related": "Artículos relacionados",
+    "allPosts": "Ver todos los artículos",
+    "contactBadge": "¿Te encaja en tu empresa?",
+    "contactTitle": "Hablemos de tu caso",
+    "contactDescription": "Cuéntanos qué quieres mejorar y te respondemos en menos de 24 horas."
+  },
   "footerSection": {
     "sections": {
       "pages": "Páginas",

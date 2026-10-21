@@ -1,11 +1,9 @@
-import { getAllPosts } from '@/lib/blog';
+import { getAllPosts, getPostImage } from '@/lib/blog';
 import { Wrapper } from '../Wrapper';
 import { BlogCard } from '../ui/BlogCard';
 import { getTranslations } from 'next-intl/server';
 import { toLocalePath } from '@/lib/locale-path';
 import type { AppLocale } from '@/i18n/routing';
-
-const FALLBACK_IMAGES = ['/background-03.jpg', '/background-04.jpg', '/background-05.jpg', '/background-06.jpg'];
 
 type Props = {
   locale?: string;
@@ -34,7 +32,7 @@ export async function BlogPage({ locale }: Props) {
               title={post.title}
               excerpt={post.excerpt}
               tag={post.tags?.[0] ?? ''}
-              imageSrc={FALLBACK_IMAGES[index % FALLBACK_IMAGES.length]}
+              imageSrc={getPostImage(post)}
               href={`${blogBasePath}/${post.slug}`}
             />
           ))}

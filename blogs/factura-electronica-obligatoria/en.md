@@ -10,7 +10,7 @@ language: en
 
 # E-invoicing 2026: what you need to change and why almost nobody knows
 
-**TL;DR.** Invoicing will shift from optional to a **progressive obligation** in Spain by 2026. Whether you're a company or freelancer, you need to know who is required, what type of invoice to issue, and what software you can use without overhauling everything overnight. The key: **VeriFactu** (real-time verification) started in 2025 with large companies and will extend to SMEs. It's not "bureaucracy": it's a change in how money is controlled.
+**** Invoicing will shift from optional to a **progressive obligation** in Spain by 2026. Whether you're a company or freelancer, you need to know who is required, what type of invoice to issue, and what software you can use without overhauling everything overnight. The key: **VeriFactu** (real-time verification) started in 2025 with large companies and will extend to SMEs. It's not "bureaucracy": it's a change in how money is controlled.
 
 ## Are you required to invoice electronically?
 

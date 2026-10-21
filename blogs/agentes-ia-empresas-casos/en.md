@@ -10,7 +10,7 @@ language: en
 
 # AI Agents for Businesses: What They Can (and Can't) Do in 2026
 
-**TL;DR.** An AI agent is a program that **carries out real tasks on its own** inside your company's systems: it reads an email, looks up the order in your ERP, logs it, replies to the customer and notifies the warehouse. It's not a chatbot that only answers questions. In 2026, a well-designed agent costs between €6,000 and €25,000 plus €200–800/month in maintenance, and takes 4–8 weeks to deploy. The fastest-payback use cases for SMEs are: managing orders received by email, extracting data from invoices, automatic reporting, lead qualification and 24/7 customer service. What it **can't** do (yet) is replace strategic decisions, close complex consultative sales, or understand ambiguous instructions.
+**** An AI agent is a program that **carries out real tasks on its own** inside your company's systems: it reads an email, looks up the order in your ERP, logs it, replies to the customer and notifies the warehouse. It's not a chatbot that only answers questions. In 2026, a well-designed agent costs between €6,000 and €25,000 plus €200–800/month in maintenance, and takes 4–8 weeks to deploy. The fastest-payback use cases for SMEs are: managing orders received by email, extracting data from invoices, automatic reporting, lead qualification and 24/7 customer service. What it **can't** do (yet) is replace strategic decisions, close complex consultative sales, or understand ambiguous instructions.
 
 ## What is an AI agent? (No jargon)
 

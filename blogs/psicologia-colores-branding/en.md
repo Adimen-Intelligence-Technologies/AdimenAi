@@ -10,7 +10,7 @@ language: en
 
 # Brand colors: what they communicate according to color psychology
 
-**TL;DR.** 85 % of your customer's purchase decision is influenced by color (Labrecque, 2015). A bold red conveys energy and appetite; a corporate blue conveys trust and professionalism. Here's the definitive table of colors, sector by sector, with concrete hex codes. The first color palette for your brand: **0 €**.
+**** 85 % of your customer's purchase decision is influenced by color (Labrecque, 2015). A bold red conveys energy and appetite; a corporate blue conveys trust and professionalism. Here's the definitive table of colors, sector by sector, with concrete hex codes. The first color palette for your brand: **0 €**.
 
 ## Scenario: the entrepreneur doubting the color
 

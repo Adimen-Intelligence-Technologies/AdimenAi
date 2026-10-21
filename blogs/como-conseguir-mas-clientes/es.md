@@ -10,7 +10,7 @@ language: es
 
 # Cómo conseguir más clientes sin gastar más en publicidad (guía 2026)
 
-**TL;DR.** Conseguir más clientes sin disparar la factura de publicidad es posible combinando **9 canales**: SEO local, Google Business Profile, programa de referidos, alianzas con empresas complementarias, contenido útil, email marketing, reseñas, automatización de seguimiento de leads y un sistema de CRM bien montado. **En una pyme con 5–50 empleados, aplicar 4–5 de estos canales de forma consistente genera entre 20 % y 60 % más leads/mes** en 6–12 meses, con coste mensual entre 200 € y 800 € (vs 1.500 €–5.000 € que cuesta una campaña de Ads solo). Esta guía explica cada canal, cuánto cuesta y cómo empezar esta semana.
+**** Conseguir más clientes sin disparar la factura de publicidad es posible combinando **9 canales**: SEO local, Google Business Profile, programa de referidos, alianzas con empresas complementarias, contenido útil, email marketing, reseñas, automatización de seguimiento de leads y un sistema de CRM bien montado. **En una pyme con 5–50 empleados, aplicar 4–5 de estos canales de forma consistente genera entre 20 % y 60 % más leads/mes** en 6–12 meses, con coste mensual entre 200 € y 800 € (vs 1.500 €–5.000 € que cuesta una campaña de Ads solo). Esta guía explica cada canal, cuánto cuesta y cómo empezar esta semana.
 
 ## ¿Por qué este artículo existe?
 

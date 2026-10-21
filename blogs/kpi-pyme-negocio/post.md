@@ -10,7 +10,7 @@ language: es
 
 # 12 KPIs que toda pyme debería mirar para saber si va bien (guía 2026)
 
-**TL;DR.** El **60 % de las pymes españolas** toma decisiones por intuición en lugar de por datos (Cámara de España, 2024). Eso significa que **deciden a ciegas** sobre margen, liquidez, dependencia de clientes o productividad del equipo. Hay **12 KPIs** que cualquier pyme puede medir con poco esfuerzo y que responden a las preguntas críticas: ¿gano dinero?, ¿tengo caja?, ¿qué clientes me salen rentables?, ¿escala el negocio o se estanca?. Esta guía explica cada KPI, cómo se calcula, qué valores son sanos y cómo montar un dashboard en 1 día.
+**** El **60 % de las pymes españolas** toma decisiones por intuición en lugar de por datos (Cámara de España, 2024). Eso significa que **deciden a ciegas** sobre margen, liquidez, dependencia de clientes o productividad del equipo. Hay **12 KPIs** que cualquier pyme puede medir con poco esfuerzo y que responden a las preguntas críticas: ¿gano dinero?, ¿tengo caja?, ¿qué clientes me salen rentables?, ¿escala el negocio o se estanca?. Esta guía explica cada KPI, cómo se calcula, qué valores son sanos y cómo montar un dashboard en 1 día.
 
 ## ¿Por qué importa medir?
 

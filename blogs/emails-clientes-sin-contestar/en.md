@@ -10,7 +10,7 @@ language: en
 
 # Unanswered Customer Emails: How to Stop Losing Leads and Money
 
-**TL;DR.** A Spanish SME takes, on average, **25–48 hours** to answer a new customer's email. **62% of customers** expect a reply within 4 hours, and if they don't get one, they buy from a competitor. That means the average SME is **losing 30%–50% of its sales leads** simply by replying too late. The fix isn't hiring more people — it's **an email management system + chatbot + AI that classifies messages, answers FAQs and alerts the right person**. At **AdimenAI** (Elgoibar, Gipuzkoa) we deploy this in 4 to 8 weeks, at a cost of €6,000–18,000, with an average payback of 5–9 months.
+**** A Spanish SME takes, on average, **25–48 hours** to answer a new customer's email. **62% of customers** expect a reply within 4 hours, and if they don't get one, they buy from a competitor. That means the average SME is **losing 30%–50% of its sales leads** simply by replying too late. The fix isn't hiring more people — it's **an email management system + chatbot + AI that classifies messages, answers FAQs and alerts the right person**. At **AdimenAI** (Elgoibar, Gipuzkoa) we deploy this in 4 to 8 weeks, at a cost of €6,000–18,000, with an average payback of 5–9 months.
 
 ## What does it cost you to not reply on time?
 

@@ -14,6 +14,7 @@ export interface BlogFrontmatter {
   metaDescription: string;
   publishedAt: string;
   language: AppLocale;
+  image?: string;
 }
 
 export interface BlogPost extends BlogFrontmatter {
@@ -37,6 +38,7 @@ function readPostFile(slug: string, locale: AppLocale): BlogPost | null {
     metaDescription: data.metaDescription ?? data.excerpt ?? "",
     publishedAt: data.publishedAt ? String(data.publishedAt) : "",
     language: (data.language as AppLocale) ?? locale,
+    image: typeof data.image === "string" ? data.image : undefined,
     content,
   };
 }
@@ -63,4 +65,34 @@ export function getAllPosts(locale: AppLocale): BlogPost[] {
     .map((slug) => getPostBySlug(slug, locale))
     .filter((post): post is BlogPost => post !== null)
     .sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
+}
+
+const FALLBACK_IMAGES = ["/background-03.jpg", "/background-04.jpg", "/background-05.jpg", "/background-06.jpg"];
+
+// Cover image from frontmatter `image`, otherwise a stable fallback derived from the slug.
+export function getPostImage(post: Pick<BlogPost, "slug" | "image">): string {
+  if (post.image) return post.image;
+  const hash = [...post.slug].reduce((acc, char) => acc + char.charCodeAt(0), 0);
+  return FALLBACK_IMAGES[hash % FALLBACK_IMAGES.length];
+}
+
+export function getReadingTime(content: string): number {
+  const words = content.trim().split(/\s+/).length;
+  return Math.max(1, Math.round(words / 200));
+}
+
+// Posts sharing the most tags first, then most recent.
+export function getRelatedPosts(slug: string, locale: AppLocale, limit = 3): BlogPost[] {
+  const current = getPostBySlug(slug, locale);
+  const currentTags = new Set((current?.tags ?? []).map((tag) => tag.toLowerCase()));
+
+  return getAllPosts(locale)
+    .filter((post) => post.slug !== slug)
+    .map((post) => ({
+      post,
+      score: post.tags.filter((tag) => currentTags.has(tag.toLowerCase())).length,
+    }))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map(({ post }) => post);
 }

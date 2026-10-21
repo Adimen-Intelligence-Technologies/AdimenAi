@@ -10,7 +10,7 @@ language: en
 
 # When you depend on a single client: risks and how to diversify
 
-**TL;DR.** A big client accounting for more than 20% of your turnover isn't an advantage, it's a mortgage. When that client leaves, changes their terms or cuts orders, your whole structure shakes. The key isn't to abandon them, but to **understand the risk, measure it and prepare the ground** so their departure doesn't sink you. This article covers the warning signs and the strategies to diversify without giving up the account that lets you grow.
+**** A big client accounting for more than 20% of your turnover isn't an advantage, it's a mortgage. When that client leaves, changes their terms or cuts orders, your whole structure shakes. The key isn't to abandon them, but to **understand the risk, measure it and prepare the ground** so their departure doesn't sink you. This article covers the warning signs and the strategies to diversify without giving up the account that lets you grow.
 
 ## Why is having one big client a problem?
 

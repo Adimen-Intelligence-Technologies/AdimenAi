@@ -10,7 +10,7 @@ language: es
 
 # Branding con 0 presupuesto: cómo tener marca consistente sin diseñador
 
-**TL;DR.** No necesitas un branding de 10.000 € ni un diseñador para ser reconocible. Con **6 reglas simples** puedes alinear colores, tipografías, tono de comunicación y estilo visual alrededor de tu negocio sin salir de tu escritorio. El 90 % de las pymes confunden branding con "tener un logo bonito". El branding real es **ser reconocible sin que te vean el rostro**.
+**** No necesitas un branding de 10.000 € ni un diseñador para ser reconocible. Con **6 reglas simples** puedes alinear colores, tipografías, tono de comunicación y estilo visual alrededor de tu negocio sin salir de tu escritorio. El 90 % de las pymes confunden branding con "tener un logo bonito". El branding real es **ser reconocible sin que te vean el rostro**.
 
 ## ¿Qué es branding (y qué no)?
 

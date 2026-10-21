@@ -10,7 +10,7 @@ language: es
 
 # Los colores de tu marca: qué transmiten según la psicología del color
 
-**TL;DR.** El 85 % de la decisión de compra de tu cliente se ve influenciada por el color (Labrecque, 2015). Un rojo intenso transmite energía y apetito; un azul corporativo transmite confianza y profesionalidad. Aquí la tabla definitiva de colores, sector por sector, con códigos hex concretos. La primera paleta de colores para tu marca cuesta **0 €**.
+**** El 85 % de la decisión de compra de tu cliente se ve influenciada por el color (Labrecque, 2015). Un rojo intenso transmite energía y apetito; un azul corporativo transmite confianza y profesionalidad. Aquí la tabla definitiva de colores, sector por sector, con códigos hex concretos. La primera paleta de colores para tu marca cuesta **0 €**.
 
 ## Escenario: el emprendedor que duda del color
 

@@ -10,7 +10,7 @@ language: es
 
 # TPV + web + WhatsApp: el fin del papel y de los pedidos perdidos
 
-**TL;DR.** Si anotas pedidos en papel y luego los pasas al TPV a mano, **el 25 % de los pedidos se pierden** por error o olvido. La solución no es "un nuevo software": es **conectar WhatsApp con tu TPV directamente**. En 1 hora, puedes hacer que pedidos por WhatsApp, web o Instagram lleguen al TPV sin tocar una sola hoja. El 80 % de los comercios que lo consigue gana entre el 15 % y el 30 % en ventas del primer mes.
+**** Si anotas pedidos en papel y luego los pasas al TPV a mano, **el 25 % de los pedidos se pierden** por error o olvido. La solución no es "un nuevo software": es **conectar WhatsApp con tu TPV directamente**. En 1 hora, puedes hacer que pedidos por WhatsApp, web o Instagram lleguen al TPV sin tocar una sola hoja. El 80 % de los comercios que lo consigue gana entre el 15 % y el 30 % en ventas del primer mes.
 
 ## El problema de los papeles
 

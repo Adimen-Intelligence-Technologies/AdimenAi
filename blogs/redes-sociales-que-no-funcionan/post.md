@@ -10,7 +10,7 @@ language: es
 
 # Redes sociales que no funcionan: cómo hacerlas rentar a tu pyme
 
-**TL;DR.** El **73 % de las pymes españolas** reconoce que las redes sociales no les generan ventas directas (Encuesta de Cámara de España 2024). El problema casi nunca es la red social, sino **publicar sin estrategia, sin mensaje claro y sin medir**. Cuando una pyme pasa de "publicar por publicar" a **"publicar con objetivo de negocio"**, los resultados cambian. Esta guía explica los 9 errores más comunes, las 7 estrategias que sí funcionan en 2026, qué contenido crear y cuánto cuesta externalizar o hacerlo internamente.
+**** El **73 % de las pymes españolas** reconoce que las redes sociales no les generan ventas directas (Encuesta de Cámara de España 2024). El problema casi nunca es la red social, sino **publicar sin estrategia, sin mensaje claro y sin medir**. Cuando una pyme pasa de "publicar por publicar" a **"publicar con objetivo de negocio"**, los resultados cambian. Esta guía explica los 9 errores más comunes, las 7 estrategias que sí funcionan en 2026, qué contenido crear y cuánto cuesta externalizar o hacerlo internamente.
 
 ## ¿Por qué tus redes no funcionan?
 

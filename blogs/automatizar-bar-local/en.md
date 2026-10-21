@@ -10,7 +10,7 @@ language: en
 
 # If I own a bar, what can I automate? 5 processes that give you back hours
 
-**TL;DR.** Don't try to automate everything. Automate what steals your time from behind the counter: digital receipts, reservations, inventory, suppliers, and payroll. Each gives you back 2-3 hours/week without losing the personal touch of your bar. The first audit of these 5 points costs **0 €**.
+**** Don't try to automate everything. Automate what steals your time from behind the counter: digital receipts, reservations, inventory, suppliers, and payroll. Each gives you back 2-3 hours/week without losing the personal touch of your bar. The first audit of these 5 points costs **0 €**.
 
 ## The underlying problem
 

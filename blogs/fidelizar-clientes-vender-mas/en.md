@@ -10,7 +10,7 @@ language: en
 
 # Customer Loyalty: How to Sell More to People Who Already Know You (2026 Guide)
 
-**TL;DR.** **Acquiring a new customer costs 5 to 7 times more than retaining an existing one** (Harvard Business Review). And a loyal customer spends up to **67% more** than a new one. The problem is that most SMEs spend 90% of their marketing budget on acquisition and only 10% on retention. Flip that ratio and your bottom line changes. This guide covers the 9 loyalty tactics that work best in 2026, how much they cost, how to measure them, and how to automate them with AI.
+**** **Acquiring a new customer costs 5 to 7 times more than retaining an existing one** (Harvard Business Review). And a loyal customer spends up to **67% more** than a new one. The problem is that most SMEs spend 90% of their marketing budget on acquisition and only 10% on retention. Flip that ratio and your bottom line changes. This guide covers the 9 loyalty tactics that work best in 2026, how much they cost, how to measure them, and how to automate them with AI.
 
 ## Why does loyalty matter?
 

@@ -10,7 +10,7 @@ language: en
 
 # Process automation: what it is and how to apply it
 
-**TL;DR.** Process automation means putting software to work on the tasks a person does over and over again: logging an order, matching an invoice with its delivery note, flagging that material is running low, putting together Monday's report. It is not a robot in the factory: it is repeated steps running on their own, with your own rules, without anyone getting bored or making a typo because they are tired. In this post we explain it without jargon, with examples you will find in any business, and we tell you why at **Adimen** we specialise in automating **industrial processes**: because that is where an hour saved is felt in the warehouse, on the line and on the invoice.
+**** Process automation means putting software to work on the tasks a person does over and over again: logging an order, matching an invoice with its delivery note, flagging that material is running low, putting together Monday's report. It is not a robot in the factory: it is repeated steps running on their own, with your own rules, without anyone getting bored or making a typo because they are tired. In this post we explain it without jargon, with examples you will find in any business, and we tell you why at **Adimen** we specialise in automating **industrial processes**: because that is where an hour saved is felt in the warehouse, on the line and on the invoice.
 
 ## A process is just a chain of steps
 
