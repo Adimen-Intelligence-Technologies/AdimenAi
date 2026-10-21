@@ -93,6 +93,8 @@ Además, las empresas industriales tienen un defensor: **el ERP ya está pagado*
 
 Y si tu empresa no es industrial, también te ayudamos: administración, facturación, ventas y atención al cliente se automatizan igual de bien. La diferencia es que, en un entorno industrial, cada detalle de la conexión con el ERP y la trazabilidad tiene más recorrido.
 
+Si quieres el método completo paso a paso para llevarla dentro de tu empresa (elegir por dónde empezar, documentar el proceso, montar un piloto de 4 semanas y medir), lo tienes en *[automatización de procesos: cómo aplicarla en tu empresa](https://www.adimenai.com/blog/automatizacion-de-procesos-en-tu-empresa)*.
+
 Si quieres el detalle técnico, los plazos y los números de 2026, lo tienes todo en *[automatización industrial con IA en 2026: guía práctica para empresas](https://www.adimenai.com/blog/automatizacion-industrial-ia-2026)*.
 
 ## Cuánto cuesta y cuánto tarda

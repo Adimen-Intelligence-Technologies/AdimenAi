@@ -93,6 +93,8 @@ Industrial companies also have something in their favour: **the ERP is already p
 
 And if your company is not industrial, we can help too: administration, invoicing, sales and customer service automate just as well. The difference is that in an industrial environment, every detail of the ERP connection and of traceability has more room to grow.
 
+If you want the full method, step by step, for taking it inside your company (where to start, how to document the process, how to run a 4-week pilot and what to measure), it is in *[process automation: how to apply it in your company](https://www.adimenai.com/en/blog/automatizacion-de-procesos-en-tu-empresa)*.
+
 If you want the technical detail, the timelines and the 2026 figures, it is all in *[industrial automation with AI in 2026: a practical guide for businesses](https://www.adimenai.com/en/blog/automatizacion-industrial-ia-2026)*.
 
 ## What it costs and how long it takes

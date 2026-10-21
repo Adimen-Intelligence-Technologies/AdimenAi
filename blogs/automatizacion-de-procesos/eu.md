@@ -93,6 +93,8 @@ Industriako enpresek abantaila bat dute gainera: **ERPak dago jada ordainuta**. 
 
 Eta zure enpresa industriala ez bada, lagundu dezakegu orain ere: administrazioa, fakturazioa, salmentak eta bezeroarentzako arreta berdin ondo automatizatzen dira. Diferentzia da industrial ingurunean ERPareko konexioaren eta trazabilitatearen xehetasun bakoitzak askozeko ibilbidea ematen duela.
 
+Zure enpresan txertatzeko metodo osoa pausoz pausu (nondik hasi, prozesoa nola dokumentatu, 4 asteetako pilotua nola ezarri eta zer neurtu) hemen dago: *[prozesuen automatizazioa: nola aplikatu zure enpresan](https://www.adimenai.com/eu/blog/automatizacion-de-procesos-en-tu-empresa)*.
+
 Xehetasun teknikoa, epeak eta 2026ko zenbakietan nahi baduzu, guzti dago *[industria-automatizazioa IArekin 2026an: enpresentzako gida praktikoa](https://www.adimenai.com/eu/blog/automatizacion-industrial-ia-2026)* artikuluan.
 
 ## Zenbat kostatzen du eta zenbat denbora hartzen du
