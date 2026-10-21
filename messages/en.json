@@ -52,7 +52,7 @@
   "hero": {
     "eyebrow": "360° technology solutions",
     "title": "Whatever your business, transform it with our 360° solutions",
-    "description": "AI agents, automations, POS and management software, online stores, digital marketing, graphic design and mobile apps. Everything your business needs to grow in one place.",
+    "description": "Industrial AI automations, business management software, ecommerce, websites, branding, mobile apps, POS, social media management and advertising. Everything in one place.",
     "ctaPrimary": "Free call",
     "ctaSecondary": "View services",
     "stats": {
@@ -256,6 +256,32 @@
     },
     "contact": {
       "office": "Offices in Elgoibar"
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "AdimenAI | AI Automation and 360° Solutions for Your Business",
+      "description": "Industrial AI automations, business management software, ecommerce, websites, branding, mobile apps, POS, social media management and advertising. Everything in one place."
+    },
+    "blog": {
+      "title": "AI and Automation Blog | AdimenAI",
+      "description": "Discover content designed for leaders who want to boost their business with intelligent agents and automation."
+    },
+    "contacto": {
+      "title": "Contact | AdimenAI",
+      "description": "Tell us about your project and we will help you transform it with AI. Request a free, no-obligation call."
+    },
+    "hosteleria": {
+      "title": "Hospitality Solutions | AdimenAI",
+      "description": "POS systems, electronic ordering devices, self-service kiosks, electronic scales and management software for hospitality. Discover all our products."
+    },
+    "privacidad": {
+      "title": "Privacy Policy | AdimenAI",
+      "description": "Learn how AdimenAI collects, processes, and protects your personal data under the GDPR."
+    },
+    "terminos": {
+      "title": "Terms and Conditions | AdimenAI",
+      "description": "Terms of use for the AdimenAI website and services."
     }
   }
 }

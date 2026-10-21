@@ -147,7 +147,7 @@ export function Header() {
   const navItems: NavItem[] = [
     {id: 'home', label: t('home'), href: toLocalePath(locale, '/'), hasDropdown: false},
     {id: 'solutions', label: t('solutions'), hasDropdown: true, handler: megaMenuColumns, dropdownType: 'megamenu'},
-    {id: 'herrikonekt', label: t('herrikonekt'), href: '#', hasDropdown: false, isExternal: true},
+    {id: 'herrikonekt', label: t('herrikonekt'), href: 'https://www.herrikonekt.com', hasDropdown: false, isExternal: true},
     {id: 'blog', label: t('blog'), href: toLocalePath(locale, '/blog'), hasDropdown: false},
   ];
 
@@ -232,6 +232,8 @@ export function Header() {
                     ) : (
                       <Link
                         href={item.href || '#'}
+                        target={item.isExternal ? "_blank" : undefined}
+                        rel={item.isExternal ? "noopener noreferrer" : undefined}
                         className="inline-flex items-center gap-1 rounded-lg px-3 py-2 transition-colors hover:text-black hover:bg-zinc-100"
                       >
                         {item.label}
@@ -334,7 +336,7 @@ export function Header() {
                 <MobileAccordion title={t('solutions')} items={megaMenuColumns} closeAll={closeAll} />
               </li>
               <li>
-                <Link href="#" onClick={closeAll} className="flex items-center gap-2 rounded-xl px-4 py-3.5 hover:bg-zinc-100 hover:text-black transition-colors">
+                <Link href="https://www.herrikonekt.com" target="_blank" rel="noopener noreferrer" onClick={closeAll} className="flex items-center gap-2 rounded-xl px-4 py-3.5 hover:bg-zinc-100 hover:text-black transition-colors">
                   {t('herrikonekt')}
                   <span className="inline-flex items-center rounded-full bg-[#6C47FF]/10 px-2 py-0.5 text-xs font-semibold text-[#6C47FF]">APP</span>
                   <ExternalLink className="h-4 w-4" />

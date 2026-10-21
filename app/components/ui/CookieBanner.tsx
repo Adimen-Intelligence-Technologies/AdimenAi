@@ -11,12 +11,14 @@ import {
 } from "@/app/lib/cookie-consent";
 
 export function CookieBanner() {
-  const [isVisible, setIsVisible] = useState(() => !hasCookieConsent());
+  const [isVisible, setIsVisible] = useState(false);
 
   const rejectOptionalPreferences = useMemo(() => getDefaultCookiePreferences(), []);
   const acceptAllPreferences = useMemo(() => getAllAcceptedCookiePreferences(), []);
 
   useEffect(() => {
+    setIsVisible(!hasCookieConsent());
+
     const handleConsentUpdated = () => {
       if (hasCookieConsent()) {
         setIsVisible(false);

@@ -76,7 +76,7 @@ export async function sendContactEmail(payload: ContactPayload): Promise<void> {
 
   await transporter.sendMail({
     from: `AdimenAI Web <${user}>`,
-    to: user,
+    to: "info@adimenai.com",
     replyTo: payload.email,
     subject: `Nuevo contacto desde la web — ${payload.name}`,
     html,

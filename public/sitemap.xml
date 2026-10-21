@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<<<<<<< HEAD
 <sitemap><loc>https://adimenai.com/sitemap-0.xml</loc></sitemap>
+=======
+<sitemap><loc>https://www.adimenai.com/sitemap-0.xml</loc></sitemap>
+>>>>>>> 5fac43dfb7f7f0a8c124ad750a5deadd68ad0f0c
 </sitemapindex>

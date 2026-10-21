@@ -9,13 +9,48 @@ import {FaqSection} from '@/app/components/ui/FaqSection';
 import {ContactBlock} from '@/app/components/ui/ContactBlock';
 import {getLocale, getTranslations} from 'next-intl/server';
 import {toLocalePath} from '@/lib/locale-path';
+import type {Metadata} from 'next';
+import type {AppLocale} from '@/i18n/routing';
+import {buildMetadata} from '@/lib/seo';
+import {JsonLd} from '@/app/components/seo/JsonLd';
+
+type Props = {
+  params: Promise<{locale: string}>;
+};
+
+export async function generateMetadata({params}: Props): Promise<Metadata> {
+  const {locale} = await params;
+  const t = await getTranslations({locale, namespace: 'seo.home'});
+  return buildMetadata({
+    locale: locale as AppLocale,
+    path: '/',
+    title: t('title'),
+    description: t('description'),
+  });
+}
 
 export default async function HomePage() {
   const t = await getTranslations('infoSection');
   const locale = await getLocale();
 
+  const tFaq = await getTranslations('faqSection');
+  const faqItems = Array.from({length: 6}, (_, index) => ({
+    question: tFaq(`items.${index}.question`),
+    answer: tFaq(`items.${index}.answer`),
+  }));
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: {'@type': 'Answer', text: item.answer},
+    })),
+  };
+
   return (
     <div className="flex flex-col">
+      <JsonLd data={faqJsonLd} />
       <Hero />
       <HeroMarquee />
       <ServicesSection />

@@ -1,71 +1,57 @@
-import { groq } from "next-sanity";
-import { sanityFetch, SanityLive } from "@/sanity/lib/live";
-import { translatePostContent } from "@/sanity/lib/translation";
+import { getPostBySlug } from "@/lib/blog";
 import { Wrapper } from "../Wrapper";
-import { PostBody } from "../../blog/[slug]/PostBody";
-import Image from "next/image";
+import { MarkdownPostBody } from "./MarkdownPostBody";
+import { JsonLd } from "../seo/JsonLd";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { draftMode } from "next/headers";
 import { toLocalePath } from "@/lib/locale-path";
-
-const POST_QUERY = groq`*[_type == "post" && slug.current == $slug && (language == $language || language == "es" || !defined(language))] | order((language == $language) desc)[0] {
-  _id,
-  title,
-  excerpt,
-  "slug": slug.current,
-  "mainImage": mainImage.asset->url,
-  "mainImageAlt": mainImage.alt,
-  body,
-  tags,
-  publishedAt,
-  language
-}`;
+import { SITE_URL, SITE_NAME } from "@/lib/seo";
+import type { AppLocale } from "@/i18n/routing";
 
 type Props = {
   params: {
     slug: string;
-    locale?: string;
+    locale: string;
   };
 };
 
 export async function BlogPostPage({ params }: Props) {
   const { slug, locale } = params;
-  const language = locale ?? "es";
-  const { data } = await sanityFetch({
-    query: POST_QUERY,
-    params: { slug, language },
-  });
-
-  let post = data as
-    | {
-        _id: string;
-        title: string;
-        excerpt: string;
-        slug: string;
-        mainImage?: string;
-        mainImageAlt?: string;
-        body: unknown;
-        tags?: string[];
-        publishedAt?: string;
-        language?: string;
-      }
-    | null;
-
-  const { isEnabled: isDraftMode } = await draftMode();
-
-  if (post && language !== "es" && post.language !== language) {
-    post = await translatePostContent(post, language as "es" | "en" | "eu");
-  }
+  const language = (locale ?? "es") as AppLocale;
+  const post = getPostBySlug(slug, language);
 
   if (!post) {
     notFound();
   }
 
   const backToBlogHref = toLocalePath(language, "/blog");
+  const postUrl = `${SITE_URL}${toLocalePath(language, `/blog/${slug}`)}`;
+
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.publishedAt || undefined,
+    author: { "@type": "Organization", name: SITE_NAME },
+    publisher: { "@type": "Organization", name: SITE_NAME },
+    mainEntityOfPage: postUrl,
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Blog", item: `${SITE_URL}${backToBlogHref}` },
+      { "@type": "ListItem", position: 2, name: post.title, item: postUrl },
+    ],
+  };
 
   return (
     <Wrapper className="px-4 py-16 sm:px-6 lg:px-10 max-w-3xl mx-auto">
+      <JsonLd data={articleJsonLd} />
+      <JsonLd data={breadcrumbJsonLd} />
+
       <Link
         href={backToBlogHref}
         className="inline-flex items-center text-sm text-zinc-500 hover:text-[#6C47FF] transition-colors mb-8"
@@ -88,7 +74,7 @@ export async function BlogPostPage({ params }: Props) {
           )}
           {post.publishedAt && (
             <p className="mt-3 text-sm text-zinc-400">
-              {new Date(post.publishedAt).toLocaleDateString("es-ES", {
+              {new Date(post.publishedAt).toLocaleDateString(locale === "en" ? "en-GB" : locale === "eu" ? "eu-ES" : "es-ES", {
                 year: "numeric",
                 month: "long",
                 day: "numeric",
@@ -97,21 +83,8 @@ export async function BlogPostPage({ params }: Props) {
           )}
         </header>
 
-        {post.mainImage && (
-          <div className="relative aspect-video mb-10 overflow-hidden rounded-[28px]">
-            <Image
-              src={post.mainImage}
-              alt={post.mainImageAlt ?? ""}
-              fill
-              className="object-cover"
-            />
-          </div>
-        )}
-
-        {post.body ? <PostBody value={post.body} /> : null}
+        <MarkdownPostBody content={post.content} />
       </article>
-
-      <SanityLive includeDrafts={isDraftMode} />
     </Wrapper>
   );
 }

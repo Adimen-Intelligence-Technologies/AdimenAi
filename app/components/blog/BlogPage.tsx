@@ -1,34 +1,19 @@
-import {groq} from 'next-sanity';
-import {sanityFetch} from '@/sanity/lib/live';
-import {translatePostListItem} from '@/sanity/lib/translation';
-import {Wrapper} from '../Wrapper';
-import {BlogCard} from '../ui/BlogCard';
-import {getTranslations} from 'next-intl/server';
-import type {Post} from '@/app/blog/types';
-import {toLocalePath} from '@/lib/locale-path';
+import { getAllPosts } from '@/lib/blog';
+import { Wrapper } from '../Wrapper';
+import { BlogCard } from '../ui/BlogCard';
+import { getTranslations } from 'next-intl/server';
+import { toLocalePath } from '@/lib/locale-path';
+import type { AppLocale } from '@/i18n/routing';
 
-const POSTS_QUERY = groq`*[_type == "post" && defined(slug.current) && (language == $language || language == "es" || !defined(language))] | order((language == $language) desc, publishedAt desc) {
-  _id,
-  title,
-  excerpt,
-  "slug": slug.current,
-  "mainImage": mainImage.asset->url,
-  tags,
-  publishedAt,
-  language
-}`;
+const FALLBACK_IMAGES = ['/background-03.jpg', '/background-04.jpg', '/background-05.jpg', '/background-06.jpg'];
 
 type Props = {
   locale?: string;
 };
 
 export async function BlogPage({ locale }: Props) {
-  const language = locale ?? "es";
-  const { data } = await sanityFetch({ query: POSTS_QUERY, params: { language } });
-  const rawPosts = (data ?? []) as Post[];
-  const posts = await Promise.all(
-    rawPosts.map(async (post) => translatePostListItem(post, language as "es" | "en" | "eu")),
-  );
+  const language = (locale ?? 'es') as AppLocale;
+  const posts = getAllPosts(language);
   const blogBasePath = toLocalePath(language, '/blog');
   const t = await getTranslations('blogPage');
 
@@ -42,14 +27,14 @@ export async function BlogPage({ locale }: Props) {
         </div>
 
         <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-3 items-stretch">
-          {posts.map((post: Post, index: number) => (
+          {posts.map((post, index) => (
             <BlogCard
-              key={post._id}
+              key={post.slug}
               index={index}
               title={post.title}
               excerpt={post.excerpt}
-              tag={post.tags?.[0] ?? ""}
-              imageSrc={post.mainImage ?? "/background-03.jpg"}
+              tag={post.tags?.[0] ?? ''}
+              imageSrc={FALLBACK_IMAGES[index % FALLBACK_IMAGES.length]}
               href={`${blogBasePath}/${post.slug}`}
             />
           ))}
