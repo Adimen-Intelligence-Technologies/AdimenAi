@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { CookieBanner } from "@/app/components/ui/CookieBanner";
 import { Footer } from "@/app/components/ui/Footer";
 import { Header } from "@/app/components/ui/Header";
+import { WebMcpTools } from "@/app/components/WebMcpTools";
 
 interface ChromeLayoutProps {
   children: ReactNode;
@@ -31,6 +32,7 @@ export function ChromeLayout({ children }: ChromeLayoutProps) {
       <main className="flex-1">{children}</main>
       <Footer />
       <CookieBanner />
+      <WebMcpTools />
     </>
   );
 }

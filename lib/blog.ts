@@ -36,7 +36,13 @@ function readPostFile(slug: string, locale: AppLocale): BlogPost | null {
     excerpt: data.excerpt ?? "",
     tags: Array.isArray(data.tags) ? data.tags : [],
     metaDescription: data.metaDescription ?? data.excerpt ?? "",
-    publishedAt: data.publishedAt ? String(data.publishedAt) : "",
+    // gray-matter parses YAML dates into Date objects; keep an ISO date so sorting and JSON-LD work.
+    publishedAt:
+      data.publishedAt instanceof Date
+        ? data.publishedAt.toISOString().slice(0, 10)
+        : data.publishedAt
+          ? String(data.publishedAt)
+          : "",
     language: (data.language as AppLocale) ?? locale,
     image: typeof data.image === "string" ? data.image : undefined,
     content,
