@@ -115,7 +115,6 @@ export function Header() {
 
   const languages = [
     {code: 'es', label: tLang('es'), short: 'ES'},
-    {code: 'en', label: tLang('en'), short: 'EN'},
     {code: 'eu', label: tLang('eu'), short: 'EU'},
   ];
 

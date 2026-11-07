@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 const SITE_URL = process.env.SITE_URL || "https://www.adimenai.com";
-const LOCALES = ["es", "en", "eu"];
+const LOCALES = ["es", "eu"];
 const DEFAULT_LOCALE = "es";
 
 // Every static, publicly indexable route under app/[locale]/.

@@ -8,7 +8,6 @@ export const DEFAULT_OG_IMAGE = "/logo/adimenai-logo.png";
 
 const OG_LOCALE_MAP: Record<AppLocale, string> = {
   es: "es_ES",
-  en: "en_US",
   eu: "eu_ES",
 };
 

@@ -52,7 +52,7 @@ function splitForContact(content: string): [string, string] {
 }
 
 function dateLocale(locale: string): string {
-  return locale === "en" ? "en-GB" : locale === "eu" ? "eu-ES" : "es-ES";
+  return locale === "eu" ? "eu-ES" : "es-ES";
 }
 
 export async function BlogPostPage({ params }: Props) {
