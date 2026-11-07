@@ -62,7 +62,7 @@ export function Header() {
       title: t('webPresence'),
       description: t('webPresenceDesc'),
       items: [
-        {label: t('webPresenceWebsites'), href: toLocalePath(locale, '/#servicios')},
+        {label: t('webPresenceWebsites'), href: toLocalePath(locale, '/diseno-web')},
         {label: t('webPresenceEcommerce'), href: toLocalePath(locale, '/#servicios')},
         {label: t('webPresencePhotography'), href: toLocalePath(locale, '/#servicios')},
         {label: t('webPresenceSocialMedia'), href: toLocalePath(locale, '/#servicios')},
@@ -147,6 +147,7 @@ export function Header() {
   const navItems: NavItem[] = [
     {id: 'home', label: t('home'), href: toLocalePath(locale, '/'), hasDropdown: false},
     {id: 'solutions', label: t('solutions'), hasDropdown: true, handler: megaMenuColumns, dropdownType: 'megamenu'},
+    {id: 'webDesign', label: t('webPresenceWebsites'), href: toLocalePath(locale, '/diseno-web'), hasDropdown: false},
     {id: 'herrikonekt', label: t('herrikonekt'), href: 'https://www.herrikonekt.com', hasDropdown: false, isExternal: true},
     {id: 'blog', label: t('blog'), href: toLocalePath(locale, '/blog'), hasDropdown: false},
   ];

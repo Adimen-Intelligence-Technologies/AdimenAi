@@ -6,12 +6,17 @@ import MagicRings from "./MagicRings";
 import { Button } from "./Button";
 import { Wrapper } from "../Wrapper";
 
-export function CtaSection() {
-  const t = useTranslations("ctaSection");
+interface CtaSectionProps {
+  namespace?: string;
+  id?: string;
+}
+
+export function CtaSection({ namespace = "ctaSection", id = "comercios" }: CtaSectionProps = {}) {
+  const t = useTranslations(namespace);
   const locale = useLocale();
 
   return (
-    <section id="comercios" className="relative overflow-hidden border-b border-zinc-200">
+    <section id={id} className="relative overflow-hidden border-b border-zinc-200">
       <div className="pointer-events-none absolute inset-0 z-0">
         <MagicRings
           color="#7252FF"

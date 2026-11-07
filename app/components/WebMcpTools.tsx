@@ -114,6 +114,7 @@ export function WebMcpTools() {
           tNav("webPresencePhotography"),
           tNav("webPresenceSocialMedia"),
         ],
+        url: absolute(toLocalePath(locale, "/diseno-web")),
       },
       {
         id: "digital-marketing",

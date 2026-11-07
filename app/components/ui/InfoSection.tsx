@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import Image from "next/image";
 import { Check, Sparkles } from "lucide-react";
 import { Wrapper } from "../Wrapper";
@@ -17,6 +17,8 @@ interface InfoSectionProps {
   imageAlt: string;
   buttonLabel?: string;
   buttonHref?: string;
+  media?: ReactNode;
+  id?: string;
 }
 
 export function InfoSection({
@@ -30,6 +32,8 @@ export function InfoSection({
   imageAlt,
   buttonLabel,
   buttonHref,
+  media,
+  id,
 }: InfoSectionProps) {
   const hasVideo = Boolean(videoSrc);
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -58,7 +62,7 @@ export function InfoSection({
   }, [isVisible]);
 
   return (
-    <section className="border-b border-zinc-200">
+    <section id={id} className="border-b border-zinc-200">
       <Wrapper className="px-4 sm:px-6 lg:px-8">
         <div className="grid gap-10 items-center py-12 sm:py-16 lg:py-24 lg:grid-cols-[1fr_1.1fr] lg:gap-16">
           <div>
@@ -96,6 +100,9 @@ export function InfoSection({
             ) : null}
           </div>
 
+          {media ? (
+            <div>{media}</div>
+          ) : (
           <div className="overflow-hidden rounded bg-zinc-100 shadow-sm">
             {hasVideo ? (
               <video
@@ -119,6 +126,7 @@ export function InfoSection({
               />
             ) : null}
           </div>
+          )}
         </div>
       </Wrapper>
     </section>

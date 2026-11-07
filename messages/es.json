@@ -245,6 +245,226 @@
     "contactTitle": "Hablemos de tu caso",
     "contactDescription": "Cuéntanos qué quieres mejorar y te respondemos en menos de 24 horas."
   },
+  "webDesignPage": {
+    "breadcrumb": "Diseño de páginas web",
+    "hero": {
+      "kicker": "Diseño de páginas web en Gipuzkoa",
+      "title": "Webs que convierten visitas en",
+      "titleHighlight": "clientes",
+      "description": "Diseñamos páginas web rápidas, atractivas y preparadas para aparecer en Google. Para que quien busca lo que haces te encuentre… y te llame.",
+      "ctaCall": "Llámanos: 650 60 90 28",
+      "ctaQuote": "Pide presupuesto gratis",
+      "trust": [
+        "Presupuesto cerrado, sin sorpresas",
+        "SEO incluido desde el primer día",
+        "Adaptada a móvil y muy rápida",
+        "Pensada para que te contacten"
+      ],
+      "mockup": {
+        "url": "tunegocio.com",
+        "kicker": "Elgoibar · Gipuzkoa",
+        "headline": "Tu negocio, a un clic de tus clientes",
+        "cta": "Llamar ahora",
+        "chipMobile": "Adaptada a móvil",
+        "chipSpeed": "Carga rápida",
+        "chipSeo": "SEO local",
+        "notificationTitle": "Nueva solicitud",
+        "notificationBody": "Hola, quería pedir presupuesto…"
+      }
+    },
+    "pain": {
+      "badge": "¿Te suena?",
+      "title": "Tu web debería traerte clientes, no solo estar ahí",
+      "items": [
+        {
+          "title": "No apareces en Google",
+          "description": "Si no sales cuando buscan tu servicio en tu zona, esos clientes acaban en la competencia."
+        },
+        {
+          "title": "En el móvil tarda y se ve mal",
+          "description": "La mayoría de visitas llegan desde el móvil. Si la web tarda o se descoloca, se van antes de leerte."
+        },
+        {
+          "title": "Entran, pero no llaman",
+          "description": "Sin un mensaje claro ni botones de contacto a mano, la visita se pierde aunque le interese lo que ofreces."
+        }
+      ],
+      "solution": "Así lo solucionamos"
+    },
+    "features": {
+      "badge": "Qué incluye",
+      "title": "Todo lo que necesita tu web para vender",
+      "description": "Nada de plantillas a medio hacer: cada web sale completa, optimizada y lista para captar clientes.",
+      "items": [
+        {
+          "title": "Diseño a medida",
+          "description": "Una web con la imagen de tu marca, no una plantilla igual que la de tu competencia."
+        },
+        {
+          "title": "SEO on-page",
+          "description": "Títulos, descripciones, encabezados, datos estructurados y sitemap bien hechos desde el inicio."
+        },
+        {
+          "title": "SEO local y Google Maps",
+          "description": "Optimizamos tu ficha de Google Business Profile para que te encuentren en tu zona."
+        },
+        {
+          "title": "Velocidad",
+          "description": "Webs ligeras que cargan al instante y cumplen las Core Web Vitals de Google."
+        },
+        {
+          "title": "Pensada para el móvil",
+          "description": "Se ve y funciona perfectamente en móvil, tablet y ordenador."
+        },
+        {
+          "title": "Hecha para que te contacten",
+          "description": "Botones de llamada, WhatsApp y formularios justo donde el cliente los necesita."
+        },
+        {
+          "title": "Multiidioma",
+          "description": "Castellano, euskera e inglés, con SEO para cada idioma."
+        },
+        {
+          "title": "Segura y legal",
+          "description": "HTTPS, aviso legal, política de privacidad y cookies conforme al RGPD."
+        }
+      ]
+    },
+    "seo": {
+      "eyebrow": "SEO desde el primer día",
+      "title": "Una web bonita que nadie encuentra no sirve de nada",
+      "subtitle": "Por eso cada web que hacemos nace preparada para posicionar en Google y en las búsquedas locales de tu zona.",
+      "text": "Y si quieres ir a más, te acompañamos con contenidos y campañas.",
+      "items": [
+        "Estudio de palabras clave de tu sector y tu zona",
+        "Estructura y textos pensados para Google y para personas",
+        "Ficha de Google Business Profile optimizada",
+        "Alta en Google Search Console y analítica configurada",
+        "Blog preparado para atraer visitas cada mes"
+      ],
+      "button": "Quiero aparecer en Google",
+      "serp": {
+        "label": "Así te encuentran tus clientes",
+        "query": "peluquería en Elgoibar",
+        "business": "Tu negocio",
+        "location": "Elgoibar",
+        "call": "Llamar",
+        "directions": "Cómo llegar",
+        "url": "tunegocio.com",
+        "title": "Tu negocio · Elgoibar | Pide cita online",
+        "description": "Reserva tu cita en un minuto. Servicios, precios y horarios actualizados en el centro de Elgoibar."
+      }
+    },
+    "process": {
+      "badge": "Cómo trabajamos",
+      "title": "Tu nueva web en 4 pasos",
+      "description": "Un proceso claro, sin tecnicismos y contigo en cada decisión.",
+      "items": [
+        {
+          "title": "Llamada de diagnóstico",
+          "description": "Hablamos de tu negocio, tus clientes y lo que necesitas. Sin compromiso."
+        },
+        {
+          "title": "Propuesta y presupuesto cerrado",
+          "description": "Te enviamos qué vamos a hacer, en qué plazo y por cuánto. Sin letra pequeña."
+        },
+        {
+          "title": "Diseño y desarrollo",
+          "description": "Diseñamos, escribimos los textos con SEO y te enseñamos la web antes de publicarla."
+        },
+        {
+          "title": "Lanzamiento y seguimiento",
+          "description": "Publicamos, damos de alta en Google y medimos resultados para seguir mejorando."
+        }
+      ]
+    },
+    "plans": {
+      "badge": "Tipos de web",
+      "title": "Elige la web que encaja con tu negocio",
+      "description": "Todas incluyen diseño a medida, SEO, versión móvil y contacto directo. Te damos un presupuesto cerrado según lo que necesites.",
+      "recommended": "Recomendada",
+      "cta": "Pedir presupuesto",
+      "priceNote": "¿Quieres hacerte una idea de precios?",
+      "priceGuide": "Lee nuestra guía: cuánto cuesta una web en 2026",
+      "items": [
+        {
+          "name": "Web corporativa",
+          "description": "Para presentar tu negocio y que te contacten.",
+          "features": [
+            "Inicio, servicios, quiénes somos y contacto",
+            "Diseño a medida con tu marca",
+            "SEO on-page desde el inicio",
+            "Formulario, WhatsApp y botón de llamada",
+            "Textos legales y cookies RGPD"
+          ]
+        },
+        {
+          "name": "Web + SEO local",
+          "description": "Para aparecer en Google y captar clientes cada mes.",
+          "features": [
+            "Todo lo de la web corporativa",
+            "Estudio de palabras clave",
+            "Una página por servicio y por zona",
+            "Google Business Profile optimizado",
+            "Blog, Search Console y analítica"
+          ]
+        },
+        {
+          "name": "Tienda online",
+          "description": "Para vender tus productos por internet.",
+          "features": [
+            "Catálogo y pasarela de pago",
+            "Gestión de envíos y stock",
+            "SEO para fichas de producto",
+            "Integración con tu TPV o software",
+            "Formación para gestionarla tú"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Hablamos de tu nueva web?",
+      "description": "Cuéntanos qué necesitas en una llamada y te decimos cómo lo haríamos y cuánto costaría. Sin compromiso.",
+      "button": "Llamar al 650 60 90 28"
+    },
+    "related": {
+      "badge": "Blog",
+      "title": "Antes de decidir, échale un ojo a esto"
+    },
+    "faq": {
+      "badge": "Preguntas frecuentes",
+      "title": "Lo que nos preguntan antes de empezar",
+      "description": "Si tienes otra duda, llámanos o escríbenos y te la resolvemos.",
+      "needHelp": "¿Necesitas ayuda?",
+      "button": "Contactar",
+      "items": [
+        {
+          "question": "¿Cuánto cuesta una página web?",
+          "answer": "Depende del tipo de web y de lo que incluya. Tras una primera llamada te damos un presupuesto cerrado, sin costes ocultos. Si quieres una referencia, en nuestro blog tienes una guía con los precios del mercado en 2026."
+        },
+        {
+          "question": "¿Cuánto se tarda en hacer una web?",
+          "answer": "Depende del proyecto: una web corporativa sencilla lleva bastante menos que una tienda online. Antes de empezar te indicamos un plazo concreto en la propuesta."
+        },
+        {
+          "question": "¿La web incluye SEO?",
+          "answer": "Sí. Todas nuestras webs salen con SEO on-page: estructura, títulos, descripciones, velocidad, datos estructurados, sitemap y alta en Google Search Console. El posicionamiento continuo (contenidos y campañas) se puede contratar aparte."
+        },
+        {
+          "question": "¿Podré actualizar la web yo mismo?",
+          "answer": "Si lo necesitas, te dejamos la web preparada para que puedas cambiar textos, fotos o publicar en el blog, y te enseñamos a hacerlo."
+        },
+        {
+          "question": "¿Me ayudáis con el dominio, el hosting y el correo?",
+          "answer": "Sí. Te asesoramos para elegir dominio y alojamiento y lo dejamos todo configurado para que no tengas que preocuparte de la parte técnica."
+        },
+        {
+          "question": "¿Trabajáis solo en Gipuzkoa?",
+          "answer": "Estamos en Elgoibar y trabajamos con negocios de toda Gipuzkoa y Euskadi, pero también hacemos webs para clientes de cualquier parte de España: casi todo el proceso se puede hacer en remoto."
+        }
+      ]
+    }
+  },
   "footerSection": {
     "sections": {
       "pages": "Páginas",
@@ -255,7 +475,8 @@
       "home": "Inicio",
       "services": "Servicios",
       "commerce": "Comercios",
-      "useCases": "Casos de uso"
+      "useCases": "Casos de uso",
+      "webDesign": "Diseño de páginas web"
     },
     "other": {
       "blog": "Blog",
@@ -291,6 +512,10 @@
     "terminos": {
       "title": "Términos y condiciones | AdimenAI",
       "description": "Condiciones de uso del sitio web y los servicios de AdimenAI."
+    },
+    "webDesign": {
+      "title": "Diseño de páginas web en Gipuzkoa con SEO | AdimenAI",
+      "description": "Diseño de páginas web en Gipuzkoa con SEO incluido: webs rápidas, adaptadas a móvil y pensadas para que te llamen. Presupuesto cerrado. Llama al 650 60 90 28."
     }
   }
 }

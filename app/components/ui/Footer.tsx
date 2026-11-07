@@ -12,6 +12,7 @@ export function Footer() {
   const pages = [
     { label: t("pages.home"), href: toLocalePath(locale, "/") },
     { label: t("pages.services"), href: toLocalePath(locale, "/#servicios") },
+    { label: t("pages.webDesign"), href: toLocalePath(locale, "/diseno-web") },
     { label: t("pages.commerce"), href: toLocalePath(locale, "/#comercios") },
     { label: t("pages.useCases"), href: toLocalePath(locale, "/#casos-de-uso") },
   ];

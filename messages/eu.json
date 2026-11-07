@@ -245,6 +245,226 @@
     "contactTitle": "Hitz egin dezagun zure kasuaz",
     "contactDescription": "Kontaiguzu zer hobetu nahi duzun eta 24 ordu baino lehen erantzungo dizugu."
   },
+  "webDesignPage": {
+    "breadcrumb": "Web orrien diseinua",
+    "hero": {
+      "kicker": "Web orrien diseinua Gipuzkoan",
+      "title": "Bisitak bezero bihurtzen dituzten",
+      "titleHighlight": "webguneak",
+      "description": "Web orri azkarrak, erakargarriak eta Googlen agertzeko prestatuak diseinatzen ditugu. Zuk egiten duzuna bilatzen duenak aurki zaitzan… eta dei zaitzan.",
+      "ctaCall": "Deitu: 650 60 90 28",
+      "ctaQuote": "Eskatu doako aurrekontua",
+      "trust": [
+        "Aurrekontu itxia, ezustekorik gabe",
+        "SEOa lehen egunetik barne",
+        "Mugikorrerako egokitua eta azkarra",
+        "Zurekin harremanetan jartzeko pentsatua"
+      ],
+      "mockup": {
+        "url": "zureenpresa.eus",
+        "kicker": "Elgoibar · Gipuzkoa",
+        "headline": "Zure negozioa, bezeroengandik klik batera",
+        "cta": "Deitu orain",
+        "chipMobile": "Mugikorrerako",
+        "chipSpeed": "Karga azkarra",
+        "chipSeo": "Tokiko SEOa",
+        "notificationTitle": "Eskaera berria",
+        "notificationBody": "Kaixo, aurrekontua eskatu nahi nuke…"
+      }
+    },
+    "pain": {
+      "badge": "Ezaguna egiten zaizu?",
+      "title": "Zure webguneak bezeroak ekarri behar dizkizu, ez bakarrik hor egon",
+      "items": [
+        {
+          "title": "Ez zara Googlen agertzen",
+          "description": "Zure zerbitzua inguruan bilatzen dutenean agertzen ez bazara, bezero horiek lehiakideengana joaten dira."
+        },
+        {
+          "title": "Mugikorrean motel eta gaizki",
+          "description": "Bisita gehienak mugikorretik datoz. Webgunea motela bada edo desordenatuta ikusten bada, irakurri aurretik alde egiten dute."
+        },
+        {
+          "title": "Sartzen dira, baina ez dute deitzen",
+          "description": "Mezu argirik eta harremanetarako botoirik gabe, bisita galdu egiten da, eskaintzen duzuna interesatzen bazaio ere."
+        }
+      ],
+      "solution": "Horrela konpontzen dugu"
+    },
+    "features": {
+      "badge": "Zer dakar",
+      "title": "Zure webguneak saltzeko behar duen guztia",
+      "description": "Erdizka egindako txantiloirik ez: webgune bakoitza osorik, optimizatuta eta bezeroak erakartzeko prest entregatzen dugu.",
+      "items": [
+        {
+          "title": "Neurrira egindako diseinua",
+          "description": "Zure markaren irudia duen webgunea, ez zure lehiakidearen txantiloi bera."
+        },
+        {
+          "title": "On-page SEOa",
+          "description": "Izenburuak, deskribapenak, goiburuak, datu egituratuak eta sitemap-a hasieratik ondo eginda."
+        },
+        {
+          "title": "Tokiko SEOa eta Google Maps",
+          "description": "Zure Google Business Profile fitxa optimizatzen dugu inguruan aurki zaitzaten."
+        },
+        {
+          "title": "Abiadura",
+          "description": "Berehala kargatzen diren webgune arinak, Googleren Core Web Vitals betetzen dituztenak."
+        },
+        {
+          "title": "Mugikorrerako pentsatua",
+          "description": "Ezin hobeto ikusten eta dabil mugikorrean, tabletan eta ordenagailuan."
+        },
+        {
+          "title": "Zurekin harremanetan jartzeko",
+          "description": "Dei, WhatsApp eta formulario botoiak bezeroak behar dituen tokian."
+        },
+        {
+          "title": "Eleaniztuna",
+          "description": "Gaztelania, euskara eta ingelesa, hizkuntza bakoitzerako SEOarekin."
+        },
+        {
+          "title": "Segurua eta legezkoa",
+          "description": "HTTPS, lege-oharra, pribatutasun-politika eta cookieak DBEOren arabera."
+        }
+      ]
+    },
+    "seo": {
+      "eyebrow": "SEOa lehen egunetik",
+      "title": "Inork aurkitzen ez duen webgune polit batek ez du ezertarako balio",
+      "subtitle": "Horregatik, egiten dugun webgune oro Googlen eta zure inguruko bilaketetan posizionatzeko prest jaiotzen da.",
+      "text": "Eta urrats gehiago eman nahi badituzu, edukiekin eta kanpainekin lagunduko dizugu.",
+      "items": [
+        "Zure sektoreko eta inguruko gako-hitzen azterketa",
+        "Googlerentzat eta pertsonentzat pentsatutako egitura eta testuak",
+        "Google Business Profile fitxa optimizatua",
+        "Google Search Console eta analitika konfiguratuta",
+        "Hilero bisitak erakartzeko prest dagoen bloga"
+      ],
+      "button": "Googlen agertu nahi dut",
+      "serp": {
+        "label": "Horrela aurkitzen zaituzte bezeroek",
+        "query": "ile-apaindegia Elgoibarren",
+        "business": "Zure negozioa",
+        "location": "Elgoibar",
+        "call": "Deitu",
+        "directions": "Nola iritsi",
+        "url": "zureenpresa.eus",
+        "title": "Zure negozioa · Elgoibar | Eskatu txanda online",
+        "description": "Erreserbatu zure txanda minutu batean. Zerbitzuak, prezioak eta ordutegiak Elgoibarko erdigunean."
+      }
+    },
+    "process": {
+      "badge": "Nola lan egiten dugun",
+      "title": "Zure webgune berria 4 urratsetan",
+      "description": "Prozesu argia, teknizismorik gabe eta zu erabaki guztietan.",
+      "items": [
+        {
+          "title": "Diagnostiko-deia",
+          "description": "Zure negozioaz, bezeroez eta behar duzunaz hitz egiten dugu. Konpromisorik gabe."
+        },
+        {
+          "title": "Proposamena eta aurrekontu itxia",
+          "description": "Zer egingo dugun, zein epetan eta zenbatean bidaltzen dizugu. Letra txikirik gabe."
+        },
+        {
+          "title": "Diseinua eta garapena",
+          "description": "Diseinatu, SEOdun testuak idatzi eta argitaratu aurretik erakusten dizugu."
+        },
+        {
+          "title": "Abiaraztea eta jarraipena",
+          "description": "Argitaratu, Googlen alta eman eta emaitzak neurtzen ditugu hobetzen jarraitzeko."
+        }
+      ]
+    },
+    "plans": {
+      "badge": "Webgune motak",
+      "title": "Aukeratu zure negozioari egokitzen zaion webgunea",
+      "description": "Guztiek dakarte neurrira egindako diseinua, SEOa, mugikorreko bertsioa eta harreman zuzena. Behar duzunaren araberako aurrekontu itxia ematen dizugu.",
+      "recommended": "Gomendatua",
+      "cta": "Eskatu aurrekontua",
+      "priceNote": "Prezioen ideia bat egin nahi duzu?",
+      "priceGuide": "Irakurri gure gida: zenbat balio du webgune batek 2026an",
+      "items": [
+        {
+          "name": "Webgune korporatiboa",
+          "description": "Zure negozioa aurkezteko eta zurekin harremanetan jar daitezen.",
+          "features": [
+            "Hasiera, zerbitzuak, nor garen eta harremanetarako orria",
+            "Zure markarekin neurrira egindako diseinua",
+            "On-page SEOa hasieratik",
+            "Formularioa, WhatsApp eta dei-botoia",
+            "Lege-testuak eta DBEO cookieak"
+          ]
+        },
+        {
+          "name": "Webgunea + tokiko SEOa",
+          "description": "Googlen agertzeko eta hilero bezeroak erakartzeko.",
+          "features": [
+            "Webgune korporatiboaren guztia",
+            "Gako-hitzen azterketa",
+            "Orri bat zerbitzu eta eremu bakoitzeko",
+            "Google Business Profile optimizatua",
+            "Bloga, Search Console eta analitika"
+          ]
+        },
+        {
+          "name": "Online denda",
+          "description": "Zure produktuak internet bidez saltzeko.",
+          "features": [
+            "Katalogoa eta ordainketa-pasabidea",
+            "Bidalketen eta stockaren kudeaketa",
+            "Produktu-fitxetarako SEOa",
+            "Zure TPV edo softwarearekin integrazioa",
+            "Zuk kudeatzeko prestakuntza"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Zure webgune berriaz hitz egingo dugu?",
+      "description": "Kontaiguzu dei batean zer behar duzun eta nola egingo genukeen eta zenbat kostako litzatekeen esango dizugu. Konpromisorik gabe.",
+      "button": "Deitu 650 60 90 28 zenbakira"
+    },
+    "related": {
+      "badge": "Bloga",
+      "title": "Erabaki aurretik, begiratu hau"
+    },
+    "faq": {
+      "badge": "Ohiko galderak",
+      "title": "Hasi aurretik egiten dizkiguten galderak",
+      "description": "Beste zalantzarik baduzu, deitu edo idatzi eta argituko dizugu.",
+      "needHelp": "Laguntza behar duzu?",
+      "button": "Harremanetan jarri",
+      "items": [
+        {
+          "question": "Zenbat balio du web orri batek?",
+          "answer": "Webgune motaren eta barne hartzen duenaren araberakoa da. Lehen dei baten ondoren aurrekontu itxia ematen dizugu, ezkutuko kosturik gabe. Erreferentzia bat nahi baduzu, gure blogean 2026ko merkatuko prezioen gida bat duzu."
+        },
+        {
+          "question": "Zenbat denbora behar da webgune bat egiteko?",
+          "answer": "Proiektuaren araberakoa da: webgune korporatibo sinple batek online denda batek baino askoz gutxiago behar du. Hasi aurretik, proposamenean epe zehatz bat adierazten dizugu."
+        },
+        {
+          "question": "Webguneak SEOa dakar?",
+          "answer": "Bai. Gure webgune guztiak on-page SEOarekin ateratzen dira: egitura, izenburuak, deskribapenak, abiadura, datu egituratuak, sitemap-a eta Google Search Consolen alta. Etengabeko posizionamendua (edukiak eta kanpainak) aparte kontrata daiteke."
+        },
+        {
+          "question": "Nik neuk eguneratu ahal izango dut webgunea?",
+          "answer": "Behar baduzu, testuak, argazkiak aldatzeko edo blogean argitaratzeko prest uzten dizugu webgunea, eta nola egin erakusten dizugu."
+        },
+        {
+          "question": "Domeinuarekin, hostinarekin eta posta elektronikoarekin laguntzen duzue?",
+          "answer": "Bai. Domeinua eta ostatatzea aukeratzen aholkatzen dizugu eta dena konfiguratuta uzten dugu, alde teknikoaz kezkatu beharrik izan ez dezazun."
+        },
+        {
+          "question": "Gipuzkoan bakarrik lan egiten duzue?",
+          "answer": "Elgoibarren gaude eta Gipuzkoa eta Euskadi osoko negozioekin lan egiten dugu, baina Espainiako edozein lekutako bezeroentzat ere egiten ditugu webguneak: prozesu ia osoa urrunetik egin daiteke."
+        }
+      ]
+    }
+  },
   "footerSection": {
     "sections": {
       "pages": "Orriak",
@@ -255,7 +475,8 @@
       "home": "Hasiera",
       "services": "Zerbitzuak",
       "commerce": "Merkataritza",
-      "useCases": "Erabilera kasuak"
+      "useCases": "Erabilera kasuak",
+      "webDesign": "Web orrien diseinua"
     },
     "other": {
       "blog": "Blog",
@@ -291,6 +512,10 @@
     "terminos": {
       "title": "Termino eta kondizioak | AdimenAI",
       "description": "AdimenAI webgunearen eta zerbitzuen erabilera-baldintzak."
+    },
+    "webDesign": {
+      "title": "Web orrien diseinua Gipuzkoan SEOarekin | AdimenAI",
+      "description": "Web orrien diseinua Gipuzkoan, SEOa barne: webgune azkarrak, mugikorrerako egokituak eta zuri deitzeko pentsatuak. Aurrekontu itxia. Deitu 650 60 90 28."
     }
   }
 }

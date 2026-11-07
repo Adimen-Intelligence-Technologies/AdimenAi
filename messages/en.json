@@ -245,6 +245,226 @@
     "contactTitle": "Let's talk about your case",
     "contactDescription": "Tell us what you want to improve and we'll get back to you within 24 hours."
   },
+  "webDesignPage": {
+    "breadcrumb": "Web design",
+    "hero": {
+      "kicker": "Web design in Gipuzkoa",
+      "title": "Websites that turn visitors into",
+      "titleHighlight": "customers",
+      "description": "We design fast, attractive websites built to show up on Google. So people looking for what you do find you… and call you.",
+      "ctaCall": "Call us: +34 650 60 90 28",
+      "ctaQuote": "Get a free quote",
+      "trust": [
+        "Fixed quote, no surprises",
+        "SEO included from day one",
+        "Mobile-ready and fast",
+        "Built to get you enquiries"
+      ],
+      "mockup": {
+        "url": "yourbusiness.com",
+        "kicker": "Elgoibar · Gipuzkoa",
+        "headline": "Your business, one click away from your customers",
+        "cta": "Call now",
+        "chipMobile": "Mobile-ready",
+        "chipSpeed": "Fast loading",
+        "chipSeo": "Local SEO",
+        "notificationTitle": "New enquiry",
+        "notificationBody": "Hi, I'd like a quote…"
+      }
+    },
+    "pain": {
+      "badge": "Sound familiar?",
+      "title": "Your website should bring you customers, not just exist",
+      "items": [
+        {
+          "title": "You don't show up on Google",
+          "description": "If you don't appear when people search for your service nearby, those customers end up with your competitors."
+        },
+        {
+          "title": "Slow and broken on mobile",
+          "description": "Most visits come from phones. If your site is slow or messy, people leave before reading a word."
+        },
+        {
+          "title": "They visit, but don't call",
+          "description": "Without a clear message and easy contact buttons, visitors leave even when they like what you offer."
+        }
+      ],
+      "solution": "Here's how we fix it"
+    },
+    "features": {
+      "badge": "What's included",
+      "title": "Everything your website needs to sell",
+      "description": "No half-finished templates: every site is delivered complete, optimised and ready to win customers.",
+      "items": [
+        {
+          "title": "Custom design",
+          "description": "A website that reflects your brand, not the same template as your competitors."
+        },
+        {
+          "title": "On-page SEO",
+          "description": "Titles, descriptions, headings, structured data and sitemap done right from the start."
+        },
+        {
+          "title": "Local SEO & Google Maps",
+          "description": "We optimise your Google Business Profile so people nearby can find you."
+        },
+        {
+          "title": "Speed",
+          "description": "Lightweight sites that load instantly and pass Google's Core Web Vitals."
+        },
+        {
+          "title": "Mobile first",
+          "description": "Looks and works perfectly on phones, tablets and desktops."
+        },
+        {
+          "title": "Built to be contacted",
+          "description": "Call, WhatsApp and form buttons right where customers need them."
+        },
+        {
+          "title": "Multilingual",
+          "description": "Spanish, Basque and English, with SEO for each language."
+        },
+        {
+          "title": "Secure and compliant",
+          "description": "HTTPS, legal notice, privacy and cookie policies compliant with GDPR."
+        }
+      ]
+    },
+    "seo": {
+      "eyebrow": "SEO from day one",
+      "title": "A beautiful website nobody finds is worthless",
+      "subtitle": "That's why every site we build is ready to rank on Google and in local searches in your area.",
+      "text": "And if you want to go further, we support you with content and campaigns.",
+      "items": [
+        "Keyword research for your sector and area",
+        "Structure and copy written for Google and for people",
+        "Optimised Google Business Profile",
+        "Google Search Console and analytics set up",
+        "Blog ready to attract visitors every month"
+      ],
+      "button": "I want to show up on Google",
+      "serp": {
+        "label": "How customers find you",
+        "query": "hairdresser in Elgoibar",
+        "business": "Your business",
+        "location": "Elgoibar",
+        "call": "Call",
+        "directions": "Directions",
+        "url": "yourbusiness.com",
+        "title": "Your business · Elgoibar | Book online",
+        "description": "Book your appointment in a minute. Services, prices and opening hours in the centre of Elgoibar."
+      }
+    },
+    "process": {
+      "badge": "How we work",
+      "title": "Your new website in 4 steps",
+      "description": "A clear process, no jargon, and you involved in every decision.",
+      "items": [
+        {
+          "title": "Discovery call",
+          "description": "We talk about your business, your customers and what you need. No commitment."
+        },
+        {
+          "title": "Proposal and fixed quote",
+          "description": "We send you what we'll do, the timeline and the price. No small print."
+        },
+        {
+          "title": "Design and development",
+          "description": "We design it, write SEO copy and show you the site before it goes live."
+        },
+        {
+          "title": "Launch and follow-up",
+          "description": "We publish, register you with Google and track results to keep improving."
+        }
+      ]
+    },
+    "plans": {
+      "badge": "Website types",
+      "title": "Choose the website that fits your business",
+      "description": "All include custom design, SEO, mobile version and direct contact. We give you a fixed quote based on what you need.",
+      "recommended": "Recommended",
+      "cta": "Request a quote",
+      "priceNote": "Want a rough idea of prices?",
+      "priceGuide": "Read our guide: how much a website costs in 2026",
+      "items": [
+        {
+          "name": "Business website",
+          "description": "To present your business and get enquiries.",
+          "features": [
+            "Home, services, about and contact",
+            "Custom design with your brand",
+            "On-page SEO from the start",
+            "Form, WhatsApp and call button",
+            "Legal texts and GDPR cookies"
+          ]
+        },
+        {
+          "name": "Website + local SEO",
+          "description": "To show up on Google and win customers every month.",
+          "features": [
+            "Everything in the business website",
+            "Keyword research",
+            "One page per service and area",
+            "Optimised Google Business Profile",
+            "Blog, Search Console and analytics"
+          ]
+        },
+        {
+          "name": "Online shop",
+          "description": "To sell your products online.",
+          "features": [
+            "Catalogue and payment gateway",
+            "Shipping and stock management",
+            "SEO for product pages",
+            "Integration with your POS or software",
+            "Training so you can run it yourself"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Shall we talk about your new website?",
+      "description": "Tell us what you need on a call and we'll explain how we'd do it and what it would cost. No commitment.",
+      "button": "Call +34 650 60 90 28"
+    },
+    "related": {
+      "badge": "Blog",
+      "title": "Before you decide, have a look at this"
+    },
+    "faq": {
+      "badge": "FAQ",
+      "title": "What people ask us before starting",
+      "description": "If you have another question, call or write to us and we'll answer it.",
+      "needHelp": "Need help?",
+      "button": "Contact",
+      "items": [
+        {
+          "question": "How much does a website cost?",
+          "answer": "It depends on the type of site and what it includes. After a first call we give you a fixed quote with no hidden costs. For a reference, our blog has a guide to market prices in 2026."
+        },
+        {
+          "question": "How long does it take to build a website?",
+          "answer": "It depends on the project: a simple business site takes much less than an online shop. Before starting, we give you a specific timeline in the proposal."
+        },
+        {
+          "question": "Does the website include SEO?",
+          "answer": "Yes. All our sites launch with on-page SEO: structure, titles, descriptions, speed, structured data, sitemap and Google Search Console setup. Ongoing SEO (content and campaigns) can be contracted separately."
+        },
+        {
+          "question": "Will I be able to update the website myself?",
+          "answer": "If you need to, we leave the site ready for you to change text, photos or publish on the blog, and we show you how."
+        },
+        {
+          "question": "Do you help with domain, hosting and email?",
+          "answer": "Yes. We advise you on choosing a domain and hosting and set everything up so you don't have to worry about the technical side."
+        },
+        {
+          "question": "Do you only work in Gipuzkoa?",
+          "answer": "We're based in Elgoibar and work with businesses across Gipuzkoa and the Basque Country, but we also build websites for clients anywhere in Spain: almost the whole process can be done remotely."
+        }
+      ]
+    }
+  },
   "footerSection": {
     "sections": {
       "pages": "Pages",
@@ -255,7 +475,8 @@
       "home": "Home",
       "services": "Services",
       "commerce": "Commerce",
-      "useCases": "Use cases"
+      "useCases": "Use cases",
+      "webDesign": "Web design"
     },
     "other": {
       "blog": "Blog",
@@ -291,6 +512,10 @@
     "terminos": {
       "title": "Terms and Conditions | AdimenAI",
       "description": "Terms of use for the AdimenAI website and services."
+    },
+    "webDesign": {
+      "title": "Web design in Gipuzkoa with SEO | AdimenAI",
+      "description": "Web design in Gipuzkoa with SEO included: fast, mobile-ready websites built to get you calls. Fixed quotes. Call us on +34 650 60 90 28."
     }
   }
 }

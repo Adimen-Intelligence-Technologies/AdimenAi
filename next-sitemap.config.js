@@ -6,7 +6,7 @@ const LOCALES = ["es", "en", "eu"];
 const DEFAULT_LOCALE = "es";
 
 // Every static, publicly indexable route under app/[locale]/.
-const STATIC_ROUTES = ["/", "/blog", "/contacto", "/hosteleria", "/privacidad", "/terminos"];
+const STATIC_ROUTES = ["/", "/blog", "/contacto", "/diseno-web", "/hosteleria", "/privacidad", "/terminos"];
 
 function localePath(locale, route) {
   const prefix = locale === DEFAULT_LOCALE ? "" : `/${locale}`;

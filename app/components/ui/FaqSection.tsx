@@ -8,10 +8,15 @@ import { Wrapper } from "../Wrapper";
 import { Button } from "./Button";
 import { toLocalePath } from "@/lib/locale-path";
 
-export function FaqSection() {
-  const t = useTranslations("faqSection");
+interface FaqSectionProps {
+  namespace?: string;
+  count?: number;
+}
+
+export function FaqSection({ namespace = "faqSection", count = 6 }: FaqSectionProps = {}) {
+  const t = useTranslations(namespace);
   const locale = useLocale();
-  const faqs = Array.from({ length: 6 }, (_, index) => ({
+  const faqs = Array.from({ length: count }, (_, index) => ({
     question: t(`items.${index}.question`),
     answer: t(`items.${index}.answer`),
   }));

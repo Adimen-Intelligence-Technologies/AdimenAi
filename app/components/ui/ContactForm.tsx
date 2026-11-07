@@ -11,7 +11,11 @@ type Status = "idle" | "sending" | "success" | "error";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
-export function ContactForm() {
+interface ContactFormProps {
+  defaultSubject?: string;
+}
+
+export function ContactForm({ defaultSubject = "" }: ContactFormProps = {}) {
   const t = useTranslations("contactForm");
   const tNav = useTranslations("nav");
   const locale = useLocale();
@@ -19,7 +23,7 @@ export function ContactForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [subject, setSubject] = useState("");
+  const [subject, setSubject] = useState(defaultSubject);
   const [message, setMessage] = useState("");
   const [website, setWebsite] = useState("");
   const [status, setStatus] = useState<Status>("idle");
@@ -55,7 +59,7 @@ export function ContactForm() {
         setName("");
         setEmail("");
         setPhone("");
-        setSubject("");
+        setSubject(defaultSubject);
         setMessage("");
         setWebsite("");
         return;

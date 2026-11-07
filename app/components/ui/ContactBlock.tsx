@@ -3,7 +3,11 @@ import { ContactForm } from "./ContactForm";
 import { Sparkles } from "lucide-react";
 import { useTranslations } from "next-intl";
 
-export function ContactBlock() {
+interface ContactBlockProps {
+  defaultSubject?: string;
+}
+
+export function ContactBlock({ defaultSubject }: ContactBlockProps = {}) {
   const t = useTranslations("contactBlock");
 
   return (
@@ -36,7 +40,7 @@ export function ContactBlock() {
         </div>
         <div className="mt-12 flex flex-col gap-8 mx-auto max-w-4xl lg:flex-row">
           <div className="lg:flex-2">
-            <ContactForm />
+            <ContactForm defaultSubject={defaultSubject} />
           </div>
           <div className="lg:flex-1 space-y-5">
             <div>
