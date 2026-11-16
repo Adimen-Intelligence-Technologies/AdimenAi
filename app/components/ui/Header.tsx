@@ -46,79 +46,13 @@ export function Header() {
     }
   }, [isOpen]);
 
-  const solutionsColumns: MegaMenuColumn[] = [
-    {
-      icon: Bot,
-      title: t('aiAutomation'),
-      description: t('aiAutomationDesc'),
-      items: [
-        {label: t('aiAutomationRpa'), href: toLocalePath(locale, '/#servicios')},
-        {label: t('aiAutomationChatbots'), href: toLocalePath(locale, '/#servicios')},
-        {label: t('aiAutomationCrm'), href: toLocalePath(locale, '/#servicios')},
-      ],
-    },
-    {
-      icon: Globe,
-      title: t('webPresence'),
-      description: t('webPresenceDesc'),
-      items: [
-        {label: t('webPresenceWebsites'), href: toLocalePath(locale, '/diseno-web')},
-        {label: t('webPresenceEcommerce'), href: toLocalePath(locale, '/#servicios')},
-        {label: t('webPresencePhotography'), href: toLocalePath(locale, '/#servicios')},
-        {label: t('webPresenceSocialMedia'), href: toLocalePath(locale, '/#servicios')},
-      ],
-    },
-    {
-      icon: TrendingUp,
-      title: t('digitalMarketing'),
-      description: t('digitalMarketingDesc'),
-      items: [
-        {label: t('digitalMarketingSeo'), href: toLocalePath(locale, '/#servicios')},
-        {label: t('digitalMarketingSem'), href: toLocalePath(locale, '/#servicios')},
-        {label: t('digitalMarketingAds'), href: toLocalePath(locale, '/#servicios')},
-      ],
-    },
-    {
-      icon: Printer,
-      title: t('graphicSolutions'),
-      description: t('graphicSolutionsDesc'),
-      items: [
-        {label: t('graphicSolutionsDesign'), href: toLocalePath(locale, '/#servicios')},
-        {label: t('graphicSolutionsBusinessCards'), href: toLocalePath(locale, '/#servicios')},
-        {label: t('graphicSolutionsGuestBooks'), href: toLocalePath(locale, '/#servicios')},
-        {label: t('graphicSolutionsStationery'), href: toLocalePath(locale, '/#servicios')},
-        {label: t('graphicSolutionsMerchandising'), href: toLocalePath(locale, '/#servicios')},
-      ],
-    },
-    {
-      icon: LayoutDashboard,
-      title: t('managementSoftware'),
-      description: t('managementSoftwareDesc'),
-      badge: 'partner',
-      items: [
-        {label: t('managementSoftwareRetail'), href: toLocalePath(locale, '/#servicios')},
-        {label: t('managementSoftwareHospitality'), href: toLocalePath(locale, '/hosteleria')},
-        {label: t('managementSoftwareFood'), href: toLocalePath(locale, '/#servicios')},
-        {label: t('managementSoftwareBeauty'), href: toLocalePath(locale, '/#servicios')},
-      ],
-    },
-    {
-      icon: Smartphone,
-      title: t('herrikonektApps'),
-      description: t('herrikonektAppsDesc'),
-      items: [
-        {label: t('herrikonektAppsAndroid'), href: toLocalePath(locale, '/#servicios')},
-        {label: t('herrikonektAppsIos'), href: toLocalePath(locale, '/#servicios')},
-      ],
-    },
-  ];
+ 
 
   const languages = [
     {code: 'es', label: tLang('es'), short: 'ES'},
     {code: 'eu', label: tLang('eu'), short: 'EU'},
   ];
 
-  const megaMenuColumns = solutionsColumns;
 
   const switchLocale = (newLocale: string) => {
     setIsLangOpen(false);
@@ -145,7 +79,6 @@ export function Header() {
 
   const navItems: NavItem[] = [
     {id: 'home', label: t('home'), href: toLocalePath(locale, '/'), hasDropdown: false},
-    {id: 'solutions', label: t('solutions'), hasDropdown: true, handler: megaMenuColumns, dropdownType: 'megamenu'},
     {id: 'webDesign', label: t('webPresenceWebsites'), href: toLocalePath(locale, '/diseno-web'), hasDropdown: false},
     {id: 'herrikonekt', label: t('herrikonekt'), href: 'https://www.herrikonekt.com', hasDropdown: false, isExternal: true},
     {id: 'blog', label: t('blog'), href: toLocalePath(locale, '/blog'), hasDropdown: false},
@@ -322,9 +255,6 @@ export function Header() {
                 <Link href={toLocalePath(locale, '/')} onClick={closeAll} className="flex items-center rounded-xl px-4 py-3.5 hover:bg-zinc-100 hover:text-black transition-colors">
                   {t('home')}
                 </Link>
-              </li>
-              <li>
-                <MobileAccordion title={t('solutions')} items={megaMenuColumns} closeAll={closeAll} />
               </li>
               <li>
                 <Link href="https://www.herrikonekt.com" target="_blank" rel="noopener noreferrer" onClick={closeAll} className="flex items-center gap-2 rounded-xl px-4 py-3.5 hover:bg-zinc-100 hover:text-black transition-colors">
