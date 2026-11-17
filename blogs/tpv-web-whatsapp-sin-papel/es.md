@@ -101,6 +101,6 @@ Lo ideal: **WhatsApp como punto de entrada + TPV como punto de salida**.
 
 ---
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) conectamos WhatsApp directamente con tu TPV y web: sin papel, sin pedidos perdidos. La primera revisión es **gratuita** y ves el resultado en 1 semana.
+En **AdimenAi** (Gipuzkoa) conectamos WhatsApp directamente con tu TPV y web: sin papel, sin pedidos perdidos. La primera revisión es **gratuita** y ves el resultado en 1 semana.
 
-📞 +34 650 60 90 28 · [Habla con nosotros](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Habla con nosotros](https://adimenai.com/contactar)

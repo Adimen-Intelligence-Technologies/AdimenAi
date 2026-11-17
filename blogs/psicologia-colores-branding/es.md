@@ -74,7 +74,7 @@ El problema no es el diseño. Es la **psicología del color**.
 - Gris oscuro (#37474F) → modernidad
 - Blanco (#FFFFFF) → limpieza
 
-**Caso real:** AdimenAi (Elgoibar) → Azul + Púrpura (#6C47FF) = 60 % más leads en software B2B.
+**Caso real:** AdimenAi (Gipuzkoa) → Azul + Púrpura (#6C47FF) = 60 % más leads en software B2B.
 
 ### Eco, sostenibilidad y productos naturales
 
@@ -148,7 +148,7 @@ El problema no es el diseño. Es la **psicología del color**.
 - Después: Verde (#4CAF50) + Blanco (#FFFFFF)
 - Resultado: 25 % más pacientes en 3 meses
 
-### AdimenAi — Elgoibar (Tech)
+### AdimenAi (Tech)
 - Azul (#1976D2) + Púrpura (#6C47FF)
 - Resultado: 60 % más leads en software B2B
 - *(Este color ya lo usamos. Tú sí puedes elegirlo mejor.)*
@@ -175,6 +175,6 @@ La primera paleta de colores para tu marca: **gratuita** y sin compromiso. Te da
 
 ---
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) creamos identidades visuales con psicología del color aplicada. La primera paleta para tu marca es **gratuita**.
+En **AdimenAi** (Gipuzkoa) creamos identidades visuales con psicología del color aplicada. La primera paleta para tu marca es **gratuita**.
 
-📞 +34 650 60 90 28 · [Habla con nosotros](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Habla con nosotros](https://adimenai.com/contactar)

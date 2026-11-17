@@ -148,4 +148,4 @@ Sí. Recomendamos un primer proyecto piloto de 4–6 semanas con un proceso clar
 
 En **AdimenAi** diseñamos e implantamos agentes de IA adaptados a tu operativa: conectan con tu ERP, tu CRM, tu TPV, tu web y tu correo. La primera auditoría es **gratuita** y te decimos exactamente qué procesos te conviene automatizar primero y cuánto te costaría.
 
-📞 +34 650 60 90 28 · [Solicita tu auditoría gratuita](https://www.adimenai.com/contacto)
+📞 +34 641 195184 · [Solicita tu auditoría gratuita](https://www.adimenai.com/contacto)

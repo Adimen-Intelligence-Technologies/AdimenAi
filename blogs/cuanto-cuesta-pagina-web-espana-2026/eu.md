@@ -136,4 +136,4 @@ Web batek mantentzea behar du: segurtasun-eguneraketak, pluginak, kopiak, lagunt
 
 **AdimenAIn** bezeroak lortzeko pentsatutako webak diseinatzen ditugu: lehen egunetik SEOarekin, zure TPV edo ERParekin integratuta eta zuk zeuk mantendu ahal izateko prestakuntzarekin. 30 minutuko doako deiarekin hasten gara, benetan zer behar duzun ikusteko eta aurrekontu itxi bat pasatzeko.
 
-📞 +34 650 60 90 28 · [Eskatu zure aurrekontua](https://www.adimenai.com/eu/contacto)
+📞 +34 641 195184 · [Eskatu zure aurrekontua](https://www.adimenai.com/eu/contacto)

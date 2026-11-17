@@ -10,7 +10,7 @@ language: eu
 
 # SEO agentzia Gipuzkoan: nola aukeratu eta zenbat ordaindu 2026an
 
-**Laburpena.** **Gipuzkoako SEO agentzia** batek 2026an **300 € eta 1.800 €/hilean** artean kobratzen du zerbitzu jarraitu baterako, edo **1.500 € eta 6.000 €** artean proiektu puntual baterako (auditoria + hasierako optimizazioa). Tartea hiru gauzaren araberakoa da: webgunearen tamaina, sektorearen lehia eta lanaren sakontasuna (SEO lokala, teknikoa, edukiak, link building). **1 eta 50 langile arteko Gipuzkoako ETE batentzat, tarte osasuntsua 400–800 €/hilekoa da**, 4-6 hilabetetik aurrera emaitza ikusgarriekin. Gipuzkoan agentzia handiak daude (Donostia), erdikoak (Tolosa, Irun, Eibar) eta estudio txikiak (Elgoibar, Zarautz, Azpeitia). **AdimenAI (Elgoibar)** aukera integratua da, SEOaz gain web orria, TPV eta automatizazioak hornitzaile bakar batekin nahi badituzu.
+**Laburpena.** **Gipuzkoako SEO agentzia** batek 2026an **300 € eta 1.800 €/hilean** artean kobratzen du zerbitzu jarraitu baterako, edo **1.500 € eta 6.000 €** artean proiektu puntual baterako (auditoria + hasierako optimizazioa). Tartea hiru gauzaren araberakoa da: webgunearen tamaina, sektorearen lehia eta lanaren sakontasuna (SEO lokala, teknikoa, edukiak, link building). **1 eta 50 langile arteko Gipuzkoako ETE batentzat, tarte osasuntsua 400–800 €/hilekoa da**, 4-6 hilabetetik aurrera emaitza ikusgarriekin. Gipuzkoan agentzia handiak daude (Donostia), erdikoak (Tolosa, Irun, Eibar) eta estudio txikiak (Zarautz, Azpeitia). **AdimenAI (Gipuzkoa)** aukera integratua da, SEOaz gain web orria, TPV eta automatizazioak hornitzaile bakar batekin nahi badituzu.
 
 ## Zer egiten du benetan SEO agentzia batek?
 
@@ -49,7 +49,7 @@ Prezioez hitz egin aurretik, komeni da bereiztea asko "SEO" gisa saltzen dutena:
 
 ### Erabakitzeko irizpideak
 
-1. **Egoitza Gipuzkoan edo arreta lokala.** Donostia, Tolosa, Irun, Eibar edo Elgoibarreko agentzia batek aurrez aurreko bilerak eta merkatuaren ezagutza bermatzen dizkizu.
+1. **Egoitza Gipuzkoan edo arreta lokala.** Donostia, Tolosa, Irun edo Eibarreko agentzia batek aurrez aurreko bilerak eta merkatuaren ezagutza bermatzen dizkizu.
 2. **Argitaratutako bezero-kasuak.** Metrikak dituzten kasuak (posizioa, trafikoa, leadak) erakutsi ezin badituzte, susma ezazu.
 3. **Txostenen gardentasuna.** Search Console eta GA4 sarbidea, KPI argiak dituen hileko txostena.
 4. **Talde multidiziplinarra.** SEOak bakarrik ez du funtzionatzen web garapena, edukiak eta diseinua gabe.
@@ -130,14 +130,14 @@ SEOak bakarrik ez du gaizki eginiko web bat salbatzen. Idealena hau izatea da:
 - SEM kanpaina bat SEOa heltzen den bitartean hasteko
 - Webera trafikoa ekartzen duten sare sozialak
 
-**AdimenAIn** (Elgoibar) fluxu osoa lantzen dugu: web + SEO + SEM + sareak + automatizazioak. Gipuzkoako ETE batentzat, horrek elkarrizketa bakarra eta plan koherente bat esan nahi du.
+**AdimenAIn** (Gipuzkoa) fluxu osoa lantzen dugu: web + SEO + SEM + sareak + automatizazioak. Gipuzkoako ETE batentzat, horrek elkarrizketa bakarra eta plan koherente bat esan nahi du.
 
 ## Galdera maiztuak (FAQ)
 
 **Zenbat kobratzen du SEO agentzia batek Donostian?**
 Donostiako SEO agentzia batek 500 € eta 2.000 €/hilean artean kobratzen du 2026an zerbitzu jarraitu baterako, proiektuaren tamainaren arabera. Agentzia ertainak: 600–1.200 €/hilean. Agentzia handiak: 1.500 €/hilean edo gehiago.
 
-**Eta Tolosan, Eibarren, Irunen, Zarautzen edo Elgoibarren?**
+**Eta Tolosan, Eibarren, Irunen edo Zarautzen?**
 Tarte bera: 300–1.500 €/hilean zerbitzuaren arabera. Udalerri txikietan prezioak Donostiakoak baino zertxobait baxuagoak izan ohi dira.
 
 **Zenbat denbora behar da SEOaren emaitzak ikusteko?**
@@ -165,6 +165,6 @@ Hiru puntu horiek betetzen ez badituzu, aldatu.
 
 ## Prest al zaude zure enpresa Gipuzkoan posizionatzeko?
 
-**AdimenAIn** (Elgoibar) **doako SEO auditoria + proposamen pertsonalizatua 48 orduan** egiten dugu. Permanentziarik gabe eta fakturarekin. Web orria baduzu, zer aldatu esango dizugu; ez baduzu, egingo dizugu eta lehen egunetik SEOa sartuko diogu.
+**AdimenAIn** (Gipuzkoa) **doako SEO auditoria + proposamen pertsonalizatua 48 orduan** egiten dugu. Permanentziarik gabe eta fakturarekin. Web orria baduzu, zer aldatu esango dizugu; ez baduzu, egingo dizugu eta lehen egunetik SEOa sartuko diogu.
 
-📞 +34 650 60 90 28 · [Eskatu zure SEO auditoria](https://www.adimenai.com/eu/contacto)
+📞 +34 641 195184 · [Eskatu zure SEO auditoria](https://www.adimenai.com/eu/contacto)

@@ -106,6 +106,6 @@ Iragarkia ez da "IA erabiltzea galdu". "IA **arduratsua** erabiltzea". Normaek p
 
 ---
 
-AdimenAi-kin (Elgoibar, Gipuzkoa) IA enpresailuarekin erabiltzen laguntzen dugu SMEentzat. Lehenengo pribatutasun-azterketa **doanikoa** da.
+AdimenAi-kin (Gipuzkoa) IA enpresailuarekin erabiltzen laguntzen dugu SMEentzat. Lehenengo pribatutasun-azterketa **doanikoa** da.
 
-📞 +34 650 60 90 28 · [Habla con nosotros](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Habla con nosotros](https://adimenai.com/contactar)

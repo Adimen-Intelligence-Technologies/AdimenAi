@@ -148,4 +148,4 @@ Bai. Prozesu argi bat duen 4-6 asteko lehen proiektu pilotu bat gomendatzen dugu
 
 **AdimenAIn** zure operatibara egokitutako IA agenteak diseinatu eta ezartzen ditugu: zure ERP, CRM, TPV, web eta postarekin konektatzen dira. Lehen auditoria **doakoa** da eta zehazki esango dizugu zein prozesu komeni zaizun lehenik automatizatzea eta zenbat kostako litzaizukeen.
 
-📞 +34 650 60 90 28 · [Eskatu zure doako auditoria](https://www.adimenai.com/eu/contacto)
+📞 +34 641 195184 · [Eskatu zure doako auditoria](https://www.adimenai.com/eu/contacto)

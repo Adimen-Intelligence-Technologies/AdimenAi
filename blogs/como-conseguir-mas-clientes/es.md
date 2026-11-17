@@ -193,7 +193,7 @@ Ninguno de estos 9 canales funciona aislado. Lo ideal es combinarlos en un siste
 
 Eso es un sistema de **captación + conversión + fidelización**. Cuesta entre 500 € y 1.500 €/mes mantenerlo, pero multiplica x3–x5 los leads en 12 meses.
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) diseñamos e implementamos este sistema completo para pymes vascas. La auditoría es **gratuita** y te decimos por dónde empezar.
+En **AdimenAi** (Gipuzkoa) diseñamos e implementamos este sistema completo para pymes vascas. La auditoría es **gratuita** y te decimos por dónde empezar.
 
 ## Preguntas frecuentes (FAQ)
 
@@ -217,6 +217,6 @@ Empieza a recoger emails y teléfonos con consentimiento desde ya. La base de da
 
 ## ¿Quieres un plan realista para los próximos 6 meses?
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) montamos contigo un **plan de captación sin disparar la publicidad**: qué canales, qué orden, qué inversión y qué esperar. La primera auditoría es **gratuita**.
+En **AdimenAi** (Gipuzkoa) montamos contigo un **plan de captación sin disparar la publicidad**: qué canales, qué orden, qué inversión y qué esperar. La primera auditoría es **gratuita**.
 
-📞 +34 650 60 90 28 · [Reserva tu auditoría gratuita](https://www.adimenai.com/contacto)
+📞 +34 641 195184 · [Reserva tu auditoría gratuita](https://www.adimenai.com/contacto)

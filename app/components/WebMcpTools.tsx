@@ -231,9 +231,9 @@ export function WebMcpTools() {
         async execute() {
           return JSON.stringify({
             company: "AdimenAI",
-            location: "Elgoibar, Gipuzkoa (Spain)",
+            location: "Gipuzkoa, Euskadi (Spain)",
             email: "info@adimenai.com",
-            phone: "+34 650 60 90 28",
+            phone: "+34 641 195184",
             contactPage: absolute(toLocalePath(locale, "/contacto")),
             services,
           });

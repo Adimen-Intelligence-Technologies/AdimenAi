@@ -156,4 +156,4 @@ Sí. Cocina y barra sin pantalla o comanderas电子 es perder dinero. Una pantal
 
 En **AdimenAi** llevamos años montando TPV para bares, restaurantes y comercios. Te ayudamos a elegir el sistema, lo configuramos con tu carta y productos, formamos a tu equipo y lo conectamos con tu web o app de delivery. La primera consulta es **gratuita** y sin compromiso.
 
-📞 +34 650 60 90 28 · [Reserva tu llamada](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Reserva tu llamada](https://adimenai.com/contactar)

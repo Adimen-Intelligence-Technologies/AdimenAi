@@ -124,6 +124,6 @@ Inbersioa 8.000 € (RTX 6000 + zerbitua) hasi egiten da eta hedatzen ari da. Le
 
 ---
 
-**AdimenAi**-n (Elgoibar, Gipuzkoa) zure AI infraestructura azteratzen dugu — hardwarea, beti ez dauda eta modelo lokalak — egun batean. Lehen begirada **doan** profitala eta konpromisurik gabekoa.
+**AdimenAi**-n (Gipuzkoa) zure AI infraestructura azteratzen dugu — hardwarea, beti ez dauda eta modelo lokalak — egun batean. Lehen begirada **doan** profitala eta konpromisurik gabekoa.
 
-📞 +34 650 60 90 28 · [Jarri harremanetan](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Jarri harremanetan](https://adimenai.com/contactar)

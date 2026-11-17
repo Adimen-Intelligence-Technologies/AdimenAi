@@ -40,7 +40,7 @@ export default async function TerminosPage() {
                   <h2 className="text-xl font-semibold text-black">1. Información general</h2>
                   <p className="mt-2">
                     El presente sitio web, accesible en{" "}
-                    <a href="https://adimenai.com" className="text-[#6C47FF] hover:underline">adimenai.com</a>, es propiedad de Adimen Intelligence Technologies S.L. (en adelante, AdimenAI), con domicilio en Elgoibar, Gipuzkoa, y CIF B-xxxxxxx. El acceso y uso de este sitio web implica la aceptación expresa de los presentes términos y condiciones.
+                    <a href="https://adimenai.com" className="text-[#6C47FF] hover:underline">adimenai.com</a>, es propiedad de Adimen Intelligence Technologies S.L. (en adelante, AdimenAI), con CIF B-xxxxxxx. El acceso y uso de este sitio web implica la aceptación expresa de los presentes términos y condiciones.
                   </p>
                 </div>
 

@@ -10,7 +10,7 @@ language: eu
 
 # Erantzun gabeko bezero-emailak: leadak eta dirua galtzeari uzteko modua
 
-**Laburpena.** Espainiako ETE batek batez beste **25-48 ordu** behar ditu bezero berri baten emailari erantzuteko. Bezeroen **% 62k** 4 ordu baino gutxiagoan erantzuna espero du, eta jasotzen ez badu, lehiakideari erosten dio. Horrek esan nahi du, batez beste, ETE bat **salmenta-leadeen % 30-50 galtzen ari dela** berandu erantzuteagatik. Konponbidea ez da jende gehiago kontratatzea, **email kudeaketa sistema bat + chatbota + IA sailkatu, FAQei erantzun eta pertsona egokiari abisatzen diona** baizik. **AdimenAIn** (Elgoibar, Gipuzkoa) 4 eta 8 aste artean ezartzen dugu, 6.000 €-18.000 €ko kostuarekin eta 5-9 hilabeteko batez besteko paybackarekin.
+**Laburpena.** Espainiako ETE batek batez beste **25-48 ordu** behar ditu bezero berri baten emailari erantzuteko. Bezeroen **% 62k** 4 ordu baino gutxiagoan erantzuna espero du, eta jasotzen ez badu, lehiakideari erosten dio. Horrek esan nahi du, batez beste, ETE bat **salmenta-leadeen % 30-50 galtzen ari dela** berandu erantzuteagatik. Konponbidea ez da jende gehiago kontratatzea, **email kudeaketa sistema bat + chatbota + IA sailkatu, FAQei erantzun eta pertsona egokiari abisatzen diona** baizik. **AdimenAIn** (Gipuzkoa) 4 eta 8 aste artean ezartzen dugu, 6.000 €-18.000 €ko kostuarekin eta 5-9 hilabeteko batez besteko paybackarekin.
 
 ## Zenbat kostatzen zaizu garaiz ez erantzuteak?
 
@@ -148,6 +148,6 @@ Gomendagarria da. Ez badituzu, zure bezeroen benetako galderetatik sortzen ditug
 
 ## Berandu erantzuteagatik leadak galtzeari utzi nahi al diozu?
 
-**AdimenAIn** (Elgoibar, Gipuzkoa) zure email-postontziaren **doako analisia** egiten dugu: zenbat denbora behar duzun, zenbat lead galtzen diren eta zer automatizatu behar den lehenik. Konpromisorik gabe eta fakturarekin aurrera jarraitzea erabakitzen baduzu.
+**AdimenAIn** (Gipuzkoa) zure email-postontziaren **doako analisia** egiten dugu: zenbat denbora behar duzun, zenbat lead galtzen diren eta zer automatizatu behar den lehenik. Konpromisorik gabe eta fakturarekin aurrera jarraitzea erabakitzen baduzu.
 
-📞 +34 650 60 90 28 · [Eskatu zure analisia](https://www.adimenai.com/eu/contacto)
+📞 +34 641 195184 · [Eskatu zure analisia](https://www.adimenai.com/eu/contacto)

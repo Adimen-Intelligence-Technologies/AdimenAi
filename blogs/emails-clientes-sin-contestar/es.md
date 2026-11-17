@@ -10,7 +10,7 @@ language: es
 
 # Emails de clientes sin contestar: cómo dejar de perder leads y dinero
 
-**** Una pyme española tarda de media **25–48 horas** en contestar un email de un cliente nuevo. El **62 % de los clientes** espera respuesta en menos de 4 horas y, si no la recibe, compra a la competencia. Eso significa que, de media, una pyme está **perdiendo un 30 %–50 % de leads comerciales** simplemente por contestar tarde. La solución no es contratar más gente, sino **un sistema de gestión de emails + chatbot + IA que clasifique, responda FAQ y alerte a la persona adecuada**. En **AdimenAi** (Elgoibar, Gipuzkoa) lo implantamos entre 4 y 8 semanas con un coste de 6.000 €–18.000 € y un payback medio de 5–9 meses.
+**** Una pyme española tarda de media **25–48 horas** en contestar un email de un cliente nuevo. El **62 % de los clientes** espera respuesta en menos de 4 horas y, si no la recibe, compra a la competencia. Eso significa que, de media, una pyme está **perdiendo un 30 %–50 % de leads comerciales** simplemente por contestar tarde. La solución no es contratar más gente, sino **un sistema de gestión de emails + chatbot + IA que clasifique, responda FAQ y alerte a la persona adecuada**. En **AdimenAi** (Gipuzkoa) lo implantamos entre 4 y 8 semanas con un coste de 6.000 €–18.000 € y un payback medio de 5–9 meses.
 
 ## ¿Cuánto te cuesta no contestar a tiempo?
 
@@ -148,6 +148,6 @@ Recomendable. Si no las tienes, las digitalizamos a partir de preguntas reales d
 
 ## ¿Quieres dejar de perder leads por contestar tarde?
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) hacemos un **análisis gratuito de tu bandeja de email**: cuánto tardas, cuántos leads se pierden y qué automatizar primero. Sin compromiso y con factura si decides seguir.
+En **AdimenAi** (Gipuzkoa) hacemos un **análisis gratuito de tu bandeja de email**: cuánto tardas, cuántos leads se pierden y qué automatizar primero. Sin compromiso y con factura si decides seguir.
 
-📞 +34 650 60 90 28 · [Solicita tu análisis](https://www.adimenai.com/contacto)
+📞 +34 641 195184 · [Solicita tu análisis](https://www.adimenai.com/contacto)

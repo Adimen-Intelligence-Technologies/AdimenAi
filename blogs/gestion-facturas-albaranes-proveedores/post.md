@@ -80,7 +80,7 @@ Porque tener ERP no significa tener el proceso automatizado. Lo que vemos habitu
 - **Workflow de aprobación:** Power Automate, Make/Integromat, Pipedream, o custom.
 - **Conexión con portales de proveedores:** APIs específicas (Ariba, Coupa,'achatpublic, etc.).
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) diseñamos la cadena completa con tus herramientas y te la dejamos funcionando. Si tu ERP no tiene API, conectamos vía RPA sin cambiarlo.
+En **AdimenAi** (Gipuzkoa) diseñamos la cadena completa con tus herramientas y te la dejamos funcionando. Si tu ERP no tiene API, conectamos vía RPA sin cambiarlo.
 
 ## ¿Cuánto se ahorra realmente?
 
@@ -129,6 +129,6 @@ No. Integramos con SAP, Holded, Sage, Dynamics AX, A3, NCS, Odoo, etc. Si tu ERP
 
 ## ¿Quieres dejar de perder dinero con cada factura?
 
-En **AdimenAi** (Elgoibar) hacemos un **análisis gratuito de tu proceso de facturación**: cuánto estás perdiendo, qué automatizar primero y cuánto te costaría. Sin compromiso y con factura si decides seguir.
+En **AdimenAi** (Gipuzkoa) hacemos un **análisis gratuito de tu proceso de facturación**: cuánto estás perdiendo, qué automatizar primero y cuánto te costaría. Sin compromiso y con factura si decides seguir.
 
-📞 +34 650 60 90 28 · [Solicita tu análisis](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Solicita tu análisis](https://adimenai.com/contactar)

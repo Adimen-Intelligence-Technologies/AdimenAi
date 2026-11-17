@@ -41,7 +41,14 @@
     "managementSoftwareRetail": "Retail eta Merkataritza",
     "managementSoftwareHospitality": "Ostalaritza",
     "managementSoftwareFood": "Elikadura",
-    "managementSoftwareBeauty": "Edertasuna eta Wellness"
+    "managementSoftwareBeauty": "Edertasuna eta Wellness",
+    "pages": {
+      "home": "Hasiera",
+      "services": "Zerbitzuak",
+      "webDesign": "Web orrien diseinua",
+      "commerce": "Merkataritza",
+      "useCases": "Erabilera kasuak"
+    }
   },
   "language": {
     "switch": "Hizkuntza aldatu",
@@ -179,8 +186,6 @@
     "badge": "Informazio gehiago behar duzu?",
     "title": "Jarri gurekin harremanetan",
     "description": "",
-    "officeLabel": "Bulegoak Espainian",
-    "officeValue": "Bulegoak Elgoibarren",
     "emailLabel": "Emaila",
     "phoneLabel": "Telefonoa"
   },
@@ -190,7 +195,7 @@
     "email": "Emaila",
     "emailPlaceholder": "jane@enpresa.com",
     "phone": "Telefonoa",
-    "phonePlaceholder": "+34 650 60 90 28",
+    "phonePlaceholder": "+34 641 195184",
     "subject": "Gaia",
     "subjectPlaceholder": "Hautatu gai bat...",
     "subjectOtherGroup": "Beste bat",
@@ -251,7 +256,7 @@
       "title": "Bisitak bezero bihurtzen dituzten",
       "titleHighlight": "webguneak",
       "description": "Web orri azkarrak, erakargarriak eta Googlen agertzeko prestatuak diseinatzen ditugu. Zuk egiten duzuna bilatzen duenak aurki zaitzan… eta dei zaitzan.",
-      "ctaCall": "Deitu: 650 60 90 28",
+      "ctaCall": "Deitu: 641 195184",
       "ctaQuote": "Eskatu doako aurrekontua",
       "trust": [
         "Aurrekontu itxia, ezustekorik gabe",
@@ -261,7 +266,7 @@
       ],
       "mockup": {
         "url": "zureenpresa.eus",
-        "kicker": "Elgoibar · Gipuzkoa",
+        "kicker": "Gipuzkoa",
         "headline": "Zure negozioa, bezeroengandik klik batera",
         "cta": "Deitu orain",
         "chipMobile": "Mugikorrerako",
@@ -344,14 +349,14 @@
       "button": "Googlen agertu nahi dut",
       "serp": {
         "label": "Horrela aurkitzen zaituzte bezeroek",
-        "query": "ile-apaindegia Elgoibarren",
+        "query": "ile-apaindegia Donostian",
         "business": "Zure negozioa",
-        "location": "Elgoibar",
+        "location": "Donostia",
         "call": "Deitu",
         "directions": "Nola iritsi",
         "url": "zureenpresa.eus",
-        "title": "Zure negozioa · Elgoibar | Eskatu txanda online",
-        "description": "Erreserbatu zure txanda minutu batean. Zerbitzuak, prezioak eta ordutegiak Elgoibarko erdigunean."
+        "title": "Zure negozioa · Donostia | Eskatu txanda online",
+        "description": "Erreserbatu zure txanda minutu batean. Zerbitzuak, prezioak eta ordutegiak Donostiako erdigunean."
       }
     },
     "process": {
@@ -424,7 +429,7 @@
     "cta": {
       "title": "Zure webgune berriaz hitz egingo dugu?",
       "description": "Kontaiguzu dei batean zer behar duzun eta nola egingo genukeen eta zenbat kostako litzatekeen esango dizugu. Konpromisorik gabe.",
-      "button": "Deitu 650 60 90 28 zenbakira"
+      "button": "Deitu 641 195184 zenbakira"
     },
     "related": {
       "badge": "Bloga",
@@ -459,7 +464,7 @@
         },
         {
           "question": "Gipuzkoan bakarrik lan egiten duzue?",
-          "answer": "Elgoibarren gaude eta Gipuzkoa eta Euskadi osoko negozioekin lan egiten dugu, baina Espainiako edozein lekutako bezeroentzat ere egiten ditugu webguneak: prozesu ia osoa urrunetik egin daiteke."
+          "answer": "Gipuzkoa eta Euskadi osoko negozioekin lan egiten dugu, baina Espainiako edozein lekutako bezeroentzat ere egiten ditugu webguneak: prozesu ia osoa urrunetik egin daiteke."
         }
       ]
     }
@@ -470,21 +475,11 @@
       "other": "Beste orriak",
       "contact": "Harremana"
     },
-    "pages": {
-      "home": "Hasiera",
-      "services": "Zerbitzuak",
-      "commerce": "Merkataritza",
-      "useCases": "Erabilera kasuak",
-      "webDesign": "Web orrien diseinua"
-    },
     "other": {
       "blog": "Blog",
       "cookies": "Cookies",
       "privacy": "Pribatutasun politika",
       "terminos": "Termino eta kondizioak"
-    },
-    "contact": {
-      "office": "Bulegoak Elgoibarren"
     }
   },
   "seo": {
@@ -514,7 +509,7 @@
     },
     "webDesign": {
       "title": "Web orrien diseinua Gipuzkoan SEOarekin | AdimenAI",
-      "description": "Web orrien diseinua Gipuzkoan, SEOa barne: webgune azkarrak, mugikorrerako egokituak eta zuri deitzeko pentsatuak. Aurrekontu itxia. Deitu 650 60 90 28."
+      "description": "Web orrien diseinua Gipuzkoan, SEOa barne: webgune azkarrak, mugikorrerako egokituak eta zuri deitzeko pentsatuak. Aurrekontu itxia. Deitu 641 195184."
     }
   }
 }

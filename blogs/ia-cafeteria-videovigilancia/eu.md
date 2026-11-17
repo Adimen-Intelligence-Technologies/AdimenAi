@@ -137,6 +137,6 @@ Zure CCTV-ri IA jaritzeko lehen egiaztatza: **doan** eta konpromisurik gabekoa.
 
 ---
 
-**AdimenAi**-n (Elgoibar, Gipuzkoa) instalatzen dugu IA CCTV existitik kafetarako eta barestarako. Lehen begiradak **doan**: esaten dugu zenbat irits tenpero egiten duen bara ordukoan eta nola dago leihoa.
+**AdimenAi**-n (Gipuzkoa) instalatzen dugu IA CCTV existitik kafetarako eta barestarako. Lehen begiradak **doan**: esaten dugu zenbat irits tenpero egiten duen bara ordukoan eta nola dago leihoa.
 
-📞 +34 650 60 90 28 · [Jarri harremanetan](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Jarri harremanetan](https://adimenai.com/contactar)

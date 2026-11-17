@@ -205,7 +205,7 @@ Las redes son una pieza. Lo ideal:
 - **Redes** para comunidad y brand awareness.
 - **CRM** para que cada contacto se convierta en cliente.
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) diseñamos estrategias de contenido y campañas de Ads para pymes. La auditoría es **gratuita**.
+En **AdimenAi** (Gipuzkoa) diseñamos estrategias de contenido y campañas de Ads para pymes. La auditoría es **gratuita**.
 
 ## Preguntas frecuentes (FAQ)
 
@@ -235,6 +235,6 @@ Un banco de fotos decente más tu móvil + Canva o similares bastan para empezar
 
 ## ¿Listo para que tus redes generen clientes?
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) montamos tu **estrategia de redes con enfoque de negocio**: contenido, calendario, monitorización y reporting. La auditoría es **gratuita**.
+En **AdimenAi** (Gipuzkoa) montamos tu **estrategia de redes con enfoque de negocio**: contenido, calendario, monitorización y reporting. La auditoría es **gratuita**.
 
-📞 +34 650 60 90 28 · [Reserva tu auditoría gratuita](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Reserva tu auditoría gratuita](https://adimenai.com/contactar)

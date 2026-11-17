@@ -138,7 +138,7 @@ Erantzun egin zintzoz. Sei edo gehiagok erantzun argia badute, jadanik duzu gain
 
 ## Zure kasuan aplikatu dezakegu?
 
-Hau da egiten dugun gauza **Adimen**-en (Elgoibar, Gipuzkoa): prozesuak automatizatzea, gero eta gehiago industriako enpresetan, benetako bezeroentzat **600 prozesu baino gehiago** automatizatuta.
+Hau da egiten dugun gauza **Adimen**-en (Gipuzkoa): prozesuak automatizatzea, gero eta gehiago industriako enpresetan, benetako bezeroentzat **600 prozesu baino gehiago** automatizatuta.
 
 Lehen pausoa **30 minutuko dei bat da, konpromisorik gabe**, non:
 
@@ -146,6 +146,6 @@ Lehen pausoa **30 minutuko dei bat da, konpromisorik gabe**, non:
 - Zure prozesuei lau galderako iragazkia aplikatzen diegu eta esaten dizugu zein den egokia.
 - Ematen dizugu kostu eta epearen estimazioa lehenengo horretarako.
 
-**Aukeratu nahi duzun modua:** deitu gaitzazu **+34 650 60 90 28** telefonan edo bidal iezaguzu mezu bat inprimukoak, eta 24 ordu baino gutxiagorako erresponduten dizugu zure kasuarako proposamen zehatzarekin.
+**Aukeratu nahi duzun modua:** deitu gaitzazu **+34 641 195184** telefonan edo bidal iezaguzu mezu bat inprimukoak, eta 24 ordu baino gutxiagorako erresponduten dizugu zure kasuarako proposamen zehatzarekin.
 
-📞 +34 650 60 90 28 · [Kontaktu formularioa](https://www.adimenai.com/eu/contacto)
+📞 +34 641 195184 · [Kontaktu formularioa](https://www.adimenai.com/eu/contacto)

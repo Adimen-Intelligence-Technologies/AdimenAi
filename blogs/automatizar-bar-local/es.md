@@ -92,6 +92,6 @@ Automatizar no es "ser frío". Es **ganar tiempo para lo que importa:** tu bar, 
 
 ---
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) auditamos gratis los 5 puntos de automatización de tu bar. La primera valoración es **gratuita** y sin compromiso: te decimos qué automatizar primero y cuántas horas te devuelve.
+En **AdimenAi** (Gipuzkoa) auditamos gratis los 5 puntos de automatización de tu bar. La primera valoración es **gratuita** y sin compromiso: te decimos qué automatizar primero y cuántas horas te devuelve.
 
-📞 +34 650 60 90 28 · [Habla con nosotros](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Habla con nosotros](https://adimenai.com/contactar)

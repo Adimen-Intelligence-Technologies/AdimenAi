@@ -129,4 +129,4 @@ Pregunta: "Si no hago esto hoy, ¿qué pasa mañana?". Si la respuesta es "no pa
 
 ---
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) ayudamos a pymes a montar un sistema de priorización con IA integrada: calendario, email, CRM y tareas organizados. La valoración es **gratuita**: te enseñamos cómo priorizar sin tener que trabajar más.
+En **AdimenAi** (Gipuzkoa) ayudamos a pymes a montar un sistema de priorización con IA integrada: calendario, email, CRM y tareas organizados. La valoración es **gratuita**: te enseñamos cómo priorizar sin tener que trabajar más.

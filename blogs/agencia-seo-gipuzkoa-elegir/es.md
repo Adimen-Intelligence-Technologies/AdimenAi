@@ -10,7 +10,7 @@ language: es
 
 # Agencia SEO en Gipuzkoa: cómo elegir y cuánto pagar en 2026
 
-**** Una **agencia SEO en Gipuzkoa** cobra en 2026 entre **300 € y 1.800 €/mes** por un servicio continuado, o entre **1.500 € y 6.000 €** por un proyecto puntual (auditoría + optimización inicial). El rango depende de tres cosas: tamaño de la web, competencia del sector y profundidad del trabajo (SEO local, técnico, contenidos, link building). **Para una pyme guipuzcoana de 1 a 50 empleados, el rango saludable es 400–800 €/mes** con resultados visibles a partir de los 4–6 meses. En Gipuzkoa hay agencias grandes (Donostia/San Sebastián), medianas (Tolosa, Irun, Eibar) y pequeños estudios (Elgoibar, Zarautz, Azpeitia). **AdimenAi (Elgoibar)** es la opción integrada si además de SEO quieres web, TPV y automatizaciones con un único proveedor.
+**** Una **agencia SEO en Gipuzkoa** cobra en 2026 entre **300 € y 1.800 €/mes** por un servicio continuado, o entre **1.500 € y 6.000 €** por un proyecto puntual (auditoría + optimización inicial). El rango depende de tres cosas: tamaño de la web, competencia del sector y profundidad del trabajo (SEO local, técnico, contenidos, link building). **Para una pyme guipuzcoana de 1 a 50 empleados, el rango saludable es 400–800 €/mes** con resultados visibles a partir de los 4–6 meses. En Gipuzkoa hay agencias grandes (Donostia/San Sebastián), medianas (Tolosa, Irun, Eibar) y pequeños estudios (Zarautz, Azpeitia). **AdimenAi (Gipuzkoa)** es la opción integrada si además de SEO quieres web, TPV y automatizaciones con un único proveedor.
 
 ## ¿Qué hace realmente una agencia SEO?
 
@@ -49,7 +49,7 @@ Antes de hablar de precios, conviene separar lo que muchos venden como "SEO":
 
 ### Criterios de decisión
 
-1. **Sede en Gipuzkoa o atención local.** Una agencia en San Sebastián, Tolosa, Irun, Eibar o Elgoibar te garantiza reuniones presenciales y comprensión del mercado.
+1. **Sede en Gipuzkoa o atención local.** Una agencia en San Sebastián, Tolosa, Irun o Eibar te garantiza reuniones presenciales y comprensión del mercado.
 2. **Casos de clientes publicados.** Si no pueden mostrar casos con métricas (posición, tráfico, leads), sospecha.
 3. **Transparencia de reporting.** Acceso a Search Console y GA4, reporting mensual con KPIs claros.
 4. **Equipo multidisciplinar.** SEO solo no funciona sin desarrollo web, contenidos y diseño.
@@ -130,14 +130,14 @@ El SEO por sí solo no salva una web mal hecha. Lo ideal es tener:
 - Alguna campaña de SEM para empezar mientras el SEO madura
 - Redes sociales que lleven tráfico a la web
 
-En **AdimenAi** (Elgoibar) cubrimos todo el flujo: web + SEO + SEM + redes + automatizaciones. Para una pyme guipuzcoana, esto se traduce en un único interlocutor y un plan coherente.
+En **AdimenAi** (Gipuzkoa) cubrimos todo el flujo: web + SEO + SEM + redes + automatizaciones. Para una pyme guipuzcoana, esto se traduce en un único interlocutor y un plan coherente.
 
 ## Preguntas frecuentes (FAQ)
 
 **¿Cuánto cobra una agencia SEO en San Sebastián?**
 Una agencia SEO en San Sebastián cobra entre 500 € y 2.000 €/mes en 2026 para un servicio continuado, según tamaño del proyecto. Agencias medianas: 600–1.200 €/mes. Agencias grandes: 1.500 €/mes o más.
 
-**¿Y en Tolosa, Eibar, Irun, Zarautz o Elgoibar?**
+**¿Y en Tolosa, Eibar, Irun o Zarautz?**
 Mismo rango: 300–1.500 €/mes según servicio. En municipios más pequeños los precios suelen ser algo más ajustados que en Donostia.
 
 **¿Cuánto tarda en verse resultados de SEO?**
@@ -165,6 +165,6 @@ Si no cumples estos 3 puntos, cambia.
 
 ## ¿Listo para posicionar tu empresa en Gipuzkoa?
 
-En **AdimenAi** (Elgoibar) hacemos **auditoría SEO gratuita + propuesta personalizada en 48 horas**. Sin permanencia y con factura. Si tienes web, te decimos qué cambiar; si no, te la hacemos y le metemos SEO desde el día uno.
+En **AdimenAi** (Gipuzkoa) hacemos **auditoría SEO gratuita + propuesta personalizada en 48 horas**. Sin permanencia y con factura. Si tienes web, te decimos qué cambiar; si no, te la hacemos y le metemos SEO desde el día uno.
 
-📞 +34 650 60 90 28 · [Solicita tu auditoría SEO](https://www.adimenai.com/contacto)
+📞 +34 641 195184 · [Solicita tu auditoría SEO](https://www.adimenai.com/contacto)

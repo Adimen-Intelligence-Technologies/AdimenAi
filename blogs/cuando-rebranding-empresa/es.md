@@ -132,7 +132,7 @@ Un rebranding **no debería perjudicarte en Google** si se hace bien:
 - **Actualiza enlaces** externos importantes (directorios, partners).
 - **Deja pasar 3–6 meses** para que Google reindexe bajo la nueva marca.
 
-En **AdimenAi** (Elgoibar) hacemos todo el flujo: estrategia de marca + identidad visual + web + SEO + migración sin perder posiciones.
+En **AdimenAi** (Gipuzkoa) hacemos todo el flujo: estrategia de marca + identidad visual + web + SEO + migración sin perder posiciones.
 
 ## Preguntas frecuentes (FAQ)
 
@@ -168,6 +168,6 @@ Incluye formación y materiales de onboarding. Todos los puntos de contacto con 
 
 ## ¿Tu marca necesita un cambio?
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) hacemos un **diagnóstico de marca gratuito** en 30 minutos. Te decimos si necesitas rebranding, restyling, simplemente SEO o solo ajustar mensajes. Sin compromiso y con factura.
+En **AdimenAi** (Gipuzkoa) hacemos un **diagnóstico de marca gratuito** en 30 minutos. Te decimos si necesitas rebranding, restyling, simplemente SEO o solo ajustar mensajes. Sin compromiso y con factura.
 
-📞 +34 650 60 90 28 · [Reserva tu diagnóstico de marca](https://www.adimenai.com/contacto)
+📞 +34 641 195184 · [Reserva tu diagnóstico de marca](https://www.adimenai.com/contacto)

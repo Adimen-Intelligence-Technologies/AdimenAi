@@ -74,7 +74,7 @@ Arazoa diseinua ez da. **Kolore psikologia** da.
 - Beltza ilona (#37474F) → modernotasuna
 - Beltza (#FFFFFF) → garbikuntza
 
-**Kausa erreala:** AdimenAi (Elgoibar) → Urdin + Moras (#6C47FF) = %60 gehiago B2B leihatu.
+**Kausa erreala:** AdimenAi (Gipuzkoa) → Urdin + Moras (#6C47FF) = %60 gehiago B2B leihatu.
 
 ### Eko, jasgarritasuna eta produktu naturalak
 
@@ -148,7 +148,7 @@ Arazoa diseinua ez da. **Kolore psikologia** da.
 - Ondoren: Hazia (#4CAF50) + Beltza (#FFFFFF)
 - Emaitza: 3 hilabeterdi batean %25 gehiago pαciεntτas
 
-### AdimenAi — Elgoibar (Teknologia)
+### AdimenAi (Teknologia)
 - Urdin (#1976D2) + Moras (#6C47FF)
 - Emaitza: %60 gehiago B2B leihatu
 - *(Dugun kolorea dago jadanik. Zurea aukeratzen duzu hobetik.)*
@@ -175,6 +175,6 @@ Markaren lehen paleta kolorea: **doan** eta konpromisurik gabekoa. Psikologikoki
 
 ---
 
-**AdimenAi**-n (Elgoibar, Gipuzkoa) identitate bisuak sortzen dugu kolore psikologia erabat. Markaren lehen paleta kolorea **doan**.
+**AdimenAi**-n (Gipuzkoa) identitate bisuak sortzen dugu kolore psikologia erabat. Markaren lehen paleta kolorea **doan**.
 
-📞 +34 650 60 90 28 · [Jarri harremanetan](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Jarri harremanetan](https://adimenai.com/contactar)

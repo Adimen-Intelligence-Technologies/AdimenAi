@@ -206,7 +206,7 @@ La fidelización no funciona aislada. Conecta con:
 - **Atención al cliente:** para resolver incidencias.
 - **Web y redes:** para mantener el vínculo.
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) implementamos el sistema completo de fidelización para pymes: CRM + email + programa de puntos + automatización. La auditoría es **gratuita**.
+En **AdimenAi** (Gipuzkoa) implementamos el sistema completo de fidelización para pymes: CRM + email + programa de puntos + automatización. La auditoría es **gratuita**.
 
 ## Preguntas frecuentes (FAQ)
 
@@ -236,6 +236,6 @@ Pregunta a tus clientes: "¿Recomendarías [empresa] del 0 al 10?" Resta los det
 
 ## ¿Listo para multiplicar x3 el valor de tus clientes?
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) montamos tu **plan de fidelización completo**: CRM, email marketing, programa de puntos, automatizaciones y medición. La primera auditoría es **gratuita**.
+En **AdimenAi** (Gipuzkoa) montamos tu **plan de fidelización completo**: CRM, email marketing, programa de puntos, automatizaciones y medición. La primera auditoría es **gratuita**.
 
-📞 +34 650 60 90 28 · [Reserva tu auditoría gratuita](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Reserva tu auditoría gratuita](https://adimenai.com/contactar)

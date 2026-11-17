@@ -5,17 +5,13 @@ import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import { Wrapper } from "../Wrapper";
 import { toLocalePath } from "@/lib/locale-path";
+import { buildNavLinks } from "@/lib/nav-links";
 
 export function Footer() {
   const t = useTranslations("footerSection");
+  const tNav = useTranslations("nav");
   const locale = useLocale();
-  const pages = [
-    { label: t("pages.home"), href: toLocalePath(locale, "/") },
-    { label: t("pages.services"), href: toLocalePath(locale, "/#servicios") },
-    { label: t("pages.webDesign"), href: toLocalePath(locale, "/diseno-web") },
-    { label: t("pages.commerce"), href: toLocalePath(locale, "/#comercios") },
-    { label: t("pages.useCases"), href: toLocalePath(locale, "/#casos-de-uso") },
-  ];
+  const pages = buildNavLinks(locale, tNav);
 
   const otherPages = [
     { label: t("other.blog"), href: toLocalePath(locale, "/blog") },
@@ -26,8 +22,7 @@ export function Footer() {
 
   const contactItems = [
     { label: "info@adimenai.com", href: "mailto:info@adimenai.com" },
-    { label: "+34 650 60 90 28", href: "tel:+34650609028" },
-    { label: t("contact.office"), href: "/contactar" },
+    { label: "+34 641 195184", href: "tel:+34641195184" },
   ];
 
   return (

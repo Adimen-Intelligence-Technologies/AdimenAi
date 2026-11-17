@@ -41,7 +41,14 @@
     "managementSoftwareRetail": "Retail y comercio",
     "managementSoftwareHospitality": "Hostelería",
     "managementSoftwareFood": "Alimentación",
-    "managementSoftwareBeauty": "Belleza y wellness"
+    "managementSoftwareBeauty": "Belleza y wellness",
+    "pages": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "webDesign": "Diseño de páginas web",
+      "commerce": "Comercios",
+      "useCases": "Casos de uso"
+    }
   },
   "language": {
     "switch": "Cambiar idioma",
@@ -179,8 +186,6 @@
     "badge": "¿Necesitas más información?",
     "title": "Contacta con nosotros",
     "description": "",
-    "officeLabel": "Oficinas en España",
-    "officeValue": "Oficinas en Elgoibar",
     "emailLabel": "Email",
     "phoneLabel": "Teléfono"
   },
@@ -190,7 +195,7 @@
     "email": "Email",
     "emailPlaceholder": "jane@empresa.com",
     "phone": "Teléfono",
-    "phonePlaceholder": "+34 650 60 90 28",
+    "phonePlaceholder": "+34 641 195184",
     "subject": "Asunto",
     "subjectPlaceholder": "Selecciona un asunto...",
     "subjectOtherGroup": "Otro",
@@ -251,7 +256,7 @@
       "title": "Webs que convierten visitas en",
       "titleHighlight": "clientes",
       "description": "Diseñamos páginas web rápidas, atractivas y preparadas para aparecer en Google. Para que quien busca lo que haces te encuentre… y te llame.",
-      "ctaCall": "Llámanos: 650 60 90 28",
+      "ctaCall": "Llámanos: 641 195184",
       "ctaQuote": "Pide presupuesto gratis",
       "trust": [
         "Presupuesto cerrado, sin sorpresas",
@@ -261,7 +266,7 @@
       ],
       "mockup": {
         "url": "tunegocio.com",
-        "kicker": "Elgoibar · Gipuzkoa",
+        "kicker": "Gipuzkoa",
         "headline": "Tu negocio, a un clic de tus clientes",
         "cta": "Llamar ahora",
         "chipMobile": "Adaptada a móvil",
@@ -344,14 +349,14 @@
       "button": "Quiero aparecer en Google",
       "serp": {
         "label": "Así te encuentran tus clientes",
-        "query": "peluquería en Elgoibar",
+        "query": "peluquería en Donostia",
         "business": "Tu negocio",
-        "location": "Elgoibar",
+        "location": "Donostia",
         "call": "Llamar",
         "directions": "Cómo llegar",
         "url": "tunegocio.com",
-        "title": "Tu negocio · Elgoibar | Pide cita online",
-        "description": "Reserva tu cita en un minuto. Servicios, precios y horarios actualizados en el centro de Elgoibar."
+        "title": "Tu negocio · Donostia | Pide cita online",
+        "description": "Reserva tu cita en un minuto. Servicios, precios y horarios actualizados en el centro de Donostia."
       }
     },
     "process": {
@@ -424,7 +429,7 @@
     "cta": {
       "title": "¿Hablamos de tu nueva web?",
       "description": "Cuéntanos qué necesitas en una llamada y te decimos cómo lo haríamos y cuánto costaría. Sin compromiso.",
-      "button": "Llamar al 650 60 90 28"
+      "button": "Llamar al 641 195184"
     },
     "related": {
       "badge": "Blog",
@@ -459,7 +464,7 @@
         },
         {
           "question": "¿Trabajáis solo en Gipuzkoa?",
-          "answer": "Estamos en Elgoibar y trabajamos con negocios de toda Gipuzkoa y Euskadi, pero también hacemos webs para clientes de cualquier parte de España: casi todo el proceso se puede hacer en remoto."
+          "answer": "Trabajamos con negocios de toda Gipuzkoa y Euskadi, pero también hacemos webs para clientes de cualquier parte de España: casi todo el proceso se puede hacer en remoto."
         }
       ]
     }
@@ -470,21 +475,11 @@
       "other": "Otras páginas",
       "contact": "Contacto"
     },
-    "pages": {
-      "home": "Inicio",
-      "services": "Servicios",
-      "commerce": "Comercios",
-      "useCases": "Casos de uso",
-      "webDesign": "Diseño de páginas web"
-    },
     "other": {
       "blog": "Blog",
       "cookies": "Cookies",
       "privacy": "Política de privacidad",
       "terminos": "Términos y condiciones"
-    },
-    "contact": {
-      "office": "Oficinas en Elgoibar"
     }
   },
   "seo": {
@@ -514,7 +509,7 @@
     },
     "webDesign": {
       "title": "Diseño de páginas web en Gipuzkoa con SEO | AdimenAI",
-      "description": "Diseño de páginas web en Gipuzkoa con SEO incluido: webs rápidas, adaptadas a móvil y pensadas para que te llamen. Presupuesto cerrado. Llama al 650 60 90 28."
+      "description": "Diseño de páginas web en Gipuzkoa con SEO incluido: webs rápidas, adaptadas a móvil y pensadas para que te llamen. Presupuesto cerrado. Llama al 641 195184."
     }
   }
 }
