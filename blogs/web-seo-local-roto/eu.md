@@ -14,7 +14,7 @@ language: eu
 
 ## Lehenengo akatsa: SEO-a SEO lokalekin konfunditu
 
-Ez dira puntu guztiek. Google-en "industria-automatizazioa Espainian" lehen postan egon daitekezu, baina **ez da "industria-automatazioa Elgoibar"** SEO lokala hartu-duenetan desagertzen zure. Bilaketen % 46-k intentsio lokalia dute (Think with Google, 2024). Ez baduzu horan, ez zaude.
+Ez dira puntu guztiek. Google-en "industria-automatizazioa Espainian" lehen postan egon daitekezu, baina **ez da "industria-automatazioa Donostia"** SEO lokala hartu-duenetan desagertzen zure. Bilaketen % 46-k intentsio lokalia dute (Think with Google, 2024). Ez baduzu horan, ez zaude.
 
 Ohartarazpen-lehentasunak:
 
@@ -57,7 +57,7 @@ Telefonoa mugikorretan ordezkoa, izen bat "SL" duena beste kokpuntura, helbidea 
 
 ### 4 Kokapena fisikoa egiaztatua
 
-- Elgoibarrean lan egiten baduzu, Google-i ikus daitekeela zure kokapena.
+- Gipuzkoan lan egiten baduzu, Google-i ikus daitekeela zure kokapena.
 - PO Box bat ez da nahikoa; helbide fisikoa edo zerbitu-eremu zehatza behar duzu.
 - Gehitu zerbitu-eremuak zuzendu ari denean.
 
@@ -65,7 +65,7 @@ Telefonoa mugikorretan ordezkoa, izen bat "SL" duena beste kokpuntura, helbidea 
 
 - Zure weba hitz egiten duen herriak dituenak?
 - Google-i ikus daitekeela Gipuzkoan lokala dela, ez "hanetik hainbeste" dela.
-- Erabili kokapen-orriak: /pintxos-donostia, /toldos-hernani, /kiosko-elgoibar.
+- Erabili kokapen-orriak: /pintxos-donostia, /toldos-hernani, /kiosko-zarautz.
 
 ### 6 Telefonoa eta WhatsApp-a konektuta
 
@@ -130,4 +130,4 @@ Egiaztatu bizitzaren azuknatzea, posatze egin argazki errealak, NAP-a jarraian e
 
 ---
 
-AdimenAi-kin (Elgoibar, Gipuzkoa) SEO lokala doanikoa: erakutsiko gizu non hasteko, zein eremu falta eta nola eskatu iritziak. Arazi baduzu, **doanikoa**.**
+AdimenAi-kin (Gipuzkoa) SEO lokala doanikoa: erakutsiko gizu non hasteko, zein eremu falta eta nola eskatu iritziak. Arazi baduzu, **doanikoa**.**

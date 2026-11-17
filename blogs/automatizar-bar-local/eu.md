@@ -89,6 +89,6 @@ Automatizatzea ez da "hotza" izatea. **Denbora lortzea da:** gure barra, bezeroa
 
 ---
 
-**AdimenAi**-n (Elgoibar, Gipuzkoa) zure 5 automatizazio puntuak **doan begirada** ematen dugu. Lehen begirada doan eta konpromisurik gabekoa: lehen zein automatizatzea eta zenbat ordu itzortzen duen esaten dugu.
+**AdimenAi**-n (Gipuzkoa) zure 5 automatizazio puntuak **doan begirada** ematen dugu. Lehen begirada doan eta konpromisurik gabekoa: lehen zein automatizatzea eta zenbat ordu itzortzen duen esaten dugu.
 
-📞 +34 650 60 90 28 · [Jarri harremanetan](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Jarri harremanetan](https://adimenai.com/contactar)

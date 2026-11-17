@@ -10,7 +10,7 @@ language: es
 
 # Qué preguntar a una agencia de IA antes de contratarla (12 preguntas clave)
 
-**** Una **agencia de IA seria** te responde con claridad a 12 preguntas: ¿qué problema resuelve exactamente?, ¿quéROI puedo esperar?, ¿con qué herramientas trabaja?, ¿quién programa y supervisa?, ¿qué datos necesita?, ¿cómo prueba el sistema antes de entregarlo?, ¿qué pasa si falla?, ¿qué mantenimiento tiene?, ¿en qué idioma trabaja el agente?, ¿cumple RGPD y dónde se procesan los datos?, ¿qué entregables recibo y en qué formato?, ¿cuánto cuesta real y qué pasa si me quiero salir?. **Si una agencia no te puede contestar a estas 12 con plazos, cifras y ejemplos concretos, no la contrates.** En **AdimenAi** (Elgoibar, Gipuzkoa) las respondemos todas en la primera llamada, que es gratuita.
+**** Una **agencia de IA seria** te responde con claridad a 12 preguntas: ¿qué problema resuelve exactamente?, ¿quéROI puedo esperar?, ¿con qué herramientas trabaja?, ¿quién programa y supervisa?, ¿qué datos necesita?, ¿cómo prueba el sistema antes de entregarlo?, ¿qué pasa si falla?, ¿qué mantenimiento tiene?, ¿en qué idioma trabaja el agente?, ¿cumple RGPD y dónde se procesan los datos?, ¿qué entregables recibo y en qué formato?, ¿cuánto cuesta real y qué pasa si me quiero salir?. **Si una agencia no te puede contestar a estas 12 con plazos, cifras y ejemplos concretos, no la contrates.** En **AdimenAi** (Gipuzkoa) las respondemos todas en la primera llamada, que es gratuita.
 
 ## ¿Por qué importa tanto preguntar antes de firmar?
 
@@ -166,7 +166,7 @@ Para una pyme, lo ideal es:
 5. **Propiedad del código y los datos** desde el día uno.
 6. **Precio cerrado por fases**, sin sorpresas.
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) cumplimos los 6 puntos. La **primera auditoría es gratuita** y la respuesta a las 12 preguntas de arriba es la misma: concreta, con cifras y ejemplos.
+En **AdimenAi** (Gipuzkoa) cumplimos los 6 puntos. La **primera auditoría es gratuita** y la respuesta a las 12 preguntas de arriba es la misma: concreta, con cifras y ejemplos.
 
 ## Preguntas frecuentes (FAQ)
 
@@ -198,4 +198,4 @@ Generalmente no. Las empresas que implantan IA suelen reubicar personas, no desp
 
 En **AdimenAi** contestamos las 12 preguntas con **tu** situación concreta, no con generalidades. La primera auditoría es **gratuita**, sin compromiso y con factura si decides seguir.
 
-📞 +34 650 60 90 28 · [Reserva tu auditoría gratuita](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Reserva tu auditoría gratuita](https://adimenai.com/contactar)

@@ -101,6 +101,6 @@ Nahiztasuna: WhatsApp sarrerako puntu gisa + TPV irteerako.
 
 ---
 
-AdimenAi-kin (Elgoibar, Gipuzkoa) WhatsApp-a TPV, web, eta CRM-ara konektaten dugu: ez paperekin, komanda galduenik. Lehen egiaztapena **doanikoa** da eta emaitzak 1 aste.
+AdimenAi-kin (Gipuzkoa) WhatsApp-a TPV, web, eta CRM-ara konektaten dugu: ez paperekin, komanda galduenik. Lehen egiaztapena **doanikoa** da eta emaitzak 1 aste.
 
-📞 +34 650 60 90 28 · [Habla con nosotros](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Habla con nosotros](https://adimenai.com/contactar)

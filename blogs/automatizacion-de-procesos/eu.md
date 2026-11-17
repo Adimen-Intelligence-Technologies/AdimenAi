@@ -77,7 +77,7 @@ Egia esan beste egiteak gehiago balio du, beraz, bost gauza argitzea ondo dago.
 
 ## Prozesu industrialen automatizazioa: gure espezialitatea
 
-**Adimen**-en (Elgoibar, Gipuzkoa) hau egiten dugu: industriako enpresen eta haien hornikuntza katearen prozesuak automatizatzea. **600 prozesu baino gehiago** automatizatu ditugu benetako bezeroentzat.
+**Adimen**-en (Gipuzkoa) hau egiten dugu: industriako enpresen eta haien hornikuntza katearen prozesuak automatizatzea. **600 prozesu baino gehiago** automatizatu ditugu benetako bezeroentzat.
 
 Industria sektorean espezializatuta egoteagatik arrazaia azaldu erraz da: fabrikako prozesu automatizatu batek ez du bulegoko ordu bat aurrezten, **ekoizpen lerroa gelditzea saihesten du**. Marjinak xehetasunetan daude: bat datorren albarana, inork ikusten ez duen ihes egiten duen pieza, bezeroak galdatzen duenean trazabilitate gabeko lotea. Horietako akats bakoitzak dirua, denbora eta ospearen kostua du, eta inoiz ez da "zapore gehiago lan eginez" konpontzen.
 
@@ -137,6 +137,6 @@ Lehenengo egiten duguna **30 minutuko dei bat da, konpromisorik gabe**, non:
 - Esaten dizugu zein prozesu automatizatzeko merezi duen eta zein ez.
 - Ematen dizugu kostu eta epearen estimazioa interesatzen zaion horretarako.
 
-**Aukeratu nahi duzun modua:** deitu gaitzazu **+34 650 60 90 28** telefonan edo bidal iezaguzu mezu bat inprimukoak. 24 ordu baino gutxiagorako erresponduten dizugu, eta badagok, zure prozesuen doan auditoria batekin hasten gara.
+**Aukeratu nahi duzun modua:** deitu gaitzazu **+34 641 195184** telefonan edo bidal iezaguzu mezu bat inprimukoak. 24 ordu baino gutxiagorako erresponduten dizugu, eta badagok, zure prozesuen doan auditoria batekin hasten gara.
 
-📞 +34 650 60 90 28 · [Kontaktu formularioa](https://www.adimenai.com/eu/contacto)
+📞 +34 641 195184 · [Kontaktu formularioa](https://www.adimenai.com/eu/contacto)

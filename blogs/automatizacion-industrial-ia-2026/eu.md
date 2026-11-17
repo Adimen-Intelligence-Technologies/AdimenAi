@@ -88,4 +88,4 @@ Hasierako auditoriaren zati bat, hain zuzen, datuen kalitatea diagnostikatzea da
 
 Erreserbatu **30 minutuko doako dei bat** eta zein prozesutan irabaziko zenukeen gehien automatizatuz, zenbat kostako litzaizukeen eta zenbat denbora beharko zenukeen esango dizugu. Konpromisorik gabe eta fakturarekin aurrera jarraitzea erabakitzen baduzu.
 
-📞 +34 650 60 90 28 · [Kontaktu formularioa](https://www.adimenai.com/eu/contacto)
+📞 +34 641 195184 · [Kontaktu formularioa](https://www.adimenai.com/eu/contacto)

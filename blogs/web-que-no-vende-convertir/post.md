@@ -194,7 +194,7 @@ Una web que convierte bien es solo una parte. Necesita:
 - **Chatbot IA** para responder dudas y captar fuera de horario.
 - **Retargeting** para impactar al 95 % que no convierte en la primera visita.
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) diseñamos webs pensadas para conversión desde el primer día: SEO + CRO + chatbot + CRM + medición. La auditoría inicial es **gratuita**.
+En **AdimenAi** (Gipuzkoa) diseñamos webs pensadas para conversión desde el primer día: SEO + CRO + chatbot + CRM + medición. La auditoría inicial es **gratuita**.
 
 ## Preguntas frecuentes (FAQ)
 
@@ -221,6 +221,6 @@ Aprovecha para hacerla con CRO + SEO + chatbot desde el inicio. Es más barato q
 
 ## ¿Quieres una web que multiplique tus clientes?
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) hacemos **auditoría CRO + mejora de conversión sin compromiso**: te decimos qué falla y qué cambiar, con cifras. Si decides seguir, presupuesto cerrado.
+En **AdimenAi** (Gipuzkoa) hacemos **auditoría CRO + mejora de conversión sin compromiso**: te decimos qué falla y qué cambiar, con cifras. Si decides seguir, presupuesto cerrado.
 
-📞 +34 650 60 90 28 · [Solicita tu auditoría CRO](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Solicita tu auditoría CRO](https://adimenai.com/contactar)

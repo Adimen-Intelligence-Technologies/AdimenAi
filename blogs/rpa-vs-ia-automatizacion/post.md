@@ -192,4 +192,4 @@ Depende del proveedor. Lo ideal es procesamiento en la UE y con datos que no se 
 
 En **AdimenAi** hacemos la **auditoría inicial gratis** de tus procesos. Vemos qué tareas son candidatas a RPA, cuáles a IA y cuáles a la combinación. Después decides con datos, no con intuición.
 
-📞 +34 650 60 90 28 · [Reserva tu auditoría gratuita](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Reserva tu auditoría gratuita](https://adimenai.com/contactar)

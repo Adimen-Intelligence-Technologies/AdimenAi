@@ -136,4 +136,4 @@ Una web requiere mantenimiento: actualizaciones de seguridad, plugin, copias, so
 
 En **AdimenAi** diseñamos webs pensadas para captar clientes: con SEO desde el primer día, integradas con tu TPV o ERP y con formación para que tú mismo la mantengas. Empezamos con una llamada gratuita de 30 minutos donde vemos qué necesitas realmente y te pasamos un presupuesto cerrado.
 
-📞 +34 650 60 90 28 · [Solicita tu presupuesto](https://www.adimenai.com/contacto)
+📞 +34 641 195184 · [Solicita tu presupuesto](https://www.adimenai.com/contacto)

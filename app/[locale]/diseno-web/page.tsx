@@ -55,17 +55,11 @@ export default async function WebDesignPage({ params }: Props) {
     description: tSeo("description"),
     url: `${SITE_URL}${toLocalePath(locale, PATH)}`,
     provider: {
-      "@type": "LocalBusiness",
+      "@type": "Organization",
       name: SITE_NAME,
       url: SITE_URL,
-      telephone: "+34650609028",
+      telephone: "+34641195184",
       email: "info@adimenai.com",
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: "Elgoibar",
-        addressRegion: "Gipuzkoa",
-        addressCountry: "ES",
-      },
     },
     areaServed: [
       { "@type": "AdministrativeArea", name: "Gipuzkoa" },

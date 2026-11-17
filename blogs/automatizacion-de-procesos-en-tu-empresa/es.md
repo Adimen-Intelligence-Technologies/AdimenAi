@@ -138,7 +138,7 @@ Responde con honestidad. Si seis o más tienen respuesta clara, ya tienes un pro
 
 ## ¿Lo aplicamos a tu caso?
 
-Esto es exactamente lo que hacemos en **Adimen** (Elgoibar, Gipuzkoa): automatizar procesos, cada vez más en empresas industriales, con más de **600 procesos** automatizados en clientes reales.
+Esto es exactamente lo que hacemos en **Adimen** (Gipuzkoa): automatizar procesos, cada vez más en empresas industriales, con más de **600 procesos** automatizados en clientes reales.
 
 El primer paso es una **llamada de 30 minutos, sin compromiso**, en la que:
 
@@ -146,6 +146,6 @@ El primer paso es una **llamada de 30 minutos, sin compromiso**, en la que:
 - Aplicamos el filtro de las cuatro preguntas a tus procesos y te decimos cuál tiene sentido.
 - Te damos una estimación de coste y de plazo para el primero.
 
-**Elige cómo prefieres:** llámanos al **+34 650 60 90 28** o envíanos un mensaje con el formulario y te respondemos en menos de 24 horas laborables, con una propuesta concreta para tu caso.
+**Elige cómo prefieres:** llámanos al **+34 641 195184** o envíanos un mensaje con el formulario y te respondemos en menos de 24 horas laborables, con una propuesta concreta para tu caso.
 
-📞 +34 650 60 90 28 · [Formulario de contacto](https://www.adimenai.com/contacto)
+📞 +34 641 195184 · [Formulario de contacto](https://www.adimenai.com/contacto)

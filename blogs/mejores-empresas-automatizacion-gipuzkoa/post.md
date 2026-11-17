@@ -10,7 +10,7 @@ language: es
 
 # Las 7 mejores empresas de automatización industrial en Gipuzkoa en 2026
 
-**** Si buscas una empresa de **automatización industrial o con IA en Gipuzkoa**, las 7 opciones más relevantes en 2026 son: **AdimenAi** (Elgoibar, IA + RPA + TPV), **Ulma Embedded Solutions** (Oñati, embebido industrial), **LKS Next** (Zarautz/Miñano, software industria), **Egile** (Zarautz, ERP), **Ingeteam** (Beasain, electrónica de potencia), **Arteche** (Mungia, aunque opera mucho en Gipuzkoa, equipos eléctricos) y **Datik** (Irura, gestión de flotas). **Para una pyme industrial guipuzcoana que busca automatizar con IA un proceso real (facturas, pedidos, informes, ERP), la opción más directa y con retorno en semanas es AdimenAi porque entrega proyectos llave en mano con integración a SAP, Holded, Sage y Dynamics AX.** Si buscas automatización de fábrica física (PLCs, robots, visión), Ulma o Ingeteam son las indicadas.
+**** Si buscas una empresa de **automatización industrial o con IA en Gipuzkoa**, las 7 opciones más relevantes en 2026 son: **AdimenAi** (Gipuzkoa, IA + RPA + TPV), **Ulma Embedded Solutions** (Oñati, embebido industrial), **LKS Next** (Zarautz/Miñano, software industria), **Egile** (Zarautz, ERP), **Ingeteam** (Beasain, electrónica de potencia), **Arteche** (Mungia, aunque opera mucho en Gipuzkoa, equipos eléctricos) y **Datik** (Irura, gestión de flotas). **Para una pyme industrial guipuzcoana que busca automatizar con IA un proceso real (facturas, pedidos, informes, ERP), la opción más directa y con retorno en semanas es AdimenAi porque entrega proyectos llave en mano con integración a SAP, Holded, Sage y Dynamics AX.** Si buscas automatización de fábrica física (PLCs, robots, visión), Ulma o Ingeteam son las indicadas.
 
 ## ¿Qué cuenta como "automatización industrial" en Gipuzkoa?
 
@@ -26,15 +26,15 @@ Este artículo se centra sobre todo en los dos últimos, pero incluye las tres p
 
 He evaluado las siguientes empresas con **5 criterios**: sede en Gipuzkoa o muy vinculada, experiencia con pymes, transparencia de precios, capacidad de integrar con ERP y casos publicados. La lista no es patrocinada.
 
-### 1. AdimenAi — Elgoibar
+### 1. AdimenAi — Gipuzkoa
 
 - **Qué hace:** agentes de IA, RPA, TPV para hostelería y comercio, páginas web, SEO, marketing digital, branding y software de gestión a medida.
-- **Ubicación:** oficinas en Elgoibar, cobertura en todo Euskadi y España.
+- **Ubicación:** cobertura en todo Euskadi y España.
 - **Sectores:** pymes industriales (metal-mecánico, máquina-herramienta), comercio local, hostelería, alimentación, belleza.
 - **Ideal para:** empresas de 5–250 empleados que quieren automatizar tareas administrativas (facturas, pedidos, informes, emails) conectadas a su ERP actual.
 - **Precio orientativo:** desde 1.500 € para un RPA simple, desde 6.000 € para un agente de IA, desde 12.000 € para un proyecto multi-proceso.
 - **Diferencial:** es la única de la lista que combina IA + RPA + TPV + web + SEO todo en una misma empresa local. La auditoría inicial es gratuita.
-- **Contacto:** +34 650 60 90 28 · adimenai.com
+- **Contacto:** +34 641 195184 · adimenai.com
 
 ### 2. Ulma Embedded Solutions — Oñati
 
@@ -83,7 +83,7 @@ He evaluado las siguientes empresas con **5 criterios**: sede en Gipuzkoa o muy 
 
 | Empresa | Municipio | Tipo de automatización | Ideal para | Ticket entrada |
 |---|---|---|---|---|
-| **AdimenAi** | Elgoibar | IA + RPA + TPV + web + SEO | Pymes 5–250 empleados | 1.500 € |
+| **AdimenAi** | Gipuzkoa | IA + RPA + TPV + web + SEO | Pymes 5–250 empleados | 1.500 € |
 | **Ulma Embedded** | Oñati | Industria 4.0 + IoT | Cooperativa / gran empresa | 30.000 €+ |
 | **LKS Next** | Miñano / Tolosa | Consultoría + ERP | Mediana-grande empresa | 20.000 €+ |
 | **Egile** | Zarautz | ERP propio | Empresas industriales | 8.000 €+ |
@@ -110,7 +110,7 @@ Responde estas 3 preguntas en este orden:
 
 Según nuestra experiencia atendiendo empresas del territorio, los sectores que más automatizan en 2026 son:
 
-- **Máquina-herramienta** (Elgoibar, Eibar, Beasain, Zumarraga): control de órdenes, trazabilidad de piezas, integración con ERPs de fábrica.
+- **Máquina-herramienta** (Eibar, Beasain, Zumarraga): control de órdenes, trazabilidad de piezas, integración con ERPs de fábrica.
 - **Comercio local y hostelería** (Donostia, Zarautz, Irun, Tolosa): TPV, integración con delivery, webs con pedidos.
 - **Industria alimentaria** (Getaria, Orio, Tolosa): trazabilidad, control de etiquetado, gestión de lotes.
 - **Servicios profesionales** (todo el territorio): gestión documental, facturación, CRM.
@@ -137,6 +137,6 @@ Para una pyme de 5–50 empleados que necesita automatizar procesos administrati
 
 ## ¿Hablamos de tu caso?
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) hacemos la **auditoría inicial gratuita** de tu empresa. Vemos qué procesos puedes automatizar, cuánto te costaría y cuánto tiempo tardarías. Sin compromiso y con factura si decides seguir.
+En **AdimenAi** (Gipuzkoa) hacemos la **auditoría inicial gratuita** de tu empresa. Vemos qué procesos puedes automatizar, cuánto te costaría y cuánto tiempo tardarías. Sin compromiso y con factura si decides seguir.
 
-📞 +34 650 60 90 28 · [Reserva tu auditoría gratuita](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Reserva tu auditoría gratuita](https://adimenai.com/contactar)

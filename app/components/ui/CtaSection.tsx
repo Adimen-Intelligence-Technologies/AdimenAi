@@ -16,36 +16,39 @@ export function CtaSection({ namespace = "ctaSection", id = "comercios" }: CtaSe
   const locale = useLocale();
 
   return (
-    <section id={id} className="relative overflow-hidden border-b border-zinc-200">
-      <div className="pointer-events-none absolute inset-0 z-0">
-        <MagicRings
-          color="#7252FF"
-          colorTwo="#7252FF"
-          speed={0.6}
-          ringCount={5}
-          attenuation={8}
-          opacity={0.35}
-          blur={2}
-        />
-      </div>
-
-     
-
+    <section id={id} className="border-b border-zinc-200">
       <Wrapper>
-        <div className="relative z-10 mx-auto max-w-3xl text-center text-black px-4 py-12 sm:px-8 sm:py-16 lg:py-24">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-tight text-balance">
-            {t("title")}
-          </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-lg leading-tight sm:text-base tracking-tight text-black">
-            {t("description")}
-          </p>
-          <div className="mt-8 flex justify-center">
-            <Button
-              href="tel:+34650609028"
-              color="purple"
-            >
-             {t("button")}
-            </Button>
+        <div className="relative overflow-hidden bg-[#1C1135] px-4 py-12 sm:px-8 sm:py-16 lg:py-24">
+          <div className="pointer-events-none absolute inset-0 z-0">
+            <MagicRings
+              color="#7252FF"
+              colorTwo="#7252FF"
+              speed={0.6}
+              ringCount={6}
+              attenuation={4}
+              lineThickness={3}
+              baseRadius={0.55}
+              radiusStep={0.14}
+              opacity={0.7}
+              blur={1}
+            />
+          </div>
+
+          <div className="relative z-10 mx-auto max-w-3xl text-center text-white">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-tight text-balance">
+              {t("title")}
+            </h2>
+            <p className="mx-auto mt-4 max-w-2xl text-lg leading-tight sm:text-base tracking-tight text-white/70">
+              {t("description")}
+            </p>
+            <div className="mt-8 flex justify-center">
+              <Button
+                href="tel:+34641195184"
+                color="purple"
+              >
+               {t("button")}
+              </Button>
+            </div>
           </div>
         </div>
       </Wrapper>

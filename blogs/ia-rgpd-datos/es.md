@@ -115,6 +115,6 @@ La regla no es "no uses IA con clientes". Es "usa IA **de forma responsable** co
 
 ---
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) usamos IA empresarial con encargo de tratamiento para pymes. La primera valoración de privacidad es **gratuita**: te decimos qué herramientas puedes usar y cómo anonimizar tus datos sin perder funcionalidad.
+En **AdimenAi** (Gipuzkoa) usamos IA empresarial con encargo de tratamiento para pymes. La primera valoración de privacidad es **gratuita**: te decimos qué herramientas puedes usar y cómo anonimizar tus datos sin perder funcionalidad.
 
-📞 +34 650 60 90 28 · [Habla con nosotros](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Habla con nosotros](https://adimenai.com/contactar)

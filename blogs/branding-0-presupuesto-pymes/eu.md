@@ -123,7 +123,7 @@ Hau da branding-a. Ez 10.000 €, **diskiplina vizualea** behar du.
 
 ---
 
-AdimenAi-kin (Elgoibar, Gipuzkoa) laguntzen dugu zure identitate vizuelaren eta branding-sistema erabili etorkizunean: koloreak, letra-tipoak, tonua, plantilak. Lehenengo branding-defizientzia saia **doanikoa** da.
+AdimenAi-kin (Gipuzkoa) laguntzen dugu zure identitate vizuelaren eta branding-sistema erabili etorkizunean: koloreak, letra-tipoak, tonua, plantilak. Lehenengo branding-defizientzia saia **doanikoa** da.
 
-📞 +34 650 60 90 28 · [Habla con nosotros](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Habla con nosotros](https://adimenai.com/contactar)
 

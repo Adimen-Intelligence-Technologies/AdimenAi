@@ -128,4 +128,4 @@ Ez oraindik. Norma kanpokoa enpresa handiei eta kadura-hazpeniari egoturri du.
 
 ---
 
-AdimenAi-kin (Elgoibar, Gipuzkoa) laguntzen dugu ETEekin bere fakturazio- edo POS-programa ERP-arekin, web-arekin edo kudeatzaile-sistemarekin konectatzen. Zure programa 2026-k prestatuta dagoenaren **balioztapena** **doanikoa** da.
+AdimenAi-kin (Gipuzkoa) laguntzen dugu ETEekin bere fakturazio- edo POS-programa ERP-arekin, web-arekin edo kudeatzaile-sistemarekin konectatzen. Zure programa 2026-k prestatuta dagoenaren **balioztapena** **doanikoa** da.

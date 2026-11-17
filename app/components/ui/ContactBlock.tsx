@@ -44,19 +44,13 @@ export function ContactBlock({ defaultSubject }: ContactBlockProps = {}) {
           </div>
           <div className="lg:flex-1 space-y-5">
             <div>
-              <p className="text-zinc-700 text-sm tracking-tight mb-2">
-                {t("officeLabel")}
-              </p>
-              <p className="tracking-tight font-bold">{t("officeValue")}</p>
-            </div>
-            <div>
               <p className="text-zinc-700 text-sm tracking-tight mb-2">{t("emailLabel")}</p>
               <a href="mailto:info@adimenai.com" className="tracking-tight font-bold hover:text-[#6C47FF] transition-colors">info@adimenai.com</a>
             </div>
 
             <div>
               <p className="text-zinc-700 text-sm tracking-tight mb-2">{t("phoneLabel")}</p>
-              <a href="tel:+34650609028" className="tracking-tight font-bold hover:text-[#6C47FF] transition-colors">+34 650 60 90 28</a>
+              <a href="tel:+34641195184" className="tracking-tight font-bold hover:text-[#6C47FF] transition-colors">+34 641 195184</a>
             </div>
           </div>
         </div>

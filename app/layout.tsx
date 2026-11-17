@@ -11,19 +11,18 @@ import { SITE_NAME, SITE_URL, DEFAULT_OG_IMAGE } from "@/lib/seo";
 
 const organizationJsonLd = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": "Organization",
   name: SITE_NAME,
   url: SITE_URL,
   logo: `${SITE_URL}${DEFAULT_OG_IMAGE}`,
   image: `${SITE_URL}${DEFAULT_OG_IMAGE}`,
   email: "info@adimenai.com",
-  telephone: "+34650609028",
-  address: {
-    "@type": "PostalAddress",
-    addressLocality: "Elgoibar",
-    addressRegion: "Gipuzkoa",
-    addressCountry: "ES",
-  },
+  telephone: "+34641195184",
+  areaServed: [
+    { "@type": "AdministrativeArea", name: "Gipuzkoa" },
+    { "@type": "AdministrativeArea", name: "Euskadi" },
+    { "@type": "Country", name: "España" },
+  ],
 };
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });

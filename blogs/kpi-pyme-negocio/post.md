@@ -208,7 +208,7 @@ Un buen sistema de KPIs debería:
 - **Alertarte** cuando un KPI se sale del rango.
 - **Generar el informe** automáticamente.
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) diseñamos e implementamos este sistema para pymes: conectamos ERP + CRM + TPV + web + Ads y montamos un dashboard automático. La auditoría es **gratuita**.
+En **AdimenAi** (Gipuzkoa) diseñamos e implementamos este sistema para pymes: conectamos ERP + CRM + TPV + web + Ads y montamos un dashboard automático. La auditoría es **gratuita**.
 
 ## Preguntas frecuentes (FAQ)
 
@@ -238,6 +238,6 @@ Entre 1.500 € y 6.000 € para una pyme, más 100–300 €/mes de mantenimien
 
 ## ¿Quieres saber si tu pyme va bien o mal?
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) montamos tu **dashboard de KPIs conectado con todo** en 2–4 semanas. La primera auditoría es **gratuita** y te decimos qué medir y por dónde empezar.
+En **AdimenAi** (Gipuzkoa) montamos tu **dashboard de KPIs conectado con todo** en 2–4 semanas. La primera auditoría es **gratuita** y te decimos qué medir y por dónde empezar.
 
-📞 +34 650 60 90 28 · [Reserva tu auditoría gratuita](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Reserva tu auditoría gratuita](https://adimenai.com/contactar)

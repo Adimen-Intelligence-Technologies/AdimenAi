@@ -128,6 +128,6 @@ La inversión empieza en **8,000 €** (RTX 6000 + servidor) y crece según nece
 
 ---
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) auditamos tu infraestructura de IA — hardware, compliance y modelos locales — en un día. La primera revisión es **gratuita** y sin compromiso.
+En **AdimenAi** (Gipuzkoa) auditamos tu infraestructura de IA — hardware, compliance y modelos locales — en un día. La primera revisión es **gratuita** y sin compromiso.
 
-📞 +34 650 60 90 28 · [Habla con nosotros](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Habla con nosotros](https://adimenai.com/contactar)

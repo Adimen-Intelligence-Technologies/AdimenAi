@@ -125,6 +125,6 @@ Eso es branding. No necesitas 10.000 €, necesitas **disciplina visual**.
 
 ---
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) ayudamos a pymes a crear su identidad visual y sistema de branding desde 0: colores, tipografía, tono, plantillas. La primera sesión de definición de marca es **gratuita**.
+En **AdimenAi** (Gipuzkoa) ayudamos a pymes a crear su identidad visual y sistema de branding desde 0: colores, tipografía, tono, plantillas. La primera sesión de definición de marca es **gratuita**.
 
-📞 +34 650 60 90 28 · [Habla con nosotros](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Habla con nosotros](https://adimenai.com/contactar)

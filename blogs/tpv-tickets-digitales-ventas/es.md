@@ -81,7 +81,7 @@ En 2 semanas ya sabes si funciona.
 - Mensaje: "¿Te ha gustado hoy? Comparte y llévate el postre gratis la próxima".
 - Resultado: 15 % más de repetición, 8 % más de tráfico en redes.
 
-### Tienda de ropa en Elgoibar
+### Tienda de ropa en Donostia
 - QR a la web con el producto del mes.
 - WhatsApp con catálogo completo.
 - Resultado: 12 pedidos online/mes que no existían antes.
@@ -121,6 +121,6 @@ No necesitas cambiar de TPV. Solo activar una función que casi todos ya tienen.
 
 ---
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) configuramos tu TPV para emitir tickets digitales conectados a tu web, WhatsApp o CRM. La primera revisión es **gratuita** y sin compromiso.
+En **AdimenAi** (Gipuzkoa) configuramos tu TPV para emitir tickets digitales conectados a tu web, WhatsApp o CRM. La primera revisión es **gratuita** y sin compromiso.
 
-📞 +34 650 60 90 28 · [Habla con nosotros](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Habla con nosotros](https://adimenai.com/contactar)

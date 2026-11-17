@@ -14,7 +14,7 @@ language: es
 
 ## El primer error: confundir SEO con SEO local
 
-No son lo mismo. Puedes estar primero en Google para "automatización con IA en España", pero **desaparecer en "automatización con IA en Elgoibar"** si tu SEO local está roto. El 46 % de las búsquedas en Google tiene intención local (Think with Google, 2024). Si allí no estás, no existes.
+No son lo mismo. Puedes estar primero en Google para "automatización con IA en España", pero **desaparecer en "automatización con IA en Donostia"** si tu SEO local está roto. El 46 % de las búsquedas en Google tiene intención local (Think with Google, 2024). Si allí no estás, no existes.
 
 Señal de alerta:
 
@@ -57,7 +57,7 @@ Un teléfono móvil en vez de fijo, un nombre con "SL" y sin "SL" en Google, una
 
 ### 4. Localización física verificada
 
-- Si vendes en Elgoibar, Google necesita ver claramente que allí estás.
+- Si vendes en Gipuzkoa, Google necesita ver claramente que allí estás.
 - No basta con un P.O. Box; necesitas dirección física o área de cobertura definida.
 - Añade zonas de cobertión si sirves a varios municipios.
 
@@ -65,7 +65,7 @@ Un teléfono móvil en vez de fijo, un nombre con "SL" y sin "SL" en Google, una
 
 - Tu web mentiona los pueblos donde trabajas.
 - Google necesita ver que eres local de Gipuzkoa, no de "por ahí".
-- Usa location pages: `/pintxos-san-sebastian`, `/toldos-hernani`, `/kiosko-elgoibar`.
+- Usa location pages: `/pintxos-san-sebastian`, `/toldos-hernani`, `/kiosko-donostia`.
 
 ### 6. Teléfono y WhatsApp conectados
 
@@ -132,4 +132,4 @@ No necesitas una agencia SEO para empezar. Necesitas 20 minutos y una intención
 
 ---
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) auditamos SEO local gratis: te decimos por dónde empezar, qué campos faltan y cómo pedir las primeras reseñas. Si decides seguir, presupuesto cerrado. 📞 +34 650 60 90 28 · [Habla con nosotros](https://adimenai.com/contactar)
+En **AdimenAi** (Gipuzkoa) auditamos SEO local gratis: te decimos por dónde empezar, qué campos faltan y cómo pedir las primeras reseñas. Si decides seguir, presupuesto cerrado. 📞 +34 641 195184 · [Habla con nosotros](https://adimenai.com/contactar)

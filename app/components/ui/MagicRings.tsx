@@ -259,8 +259,8 @@ export default function MagicRings({
 
 			uniforms.uTime.value = t * 0.001 * p.speed;
 			uniforms.uAttenuation.value = p.attenuation;
-			uniforms.uColor.value.set(p.color);
-			uniforms.uColorTwo.value.set(p.colorTwo);
+			uniforms.uColor.value.setStyle(p.color, THREE.LinearSRGBColorSpace);
+			uniforms.uColorTwo.value.setStyle(p.colorTwo, THREE.LinearSRGBColorSpace);
 			uniforms.uLineThickness.value = p.lineThickness;
 			uniforms.uBaseRadius.value = p.baseRadius;
 			uniforms.uRadiusStep.value = p.radiusStep;

@@ -129,4 +129,4 @@ La IA no emite facturas. Pero puede ayudarte a validar datos, leer PDFs de factu
 
 ---
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) ayudamos a pymes a conectar su software de facturación o POS con su ERP, web o sistema de gestión. Si quieres comprobar si tu sistema está preparado para 2026, la valoración es **gratuita**.
+En **AdimenAi** (Gipuzkoa) ayudamos a pymes a conectar su software de facturación o POS con su ERP, web o sistema de gestión. Si quieres comprobar si tu sistema está preparado para 2026, la valoración es **gratuita**.

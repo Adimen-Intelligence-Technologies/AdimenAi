@@ -53,7 +53,7 @@ Ia hedatu "truke" izatea. Ia lagundu.
 
 ## Adibide erreal bat 5 minututan
 
-Maria, Elgoibarko atelesa:
+Maria, Gipuzkoako atelesa:
 
 1. 5 email jasaten
 2. Faktura 3 atzeratuta
@@ -127,4 +127,4 @@ Praktikatu: "Otoñean," "Ez da nire lehentasuna orain," "Beste batek egin dezake
 
 ---
 
-AdimenAi-kin (Elgoibar, Gipuzkoa) laguntzen dugu pymeentzat lehentasun-ordainazioa sistema bat sortzen, **doanikoa**.**
+AdimenAi-kin (Gipuzkoa) laguntzen dugu pymeentzat lehentasun-ordainazioa sistema bat sortzen, **doanikoa**.**

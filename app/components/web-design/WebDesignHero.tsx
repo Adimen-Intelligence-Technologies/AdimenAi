@@ -39,7 +39,7 @@ export function WebDesignHero() {
                 className="mt-8 flex flex-col gap-3 sm:flex-row animate-hero-fade"
                 style={{ animationDelay: "0.4s" }}
               >
-                <Button href="tel:+34650609028" color="purple" className="whitespace-nowrap text-base sm:text-lg">
+                <Button href="tel:+34641195184" color="purple" className="whitespace-nowrap text-base sm:text-lg">
                   <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
                   {t("ctaCall")}
                 </Button>

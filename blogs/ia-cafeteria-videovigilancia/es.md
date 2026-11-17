@@ -136,6 +136,6 @@ La primera auditoría de IA con tu CCTV: **gratuita** y sin compromiso.
 
 ---
 
-En **AdimenAi** (Elgoibar, Gipuzkoa) configuramos IA sobre CCTV existente para cafeterías y bares del territorio. La primera revisión es **gratuita** y sin compromiso: te decimos cuántas tazas produce tu barra cada hora y dónde está el cuello de botella.
+En **AdimenAi** (Gipuzkoa) configuramos IA sobre CCTV existente para cafeterías y bares del territorio. La primera revisión es **gratuita** y sin compromiso: te decimos cuántas tazas produce tu barra cada hora y dónde está el cuello de botella.
 
-📞 +34 650 60 90 28 · [Habla con nosotros](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Habla con nosotros](https://adimenai.com/contactar)

@@ -193,7 +193,7 @@ Errealitatea da **ez duzula trafiko gehiago behar, kobertura hobea, jarraipen ho
 
 Hori **erakarpen + bihurketa + fidelizazio** sistema bat da. 500 € eta 1.500 €/hilean artean balio du mantentzeak, baina 12 hilabetetan leadak x3-x5 biderkatzen ditu.
 
-**AdimenAIn** (Elgoibar, Gipuzkoa) sistema oso hori diseinatu eta ezartzen dugu Euskadiko ETEentzat. Auditoria **doakoa** da eta nondik hasi esango dizugu.
+**AdimenAIn** (Gipuzkoa) sistema oso hori diseinatu eta ezartzen dugu Euskadiko ETEentzat. Auditoria **doakoa** da eta nondik hasi esango dizugu.
 
 ## Galdera maiztuak (FAQ)
 
@@ -217,6 +217,6 @@ Hasi orain bertan emailak eta telefonoak biltzen baimenarekin. Datu-basea da 5 u
 
 ## Hurrengo 6 hilabeteetarako plan errealista bat nahi al duzu?
 
-**AdimenAIn** (Elgoibar, Gipuzkoa) zurekin batera **publizitatea puztu gabeko erakarpen-plan bat** muntatzen dugu: zein kanal, zein ordenatan, zer inbertsio eta zer espero. Lehen auditoria **doakoa** da.
+**AdimenAIn** (Gipuzkoa) zurekin batera **publizitatea puztu gabeko erakarpen-plan bat** muntatzen dugu: zein kanal, zein ordenatan, zer inbertsio eta zer espero. Lehen auditoria **doakoa** da.
 
-📞 +34 650 60 90 28 · [Erreserbatu zure doako auditoria](https://www.adimenai.com/eu/contacto)
+📞 +34 641 195184 · [Erreserbatu zure doako auditoria](https://www.adimenai.com/eu/contacto)

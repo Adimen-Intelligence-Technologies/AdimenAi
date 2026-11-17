@@ -10,7 +10,7 @@ language: es
 
 # TPV en San Sebastián y Gipuzkoa: precios reales y proveedores en 2026
 
-**** Instalar un TPV profesional en **San Sebastián, Irun, Rentería, Tolosa, Zarautz, Eibar o Elgoibar** cuesta en 2026 entre **1.500 € y 8.000 €** (hardware + software del primer mes) **más una cuota mensual de 40 € a 250 €**. Los tres proveedores locales más instalados son **Tactil** (Tactil Pos, con soporte en Gipuzkoa), **ICG** (cubierta nacional con oficina comercial en Euskadi) y **Bridge** (especializado en delivery). Si quieres un **TPV conectado a tu web, app de delivery y sistema contable** (Holded, Sage, A3) con un único interlocutor local, **AdimenAi en Elgoibar** es la opción que más crece en Gipuzkoa. La primera consulta es gratuita y te pasamos presupuesto cerrado en 48 horas.
+**** Instalar un TPV profesional en **San Sebastián, Irun, Rentería, Tolosa, Zarautz o Eibar** cuesta en 2026 entre **1.500 € y 8.000 €** (hardware + software del primer mes) **más una cuota mensual de 40 € a 250 €**. Los tres proveedores locales más instalados son **Tactil** (Tactil Pos, con soporte en Gipuzkoa), **ICG** (cubierta nacional con oficina comercial en Euskadi) y **Bridge** (especializado en delivery). Si quieres un **TPV conectado a tu web, app de delivery y sistema contable** (Holded, Sage, A3) con un único interlocutor local, **AdimenAi** es la opción que más crece en Gipuzkoa. La primera consulta es gratuita y te pasamos presupuesto cerrado en 48 horas.
 
 ## ¿Qué necesitas realmente en un TPV en Gipuzkoa?
 
@@ -34,13 +34,13 @@ Las respuestas clasifican tu TPV ideal en uno de estos 4 perfiles:
 
 ## Proveedores de TPV en Gipuzkoa (2026)
 
-### 1. AdimenAi — Elgoibar (Gipuzkoa)
+### 1. AdimenAi — Gipuzkoa
 
 - **Qué ofrece:** TPV a medida, integrable con tu web, app de delivery y sistema contable. Soporte y formación presencial en cualquier punto de Gipuzkoa.
 - **Ideal para:** hostelería, comercio y peluquerías que quieren un único interlocutor para TPV + web + SEO + automatización.
 - **Precio:** desde 1.500 € + mantenimiento desde 80 €/mes.
 - **Diferencial:** atención totalmente en Gipuzkoa, sin llamadas a centralitas. Configuración de carta, formación y migración incluidas.
-- 📞 +34 650 60 90 28 · adimenai.com
+- 📞 +34 641 195184 · adimenai.com
 
 ### 2. Tactil — cobertura nacional, soporte en Euskadi
 
@@ -159,7 +159,7 @@ Entre 1.500 € y 6.000 € para un local hostelero medio, más una cuota mensua
 El precio es el mismo: la cuota del software es nacional. Lo que puede cambiar es el coste de desplazamiento del técnico, que muchos proveedores locales no cobran en Gipuzkoa.
 
 **¿Hay algún proveedor que cubra toda Gipuzkoa en persona?**
-Sí. **AdimenAi (Elgoibar)** trabaja en toda Gipuzkoa, Bizkaia y Álava, con soporte presencial el mismo día en muchos casos.
+Sí. **AdimenAi (Gipuzkoa)** trabaja en toda Gipuzkoa, Bizkaia y Álava, con soporte presencial el mismo día en muchos casos.
 
 **¿Cuánto se tarda en tener un TPV funcionando?**
 Entre 1 y 5 días. Configuración de carta y productos: 1–2 días. Formación al equipo: 2–4 horas. Migración del sistema antiguo: 1 día más.
@@ -187,4 +187,4 @@ Sí, también. El Gobierno Vasco ha lanzado varios programas de apoyo a la digit
 
 Si quieres un **TPV en Gipuzkoa con soporte local, persona de contacto en euskera o castellano, y conectado a tu web, sistema contable y app de delivery**, en **AdimenAi** te lo entregamos llave en mano.
 
-📞 +34 650 60 90 28 · [Pide tu presupuesto sin compromiso](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Pide tu presupuesto sin compromiso](https://adimenai.com/contactar)

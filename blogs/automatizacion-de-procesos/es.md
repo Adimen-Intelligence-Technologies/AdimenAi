@@ -77,7 +77,7 @@ La honestidad vale más que la promesa, así que conviene aclarar cinco cosas.
 
 ## Automatización de procesos industriales: en qué somos especialistas
 
-En **Adimen** (Elgoibar, Gipuzkoa) nos dedicamos a esto: automatizar procesos de empresas industriales y de su cadena de suministro. Llevamos más de **600 procesos automatizados** en clientes reales.
+En **Adimen** (Gipuzkoa) nos dedicamos a esto: automatizar procesos de empresas industriales y de su cadena de suministro. Llevamos más de **600 procesos automatizados** en clientes reales.
 
 El motivo por el que nos especializamos en el sector industrial es fácil de explicar: en la fábrica, un proceso automatizado no ahorra una hora de oficina, **evita una línea parada**. El margen está en los detalles: un albarán que no cuadra, una pieza que se escapa sin que nadie lo vea, un lote sin trazabilidad cuando el cliente pregunta. Cada uno de esos errores cuesta dinero, tiempo y reputación, y ninguno de ellos se arregla "trabajando un poco más".
 
@@ -137,6 +137,6 @@ Lo primero que hacemos es una **llamada de 30 minutos, sin compromiso**, en la q
 - Te decimos qué procesos tienen sentido automatizar y cuáles no.
 - Te damos una estimación de coste y de plazo para el que te interese.
 
-**Elige cómo prefieres:** llámanos al **+34 650 60 90 28** o déjanos un mensaje con el formulario. Te respondemos en menos de 24 horas laborables y, si tiene sentido, empezamos por una auditoría gratuita de tus procesos.
+**Elige cómo prefieres:** llámanos al **+34 641 195184** o déjanos un mensaje con el formulario. Te respondemos en menos de 24 horas laborables y, si tiene sentido, empezamos por una auditoría gratuita de tus procesos.
 
-📞 +34 650 60 90 28 · [Formulario de contacto](https://www.adimenai.com/contacto)
+📞 +34 641 195184 · [Formulario de contacto](https://www.adimenai.com/contacto)
