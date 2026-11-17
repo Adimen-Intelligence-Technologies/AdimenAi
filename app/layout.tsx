@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     default: SITE_NAME,
     template: `%s | ${SITE_NAME}`,
   },
-  description: "Automatiza tu negocio con AdimenAI, la plataforma de inteligencia artificial que transforma tus datos en decisiones inteligentes. Optimiza procesos, mejora la eficiencia y toma decisiones informadas con nuestras soluciones de IA personalizadas.",
+  description: "Automatiza su negocio con AdimenAI, la plataforma de inteligencia artificial que transforma sus datos en decisiones inteligentes. Optimiza procesos, mejora la eficiencia y toma decisiones informadas con nuestras soluciones de IA personalizadas.",
   openGraph: {
     siteName: SITE_NAME,
     images: [{ url: DEFAULT_OG_IMAGE }],

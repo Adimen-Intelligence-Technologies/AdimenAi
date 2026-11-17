@@ -1,29 +1,29 @@
 ---
 title: "TPV en San Sebastián y Gipuzkoa: precios reales y proveedores en 2026"
 slug: tpv-donostia-gipuzkoa-precios
-excerpt: "Instalar un TPV en Donostia o Gipuzkoa cuesta entre 1.500 € y 8.000 € + cuota mensual. Proveedores locales, precios reales y cómo elegir el sistema adecuado para tu negocio."
+excerpt: "Instalar un TPV en Donostia o Gipuzkoa cuesta entre 1.500 € y 8.000 € + cuota mensual. Proveedores locales, precios reales y cómo elegir el sistema adecuado para su negocio."
 tags: ["TPV", "Donostia", "Gipuzkoa", "Hostelería"]
-metaDescription: "Precios reales de instalar un TPV en San Sebastián o Gipuzkoa en 2026, proveedores locales (Tactil, ICG, Bridge, AdimenAi), comparativa y cómo elegir el mejor para tu local."
+metaDescription: "Precios reales de instalar un TPV en San Sebastián o Gipuzkoa en 2026, proveedores locales (Tactil, ICG, Bridge, AdimenAi), comparativa y cómo elegir el mejor para su local."
 publishedAt: 2026-08-17
 language: es
 ---
 
 # TPV en San Sebastián y Gipuzkoa: precios reales y proveedores en 2026
 
-**** Instalar un TPV profesional en **San Sebastián, Irun, Rentería, Tolosa, Zarautz o Eibar** cuesta en 2026 entre **1.500 € y 8.000 €** (hardware + software del primer mes) **más una cuota mensual de 40 € a 250 €**. Los tres proveedores locales más instalados son **Tactil** (Tactil Pos, con soporte en Gipuzkoa), **ICG** (cubierta nacional con oficina comercial en Euskadi) y **Bridge** (especializado en delivery). Si quieres un **TPV conectado a tu web, app de delivery y sistema contable** (Holded, Sage, A3) con un único interlocutor local, **AdimenAi** es la opción que más crece en Gipuzkoa. La primera consulta es gratuita y te pasamos presupuesto cerrado en 48 horas.
+**** Instalar un TPV profesional en **San Sebastián, Irun, Rentería, Tolosa, Zarautz o Eibar** cuesta en 2026 entre **1.500 € y 8.000 €** (hardware + software del primer mes) **más una cuota mensual de 40 € a 250 €**. Los tres proveedores locales más instalados son **Tactil** (Tactil Pos, con soporte en Gipuzkoa), **ICG** (cubierta nacional con oficina comercial en Euskadi) y **Bridge** (especializado en delivery). Si quiere un **TPV conectado a su web, app de delivery y sistema contable** (Holded, Sage, A3) con un único interlocutor local, **AdimenAi** es la opción que más crece en Gipuzkoa. La primera consulta es gratuita y le pasamos presupuesto cerrado en 48 horas.
 
-## ¿Qué necesitas realmente en un TPV en Gipuzkoa?
+## ¿Qué necesita realmente en un TPV en Gipuzkoa?
 
-Depende del tipo de negocio. Antes de mirar precios, ten claras estas preguntas:
+Depende del tipo de negocio. Antes de mirar precios, tenga claras estas preguntas:
 
-1. ¿Eres bar, restaurante, tienda, peluquería, comercio de alimentación?
-2. ¿Cuántos cobros haces al día? (volumen)
-3. ¿Vendes también por Glovo, Uber Eats, Just Eat?
-4. ¿Tienes varios locales?
-5. ¿Necesitas que funcione aunque se caiga internet?
-6. ¿Quieres que el TPV hable con tu ERP, tu web o tu app?
+1. ¿Es bar, restaurante, tienda, peluquería, comercio de alimentación?
+2. ¿Cuántos cobros hace al día? (volumen)
+3. ¿Vende también por Glovo, Uber Eats, Just Eat?
+4. ¿Tiene varios locales?
+5. ¿Necesita que funcione aunque se caiga internet?
+6. ¿Quiere que el TPV hable con su ERP, su web o su app?
 
-Las respuestas clasifican tu TPV ideal en uno de estos 4 perfiles:
+Las respuestas clasifican su TPV ideal en uno de estos 4 perfiles:
 
 | Perfil | Volumen | Funciones | Coste típico |
 |---|---|---|---|
@@ -36,7 +36,7 @@ Las respuestas clasifican tu TPV ideal en uno de estos 4 perfiles:
 
 ### 1. AdimenAi — Gipuzkoa
 
-- **Qué ofrece:** TPV a medida, integrable con tu web, app de delivery y sistema contable. Soporte y formación presencial en cualquier punto de Gipuzkoa.
+- **Qué ofrece:** TPV a medida, integrable con su web, app de delivery y sistema contable. Soporte y formación presencial en cualquier punto de Gipuzkoa.
 - **Ideal para:** hostelería, comercio y peluquerías que quieren un único interlocutor para TPV + web + SEO + automatización.
 - **Precio:** desde 1.500 € + mantenimiento desde 80 €/mes.
 - **Diferencial:** atención totalmente en Gipuzkoa, sin llamadas a centralitas. Configuración de carta, formación y migración incluidas.
@@ -129,10 +129,10 @@ Las respuestas clasifican tu TPV ideal en uno de estos 4 perfiles:
 - Soporte posterior (a veces tarifa por horas)
 - Actualizaciones o nuevos módulos
 - Comanderos o pantallas de cocina extras
-- Integración con tu ERP o sistema contable
+- Integración con su ERP o sistema contable
 - Desarrollo de app/web de pedidos propia
 
-**Pide SIEMPRE un presupuesto desglosado.** Si no hay desglose, desconfía.
+**Pida SIEMPRE un presupuesto desglosado.** Si no hay desglose, desconfía.
 
 ## ¿Por qué elegir un proveedor local en Gipuzkoa?
 
@@ -144,11 +144,11 @@ Las respuestas clasifican tu TPV ideal en uno de estos 4 perfiles:
 
 ## Errores que vemos en locales de Gipuzkoa
 
-1. **Contratar TPV sin soporte local.** Si falla un sábado noche, no puedes esperar 48 horas a que atiendan el ticket.
+1. **Contratar TPV sin soporte local.** Si falla un sábado noche, no puede esperar 48 horas a que atiendan el ticket.
 2. **No incluir comanderas o pantalla de cocina.** Es perder 4–6 minutos por mesa. En un servicio de 40 mesas, son 3 horas de diferencia.
 3. **El TPV no integra con delivery.** Cada pedido de Glovo lo mete alguien a mano. Error tras error.
-4. **No funciona offline.** El 15 % de los locales del centro de San Sebastián tiene caídas puntuales; con TPV purely-online pierdes ventas.
-5. **Elegir por nombre sin ver TCO a 3 años.** Un TPV barato de 30 €/mes que no tiene soporte te puede salir caro a los 6 meses.
+4. **No funciona offline.** El 15 % de los locales del centro de San Sebastián tiene caídas puntuales; con TPV purely-online pierde ventas.
+5. **Elegir por nombre sin ver TCO a 3 años.** Un TPV barato de 30 €/mes que no tiene soporte le puede salir caro a los 6 meses.
 
 ## Preguntas frecuentes (FAQ)
 
@@ -165,10 +165,10 @@ Sí. **AdimenAi (Gipuzkoa)** trabaja en toda Gipuzkoa, Bizkaia y Álava, con sop
 Entre 1 y 5 días. Configuración de carta y productos: 1–2 días. Formación al equipo: 2–4 horas. Migración del sistema antiguo: 1 día más.
 
 **¿El TPV puede funcionar con mi sistema contable (Sage, Holded, A3)?**
-Sí. Los TPV modernos integran con cualquier ERP o software contable vía API. Confirma este punto antes de firmar.
+Sí. Los TPV modernos integran con cualquier ERP o software contable vía API. Confirme este punto antes de firmar.
 
 **¿Y con mi web de pedidos?**
-También. En AdimenAi podemos conectarte el TPV con tu web o app de pedidos propia para que cada pedido entre directamente al sistema.
+También. En AdimenAi podemos conectarle el TPV con su web o app de pedidos propia para que cada pedido entre directamente al sistema.
 
 **¿Cuánto cuesta el mantenimiento?**
 Entre 40 € y 250 €/mes según volumen. Incluye soporte, actualizaciones y, en algunos casos, piezas de repuesto.
@@ -178,13 +178,13 @@ Sí. Las principales en Gipuzkoa:
 - **SPRI – Programa Bizi Berri:** hasta 12.000 € para digitalización.
 - **Gipuzkoa Entrepreneurship:** apoyo a proyectos digitales.
 - **Diputación Foral de Gipuzkoa:** planes anuales de ayudas.
-En AdimenAi te ayudamos con la solicitud.
+En AdimenAi le ayudamos con la solicitud.
 
 **¿Y para Hostelería con bonos del Gobierno Vasco?**
-Sí, también. El Gobierno Vasco ha lanzado varios programas de apoyo a la digitalización hostelera. Consulta disponibilidad.
+Sí, también. El Gobierno Vasco ha lanzado varios programas de apoyo a la digitalización hostelera. Consulte disponibilidad.
 
-## ¿Listo para instalar tu TPV?
+## ¿Está listo para instalar su TPV?
 
-Si quieres un **TPV en Gipuzkoa con soporte local, persona de contacto en euskera o castellano, y conectado a tu web, sistema contable y app de delivery**, en **AdimenAi** te lo entregamos llave en mano.
+Si quiere un **TPV en Gipuzkoa con soporte local, persona de contacto en euskera o castellano, y conectado a su web, sistema contable y app de delivery**, en **AdimenAi** se lo entregamos llave en mano.
 
-📞 +34 641 195184 · [Pide tu presupuesto sin compromiso](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Pida su presupuesto sin compromiso](https://adimenai.com/contactar)

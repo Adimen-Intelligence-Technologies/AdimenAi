@@ -5,7 +5,7 @@
     "herrikonekt": "Herrikonekt",
     "herrikonektDesc": "Tokiko merkataritza app-a",
     "herrikonektApps": "Herrikonekt Mugikor App-ak",
-    "herrikonektAppsDesc": "Kudeatu zure negozioa edozein lekutatik",
+    "herrikonektAppsDesc": "Kudeatu zuen negozioa edozein lekutatik",
     "herrikonektAppsAndroid": "Android App",
     "herrikonektAppsIos": "iOS App",
     "blog": "Bloga",
@@ -14,7 +14,7 @@
     "openMenu": "Ireki menua",
     "closeMenu": "Itxi menua",
     "aiAutomation": "Automatizazioa eta IA",
-    "aiAutomationDesc": "IA agenteak, RPA eta chatbot-ak zure negozioa optimizatzeko",
+    "aiAutomationDesc": "IA agenteak, RPA eta chatbot-ak zuen negozioa optimizatzeko",
     "aiAutomationRpa": "Prozesuen Automatizazioa (RPA)",
     "aiAutomationChatbots": "IA Laguntzaile Birtualak",
     "aiAutomationCrm": "CRM eta CMS Sistemak",
@@ -42,12 +42,10 @@
     "managementSoftwareHospitality": "Ostalaritza",
     "managementSoftwareFood": "Elikadura",
     "managementSoftwareBeauty": "Edertasuna eta Wellness",
-    "pages": {
-      "home": "Hasiera",
-      "services": "Zerbitzuak",
-      "webDesign": "Web orrien diseinua",
-      "commerce": "Merkataritza",
-      "useCases": "Erabilera kasuak"
+    "pillars": {
+      "aiAutomation": "IA bidezko automatizazioa",
+      "digitalization": "Enpresen digitalizazioa",
+      "apps": "Web eta mugikor aplikazioak"
     }
   },
   "language": {
@@ -57,7 +55,7 @@
   },
   "hero": {
     "eyebrow": "360° teknologia-soluzioak",
-    "title": "Zure negozioa edozein dela ere, eraldatu ezazu gure 360° soluzioekin",
+    "title": "Zuen negozioa edozein dela ere, eraldatu ezazu gure 360° soluzioekin",
     "description": "IA automatizazio industrialak, enpresa-kudeaketa softwarea, Ecommerce, webguneak, branding, mugikor app-ak, TPV, sare sozialen kudeaketa eta publizitatea. Dena leku bakarrean.",
     "ctaPrimary": "Doako deia",
     "ctaSecondary": "Zerbitzuak ikusi",
@@ -69,31 +67,31 @@
   },
   "servicesSection": {
     "badge": "Gure zerbitzuak",
-    "title": "Soluzioak zure enpresarentzat",
-    "description": "AA automatizaziotik TPVra, webera, aplikazioetara edo marketin digitalera. Zure negozioak behar dituen irtenbide guztiak leku bakarrean.",
+    "title": "Soluzioak zuen enpresarentzat",
+    "description": "AA automatizaziotik TPVra, webera, aplikazioetara edo marketin digitalera. Zuen negozioak behar dituen irtenbide guztiak leku bakarrean.",
     "cta": "Ikusi zerbitzu guztiak",
     "items": [
       {
         "title": "Automatizazioak Adimen Artifizialarekin",
-        "description": "Zeregin errepikakorrak ezabatzen ditugu fluxu automatikoak sortuz, denbora aurrezten dutenak eta zure tresnak konektatzen dituztenak."
+        "description": "Zeregin errepikakorrak ezabatzen ditugu fluxu automatikoak sortuz, denbora aurrezten dutenak eta zuen tresnak konektatzen dituztenak."
       },
       {
         "title": "Adimen Artifizialeko agenteak eta chatbot-ak",
-        "description": "Neurrira egindako elkarrizketa-asistenteak euskaraz, gaztelaniaz eta ingelesez, zure sistema eta datuekin integratuta."
+        "description": "Neurrira egindako elkarrizketa-asistenteak euskaraz, gaztelaniaz eta ingelesez, zuen sistema eta datuekin integratuta."
       },
       {
         "title": "TPV eta enpresa kudeaketarako softwarea",
-        "description": "Salmenta-puntua eta kudeaketa txikizkako, ostalaritza, elikadura eta edertasun sektoreetarako. Zure sektorerako egokitua."
+        "description": "Salmenta-puntua eta kudeaketa txikizkako, ostalaritza, elikadura eta edertasun sektoreetarako. Zuen sektorerako egokitua."
       },
       {
         "title": "Weba, eCommerce eta marketin digitala",
-        "description": "Online dendak, webguneak, SEO, SEM eta kanpainak zure online presentzia hazteko."
+        "description": "Online dendak, webguneak, SEO, SEM eta kanpainak zuen online presentzia hazteko."
       }
     ]
   },
   "useCasesSection": {
     "badge": "Erabilera kasuak",
-    "title": "Zer automatiza dezake zure enpresak?",
+    "title": "Zer automatiza dezake zuen enpresak?",
     "description": "Hauek dira gure bezeroentzat automatizatzen ditugun prozesu ohikoenetako batzuk.",
     "items": [
       {
@@ -132,14 +130,14 @@
   },
   "infoSection": {
     "eyebrow": "Zergatik gu aukeratu",
-    "title": "Automatizazio adimendunean zure bazkidea",
-    "subtitle": "Zure prozesu eta sistema daudenekin funtzionatzen duten irtenbide praktikoak sortzen ditugu.",
-    "text": "Datuen erauzketa automatikotik ERP eta CRM integraziora, ezarpen azkarra eta zure taldera guztiz egokitua eskaintzen dugu.",
+    "title": "Automatizazio adimendunean zuen bazkidea",
+    "subtitle": "Zuen prozesu eta sistema daudenekin funtzionatzen duten irtenbide praktikoak sortzen ditugu.",
+    "text": "Datuen erauzketa automatikotik ERP eta CRM integraziora, ezarpen azkarra eta zuen taldera guztiz egokitua eskaintzen dugu.",
     "items": [
       "Lan-fluxuaren diseinu pertsonalizatua",
-      "Zure egungo sistemekin integrazio segurua",
+      "Zuen egungo sistemekin integrazio segurua",
       "Etengabeko monitorizazioa eta doikuntza automatikoa",
-      "Zure taldearentzako laguntza eta prestakuntza"
+      "Zuen taldearentzako laguntza eta prestakuntza"
     ],
     "imageAlt": "AA irtenbide batean lanean ari den taldea",
     "button": "Ikusi nola funtzionatzen duen"
@@ -151,14 +149,14 @@
   },
   "faqSection": {
     "badge": "Ohiko galderak",
-    "title": "Aurkitu zure erantzunak",
-    "description": "Gure irtenbideei eta zure taldeari nola laguntzen diogun buruzko erantzun azkarrak.",
-    "needHelp": "Laguntza gehiago behar duzu?",
+    "title": "Aurkitu zuen erantzunak",
+    "description": "Gure irtenbideei eta zuen taldeari nola laguntzen diogun buruzko erantzun azkarrak.",
+    "needHelp": "Laguntza gehiago behar duzue?",
     "button": "Jarri gurekin harremanetan",
     "items": [
       {
         "question": "Beharrezkoa al da ezagutza teknikoa nire enpresan AA ezartzeko?",
-        "answer": "Ez. Garapen eta integrazio osoaz gu arduratzen gara. Zure taldeak errez erabiltzeko, ahalik eta errazena izan dadin diseinatzen dugu."
+        "answer": "Ez. Garapen eta integrazio osoaz gu arduratzen gara. Zuen taldeak errez erabiltzeko, ahalik eta errazena izan dadin diseinatzen dugu."
       },
       {
         "question": "Enpresan bertan aurrez aurreko aholkularitza egiten duzue?",
@@ -183,7 +181,7 @@
     ]
   },
   "contactBlock": {
-    "badge": "Informazio gehiago behar duzu?",
+    "badge": "Informazio gehiago behar duzue?",
     "title": "Jarri gurekin harremanetan",
     "description": "",
     "emailLabel": "Emaila",
@@ -206,14 +204,14 @@
     "submit": "Bidali eskaera",
     "legalPrefix": "Bidaltzean gure",
     "legalPrivacy": "pribatutasun politika",
-    "legalSuffix": "eta baldintzak onartzen dituzu.",
+    "legalSuffix": "eta baldintzak onartzen dituzue.",
     "sending": "Bidaltzen…",
     "successTitle": "Mezua bidalita!",
     "successMessage": "Eskerrik asko gurekin harremanetan jartzeagatik. Ahal bezain laster erantzungo dizugu.",
     "errorValidation": "Mesedez, bete beharrezko eremu guztiak (mezuak gutxienez 10 karaktere izan behar ditu).",
     "errorEmail": "Sartutako emaila ez da baliozkoa.",
-    "errorRateLimit": "Eskaera gehiegi bidali dituzu. Saiatu berriz minutu batzuen buruan.",
-    "errorNetwork": "Ezin izan da zerbitzariarekin konektatu. Egiaztatu zure konexioa eta saiatu berriro.",
+    "errorRateLimit": "Eskaera gehiegi bidali dituzue. Saiatu berriz minutu batzuen buruan.",
+    "errorNetwork": "Ezin izan da zerbitzariarekin konektatu. Egiaztatu zuen konexioa eta saiatu berriro.",
     "errorGeneric": "Ezin izan da mezua bidali. Saiatu berriz geroago."
   },
   "terminosPage": {
@@ -226,9 +224,9 @@
   },
   "contactPage": {
     "eyebrow": "Harremana",
-    "title": "Hitz egin dezagun zure proiektuaz",
-    "subtitle": "eta eraldatu zure negozioa",
-    "description": "Bete formularioa eta zurekin harremanetan jarriko gara konpromisorik gabeko hasierako dei baterako."
+    "title": "Hitz egin dezagun zuen proiektuaz",
+    "subtitle": "eta eraldatu zuen negozioa",
+    "description": "Bete formularioa eta zuenekin harremanetan jarriko gara konpromisorik gabeko hasierako dei baterako."
   },
   "hosteleriaPage": {
     "eyebrow": "Behar duzun guztia",
@@ -245,8 +243,8 @@
     "readingTime": "{minutes} min irakurtzeko",
     "related": "Lotutako artikuluak",
     "allPosts": "Ikusi artikulu guztiak",
-    "contactBadge": "Zure enpresarako egokia da?",
-    "contactTitle": "Hitz egin dezagun zure kasuaz",
+    "contactBadge": "Zuen enpresarako egokia da?",
+    "contactTitle": "Hitz egin dezagun zuen kasuaz",
     "contactDescription": "Kontaiguzu zer hobetu nahi duzun eta 24 ordu baino lehen erantzungo dizugu."
   },
   "webDesignPage": {
@@ -255,19 +253,19 @@
       "kicker": "Web orrien diseinua Gipuzkoan",
       "title": "Bisitak bezero bihurtzen dituzten",
       "titleHighlight": "webguneak",
-      "description": "Web orri azkarrak, erakargarriak eta Googlen agertzeko prestatuak diseinatzen ditugu. Zuk egiten duzuna bilatzen duenak aurki zaitzan… eta dei zaitzan.",
+      "description": "Web orri azkarrak, erakargarriak eta Googlen agertzeko prestatuak diseinatzen ditugu. Zuen egiten duzuen bilatzen duenak aurki zaitzan… eta dei zaitzan.",
       "ctaCall": "Deitu: 641 195184",
       "ctaQuote": "Eskatu doako aurrekontua",
       "trust": [
         "Aurrekontu itxia, ezustekorik gabe",
         "SEOa lehen egunetik barne",
         "Mugikorrerako egokitua eta azkarra",
-        "Zurekin harremanetan jartzeko pentsatua"
+        "Zuenekin harremanetan jartzeko pentsatua"
       ],
       "mockup": {
         "url": "zureenpresa.eus",
         "kicker": "Gipuzkoa",
-        "headline": "Zure negozioa, bezeroengandik klik batera",
+        "headline": "Zuen negozioa, bezeroengandik klik batera",
         "cta": "Deitu orain",
         "chipMobile": "Mugikorrerako",
         "chipSpeed": "Karga azkarra",
@@ -278,11 +276,11 @@
     },
     "pain": {
       "badge": "Ezaguna egiten zaizu?",
-      "title": "Zure webguneak bezeroak ekarri behar dizkizu, ez bakarrik hor egon",
+      "title": "Zuen webguneak bezeroak ekarri behar dizkizu, ez bakarrik hor egon",
       "items": [
         {
           "title": "Ez zara Googlen agertzen",
-          "description": "Zure zerbitzua inguruan bilatzen dutenean agertzen ez bazara, bezero horiek lehiakideengana joaten dira."
+          "description": "Zuen zerbitzua inguruan bilatzen dutenean agertzen ez bazara, bezero horiek lehiakideengana joaten dira."
         },
         {
           "title": "Mugikorrean motel eta gaizki",
@@ -290,19 +288,19 @@
         },
         {
           "title": "Sartzen dira, baina ez dute deitzen",
-          "description": "Mezu argirik eta harremanetarako botoirik gabe, bisita galdu egiten da, eskaintzen duzuna interesatzen bazaio ere."
+          "description": "Mezu argirik eta harremanetarako botoirik gabe, bisita galdu egiten da, eskaintzen duzuen interesatzen bazaio ere."
         }
       ],
       "solution": "Horrela konpontzen dugu"
     },
     "features": {
       "badge": "Zer dakar",
-      "title": "Zure webguneak saltzeko behar duen guztia",
+      "title": "Zuen webguneak saltzeko behar duen guztia",
       "description": "Erdizka egindako txantiloirik ez: webgune bakoitza osorik, optimizatuta eta bezeroak erakartzeko prest entregatzen dugu.",
       "items": [
         {
           "title": "Neurrira egindako diseinua",
-          "description": "Zure markaren irudia duen webgunea, ez zure lehiakidearen txantiloi bera."
+          "description": "Zuen markaren irudia duen webgunea, ez zuen lehiakidearen txantiloi bera."
         },
         {
           "title": "On-page SEOa",
@@ -310,7 +308,7 @@
         },
         {
           "title": "Tokiko SEOa eta Google Maps",
-          "description": "Zure Google Business Profile fitxa optimizatzen dugu inguruan aurki zaitzaten."
+          "description": "Zuen Google Business Profile fitxa optimizatzen dugu inguruan aurki zaitzaten."
         },
         {
           "title": "Abiadura",
@@ -321,7 +319,7 @@
           "description": "Ezin hobeto ikusten eta dabil mugikorrean, tabletan eta ordenagailuan."
         },
         {
-          "title": "Zurekin harremanetan jartzeko",
+          "title": "Zuenekin harremanetan jartzeko",
           "description": "Dei, WhatsApp eta formulario botoiak bezeroak behar dituen tokian."
         },
         {
@@ -337,10 +335,10 @@
     "seo": {
       "eyebrow": "SEOa lehen egunetik",
       "title": "Inork aurkitzen ez duen webgune polit batek ez du ezertarako balio",
-      "subtitle": "Horregatik, egiten dugun webgune oro Googlen eta zure inguruko bilaketetan posizionatzeko prest jaiotzen da.",
+      "subtitle": "Horregatik, egiten dugun webgune oro Googlen eta zuen inguruko bilaketetan posizionatzeko prest jaiotzen da.",
       "text": "Eta urrats gehiago eman nahi badituzu, edukiekin eta kanpainekin lagunduko dizugu.",
       "items": [
-        "Zure sektoreko eta inguruko gako-hitzen azterketa",
+        "Zuen sektoreko eta inguruko gako-hitzen azterketa",
         "Googlerentzat eta pertsonentzat pentsatutako egitura eta testuak",
         "Google Business Profile fitxa optimizatua",
         "Google Search Console eta analitika konfiguratuta",
@@ -350,23 +348,23 @@
       "serp": {
         "label": "Horrela aurkitzen zaituzte bezeroek",
         "query": "ile-apaindegia Donostian",
-        "business": "Zure negozioa",
+        "business": "Zuen negozioa",
         "location": "Donostia",
         "call": "Deitu",
         "directions": "Nola iritsi",
         "url": "zureenpresa.eus",
-        "title": "Zure negozioa · Donostia | Eskatu txanda online",
-        "description": "Erreserbatu zure txanda minutu batean. Zerbitzuak, prezioak eta ordutegiak Donostiako erdigunean."
+        "title": "Zuen negozioa · Donostia | Eskatu txanda online",
+        "description": "Erreserbatu zuen txanda minutu batean. Zerbitzuak, prezioak eta ordutegiak Donostiako erdigunean."
       }
     },
     "process": {
       "badge": "Nola lan egiten dugun",
-      "title": "Zure webgune berria 4 urratsetan",
+      "title": "Zuen webgune berria 4 urratsetan",
       "description": "Prozesu argia, teknizismorik gabe eta zu erabaki guztietan.",
       "items": [
         {
           "title": "Diagnostiko-deia",
-          "description": "Zure negozioaz, bezeroez eta behar duzunaz hitz egiten dugu. Konpromisorik gabe."
+          "description": "Zuen negozioaz, bezeroez eta behar duzunaz hitz egiten dugu. Konpromisorik gabe."
         },
         {
           "title": "Proposamena eta aurrekontu itxia",
@@ -384,19 +382,19 @@
     },
     "plans": {
       "badge": "Webgune motak",
-      "title": "Aukeratu zure negozioari egokitzen zaion webgunea",
+      "title": "Aukeratu zuen negozioari egokitzen zaion webgunea",
       "description": "Guztiek dakarte neurrira egindako diseinua, SEOa, mugikorreko bertsioa eta harreman zuzena. Behar duzunaren araberako aurrekontu itxia ematen dizugu.",
       "recommended": "Gomendatua",
       "cta": "Eskatu aurrekontua",
-      "priceNote": "Prezioen ideia bat egin nahi duzu?",
+      "priceNote": "Prezioen ideia bat egin nahi duzue?",
       "priceGuide": "Irakurri gure gida: zenbat balio du webgune batek 2026an",
       "items": [
         {
           "name": "Webgune korporatiboa",
-          "description": "Zure negozioa aurkezteko eta zurekin harremanetan jar daitezen.",
+          "description": "Zuen negozioa aurkezteko eta zuenekin harremanetan jar daitezen.",
           "features": [
             "Hasiera, zerbitzuak, nor garen eta harremanetarako orria",
-            "Zure markarekin neurrira egindako diseinua",
+            "Zuen markarekin neurrira egindako diseinua",
             "On-page SEOa hasieratik",
             "Formularioa, WhatsApp eta dei-botoia",
             "Lege-testuak eta DBEO cookieak"
@@ -415,19 +413,19 @@
         },
         {
           "name": "Online denda",
-          "description": "Zure produktuak internet bidez saltzeko.",
+          "description": "Zuen produktuak internet bidez saltzeko.",
           "features": [
             "Katalogoa eta ordainketa-pasabidea",
             "Bidalketen eta stockaren kudeaketa",
             "Produktu-fitxetarako SEOa",
-            "Zure TPV edo softwarearekin integrazioa",
-            "Zuk kudeatzeko prestakuntza"
+            "Zuen TPV edo softwarearekin integrazioa",
+            "Zuen kudeatzeko prestakuntza"
           ]
         }
       ]
     },
     "cta": {
-      "title": "Zure webgune berriaz hitz egingo dugu?",
+      "title": "Zuen webgune berriaz hitz egingo dugu?",
       "description": "Kontaiguzu dei batean zer behar duzun eta nola egingo genukeen eta zenbat kostako litzatekeen esango dizugu. Konpromisorik gabe.",
       "button": "Deitu 641 195184 zenbakira"
     },
@@ -439,12 +437,12 @@
       "badge": "Ohiko galderak",
       "title": "Hasi aurretik egiten dizkiguten galderak",
       "description": "Beste zalantzarik baduzu, deitu edo idatzi eta argituko dizugu.",
-      "needHelp": "Laguntza behar duzu?",
+      "needHelp": "Laguntza behar duzue?",
       "button": "Harremanetan jarri",
       "items": [
         {
           "question": "Zenbat balio du web orri batek?",
-          "answer": "Webgune motaren eta barne hartzen duenaren araberakoa da. Lehen dei baten ondoren aurrekontu itxia ematen dizugu, ezkutuko kosturik gabe. Erreferentzia bat nahi baduzu, gure blogean 2026ko merkatuko prezioen gida bat duzu."
+          "answer": "Webgune motaren eta barne hartzen duenaren araberakoa da. Lehen dei baten ondoren aurrekontu itxia ematen dizugu, ezkutuko kosturik gabe. Erreferentzia bat nahi baduzu, gure blogean 2026ko merkatuko prezioen gida bat duzue."
         },
         {
           "question": "Zenbat denbora behar da webgune bat egiteko?",
@@ -471,12 +469,12 @@
   },
   "footerSection": {
     "sections": {
-      "pages": "Orriak",
+      "pages": "Zerbitzuak",
       "other": "Beste orriak",
       "contact": "Harremana"
     },
     "other": {
-      "blog": "Blog",
+      "blog": "Bloga",
       "cookies": "Cookies",
       "privacy": "Pribatutasun politika",
       "terminos": "Termino eta kondizioak"
@@ -484,7 +482,7 @@
   },
   "seo": {
     "home": {
-      "title": "AdimenAI | IArekin automatizazioa eta 360° soluzioak zure negoziorako",
+      "title": "AdimenAI | IArekin automatizazioa eta 360° soluzioak zuen negoziorako",
       "description": "IA automatizazio industrialak, negozio-kudeaketa softwarea, ecommerce, webguneak, branding, mugikorretarako appak, TPV, sare sozialen kudeaketa eta publizitatea. Guztia leku bakarrean."
     },
     "blog": {
@@ -493,7 +491,7 @@
     },
     "contacto": {
       "title": "Harremana | AdimenAI",
-      "description": "Kontatu zure proiektua eta IArekin eraldatzen lagunduko dizugu. Eskatu doako deia, konpromisorik gabe."
+      "description": "Kontatu zuen proiektua eta IArekin eraldatzen lagunduko dizugu. Eskatu doako deia, konpromisorik gabe."
     },
     "hosteleria": {
       "title": "Ostalaritzarako soluzioak | AdimenAI",
@@ -501,7 +499,7 @@
     },
     "privacidad": {
       "title": "Pribatutasun politika | AdimenAI",
-      "description": "Ikusi nola biltzen, tratatzen eta babesten dituen AdimenAI-k zure datu pertsonalak, RGPDaren arabera."
+      "description": "Ikusi nola biltzen, tratatzen eta babesten dituen AdimenAI-k zuen datu pertsonalak, RGPDaren arabera."
     },
     "terminos": {
       "title": "Termino eta kondizioak | AdimenAI",

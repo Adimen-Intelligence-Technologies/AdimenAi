@@ -3,7 +3,7 @@ title: "Nola lehentasun-ordainazioak egin pyme batean: egun egoera galduke gabek
 slug: como-priorizar-tareas-pyme
 excerpt: "Zerrenda maisutan ez da lehentasuna. Helburura heldzea, gaur egun zelan ari zaren arabera. 3-urteso metodo honek + IA laguntzen du negozioa mugitzen duen gauzaetan lanean egon izarren."
 tags: ["Produktibotasuna", "Denborakudiera", "PYME"]
-metaDescription: "Nola lehentasun-ordainazioak egin pyme batean 3 pausatan: sailkatu eragina eta lehentasuna, erabili IA Antzeko eta babestu zure denbora. Teknika konplexuetan ez, sistemaren azkarra."
+metaDescription: "Nola lehentasun-ordainazioak egin pyme batean 3 pausatan: sailkatu eragina eta lehentasuna, erabili IA Antzeko eta babestu zuen denbora. Teknika konplexuetan ez, sistemaren azkarra."
 publishedAt: 2026-08-17
 language: eu
 ---
@@ -14,7 +14,7 @@ language: eu
 
 ## Guztiek egiten duten akatza
 
-30 email jasaten, bezero batek deitzen du, faktura minutu batean, azkeneko egoera berri bat. Guztia erantzuten hasten zara. Orduan 19.00-koan, 9 ordu lan egin dituzu, eta ez zara ukitu nahi denik.
+30 email jasaten, bezero batek deitzen du, faktura minutu batean, azkeneko egoera berri bat. Guztia erantzuten hasten zara. Orduan 19.00-koan, 9 ordu lan egin dituzue, eta ez zara ukitu nahi denik.
 
 **Hau ez da produktibotasun-a. Agotamendua lanean dagoela da.**
 
@@ -82,7 +82,7 @@ Txakurruna: AI-ria erabakirik izango duena. "IA-eak antzeko" egin, eta 50-ataza 
 - Ohartarazpen-eta alarma-sortzea
 
 **Ez EA-ria laguntzen:**
-- Zein da garrantetsua zuretzat
+- Zein da garrantetsua zuentzat
 - Helburu-planiman
 - Klienteekin elkarrizketa automatizatu
 
@@ -108,7 +108,7 @@ Ez ekidetu klienteekin. Baina lehentasunak**
 **EA-ria kalendara kudeaketan?**
 Bai, Motion, Reclaim edo Clockwise. Baina beti berrikusita.
 
-**Nola zure denbora babestean?**
+**Nola zuen denbora babestean?**
 2-3 orduko blokeak. Desgai notifikatuak, "Ez aste" marka.
 
 **Sartzea gabe dago?**
@@ -122,7 +122,7 @@ Praktikatu: "Otoñean," "Ez da nire lehentasuna orain," "Beste batek egin dezake
 - ez da zerrenda maisatu. **Helburura heldzea**
 - Matrizea Eisenhower-aren
 - Idatzi helburu **astera**
-- AI sailkatzen, zuk erabaki
+- AI sailkatzen, zuen erabaki
 - Egun, 2-4 garrantzi-atazaldi
 
 ---

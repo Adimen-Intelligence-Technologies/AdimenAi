@@ -44,18 +44,18 @@ Konprotatu honekin:
 | Administrazio publikoak | Faktura elektronikoa (beti eskatzen da) |
 | Enpresa handia | Faktura elektronikoa (hauek ere exijitzen dute VeriFactua proveerientzat** |
 
-Ez da guztiek eskaerak dira. Zure programak **faktura mota anitzak** eman dezan.
+Ez da guztiek eskaerak dira. Zuen programak **faktura mota anitzak** eman dezan.
 
 ## Akatxeak zeinak izan daitezke?
 
-1. **Faktura paperean ematea enpresa batei elektronikoaren**a eskatzen diolako. Horrela arazoa zurekin eta bezeroaren artekoa da: ezin dator bat.
+1. **Faktura paperean ematea enpresa batei elektronikoaren**a eskatzen diolako. Horrela arazoa zuenekin eta bezeroaren artekoa da: ezin dator bat.
 2. **VeriFactua zertifikatu gabeko programarekin.** Bezeroa haut, eta ezin baduzu, prozesuaren arteean gelditzen zara.
 3. **Liburu-erregistro elektronikoak izatea.** Agiencia Tributariaren herenba ordaintea.
 4. **Faktura IVA faltsi edo manipulatutakoarekin.** Agiencia Tributaria denbilaikoa antzekotasunak dagoenekin horiek detektatzen ditu.
 
 ## Zein software erabili dezaket?
 
-Ez duzu osoan aldatu behar. **Software bat behar duenez:**
+Ez duzue osoan aldatu behar. **Software bat behar duenez:**
 
 - **Faktura mota anitzak** eman (PDF, posta, elektroniko).
 - **VeriFactu-ren zertifikazioa** izan (programa horrek adierazten du instalatzerakoan).
@@ -70,13 +70,13 @@ Ez duzu osoan aldatu behar. **Software bat behar duenez:**
 - **Debitoor / Quipu:** autonomentzatagoa.
 - **A5irekin konexioa** (AdimenAi-ren antzeko).
 
-## Nola ezkatu zure kalautea?
+## Nola ezkatu zuen kalautea?
 
-Kadura ona ez da ordaintea: **bezero handiak ez zure** fakturatzeko. VeriFactu-ka kadura-hazpenak kontrolatzen ditu.
+Kadura ona ez da ordaintea: **bezero handiak ez zuen** fakturatzeko. VeriFactu-ka kadura-hazpenak kontrolatzen ditu.
 
 **Ekintza zehatzak:**
 
-1. Galdetu zure 3 bezero nagusietari: zer faktura mota behar dute orain?
+1. Galdetu zuen 3 bezero nagusietari: zer faktura mota behar dute orain?
 2. Emandu horretarako gestortze edo programaren ondoan.
 - Eskatu fakturazio elektronikoaren demo bat aldatzen hasi.
 - Mantendu fakturazio arrunta (PDF, posta) faktura elektronikoaren**a ezin duenekin.
@@ -105,10 +105,10 @@ Oraindik ez da ezarriko. Baina enpresa handiekin lan egiten baduzu, beste batzuk
 Ez baduzu ezarriz, ez dago ezagozu egingo. Baina bezeroekin galdu egingo ditzakezu.
 
 **Faktura elektronikoaren**a irudikatu dezaket enpresa batek?** 
-Bai, bezeroa onartzen badu. Ezin duzu **faktura paperean** eman enpresa batek elektronikoaren**a eskatzen badu. Horrela alderik dago.
+Bai, bezeroa onartzen badu. Ezin duzue **faktura paperean** eman enpresa batek elektronikoaren**a eskatzen badu. Horrela alderik dago.
 
 **Zer gertatzen da ez aldatzen denean?** 
-Ezeztagatik ezin da ez dagoela ez da gertatzen. Baina bezeroekin galduko duzu.
+Ezeztagatik ezin da ez dagoela ez da gertatzen. Baina bezeroekin galduko duzue.
 
 **Ez da erraz aldatu?**
 Softwaren arabera. 30 €/hilabete (trebakortasun oinarriak) - 150-250 €/hilabete (VeriFactu enpresariala).
@@ -128,4 +128,4 @@ Ez oraindik. Norma kanpokoa enpresa handiei eta kadura-hazpeniari egoturri du.
 
 ---
 
-AdimenAi-kin (Gipuzkoa) laguntzen dugu ETEekin bere fakturazio- edo POS-programa ERP-arekin, web-arekin edo kudeatzaile-sistemarekin konectatzen. Zure programa 2026-k prestatuta dagoenaren **balioztapena** **doanikoa** da.
+AdimenAi-kin (Gipuzkoa) laguntzen dugu ETEekin bere fakturazio- edo POS-programa ERP-arekin, web-arekin edo kudeatzaile-sistemarekin konectatzen. Zuen programa 2026-k prestatuta dagoenaren **balioztapena** **doanikoa** da.

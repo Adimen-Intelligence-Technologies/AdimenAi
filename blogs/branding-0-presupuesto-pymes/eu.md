@@ -41,7 +41,7 @@ Izenentzeko bat, testuarentzat beste bat. Ez gehiago. Argitarpen batzuetan, argi
 Formala? Lirainoa? Diversioada? Profesionala baina beroza?
 
 Idatzi 3 adibide:
-- "[negozioa], zure X-aren problema ebatzen du."
+- "[negozioa], zuen X-aren problema ebatzen du."
 - "galderak? Idatzi gurekin laguntzeko."
 - "Ez ezarazi [produktua]."
 
@@ -61,7 +61,7 @@ Email, WhatsApp, arriskuak "sinatu" - logo, koloreak, sareak, frase. Bezeroa ema
 
 "Kalitatea eta zerbitzua" ez (guztiek esaten dute). Zerbait zehatz: "Gure negozioaren [herria] barnean", "Automatizatu gabeko modua". **10 segundurantz esan daiteke.** Ez bada, ez doa.
 
-## Modeloa Deskargatua: zure branding 1 orri
+## Modeloa Deskargatua: zuen branding 1 orri
 
 Orri bat sortu:
 
@@ -73,7 +73,7 @@ Orri bat sortu:
 - Frase.
 - 3 adibide visual.
 
-Orri hori da zure estiloa.
+Orri hori da zuen estiloa.
 
 ## Adibide errealak, presupuestu gabeko negozioetan
 
@@ -81,7 +81,7 @@ Orri hori da zure estiloa.
 - Kolorea: kolorea + beltza.
 - Letra-tipo: Poppins.
 - Tonua: lirain eta zuzen.
-- Frase: "Zure gorria, eskudago".
+- Frase: "Zuen gorria, eskudago".
 - Orain arte, webaren eta oiaren, horiek kendu.
 
 **Emaitza:** bezeroek "WhatsApp-aren bidezko ezagututako" hitz egiten dute.
@@ -90,7 +90,7 @@ Orri hori da zure estiloa.
 - Kolorea: blue + beltza.
 - Letra-tipo: Inter.
 - Tonua: teknikoa baina hurbila.
-- Frase: "Zure autoa, 48 orduan".
+- Frase: "Zuen autoa, 48 orduan".
 - Arriskua QR-aren webra, estiloa.
 
 **Emaitza:** bezeroek "blue paper" WhatsApp-ko webaren arabera.
@@ -123,7 +123,7 @@ Hau da branding-a. Ez 10.000 €, **diskiplina vizualea** behar du.
 
 ---
 
-AdimenAi-kin (Gipuzkoa) laguntzen dugu zure identitate vizuelaren eta branding-sistema erabili etorkizunean: koloreak, letra-tipoak, tonua, plantilak. Lehenengo branding-defizientzia saia **doanikoa** da.
+AdimenAi-kin (Gipuzkoa) laguntzen dugu zuen identitate vizuelaren eta branding-sistema erabili etorkizunean: koloreak, letra-tipoak, tonua, plantilak. Lehenengo branding-defizientzia saia **doanikoa** da.
 
 📞 +34 641 195184 · [Habla con nosotros](https://adimenai.com/contactar)
 

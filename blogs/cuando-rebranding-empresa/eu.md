@@ -1,7 +1,7 @@
 ---
 title: "Enpresaren rebranding-a noiz egin: 9 seinale eta ondo lantzeko modua"
 slug: cuando-rebranding-empresa
-excerpt: "Zure enpresak rebranding bat behar duela adierazten duten 9 seinale argi, Gipuzkoan 2026an zenbat balio duen eta bidean bezerorik ez galtzeko 5 faseko prozesua."
+excerpt: "Zuen enpresak rebranding bat behar duela adierazten duten 9 seinale argi, Gipuzkoan 2026an zenbat balio duen eta bidean bezerorik ez galtzeko 5 faseko prozesua."
 tags: ["Rebranding", "Branding", "Diseinua"]
 metaDescription: "Rebranding bat behar duzula adierazten duten 9 seinale, Espainian 2026an zenbat balio duen (1.500–18.000 €), 5 faseko prozesua eta bezeroak galarazten dizkizuten akatsak."
 publishedAt: 2026-08-17
@@ -14,7 +14,7 @@ language: eu
 
 ## Zer da zehazki rebranding bat?
 
-**Ez da logoa aldatzea bakarrik.** Rebranding bat zure enpresaren identitate osoaren berrikuspen estrategiko eta bisuala da, benetan zarena eta izan nahi duzuna ordezkatzeko. Hau barne hartzen du:
+**Ez da logoa aldatzea bakarrik.** Rebranding bat zuen enpresaren identitate osoaren berrikuspen estrategiko eta bisuala da, benetan zarena eta izan nahi duzuen ordezkatzeko. Hau barne hartzen du:
 
 - **Marka-estrategia:** helburua, balioak, publikoa, posizionamendua, balio-proposamena.
 - **Identitate berbala:** produktu-izenak, komunikazio-tonua, mezu gakoak.
@@ -26,8 +26,8 @@ language: eu
 
 ## Rebranding bat behar duzula adierazten duten 9 seinale
 
-### 1. Zure jarduera aldatu da baina zure markak beste zerbait dio
-Informatika-denda gisa hasi zinen eta orain cloud zerbitzuak saltzen dituzu. Izenak eta markak jada ez dute egiten duzuna komunikatzen.
+### 1. Zuen jarduera aldatu da baina zuen markak beste zerbait dio
+Informatika-denda gisa hasi zinen eta orain cloud zerbitzuak saltzen dituzue. Izenak eta markak jada ez dute egiten duzuen komunikatzen.
 
 ### 2. Enpresa hazi da eta marka txiki geratu da
 3 langile zenituen eta orain 30. Marka "amateur" edo "lokala" dirudi jada eskualdekoa zarenean.
@@ -35,20 +35,20 @@ Informatika-denda gisa hasi zinen eta orain cloud zerbitzuak saltzen dituzu. Ize
 ### 3. Fusionatu zarete edo beste enpresa bat xurgatu duzue
 Bi aldeen markak elkarrekin bizi behar dute... zein geratzen den edo nola integratzen den erabaki arte.
 
-### 4. Zure webak eta materialek zaharkituak dirudite
-Zure webra sartu eta 2012koa dirudi. Bezeroak 3 segundoz zalantzan jartzen badu enpresa martxan dagoen, joan egin da.
+### 4. Zuen webak eta materialek zaharkituak dirudite
+Zuen webra sartu eta 2012koa dirudi. Bezeroak 3 segundoz zalantzan jartzen badu enpresa martxan dagoen, joan egin da.
 
 ### 5. Ez zara Googlen agertzen edo lehiakidearen atzetik agertzen zara
 SEOa eta marka konektatuta daude. Autoritate digital ona duen markak SEOa hobeto bultzatzen du.
 
-### 6. Zure lehiakideak eguneratu dira eta zu ez
-Haiek web moderno bat, branding zaindua eta sareetan presentzia dute. Zuk 90eko hamarkadako logo bat duzu PDF batean.
+### 6. Zuen lehiakideak eguneratu dira eta zu ez
+Haiek web moderno bat, branding zaindua eta sareetan presentzia dute. Zuen 90eko hamarkadako logo bat duzue PDF batean.
 
-### 7. Hainbat logo, hainbat izen, hainbat tonu dituzu
+### 7. Hainbat logo, hainbat izen, hainbat tonu dituzue
 Webekoak, fakturakoak, kamisetakoak, Instagramekoak... ez dira batere antzekoak. Bezeroa nahasita.
 
 ### 8. Merkatu edo hizkuntza berrietan sartzen ari zara
-Gipuzkoatik Espainia osora edo Europara zabaltzen ari bazara, zure lurraldetik haratago funtzionatzen duen marka bat behar duzu.
+Gipuzkoatik Espainia osora edo Europara zabaltzen ari bazara, zuen lurraldetik haratago funtzionatzen duen marka bat behar duzue.
 
 ### 9. Belaunaldi edo zuzendaritza aldaketa
 Errelebo bat, erosketa bat, estrategia berri bat. Markak jabe berriak islatu behar ditu.
@@ -105,7 +105,7 @@ Errelebo bat, erosketa bat, estrategia berri bat. Markak jabe berriak islatu beh
 2. **Diagnostikorik gabe egitea.** Koloreak "gustatzen zaizkidalako" aldatzea zer komunikatzen duen jakin gabe dirua botatzea da.
 3. **Izena erabilgarritasuna egiaztatu gabe aukeratzea.** Web domeinua, sare sozialak, marka-erregistroa. Egiaztatu aurretik.
 4. **Trantsizioa ahaztea.** 1. egunean, denek ulertu behar dute zer aldatu den eta zergatik.
-5. **Taldea ez prestatzea.** Zure jendeak marka berria ulertzen ez badu, zaharra bezala aplikatzen jarraituko du.
+5. **Taldea ez prestatzea.** Zuen jendeak marka berria ulertzen ez badu, zaharra bezala aplikatzen jarraituko du.
 6. **Egin eta ez neurtzea.** Aurkezpenaren ondoren, neurtu ezagupena, web trafikoa, leadak. Hobetzen ez bada, berrikusi.
 7. **Bezeroa harrituta harrapatzea.** 20 urte daramatzazu marka batekin eta abisatu gabe aldatzen baduzu, bezeroek ez zaituzte aurkituko. Aurretiazko komunikazio-plana derrigorrezkoa da.
 
@@ -121,7 +121,7 @@ Errelebo bat, erosketa bat, estrategia berri bat. Markak jabe berriak islatu beh
 - Esentzia mantendu gabeko rebranding-a (bezeroek marka ez dute ezagutzen).
 - Modaren araberako rebranding-a (3 urte eta aurrekora bueltan).
 
-## Nola eragiten dio SEOari eta zure presentzia digitalari
+## Nola eragiten dio SEOari eta zuen presentzia digitalari
 
 Rebranding batek **ez lizuke Googlen kalte egin behar** ondo eginez gero:
 
@@ -148,7 +148,7 @@ Rebranding batek **ez lizuke Googlen kalte egin behar** ondo eginez gero:
 **Noiz merezi du benetan izena aldatzeak?**
 Ia inoiz ez. Soilik:
 - Izenak bilaketa-errore larriak ematen baditu (adib. beste batekin nahasten bada).
-- Izenak geografikoki mugatzen badu zure eremutik ateratzean.
+- Izenak geografikoki mugatzen badu zuen eremutik ateratzean.
 - Izenak espero ez ziren konnotazio negatiboak baditu.
 
 **Zenbat denbora behar du rebranding batek?**
@@ -158,7 +158,7 @@ Ia inoiz ez. Soilik:
 Bai, baina orduan "restyling" hutsa da. Arazoa funtsezkoa bada (komunikazioa, pertzepzioa), logoak bakarrik ez du konponduko.
 
 **Nola eragiten dio SEOari?**
-Migrazioa ondo egiten bada (301 birbideratzea, sitemapa, autoritatea mantenduz), zure trafikoak ez luke jaitsi behar. Gaizki egiten bada, trafiko organikoaren % 50 galdu dezakezu 3 hilabetetan.
+Migrazioa ondo egiten bada (301 birbideratzea, sitemapa, autoritatea mantenduz), zuen trafikoak ez luke jaitsi behar. Gaizki egiten bada, trafiko organikoaren % 50 galdu dezakezu 3 hilabetetan.
 
 **Eta nire uneko bezeroei?**
 Aldaketa markaren esentziarekin koherentea bada, ondo ulertzen dute. Aldaketa erradikala bada, prest egon zergatia ondo azaltzeko eta trantsizioari denbora emateko.
@@ -166,8 +166,8 @@ Aldaketa markaren esentziarekin koherentea bada, ondo ulertzen dute. Aldaketa er
 **Eta barne-rebranding-a (nire taldea)?**
 Prestakuntza eta onboarding materialak barne hartzen ditu. Bezeroarekiko ukipen-puntu guztiek lerrokatuta egon behar dute.
 
-## Zure markak aldaketa bat behar al du?
+## Zuen markak aldaketa bat behar al du?
 
 **AdimenAIn** (Gipuzkoa) **doako marka-diagnostiko** bat egiten dugu 30 minututan. Rebranding, restyling, SEO hutsa edo mezuak doitzea bakarrik behar duzun esango dizugu. Konpromisorik gabe eta fakturarekin.
 
-📞 +34 641 195184 · [Erreserbatu zure marka-diagnostikoa](https://www.adimenai.com/eu/contacto)
+📞 +34 641 195184 · [Erreserbatu zuen marka-diagnostikoa](https://www.adimenai.com/eu/contacto)

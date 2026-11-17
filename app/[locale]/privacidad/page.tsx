@@ -73,7 +73,7 @@ export default async function LocalePrivacidadPage() {
                   <h2 className="text-xl font-semibold text-black">2. Datos personales que recogemos</h2>
                   <p className="mt-2">Podemos recoger los siguientes datos personales:</p>
                   <ul className="mt-2 list-inside list-disc space-y-1">
-                    <li>Datos de contacto (nombre, correo electrónico, teléfono) cuando contactas con nosotros a través del formulario.</li>
+                    <li>Datos de contacto (nombre, correo electrónico, teléfono) cuando contacta con nosotros a través del formulario.</li>
                     <li>Datos de navegación (dirección IP, navegador, páginas visitadas) mediante cookies y tecnologías similares.</li>
                     <li>Cualquier otra información que nos compartas voluntariamente.</li>
                   </ul>
@@ -81,20 +81,20 @@ export default async function LocalePrivacidadPage() {
 
                 <div>
                   <h2 className="text-xl font-semibold text-black">3. Finalidad del tratamiento</h2>
-                  <p className="mt-2">Tratamos tus datos personales con las siguientes finalidades:</p>
+                  <p className="mt-2">Tratamos sus datos personales con las siguientes finalidades:</p>
                   <ul className="mt-2 list-inside list-disc space-y-1">
                     <li>Gestionar las consultas y solicitudes de contacto enviadas a través del formulario.</li>
                     <li>Mejorar la experiencia de navegación y el rendimiento del sitio web.</li>
-                    <li>Enviar comunicaciones comerciales, siempre con tu consentimiento previo.</li>
+                    <li>Enviar comunicaciones comerciales, siempre con su consentimiento previo.</li>
                     <li>Cumplir con las obligaciones legales aplicables.</li>
                   </ul>
                 </div>
 
                 <div>
                   <h2 className="text-xl font-semibold text-black">4. Base legal</h2>
-                  <p className="mt-2">El tratamiento de tus datos se realiza bajo las siguientes bases legales:</p>
+                  <p className="mt-2">El tratamiento de sus datos se realiza bajo las siguientes bases legales:</p>
                   <ul className="mt-2 list-inside list-disc space-y-1">
-                    <li><strong>Consentimiento:</strong> cuando nos escribes a través del formulario o aceptas cookies de marketing.</li>
+                    <li><strong>Consentimiento:</strong> cuando nos escribe a través del formulario o acepta cookies de marketing.</li>
                     <li><strong>Ejecución de un contrato:</strong> para prestar los servicios solicitados.</li>
                     <li><strong>Interés legítimo:</strong> para mejorar nuestros servicios y garantizar la seguridad del sitio.</li>
                     <li><strong>Cumplimiento legal:</strong> para cumplir con obligaciones fiscales, RGPD y otras normativas.</li>
@@ -104,7 +104,7 @@ export default async function LocalePrivacidadPage() {
                 <div>
                   <h2 className="text-xl font-semibold text-black">5. Destinatarios de los datos</h2>
                   <p className="mt-2">
-                    No cedemos tus datos personales a terceros, salvo obligación legal o cuando sea necesario para prestar el servicio solicitado (por ejemplo, proveedores de hosting, herramientas de email marketing). En todo caso, seleccionamos proveedores que garantizan un nivel adecuado de protección de datos.
+                    No cedemos sus datos personales a terceros, salvo obligación legal o cuando sea necesario para prestar el servicio solicitado (por ejemplo, proveedores de hosting, herramientas de email marketing). En todo caso, seleccionamos proveedores que garantizan un nivel adecuado de protección de datos.
                   </p>
                 </div>
 
@@ -117,7 +117,7 @@ export default async function LocalePrivacidadPage() {
 
                 <div>
                   <h2 className="text-xl font-semibold text-black">7. Plazo de conservación</h2>
-                  <p className="mt-2">Conservamos tus datos personales durante el tiempo imprescindible para cada finalidad:</p>
+                  <p className="mt-2">Conservamos sus datos personales durante el tiempo imprescindible para cada finalidad:</p>
                   <ul className="mt-2 list-inside list-disc space-y-1">
                     <li>Datos de contacto: mientras mantengamos relación comercial o durante 2 años desde el último contacto si no se formalizó ningún servicio.</li>
                     <li>Datos de navegación (analytics): un máximo de 26 meses.</li>
@@ -126,42 +126,42 @@ export default async function LocalePrivacidadPage() {
                 </div>
 
                 <div>
-                  <h2 className="text-xl font-semibold text-black">8. Tus derechos</h2>
-                  <p className="mt-2">Puedes ejercer en cualquier momento los siguientes derechos:</p>
+                  <h2 className="text-xl font-semibold text-black">8. Sus derechos</h2>
+                  <p className="mt-2">Puede ejercer en cualquier momento los siguientes derechos:</p>
                   <ul className="mt-2 list-inside list-disc space-y-1">
-                    <li><strong>Acceso:</strong> conocer qué datos tuyos tenemos.</li>
+                    <li><strong>Acceso:</strong> conocer qué datos suyos tenemos.</li>
                     <li><strong>Rectificación:</strong> corregir datos inexactos o incompletos.</li>
-                    <li><strong>Supresión:</strong> solicitar la eliminación de tus datos.</li>
+                    <li><strong>Supresión:</strong> solicitar la eliminación de sus datos.</li>
                     <li><strong>Oposición:</strong> detener el tratamiento en certains circumstancias.</li>
-                    <li><strong>Limitación:</strong> restringir el uso de tus datos.</li>
-                    <li><strong>Portabilidad:</strong> recibir tus datos en formato estructurado.</li>
+                    <li><strong>Limitación:</strong> restringir el uso de sus datos.</li>
+                    <li><strong>Portabilidad:</strong> recibir sus datos en formato estructurado.</li>
                     <li><strong>Revocar el consentimiento:</strong> en cualquier momento, sin afectar a tratamientos anteriores.</li>
                   </ul>
                   <p className="mt-2">
-                    Para ejercer tus derechos, escribe a{" "}
-                    <a href="mailto:info@adimenai.com" className="text-[#6C47FF] hover:underline">info@adimenai.com</a>. Si consideras que no hemos atendido tus derechos, puedes presentar una reclamación ante la Autoridad de Control competente (AEPD en España).
+                    Para ejercer sus derechos, escriba a{" "}
+                    <a href="mailto:info@adimenai.com" className="text-[#6C47FF] hover:underline">info@adimenai.com</a>. Si considera que no hemos atendido sus derechos, puede presentar una reclamación ante la Autoridad de Control competente (AEPD en España).
                   </p>
                 </div>
 
                 <div>
                   <h2 className="text-xl font-semibold text-black">9. Cookies</h2>
                   <p className="mt-2">
-                    Utilizamos cookies y tecnologías similares para mejorar tu experiencia de navegación, analizar el uso del sitio y mostrar contenido personalizado. Para más información, consulta nuestra{" "}
-                    <a href="/seleccionar-cookies" className="text-[#6C47FF] hover:underline">política de cookies</a> y puedes gestionar tus preferencias desde el panel de configuración de cookies.
+                    Utilizamos cookies y tecnologías similares para mejorar su experiencia de navegación, analizar el uso del sitio y mostrar contenido personalizado. Para más información, consulta nuestra{" "}
+                    <a href="/seleccionar-cookies" className="text-[#6C47FF] hover:underline">política de cookies</a> y puede gestionar sus preferencias desde el panel de configuración de cookies.
                   </p>
                 </div>
 
                 <div>
                   <h2 className="text-xl font-semibold text-black">10. Medidas de seguridad</h2>
                   <p className="mt-2">
-                    Adoptamos medidas técnicas y organizativas adecuadas para proteger tus datos personales contra acceso no autorizado, pérdida o alteración. Entre ellas: cifrado SSL/TLS en todo el sitio, acceso restringido a sistemas, copias de seguridad periódicas y revisiones de seguridad regulares.
+                    Adoptamos medidas técnicas y organizativas adecuadas para proteger sus datos personales contra acceso no autorizado, pérdida o alteración. Entre ellas: cifrado SSL/TLS en todo el sitio, acceso restringido a sistemas, copias de seguridad periódicas y revisiones de seguridad regulares.
                   </p>
                 </div>
 
                 <div>
                   <h2 className="text-xl font-semibold text-black">11. Cambios a esta política</h2>
                   <p className="mt-2">
-                    Podemos actualizar esta política de privacidad periódicamente. Cualquier cambio se publicará en esta misma página con la fecha de "última actualización" renovada. Te recomendamos revisarla cada vez que accedas al sitio.
+                    Podemos actualizar esta política de privacidad periódicamente. Cualquier cambio se publicará en esta misma página con la fecha de "última actualización" renovada. Le recomendamos revisarla cada vez que acceda al sitio.
                   </p>
                   <p className="mt-2 text-sm text-zinc-500">Última actualización: junio de 2026</p>
                 </div>

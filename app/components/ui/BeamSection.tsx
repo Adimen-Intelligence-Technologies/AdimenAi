@@ -44,7 +44,7 @@ export function BeamSection() {
             Flujo de datos empresarial
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-tight text-balance text-slate-950">
-            Conecta todas tus entidades y sistemas en una sola plataforma.
+            Conecta todas sus entidades y sistemas en una sola plataforma.
           </h2>
 
 

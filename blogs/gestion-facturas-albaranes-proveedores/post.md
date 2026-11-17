@@ -3,7 +3,7 @@ title: "Gestión de facturas y albaranes con proveedores: cómo dejar de perder 
 slug: gestion-facturas-albaranes-proveedores
 excerpt: "El 70 % de las pymes pierde entre 2 % y 5 % de su facturación por errores en facturas y albaranes. Cómo automatizar la gestión con IA + ERP y cuánto cuesta."
 tags: ["Facturación", "Automatización", "Proveedores"]
-metaDescription: "Cómo automatizar la gestión de facturas y albaranes con tu ERP. Errores que cuestan dinero, casos de uso, precios reales en 2026 y cómo empezar sin interrumpir la operativa."
+metaDescription: "Cómo automatizar la gestión de facturas y albaranes con su ERP. Errores que cuestan dinero, casos de uso, precios reales en 2026 y cómo empezar sin interrumpir la operativa."
 publishedAt: 2026-08-17
 language: es
 ---
@@ -12,7 +12,7 @@ language: es
 
 **** Una pyme española pierde de media entre el **2 % y el 5 % de su facturación anual** por errores en la gestión de facturas y albaranes con proveedores: facturas duplicadas, albaranes que no llegaron, importes mal grabados, IVA mal contabilizado. La buena noticia es que **un agente de IA + un ERP bien conectado elimina el 80 % de esos errores en 4–6 semanas**, con un coste de entre 6.000 € y 18.000 € y un payback típico de 6–12 meses. Esta guía explica exactamente qué duele, qué automatizar primero y cómo no romper la operativa durante el cambio.
 
-## ¿Cuánto dinero estás perdiendo con facturas y albaranes hoy?
+## ¿Cuánto dinero está perdiendo con facturas y albaranes hoy?
 
 El dato abre ojos: según el **informe de Deloitte 2024 sobre fraude y errores en gestión de facturas**, hasta el **70 % de las empresas B2B** detectan errores en sus procesos de facturación, y la pérdida media por empresa ronda el **2–5 % de la facturación anual por compras**.
 
@@ -80,7 +80,7 @@ Porque tener ERP no significa tener el proceso automatizado. Lo que vemos habitu
 - **Workflow de aprobación:** Power Automate, Make/Integromat, Pipedream, o custom.
 - **Conexión con portales de proveedores:** APIs específicas (Ariba, Coupa,'achatpublic, etc.).
 
-En **AdimenAi** (Gipuzkoa) diseñamos la cadena completa con tus herramientas y te la dejamos funcionando. Si tu ERP no tiene API, conectamos vía RPA sin cambiarlo.
+En **AdimenAi** (Gipuzkoa) diseñamos la cadena completa con sus herramientas y se la dejamos funcionando. Si su ERP no tiene API, conectamos vía RPA sin cambiarlo.
 
 ## ¿Cuánto se ahorra realmente?
 
@@ -91,12 +91,12 @@ Para una pyme industrial con 200 facturas/mes:
 - **Ahorro neto:** 2.500 €/mes.
 - **Payback de inversión 8.000 €:** 4 meses.
 
-Y esto sin contar errores duplicados, devoluciones mal anotadas o IVA mal contabilizado. Si metes todo eso, el ahorro sube al 4–6 % de la facturación por compras.
+Y esto sin contar errores duplicados, devoluciones mal anotadas o IVA mal contabilizado. Si mete todo eso, el ahorro sube al 4–6 % de la facturación por compras.
 
 ## Errores que vemos en proyectos de gestión de facturas
 
 1. **Automatizar sin revisar el proceso manual primero.** Si los pasos a seguir no están claros, la IA multiplica el caos.
-2. **Confiar en el OCR al 100 % sin validación.** Los PDFs mal escaneados siguen dando errores. Necesitas una capa humana.
+2. **Confiar en el OCR al 100 % sin validación.** Los PDFs mal escaneados siguen dando errores. Necesita una capa humana.
 3. **Olvidar la trazabilidad legal.** Las facturas automatizadas deben seguir cumpliendo los requisitos de la AEAT (formato, firma, archivo).
 4. **No conectar con el banco para pagos.** Tener el dato bien grabado pero seguir pagando a mano sigue siendo un cuello.
 5. **Hacerlo todo de golpe.** Es mejor empezar por un proveedor o tipo de factura (luz, gas, materiales) y luego extender.
@@ -107,7 +107,7 @@ Y esto sin contar errores duplicados, devoluciones mal anotadas o IVA mal contab
 Entre 6.000 € y 12.000 € para un proyecto medio (200–500 facturas/mes), más 200–400 €/mes de mantenimiento. Coste total a 3 años: 12.000–25.000 €.
 
 **¿Y si mi ERP no tiene API?**
-En AdimenAi conectamos vía RPA de pantalla (UiPath, Power Automate) sin necesidad de cambiar tu ERP. Es más lento por factura (1–2 segundos extra) pero el cliente no nota diferencia.
+En AdimenAi conectamos vía RPA de pantalla (UiPath, Power Automate) sin necesidad de cambiar su ERP. Es más lento por factura (1–2 segundos extra) pero el cliente no nota diferencia.
 
 **¿La AEAT acepta facturas automatizadas?**
 Sí. La AEAT exige trazabilidad, formato estructurado y archivo durante 4 años. Cualquier proyecto bien implementado lo cumple. El "Verifactu" entró en vigor en 2025 y obliga a remitir facturas a la AEAT en tiempo real — estoEncaja perfectamente con la automatización.
@@ -116,7 +116,7 @@ Sí. La AEAT exige trazabilidad, formato estructurado y archivo durante 4 años.
 4–6 semanas para un proyecto piloto con un proveedor. 2–3 meses para cubrir todos los proveedores.
 
 **¿Y los tickets pequeños (parking, taxi, comida)?**
-También. Si tu empresa tiene ticketing de gastos, la IA puede clasificarlos y meterlos en el sistema con la categoría adecuada.
+También. Si su empresa tiene ticketing de gastos, la IA puede clasificarlos y meterlos en el sistema con la categoría adecuada.
 
 **¿Y si los proveedores están en distintos idiomas?**
 Da igual. La IA actual maneja español, inglés, francés, alemán, italiano, portugués, etc. La calidad de la extracción baja un poco con idiomas poco habituales.
@@ -125,10 +125,10 @@ Da igual. La IA actual maneja español, inglés, francés, alemán, italiano, po
 La IA detecta cantidad devuelta, motivo y ajuste en factura. Si la devolución es obvia, la procesa. Si es ambigua, escala a persona.
 
 **¿Necesito cambiar de ERP?**
-No. Integramos con SAP, Holded, Sage, Dynamics AX, A3, NCS, Odoo, etc. Si tu ERP no tiene API, RPA de pantalla.
+No. Integramos con SAP, Holded, Sage, Dynamics AX, A3, NCS, Odoo, etc. Si su ERP no tiene API, RPA de pantalla.
 
-## ¿Quieres dejar de perder dinero con cada factura?
+## ¿Quiere dejar de perder dinero con cada factura?
 
-En **AdimenAi** (Gipuzkoa) hacemos un **análisis gratuito de tu proceso de facturación**: cuánto estás perdiendo, qué automatizar primero y cuánto te costaría. Sin compromiso y con factura si decides seguir.
+En **AdimenAi** (Gipuzkoa) hacemos un **análisis gratuito de su proceso de facturación**: cuánto está perdiendo, qué automatizar primero y cuánto le costaría. Sin compromiso y con factura si decide seguir.
 
-📞 +34 641 195184 · [Solicita tu análisis](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Solicite su análisis](https://adimenai.com/contactar)

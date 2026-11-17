@@ -32,9 +32,9 @@ Hemen daude ustekaberik gehienak. Prezio baxu batek normalean barne **ez** dagoe
 
 ### Oinarrizko paketea (600–1.500 €)
 - ✅ Txantiloi premiuma (Kadence, Astra, GeneratePress…)
-- ✅ Zure markara egokitutako diseinua
+- ✅ Zuen markara egokitutako diseinua
 - ✅ 5-8 atal eta kontaktu-formularioa
-- ❌ Ez du testuen erredakzioa barne hartzen (zuk jarri behar dituzu)
+- ❌ Ez du testuen erredakzioa barne hartzen (zuen jarri behar dituzue)
 - ❌ Ez du SEO teknikorik ez hasierako posizionamendurik barne hartzen
 - ❌ Ez du mantentzea barne hartzen (ondorengo aldaketak bereizita kobratzen dira)
 
@@ -48,7 +48,7 @@ Hemen daude ustekaberik gehienak. Prezio baxu batek normalean barne **ez** dagoe
 ### Denda online (3.000–8.000 €)
 - ✅ Produktu-katalogoa eta ordainketa-pasabidea
 - ✅ Bidalketen eta fakturazioaren konfigurazioa
-- ✅ Zure ERP edo stock sistemarekin integrazioa
+- ✅ Zuen ERP edo stock sistemarekin integrazioa
 - ✅ Kudeaketa-panel intuitiboa
 - ⚠️ Plataformaren hileko kostua: Shopify 39–399 €/hilean, WooCommerce + hosting 20–80 €/hilean
 
@@ -62,7 +62,7 @@ Hemen daude ustekaberik gehienak. Prezio baxu batek normalean barne **ez** dagoe
 
 ## Zer erabaki behar da aurrekontuak eskatu aurretik?
 
-Inorekin hitz egin aurretik, izan argi 5 galdera hauek. Behar ez duzun zerbaitengatik ordaintzea edo proiektuaren erdian zerbait falta izatea saihestuko duzu:
+Inorekin hitz egin aurretik, izan argi 5 galdera hauek. Behar ez duzun zerbaitengatik ordaintzea edo proiektuaren erdian zerbait falta izatea saihestuko duzue:
 
 1. **Zer nahi dut webak egitea?** (informatzea, leadak lortzea, online saltzea, automatizatzea)
 2. **Zenbat hizkuntza?** (gaztelania soilik, gaztelania + ingelesa, gaztelania + euskara, etab.)
@@ -74,9 +74,9 @@ Erantzunek zehazten dute oinarrizko WordPress bat, Shopify bat edo neurrizko gar
 
 ## Prezioa puzten duten akats ohikoenak
 
-- **"Eskalatzeko" eskatzea** noraino jakin gabe. Hilean 50 produktu saltzen badituzu, ez duzu 20.000 €ko headless commerce bat behar.
+- **"Eskalatzeko" eskatzea** noraino jakin gabe. Hilean 50 produktu saltzen badituzu, ez duzue 20.000 €ko headless commerce bat behar.
 - **Edukia argi ez izatea.** Enpresa-testuak idazteak 300 € eta 1.500 € artean gehiago balio du orrien arabera.
-- **Moda-plataforma aukeratzea.** Webflow, Framer, Squarespace… zure taldeak ez baditu menperatzen, beti hornitzailearen mende egongo zara.
+- **Moda-plataforma aukeratzea.** Webflow, Framer, Squarespace… zuen taldeak ez baditu menperatzen, beti hornitzailearen mende egongo zara.
 - **SEOa ahaztea.** Googlen agertzen ez den web polit bat gastua da, ez inbertsioa.
 - **Mantentzea aurrekontuan ez sartzea.** Web batek segurtasun-eguneraketak, pluginak eta babeskopiak behar ditu. Aurrekontu errealista: gutxienez 40–150 €/hilean.
 
@@ -105,9 +105,9 @@ Merkatuan aurkituko dituzun hiru aukera errealak:
 | Pertsonalizazioa | Mugatua | Altua | Mugatua |
 | Etengabeko laguntza | Aldakorra | Bai | Bai (mugatua) |
 | SEO profesionala | Arraroa | Ohikoa | Oinarrizkoa |
-| Zure sektorearen ezagutza | Aurreikusi ezina | Litekeena | Ez |
+| Zuen sektorearen ezagutza | Aurreikusi ezina | Litekeena | Ez |
 
-**AdimenAIn** batez ere Euskadiko eta Espainiako gainerako **ETE eta merkataritza lokalekin** lan egiten dugu. Web bat guretzat ez da diseinua bakarrik: lehen egunetik SEO posizionamendua, zure sistemekin integrazioa (TPV, ERP, CRM) eta zuk zeuk kudeatu ahal izateko prestakuntza barne hartzen ditu.
+**AdimenAIn** batez ere Euskadiko eta Espainiako gainerako **ETE eta merkataritza lokalekin** lan egiten dugu. Web bat guretzat ez da diseinua bakarrik: lehen egunetik SEO posizionamendua, zuen sistemekin integrazioa (TPV, ERP, CRM) eta zuen zeuk kudeatu ahal izateko prestakuntza barne hartzen ditu.
 
 ## Galdera maiztuak (FAQ)
 
@@ -132,8 +132,8 @@ Bai. Ohikoena % 30 sinatzean, % 40 erdibidean eta % 30 entregatzean da. Agentzia
 **Eta mantentzea?**
 Web batek mantentzea behar du: segurtasun-eguneraketak, pluginak, kopiak, laguntza. Kostu errealista: 40–120 €/hilean WordPressen, 60–200 €/hilean WooCommerceren, 200–600 €/hilean neurrizko proiektuetan.
 
-## Emaitzak ematen dituen web bat nahi al duzu, "existitzea" bakarrik ez?
+## Emaitzak ematen dituen web bat nahi al duzue, "existitzea" bakarrik ez?
 
-**AdimenAIn** bezeroak lortzeko pentsatutako webak diseinatzen ditugu: lehen egunetik SEOarekin, zure TPV edo ERParekin integratuta eta zuk zeuk mantendu ahal izateko prestakuntzarekin. 30 minutuko doako deiarekin hasten gara, benetan zer behar duzun ikusteko eta aurrekontu itxi bat pasatzeko.
+**AdimenAIn** bezeroak lortzeko pentsatutako webak diseinatzen ditugu: lehen egunetik SEOarekin, zuen TPV edo ERParekin integratuta eta zuen zeuk mantendu ahal izateko prestakuntzarekin. 30 minutuko doako deiarekin hasten gara, benetan zer behar duzun ikusteko eta aurrekontu itxi bat pasatzeko.
 
-📞 +34 641 195184 · [Eskatu zure aurrekontua](https://www.adimenai.com/eu/contacto)
+📞 +34 641 195184 · [Eskatu zuen aurrekontua](https://www.adimenai.com/eu/contacto)

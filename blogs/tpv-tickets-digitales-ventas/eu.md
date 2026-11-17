@@ -1,14 +1,14 @@
 ---
-title: "TPV eta arriskuduneko azaldiak: zer moduz iristen duzu TPV aldatu gabe"
+title: "TPV eta arriskuduneko azaldiak: zer moduz iristen duzue TPV aldatu gabe"
 slug: tpv-tickets-digitales-ventas
 excerpt: "Azaldi elektronikoa webaren, WhatsApp-aren eta katalogoaren loturarekin ez da paperekin ahorriatzea soilik: beste salmenta-kanal bat da. 20 minutan, TPV-a salmenta gehiago iritsiko duen formak zehaztu."
 tags: ["TPV", "Azaldiak", "Salmentak"]
-metaDescription: "Nola konfiguratu zure TPV arrisku elektronikoak ematen: QR, web, WhatsApp, katalogoa online. Gida praktikoa ETEentzat 20 minutan."
+metaDescription: "Nola konfiguratu zuen TPV arrisku elektronikoak ematen: QR, web, WhatsApp, katalogoa online. Gida praktikoa ETEentzat 20 minutan."
 publishedAt: 2026-08-17
 language: eu
 ---
 
-# TPV eta arriskuduneko azaldiak: zer moduz iristen duzu TPV aldatu gabe
+# TPV eta arriskuduneko azaldiak: zer moduz iristen duzue TPV aldatu gabe
 
 **Laburpena.** Arrisku elektronikoa soilik "paperekin ahorritzea" ez da. **Bezeroaren zepelan dagoen Bigarren salmenta-kanalea** bat da. QR bat web edo e-tiendara, WhatsApp-mezua eta produktu-katalogu bat izan badituzu, 2 salmenta asteko 8 edo 10-ra iristen daude. Gakoa 1 ora behar duen "TPV berri bat aldatzea", 20 minutu. Tactil, ICG, Bridge edo Clover erabiltzen badituzu, funtzioa badago; soilik aktibatzea falta da.
 
@@ -16,7 +16,7 @@ language: eu
 
 Bezeroek papereko azaldi bat lortzen dute eta gero galtzen da. Arrivera elektroniko batek:
 
-- **QR bat zure web edo e-tiendara.**
+- **QR bat zuen web edo e-tiendara.**
 - **WhatsApp-mezu bat.**
 - **produktu edo zerbitzu katalogua**
 - **Kode bezero bat hurrengo erosketa zentzetik.**
@@ -64,7 +64,7 @@ Tactil edo Bridge erabiltzen badituzu, API badituzu. Clover erabiltzen baduzu, W
 
 ### 3. pausa: Historiala integratu
 
-WhatsApp-aren zenbaki bakoitz TPV/datu-basearen bezero batean geratzen da. Zure enpresaren historiaren arriskua ikus daiteke eta, bonus, marketinak.
+WhatsApp-aren zenbaki bakoitz TPV/datu-basearen bezero batean geratzen da. Zuen enpresaren historiaren arriskua ikus daiteke eta, bonus, marketinak.
 
 ## WhatsApp vs formulario web vs app
 

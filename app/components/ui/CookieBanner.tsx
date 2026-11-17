@@ -44,7 +44,7 @@ export function CookieBanner() {
           </span>
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500">Gestor de cookies</p>
-            <p className="text-lg font-semibold">Controla tu privacidad</p>
+            <p className="text-lg font-semibold">Controle su privacidad</p>
           </div>
         </div>
 

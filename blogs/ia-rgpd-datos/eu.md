@@ -26,7 +26,7 @@ Kasu errealak, horren arabera:
 
 ## Ikerketa: bezeroaren datuak pasatzen direnak?
 
-Zure bezeroak etorriko litekeena, IDa, emaila, trukea edo istorioa beste enpresa baten datu-basean dagoela ikusteko. Hor da zure atala.
+Zuen bezeroak etorriko litekeena, IDa, emaila, trukea edo istorioa beste enpresa baten datu-basean dagoela ikusteko. Hor da zuen atala.
 
 **Datuak ez dagoizula izan beharrizkoak:**
 - Bezeroen emailak.
@@ -50,7 +50,7 @@ Zure bezeroak etorriko litekeena, IDa, emaila, trukea edo istorioa beste enpresa
 | **Gemini (Google)** | ⚠️ Ez defektuan | Ez da entrenamendurik Workspace erabiltzen baduzu |
 | **Copilot (Microsoft)** | ⚠️ Enterprise-n Bai | Akordio enpresariala behar da |
 | **GPT for Work / Azure OpenAI** | ✅ Bai, akordioarekin | Enpresak datu-tratamendu akordioa sin dezake |
-| **Mistral edo Llama lokala** | ✅ Bai | Zure zerbitzuetan prozesatzen badira |
+| **Mistral edo Llama lokala** | ✅ Bai | Zuen zerbitzuetan prozesatzen badira |
 
 ## SMEentzako alternatiba seguruak
 
@@ -58,10 +58,10 @@ Zure bezeroak etorriko litekeena, IDa, emaila, trukea edo istorioa beste enpresa
 Izenak ordez [`BEZEROA`], importuak `[IMPOTURA]>, telefonoak `[TELEFONOA]>. IA-k kontzeptuaren arabaina ulertzen du barik datuetik.
 
 ### 2. IA negoziala (ez doanikoa)
-Tresnak bezalakoak **GPT for Work**, **Azure OpenAI** edo **Claude for Work** datu-tratamendu akordioak (LOPDGDD) sin dezakete. Besteekin ez dute erabili zure datuak trebetasun publikoak trebailatzeko.
+Tresnak bezalakoak **GPT for Work**, **Azure OpenAI** edo **Claude for Work** datu-tratamendu akordioak (LOPDGDD) sin dezakete. Besteekin ez dute erabili zuen datuak trebetasun publikoak trebailatzeko.
 
 ### 3. Lokala (on-premise)
-Modeloak **Mistral** edo **Llama** zure zerbitzuetan instalatu daitezke. Zailagoa da, baina iraultze-risgua zeroa da.
+Modeloak **Mistral** edo **Llama** zuen zerbitzuetan instalatu daitezke. Zailagoa da, baina iraultze-risgua zeroa da.
 
 ## Adibide errealak: zuzen al dago?
 
@@ -94,13 +94,13 @@ Pasa dezakeela IA-era edozein datua:
 - **Google Workspace + Gemini:** integratuta, pribatutasun-kontrolarekin.
 - **OpenArt (irudiak):** DALL-E alternatiba pribatuaren datuetan.
 - **N8N / Make + OCR pribatutua:** datu-flusak espizialki prozesatzeko.
-- **IA lokala (LM Studio):** Llama3/Mistral zure ordenagailuan. Datu soinkidea duen SMEentzat.
+- **IA lokala (LM Studio):** Llama3/Mistral zuen ordenagailuan. Datu soinkidea duen SMEentzat.
 
 ## Laburbilki
 
 - IA doanikoa = datu generiko edo anonimitizatuak.
 - IA enpresailua = datu errealak (akordioarekin).
-- IA lokala = datu errealak (zure zerbitzuetan).
+- IA lokala = datu errealak (zuen zerbitzuetan).
 
 Iragarkia ez da "IA erabiltzea galdu". "IA **arduratsua** erabiltzea". Normaek pribatutasuna babesten dute, ez gertaeraren ondorioak.
 

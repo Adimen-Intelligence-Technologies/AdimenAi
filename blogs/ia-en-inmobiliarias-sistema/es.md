@@ -14,7 +14,7 @@ language: es
 
 La mayoría de las inmobiliarias ya está usando IA. La abren, le piden *“ideas de posts”*, sacan un texto, y la cierran. Al otro día, arrancan de nuevo como si la IA fuera un ayuntante interino: llega, desarma todo y se va.
 
-**Eso no es tener IA en tu inmobiliaria.**
+**Eso no es tener IA en su inmobiliaria.**
 
 ## ¿Qué diferencia hay entre el 5 % y el 92 %?
 
@@ -32,15 +32,15 @@ Y eso no pasa. Una IA con 500.000 millones de parámetros no va a organizar un C
 
 El problema es **usarla como si fuera un truco suelto** y no como un componente dentro de un sistema.
 
-Mira tu inmobiliaria con honestidad. Hoy, ¿qué pasos son esenciales para convertir un lead en cliente? ¿Están escritos? ¿Quién los sigue? ¿Qué herramientas usas? ¿Todas hablan entre sí?
+Mire su inmobiliaria con honestidad. Hoy, ¿qué pasos son esenciales para convertir un lead en cliente? ¿Están escritos? ¿Quién los sigue? ¿Qué herramientas usa? ¿Todas hablan entre sí?
 
-La IA no pone orden al caos. **Tú sí.** La IA acelera lo que ya funciona.
+La IA no pone orden al caos. **Usted sí.** La IA acelera lo que ya funciona.
 
 ## ¿Cómo se ve una inmobiliaria con sistema vs una con IA suelta?
 
-| Lo que haces hoy | Lo que es el 5 % | Lo que es el 92 % |
+| Lo que hace hoy | Lo que es el 5 % | Lo que es el 92 % |
 |---|---|---|
-| “Abro ChatGPT y pido un post” | El content calendar está planeado y cargado con tu conocimiento de clientes, zonas y historial de cierres | Cada prompt es un mundo nuevo, sin continuidad |
+| “Abro ChatGPT y pido un post” | El content calendar está planeado y cargado con su conocimiento de clientes, zonas y historial de cierres | Cada prompt es un mundo nuevo, sin continuidad |
 | Crear contenido ad hoc | El contenido se genera desde briefs reutilizables con voz de marca | El tono cambia cada vez y confunde al cliente |
 | Capturar leads sin segmentar | El CRM tiene etiquetas, puntuaciones y flujos automatizados | Los leads se pierden en una hoja suelta |
 | Responder WhatsApp a mano | El agente de IA responde WhatsApp con contexto del cliente | Se responde igual a un lead frío que a uno caliente |
@@ -48,22 +48,22 @@ La IA no pone orden al caos. **Tú sí.** La IA acelera lo que ya funciona.
 
 **La IA del 5 % no es más inteligente.** Es parte de un sistema que ya sabía qué quería.
 
-## ¿Qué necesitas para pasar del 92 % al 5 %?
+## ¿Qué necesita para pasar del 92 % al 5 %?
 
 No es mucho, pero pocos lo hacen:
 
-1. **Define tu cliente ideal.** No “familias jóvenes”; sino “familias jóvenes de 30 a 38 años, ingresos superiores a 4.500 €, que buscan piso en [distrito] con playa y colegio concertado”. Esa persona entra en tu IA y la IA responde distinto.
-2. **Escribe tus procesos.** El flujo de lead a cliente, el guion de llamadas, los briefs de marketing. Si no está escrito, la IA no puede ayudarte a repetirlo.
-3. **Centraliza el conocimiento.** Preguntas frecuentes, testimonios, fichas de zonas, historial de cierres. Una IA sin contexto solo genera ruido.
-4. **Establece un output mínimo.** No vale “mejor que el anterior”. Vale si convierte, si genera tráfico, si reduce tiempo.
+1. **Defina su cliente ideal.** No “familias jóvenes”; sino “familias jóvenes de 30 a 38 años, ingresos superiores a 4.500 €, que buscan piso en [distrito] con playa y colegio concertado”. Esa persona entra en su IA y la IA responde distinto.
+2. **Escriba sus procesos.** El flujo de lead a cliente, el guion de llamadas, los briefs de marketing. Si no está escrito, la IA no puede ayudarle a repetirlo.
+3. **Centralice el conocimiento.** Preguntas frecuentes, testimonios, fichas de zonas, historial de cierres. Una IA sin contexto solo genera ruido.
+4. **Establezca un output mínimo.** No vale “mejor que el anterior”. Vale si convierte, si genera tráfico, si reduce tiempo.
 
-Si eso lo tienes, la IA no es un truco suelto. Es una palanca.
+Si eso lo tiene, la IA no es un truco suelto. Es una palanca.
 
 ## Una pregunta honesta, de dueño a dueño
 
-> **¿Vos hoy tenés un sistema con IA… o tenés una IA a la que le pedís cosas sueltas cuando te acordás?**
+> **¿Usted hoy tiene un sistema con IA… o tiene una IA a la que le pide cosas sueltas cuando se acuerda?**
 
-La respuesta determina si tus inversiones en tecnología van a cerrar más operaciones o a generar más contenido sin rumbo. El 5 % no usa mejor la IA. El 5 % construyó un sistema que la IA respalda. El 92 % espera que la IA lo ordene todo.
+La respuesta determina si sus inversiones en tecnología van a cerrar más operaciones o a generar más contenido sin rumbo. El 5 % no usa mejor la IA. El 5 % construyó un sistema que la IA respalda. El 92 % espera que la IA lo ordene todo.
 
 No hay atajos. Pero sí hay un camino claro: primero el sistema, luego la IA.
 

@@ -1,16 +1,16 @@
 ---
-title: "Prozesuen automatizazioa: nola aplikatu zure enpresan"
+title: "Prozesuen automatizazioa: nola aplikatu zuen enpresan"
 slug: automatizacion-de-procesos-en-tu-empresa
-excerpt: "Prozesuak zure enpresan automatizatzeko metodoa pausoz pausu: prozesu egokia aukeratzea, dokumentatzea, 4 asteetako pilotua, neurtzea eta eskalatzea. Checklista ere badu."
+excerpt: "Prozesuak zuen enpresan automatizatzeko metodoa pausoz pausu: prozesu egokia aukeratzea, dokumentatzea, 4 asteetako pilotua, neurtzea eta eskalatzea. Checklista ere badu."
 tags: ["Automatizazioa", "Prozesuak", "Industria"]
-metaDescription: "Nola aplikatu prozesuen automatizazioa zure enpresan pausoz pausu: prozesua aukeratzea, dokumentatzea, 4 asteetako pilotua, metrikak, ohiko erroreak eta checklista."
+metaDescription: "Nola aplikatu prozesuen automatizazioa zuen enpresan pausoz pausu: prozesua aukeratzea, dokumentatzea, 4 asteetako pilotua, metrikak, ohiko erroreak eta checklista."
 publishedAt: 2026-08-23
 language: eu
 ---
 
-# Prozesuen automatizazioa: nola aplikatu zure enpresan
+# Prozesuen automatizazioa: nola aplikatu zuen enpresan
 
-**Laburpena.** Prozesuen automatizazioa brainstormin gela baten ez da erabakitzen: pausoz pausoz aplikatzen da, eta orden egokian. Hau da **Adimen**-en jarraitzen dugun metodoa zure enpresan txertatzeko (gero eta gehiago, industriako enpresetan): nondik hasi, nola dokumentatu prozesoa idatzita dagoen bezala ez, idatzita ez bezala, nola ezarri lau asteetan funtzionatzen duen pilotua, zein hiru zenbaki begiratu eta nola eskalatu. Amaieran 10 galderetako checklista bat duzu zure prozesua prest dagoen jakiteko, eta dei bat zure kasua ebaluatzeko.
+**Laburpena.** Prozesuen automatizazioa brainstormin gela baten ez da erabakitzen: pausoz pausoz aplikatzen da, eta orden egokian. Hau da **Adimen**-en jarraitzen dugun metodoa zuen enpresan txertatzeko (gero eta gehiago, industriako enpresetan): nondik hasi, nola dokumentatu prozesoa idatzita dagoen bezala ez, idatzita ez bezala, nola ezarri lau asteetan funtzionatzen duen pilotua, zein hiru zenbaki begiratu eta nola eskalatu. Amaieran 10 galderetako checklista bat duzue zuen prozesua prest dagoen jakiteko, eta dei bat zuen kasua ebaluatzeko.
 
 Oso garbi ez badago oraindik zer den prozesuen automatizazioa, hemen hasi: *[zer den eta zer automatiza daitezkeen](https://www.adimenai.com/eu/blog/automatizacion-de-procesos)*. Eta 2026ko kostuak eta epeak behar badituzu: *[industria-automatizazioa IArekin 2026an](https://www.adimenai.com/eu/blog/automatizacion-industrial-ia-2026)*.
 
@@ -20,13 +20,13 @@ Automatizazio bat ez funtzionatzea gehienetan eragiten duen arrazoa ez da softwa
 
 Beraz, benetako lana ez da kodea idazten hasten denean. Lehenago hasten da, eta softwarearen proiektu bat baino gehiago elkarrizketari antzuten zaio. Eta industriako enpresetan osagai bat gehiago dago, beste sektoreetan ez dagoen bezala: **prozesua eskuzorik ez, lantegian, makinan eta 12 urtez egin duen pertsonaren buruan dago**.
 
-## 1. pausua · Aurrekratu zure enpresa gaur nola lan egiten duen
+## 1. pausua · Aurrekratu zuen enpresa gaur nola lan egiten duen
 
-Eser zaude prozesua ondoen dakiten hiru edo lau pertsonerekin eta ibili benetan fluxu erreala. Ez elkarrizketarako, baina begiratzeko: "erakustea nola egiten duzu, joan den asteko kasu erreala batekin".
+Eser zaude prozesua ondoen dakiten hiru edo lau pertsonerekin eta ibili benetan fluxu erreala. Ez elkarrizketarako, baina begiratzeko: "erakustea nola egiten duzue, joan den asteko kasu erreala batekin".
 
 Bileratik hiru gauza ateratzen dira, eskuliburuak inoiz ematen ez dituenak:
 
-- **Benetan zer denbora ematen den** urrats bakoitzean (uste duzuna ez, krontometratzen dena).
+- **Benetan zer denbora ematen den** urrats bakoitzean (uste duzuen ez, krontometratzen dena).
 - **Non galtzen den informazioa**: zein emailetan, zein karpetan, zein liburutan, zein burutan.
 - **Zein daitezkeen alde**: PDF-etan datozen eskaerak, besteak kalkulu-orrian, besteak telefonoz.
 
@@ -34,16 +34,16 @@ Emaitza orrialde bat den mapa da. Dokumentu horrek zehazten ditu gainera guztiak
 
 ## 2. pausua · Aukeratu nondik hasi (eta ez nondik hasteko errazena den)
 
-Automatizatzea erraza da; ondo aukeratzea benetako lana da. tentsioa prozesu errazena hastea da, eta hori gehienetan akatsa da: bat ez zekazen minik ematen ez bazuten automatizatzen baduzu, ez duzu ezer esango sumatuko.
+Automatizatzea erraza da; ondo aukeratzea benetako lana da. tentsioa prozesu errazena hastea da, eta hori gehienetan akatsa da: bat ez zekazen minik ematen ez bazuten automatizatzen baduzu, ez duzue ezer esango sumatuko.
 
-Iragazi zure prozesuak galdera hauekin:
+Iragazi zuen prozesuak galdera hauekin:
 
 1. Astero zenbaitetan edo egunero errepikatzen da?
 2. Beti modu berean egiten da, esaldi batean idatzi daitekeen erregelek?
 3. Pertsonaren orduak jaten ditu, edo diru garestia sortzen duten akatsak sortzen ditu?
 4. Informazioa formatu digitalean sartzen eta ateratzen da (email, PDF, kalkulu-orria, ERP)?
 
-Lauetik hirurekin "bai" erantzuten baduzu, kandidato bat duzu. "Ez" erantzuten baduzu bie edo gehiagotan, utzi hobe geroago.
+Lauetik hirurekin "bai" erantzuten baduzu, kandidato bat duzue. "Ez" erantzuten baduzu bie edo gehiagotan, utzi hobe geroago.
 
 Industriako enpresa batean nondik hasten den zenbait adibide erreala:
 
@@ -57,7 +57,7 @@ Industriako enpresa batean nondik hasten den zenbait adibide erreala:
 
 Hau da gehien jendeak saltatzen duen pausoa, eta disappointamendu gehien saihesten duena.
 
-Automatizatu zihoen prozesua **eskuliburuko prozesua ez da**: zure pertsonak saguaren bidez egiten duena da, egitura duen bezala, inork garrantzitsutzat jotzen ez dituen bi urrats saltatuz eta laguntzaile bati galdetuz. Eskuliburuko prozesu ederra dokumentatzen baduzu, existitzen ez den prozesua automatizatuko duzu.
+Automatizatu zihoen prozesua **eskuliburuko prozesua ez da**: zuen pertsonak saguaren bidez egiten duena da, egitura duen bezala, inork garrantzitsutzat jotzen ez dituen bi urrats saltatuz eta laguntzaile bati galdetuz. Eskuliburuko prozesu ederra dokumentatzen baduzu, existitzen ez den prozesua automatizatuko duzue.
 
 Nola dokumentatu ondo, teknikorik gabe:
 
@@ -107,7 +107,7 @@ Eta idatzi "lehen"aren eta "ondoren"aren argazkia: horrek bihurtzen du inbertsio
 Funtzionatzen duen pilotua hasiera besterik da. Hiru hilabetean eroriko ez dadin:
 
 - **Dokumentatu** nola funtzionatzen duen automatizazioak (orrialde bat: zer egiten duen, zer egiten ez duen, nori abisatu).
-- **Izendatu prozesuaren jabea**: zure taldeko norbait, zer egin behar duen jakiteko norbaitek gauza bada txarrena datorrenean. Jabe hori gabe, automatizazioa zahartzen da eta inork ez dio eskuratzen.
+- **Izendatu prozesuaren jabea**: zuen taldeko norbait, zer egin behar duen jakiteko norbaitek gauza bada txarrena datorrenean. Jabe hori gabe, automatizazioa zahartzen da eta inork ez dio eskuratzen.
 - **Prestatu taldea** erabiltzeko, ez soilik abiaraztean.
 - **Errepikatu eredua**: bigarren prozesua askoz ere gutxiago kostatu ohi da lehenengatik, oinarriak dagoeneko.
 
@@ -115,7 +115,7 @@ Funtzionatzen duen pilotua hasiera besterik da. Hiru hilabetean eroriko ez dadin
 
 1. **Hautsitutako prozesua automatizatzea.** Eskaerak galtzen badira bezero bakoitzak beste helbide bat idatziz, hura automatizatzeak kaltea azkarragoz bidaltzen du.
 2. **Tecnologiarekin hastea.** Zein arazo konpontzen den jakin gabe tresna bat erostea da ez konpontzeko modurik azkarrena.
-3. **"Lehena" neurri gabe automatizatzea.** Ez badakizu zenbat zosten, ezin duzu irabazi duzuna frogatu.
+3. **"Lehena" neurri gabe automatizatzea.** Ez badakizu zenbat zosten, ezin duzue irabazi duzuen frogatu.
 4. **Salbuespenak norbere esku uzten ez erabaktea.** Norbaitek hartu behar du telefonoa sistema bat ez ulertzen duenean.
 5. **Erabiltzaileak kanpoan uztea.** Egunero prozesua egiten duenak lasterra non dagoen badaki: diseinuan parte hartu ez badu, horretatik alde egingo du.
 6. **Pantailarekin bakarrik konektatzea.** Giza batek klik egiten zuen lekuan klik eginez automatizatzea funtzionatzen du egun bat pantaila aldatzen denean eta prozesoa gelditzen denean.
@@ -123,7 +123,7 @@ Funtzionatzen duen pilotua hasiera besterik da. Hiru hilabetean eroriko ez dadin
 
 ## Checklista: 10 galdera prozesu bat automatizatu aurretik
 
-Erantzun egin zintzoz. Sei edo gehiagok erantzun argia badute, jadanik duzu gainerako hautagai bat:
+Erantzun egin zintzoz. Sei edo gehiagok erantzun argia badute, jadanik duzue gainerako hautagai bat:
 
 1. Zenbatean errepikatzen da?
 2. Nor egiten du eta zenbat denbora ematen dio?
@@ -136,16 +136,16 @@ Erantzun egin zintzoz. Sei edo gehiagok erantzun argia badute, jadanik duzu gain
 9. Zer neurtuko zuen arrakastutzat erakusteko?
 10. Nor izango da prozesuaren jabea automatizatuta dagoenean?
 
-## Zure kasuan aplikatu dezakegu?
+## Zuen kasuan aplikatu dezakegu?
 
 Hau da egiten dugun gauza **Adimen**-en (Gipuzkoa): prozesuak automatizatzea, gero eta gehiago industriako enpresetan, benetako bezeroentzat **600 prozesu baino gehiago** automatizatuta.
 
 Lehen pausoa **30 minutuko dei bat da, konpromisorik gabe**, non:
 
-- Esaten diguzu zer zure denbora janari edo erakusten diguzu prozesua zuzenean lantegian.
-- Zure prozesuei lau galderako iragazkia aplikatzen diegu eta esaten dizugu zein den egokia.
+- Esaten diguzu zer zuen denbora janari edo erakusten diguzu prozesua zuzenean lantegian.
+- Zuen prozesuei lau galderako iragazkia aplikatzen diegu eta esaten dizugu zein den egokia.
 - Ematen dizugu kostu eta epearen estimazioa lehenengo horretarako.
 
-**Aukeratu nahi duzun modua:** deitu gaitzazu **+34 641 195184** telefonan edo bidal iezaguzu mezu bat inprimukoak, eta 24 ordu baino gutxiagorako erresponduten dizugu zure kasuarako proposamen zehatzarekin.
+**Aukeratu nahi duzun modua:** deitu gaitzazu **+34 641 195184** telefonan edo bidal iezaguzu mezu bat inprimukoak, eta 24 ordu baino gutxiagorako erresponduten dizugu zuen kasuarako proposamen zehatzarekin.
 
 📞 +34 641 195184 · [Kontaktu formularioa](https://www.adimenai.com/eu/contacto)
