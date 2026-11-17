@@ -5,7 +5,7 @@
     "herrikonekt": "Herrikonekt",
     "herrikonektDesc": "App de comercio local",
     "herrikonektApps": "Apps móviles",
-    "herrikonektAppsDesc": "Gestiona tu negocio desde cualquier lugar",
+    "herrikonektAppsDesc": "Gestione su negocio desde cualquier lugar",
     "herrikonektAppsAndroid": "App Android",
     "herrikonektAppsIos": "App iOS",
     "blog": "Blog",
@@ -14,7 +14,7 @@
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú",
     "aiAutomation": "Automatización e IA",
-    "aiAutomationDesc": "Agentes IA, RPA y chatbots para optimizar tu negocio",
+    "aiAutomationDesc": "Agentes IA, RPA y chatbots para optimizar su negocio",
     "aiAutomationRpa": "Automatización de Procesos (RPA)",
     "aiAutomationChatbots": "Asistentes de IA",
     "aiAutomationCrm": "Sistemas CRM y CMS",
@@ -42,12 +42,10 @@
     "managementSoftwareHospitality": "Hostelería",
     "managementSoftwareFood": "Alimentación",
     "managementSoftwareBeauty": "Belleza y wellness",
-    "pages": {
-      "home": "Inicio",
-      "services": "Servicios",
-      "webDesign": "Diseño de páginas web",
-      "commerce": "Comercios",
-      "useCases": "Casos de uso"
+    "pillars": {
+      "aiAutomation": "Automatización con IA",
+      "digitalization": "Digitalización de empresas",
+      "apps": "Apps web y móviles"
     }
   },
   "language": {
@@ -57,7 +55,7 @@
   },
   "hero": {
     "eyebrow": "Soluciones tecnológicas 360°",
-    "title": "Sea cual sea tu negocio, transfórmalo con nuestras soluciones 360º",
+    "title": "Sea cual sea su negocio, transfórmelo con nuestras soluciones 360º",
     "description": "Automatizaciones de IA industriales, Software de gestión empresarial, Ecommerce, páginas web, branding, apps móviles, TPV, gestión de redes sociales y publicidad. Todo en un solo lugar.",
     "ctaPrimary": "Llamada gratuita",
     "ctaSecondary": "Ver servicios",
@@ -69,31 +67,31 @@
   },
   "servicesSection": {
     "badge": "Nuestros servicios",
-    "title": "Soluciones para tu empresa",
-    "description": "Desde automatización con IA hasta tu TPV, web, app o marketing digital. Todas las soluciones que tu negocio necesita en un solo lugar.",
+    "title": "Soluciones para su empresa",
+    "description": "Desde automatización con IA hasta su TPV, web, app o marketing digital. Todas las soluciones que su negocio necesita en un solo lugar.",
     "cta": "Ver todos los servicios",
     "items": [
       {
         "title": "Automatizaciones con Inteligencia Artificial",
-        "description": "Eliminamos tareas repetitivas creando flujos automáticos que ahorran tiempo y conectan tus herramientas."
+        "description": "Eliminamos tareas repetitivas creando flujos automáticos que ahorran tiempo y conectan sus herramientas."
       },
       {
         "title": "Agentes y chatbots de Inteligencia Artificial",
-        "description": "Asistentes conversacionales a medida en euskera, castellano e inglés, integrados con tus sistemas y datos."
+        "description": "Asistentes conversacionales a medida en euskera, castellano e inglés, integrados con sus sistemas y datos."
       },
       {
         "title": "TPV y software de gestión empresarial",
-        "description": "Punto de venta y gestión para retail, hostelería, alimentación y belleza. Adaptado a tu sector."
+        "description": "Punto de venta y gestión para retail, hostelería, alimentación y belleza. Adaptado a su sector."
       },
       {
         "title": "Web, eCommerce y marketing digital",
-        "description": "Tiendas online, páginas web, SEO, SEM y campañas para hacer crecer tu presencia en internet."
+        "description": "Tiendas online, páginas web, SEO, SEM y campañas para hacer crecer su presencia en internet."
       }
     ]
   },
   "useCasesSection": {
     "badge": "Casos de uso",
-    "title": "¿Qué puede automatizar tu empresa?",
+    "title": "¿Qué puede automatizar su empresa?",
     "description": "Estos son algunos de los procesos más habituales que automatizamos para nuestros clientes.",
     "items": [
       {
@@ -132,44 +130,44 @@
   },
   "infoSection": {
     "eyebrow": "Por qué elegirnos",
-    "title": "Tu socio en automatización inteligente",
-    "subtitle": "Creamos soluciones prácticas que funcionan con tus procesos y sistemas existentes.",
-    "text": "Desde la extracción automática de datos hasta la integración con ERP y CRM, ofrecemos una implementación rápida y totalmente adaptada a tu equipo.",
+    "title": "Su socio en automatización inteligente",
+    "subtitle": "Creamos soluciones prácticas que funcionan con sus procesos y sistemas existentes.",
+    "text": "Desde la extracción automática de datos hasta la integración con ERP y CRM, ofrecemos una implementación rápida y totalmente adaptada a su equipo.",
     "items": [
       "Diseño de flujo de trabajo personalizado",
-      "Integración segura con tus sistemas actuales",
+      "Integración segura con sus sistemas actuales",
       "Monitoreo continuo y ajuste automático",
-      "Soporte y formación para tu equipo"
+      "Soporte y formación para su equipo"
     ],
     "imageAlt": "Equipo trabajando en una solución de IA",
     "button": "Ver cómo funciona"
   },
   "ctaSection": {
-    "title": "¿Listo para dar el siguiente paso?",
-    "description": "Primera llamada gratuita. Sin compromiso. Con factura si decides seguir.",
+    "title": "¿Está listo para dar el siguiente paso?",
+    "description": "Primera llamada gratuita. Sin compromiso. Con factura si decide seguir.",
     "button": "Reservar llamada gratuita"
   },
   "faqSection": {
     "badge": "Preguntas frecuentes",
-    "title": "Encuentra tus respuestas",
-    "description": "Respuestas rápidas sobre nuestras soluciones y cómo ayudamos a tu equipo.",
-    "needHelp": "¿Todavía necesitas ayuda?",
+    "title": "Encuentre sus respuestas",
+    "description": "Respuestas rápidas sobre nuestras soluciones y cómo ayudamos a su equipo.",
+    "needHelp": "¿Todavía necesita ayuda?",
     "button": "Contáctanos",
     "items": [
       {
         "question": "¿Necesito conocimientos técnicos para implementar IA en mi empresa?",
-        "answer": "No. Nos encargamos de todo el desarrollo e integración. Tu equipo solo necesita saber usar el resultado final, que diseñamos para que sea lo más sencillo posible."
+        "answer": "No. Nos encargamos de todo el desarrollo e integración. Su equipo solo necesita saber usar el resultado final, que diseñamos para que sea lo más sencillo posible."
       },
       {
-        "question": "¿Hacéis consultoría presencial en la empresa?",
+        "question": "¿Ofrecen consultoría presencial en la empresa?",
         "answer": "Sí. Nos desplazamos a las instalaciones del cliente para analizar los procesos internos en persona, detectar cuellos de botella y oportunidades de automatización que no son evidentes desde fuera."
       },
       {
-        "question": "¿Podéis crear una tienda online para mi comercio o restaurante?",
+        "question": "¿Pueden crear una tienda online para mi comercio o restaurante?",
         "answer": "Sí. Implementamos sistemas de pedidos online y páginas web para comercios y restaurantes con un panel de control muy sencillo para que cualquier persona del negocio lo gestione sin conocimientos técnicos."
       },
       {
-        "question": "¿Funcionan vuestras soluciones con cualquier ERP o sistema?",
+        "question": "¿Funcionan sus soluciones con cualquier ERP o sistema?",
         "answer": "Sí. Trabajamos con SAP, Dynamics AX, Holded, Sage y cualquier sistema con API o acceso a base de datos."
       },
       {
@@ -183,7 +181,7 @@
     ]
   },
   "contactBlock": {
-    "badge": "¿Necesitas más información?",
+    "badge": "¿Necesita más información?",
     "title": "Contacta con nosotros",
     "description": "",
     "emailLabel": "Email",
@@ -202,19 +200,19 @@
     "subjectOther": "Otra consulta",
     "subjectPos": "Puntos de venta (TPV)",
     "message": "Mensaje",
-    "messagePlaceholder": "¿Cómo podemos ayudarte?",
+    "messagePlaceholder": "¿Cómo podemos ayudarle?",
     "submit": "Enviar solicitud",
-    "legalPrefix": "Al enviar aceptas nuestra",
+    "legalPrefix": "Al enviar acepta nuestra",
     "legalPrivacy": "política de privacidad",
     "legalSuffix": "y términos.",
     "sending": "Enviando…",
     "successTitle": "¡Mensaje enviado!",
-    "successMessage": "Gracias por contactar con nosotros. Te responderemos lo antes posible.",
+    "successMessage": "Gracias por contactar con nosotros. Le responderemos lo antes posible.",
     "errorValidation": "Por favor, completa todos los campos obligatorios (mensaje mínimo 10 caracteres).",
     "errorEmail": "El email introducido no es válido.",
-    "errorRateLimit": "Has realizado demasiados envíos. Inténtalo de nuevo en unos minutos.",
-    "errorNetwork": "No se pudo conectar con el servidor. Revisa tu conexión e inténtalo de nuevo.",
-    "errorGeneric": "No se pudo enviar el mensaje. Inténtalo de nuevo más tarde."
+    "errorRateLimit": "Ha realizado demasiados envíos. Inténtelo de nuevo en unos minutos.",
+    "errorNetwork": "No se pudo conectar con el servidor. Revise su conexión e inténtelo de nuevo.",
+    "errorGeneric": "No se pudo enviar el mensaje. Inténtelo de nuevo más tarde."
   },
   "terminosPage": {
     "eyebrow": "Legal",
@@ -226,9 +224,9 @@
   },
   "contactPage": {
     "eyebrow": "Contacto",
-    "title": "Hablemos de tu proyecto",
-    "subtitle": "y transforma tu negocio",
-    "description": "Completa el formulario y nos pondremos en contacto contigo para una llamada inicial sin compromiso."
+    "title": "Hablemos de su proyecto",
+    "subtitle": "y transforme su negocio",
+    "description": "Complete el formulario y nos pondremos en contacto con usted para una llamada inicial sin compromiso."
   },
   "hosteleriaPage": {
     "eyebrow": "Todo lo que necesita",
@@ -238,16 +236,16 @@
   "blogPage": {
     "eyebrow": "Blog",
     "title": "Blog de IA y automatización",
-    "description": "Descubre contenido pensado para líderes que quieren impulsar su negocio con agentes inteligentes y automatización."
+    "description": "Descubre contenido pensado para líderes que quieren impulsar el negocio de su empresa con agentes inteligentes y automatización."
   },
   "blogPost": {
     "back": "Volver al blog",
     "readingTime": "{minutes} min de lectura",
     "related": "Artículos relacionados",
     "allPosts": "Ver todos los artículos",
-    "contactBadge": "¿Te encaja en tu empresa?",
-    "contactTitle": "Hablemos de tu caso",
-    "contactDescription": "Cuéntanos qué quieres mejorar y te respondemos en menos de 24 horas."
+    "contactBadge": "¿Le encaja en su empresa?",
+    "contactTitle": "Hablemos de su caso",
+    "contactDescription": "Cuéntenos qué quiere mejorar y le respondemos en menos de 24 horas."
   },
   "webDesignPage": {
     "breadcrumb": "Diseño de páginas web",
@@ -255,19 +253,19 @@
       "kicker": "Diseño de páginas web en Gipuzkoa",
       "title": "Webs que convierten visitas en",
       "titleHighlight": "clientes",
-      "description": "Diseñamos páginas web rápidas, atractivas y preparadas para aparecer en Google. Para que quien busca lo que haces te encuentre… y te llame.",
+      "description": "Diseñamos páginas web rápidas, atractivas y preparadas para aparecer en Google. Para que quien busca lo que hace le encuentre… y le llame.",
       "ctaCall": "Llámanos: 641 195184",
-      "ctaQuote": "Pide presupuesto gratis",
+      "ctaQuote": "Pida presupuesto gratis",
       "trust": [
         "Presupuesto cerrado, sin sorpresas",
         "SEO incluido desde el primer día",
         "Adaptada a móvil y muy rápida",
-        "Pensada para que te contacten"
+        "Pensada para que le contacten"
       ],
       "mockup": {
         "url": "tunegocio.com",
         "kicker": "Gipuzkoa",
-        "headline": "Tu negocio, a un clic de tus clientes",
+        "headline": "Su negocio, a un clic de sus clientes",
         "cta": "Llamar ahora",
         "chipMobile": "Adaptada a móvil",
         "chipSpeed": "Carga rápida",
@@ -277,32 +275,32 @@
       }
     },
     "pain": {
-      "badge": "¿Te suena?",
-      "title": "Tu web debería traerte clientes, no solo estar ahí",
+      "badge": "¿Le suena?",
+      "title": "Su web debería traerle clientes, no solo estar ahí",
       "items": [
         {
           "title": "No apareces en Google",
-          "description": "Si no sales cuando buscan tu servicio en tu zona, esos clientes acaban en la competencia."
+          "description": "Si no sale cuando buscan su servicio en su zona, esos clientes acaban en la competencia."
         },
         {
           "title": "En el móvil tarda y se ve mal",
-          "description": "La mayoría de visitas llegan desde el móvil. Si la web tarda o se descoloca, se van antes de leerte."
+          "description": "La mayoría de visitas llegan desde el móvil. Si la web tarda o se descoloca, se van antes de leerle."
         },
         {
           "title": "Entran, pero no llaman",
-          "description": "Sin un mensaje claro ni botones de contacto a mano, la visita se pierde aunque le interese lo que ofreces."
+          "description": "Sin un mensaje claro ni botones de contacto a mano, la visita se pierde aunque le interese lo que ofrece."
         }
       ],
       "solution": "Así lo solucionamos"
     },
     "features": {
       "badge": "Qué incluye",
-      "title": "Todo lo que necesita tu web para vender",
+      "title": "Todo lo que necesita su web para vender",
       "description": "Nada de plantillas a medio hacer: cada web sale completa, optimizada y lista para captar clientes.",
       "items": [
         {
           "title": "Diseño a medida",
-          "description": "Una web con la imagen de tu marca, no una plantilla igual que la de tu competencia."
+          "description": "Una web con la imagen de su marca, no una plantilla igual que la de su competencia."
         },
         {
           "title": "SEO on-page",
@@ -310,7 +308,7 @@
         },
         {
           "title": "SEO local y Google Maps",
-          "description": "Optimizamos tu ficha de Google Business Profile para que te encuentren en tu zona."
+          "description": "Optimizamos su ficha de Google Business Profile para que le encuentren en su zona."
         },
         {
           "title": "Velocidad",
@@ -321,7 +319,7 @@
           "description": "Se ve y funciona perfectamente en móvil, tablet y ordenador."
         },
         {
-          "title": "Hecha para que te contacten",
+          "title": "Hecha para que le contacten",
           "description": "Botones de llamada, WhatsApp y formularios justo donde el cliente los necesita."
         },
         {
@@ -337,10 +335,10 @@
     "seo": {
       "eyebrow": "SEO desde el primer día",
       "title": "Una web bonita que nadie encuentra no sirve de nada",
-      "subtitle": "Por eso cada web que hacemos nace preparada para posicionar en Google y en las búsquedas locales de tu zona.",
-      "text": "Y si quieres ir a más, te acompañamos con contenidos y campañas.",
+      "subtitle": "Por eso cada web que hacemos nace preparada para posicionar en Google y en las búsquedas locales de su zona.",
+      "text": "Y si quiere ir a más, le acompañamos con contenidos y campañas.",
       "items": [
-        "Estudio de palabras clave de tu sector y tu zona",
+        "Estudio de palabras clave de su sector y su zona",
         "Estructura y textos pensados para Google y para personas",
         "Ficha de Google Business Profile optimizada",
         "Alta en Google Search Console y analítica configurada",
@@ -348,33 +346,33 @@
       ],
       "button": "Quiero aparecer en Google",
       "serp": {
-        "label": "Así te encuentran tus clientes",
+        "label": "Así le encuentran sus clientes",
         "query": "peluquería en Donostia",
-        "business": "Tu negocio",
+        "business": "Su negocio",
         "location": "Donostia",
         "call": "Llamar",
         "directions": "Cómo llegar",
         "url": "tunegocio.com",
-        "title": "Tu negocio · Donostia | Pide cita online",
-        "description": "Reserva tu cita en un minuto. Servicios, precios y horarios actualizados en el centro de Donostia."
+        "title": "Su negocio · Donostia | Pide cita online",
+        "description": "Reserve su cita en un minuto. Servicios, precios y horarios actualizados en el centro de Donostia."
       }
     },
     "process": {
       "badge": "Cómo trabajamos",
-      "title": "Tu nueva web en 4 pasos",
-      "description": "Un proceso claro, sin tecnicismos y contigo en cada decisión.",
+      "title": "Su nueva web en 4 pasos",
+      "description": "Un proceso claro, sin tecnicismos y con usted en cada decisión.",
       "items": [
         {
           "title": "Llamada de diagnóstico",
-          "description": "Hablamos de tu negocio, tus clientes y lo que necesitas. Sin compromiso."
+          "description": "Hablamos de su negocio, sus clientes y lo que necesita. Sin compromiso."
         },
         {
           "title": "Propuesta y presupuesto cerrado",
-          "description": "Te enviamos qué vamos a hacer, en qué plazo y por cuánto. Sin letra pequeña."
+          "description": "Le enviamos qué vamos a hacer, en qué plazo y por cuánto. Sin letra pequeña."
         },
         {
           "title": "Diseño y desarrollo",
-          "description": "Diseñamos, escribimos los textos con SEO y te enseñamos la web antes de publicarla."
+          "description": "Diseñamos, escribimos los textos con SEO y le enseñamos la web antes de publicarla."
         },
         {
           "title": "Lanzamiento y seguimiento",
@@ -384,19 +382,19 @@
     },
     "plans": {
       "badge": "Tipos de web",
-      "title": "Elige la web que encaja con tu negocio",
-      "description": "Todas incluyen diseño a medida, SEO, versión móvil y contacto directo. Te damos un presupuesto cerrado según lo que necesites.",
+      "title": "Elija la web que encaja con su negocio",
+      "description": "Todas incluyen diseño a medida, SEO, versión móvil y contacto directo. Le damos un presupuesto cerrado según lo que necesite.",
       "recommended": "Recomendada",
       "cta": "Pedir presupuesto",
-      "priceNote": "¿Quieres hacerte una idea de precios?",
+      "priceNote": "¿Quiere hacerse una idea de precios?",
       "priceGuide": "Lee nuestra guía: cuánto cuesta una web en 2026",
       "items": [
         {
           "name": "Web corporativa",
-          "description": "Para presentar tu negocio y que te contacten.",
+          "description": "Para presentar su negocio y que le contacten.",
           "features": [
             "Inicio, servicios, quiénes somos y contacto",
-            "Diseño a medida con tu marca",
+            "Diseño a medida con su marca",
             "SEO on-page desde el inicio",
             "Formulario, WhatsApp y botón de llamada",
             "Textos legales y cookies RGPD"
@@ -415,20 +413,20 @@
         },
         {
           "name": "Tienda online",
-          "description": "Para vender tus productos por internet.",
+          "description": "Para vender sus productos por internet.",
           "features": [
             "Catálogo y pasarela de pago",
             "Gestión de envíos y stock",
             "SEO para fichas de producto",
-            "Integración con tu TPV o software",
-            "Formación para gestionarla tú"
+            "Integración con su TPV o software",
+            "Formación para gestionarla usted"
           ]
         }
       ]
     },
     "cta": {
-      "title": "¿Hablamos de tu nueva web?",
-      "description": "Cuéntanos qué necesitas en una llamada y te decimos cómo lo haríamos y cuánto costaría. Sin compromiso.",
+      "title": "¿Hablamos de su nueva web?",
+      "description": "Cuéntenos qué necesita en una llamada y le decimos cómo lo haríamos y cuánto costaría. Sin compromiso.",
       "button": "Llamar al 641 195184"
     },
     "related": {
@@ -438,17 +436,17 @@
     "faq": {
       "badge": "Preguntas frecuentes",
       "title": "Lo que nos preguntan antes de empezar",
-      "description": "Si tienes otra duda, llámanos o escríbenos y te la resolvemos.",
-      "needHelp": "¿Necesitas ayuda?",
+      "description": "Si tiene otra duda, llámanos o escríbanos y se la resolvemos.",
+      "needHelp": "¿Necesita ayuda?",
       "button": "Contactar",
       "items": [
         {
           "question": "¿Cuánto cuesta una página web?",
-          "answer": "Depende del tipo de web y de lo que incluya. Tras una primera llamada te damos un presupuesto cerrado, sin costes ocultos. Si quieres una referencia, en nuestro blog tienes una guía con los precios del mercado en 2026."
+          "answer": "Depende del tipo de web y de lo que incluya. Tras una primera llamada le damos un presupuesto cerrado, sin costes ocultos. Si quiere una referencia, en nuestro blog tiene una guía con los precios del mercado en 2026."
         },
         {
           "question": "¿Cuánto se tarda en hacer una web?",
-          "answer": "Depende del proyecto: una web corporativa sencilla lleva bastante menos que una tienda online. Antes de empezar te indicamos un plazo concreto en la propuesta."
+          "answer": "Depende del proyecto: una web corporativa sencilla lleva bastante menos que una tienda online. Antes de empezar le indicamos un plazo concreto en la propuesta."
         },
         {
           "question": "¿La web incluye SEO?",
@@ -456,11 +454,11 @@
         },
         {
           "question": "¿Podré actualizar la web yo mismo?",
-          "answer": "Si lo necesitas, te dejamos la web preparada para que puedas cambiar textos, fotos o publicar en el blog, y te enseñamos a hacerlo."
+          "answer": "Si lo necesita, le dejamos la web preparada para que pueda cambiar textos, fotos o publicar en el blog, y le enseñamos a hacerlo."
         },
         {
           "question": "¿Me ayudáis con el dominio, el hosting y el correo?",
-          "answer": "Sí. Te asesoramos para elegir dominio y alojamiento y lo dejamos todo configurado para que no tengas que preocuparte de la parte técnica."
+          "answer": "Sí. Le asesoramos para elegir dominio y alojamiento y lo dejamos todo configurado para que no tenga que preocuparse de la parte técnica."
         },
         {
           "question": "¿Trabajáis solo en Gipuzkoa?",
@@ -471,7 +469,7 @@
   },
   "footerSection": {
     "sections": {
-      "pages": "Páginas",
+      "pages": "Servicios",
       "other": "Otras páginas",
       "contact": "Contacto"
     },
@@ -484,16 +482,16 @@
   },
   "seo": {
     "home": {
-      "title": "AdimenAI | Automatización con IA y soluciones 360° para tu negocio",
+      "title": "AdimenAI | Automatización con IA y soluciones 360° para su negocio",
       "description": "Automatizaciones de IA industriales, software de gestión empresarial, ecommerce, páginas web, branding, apps móviles, TPV, gestión de redes sociales y publicidad. Todo en un solo lugar."
     },
     "blog": {
       "title": "Blog de IA y automatización | AdimenAI",
-      "description": "Descubre contenido pensado para líderes que quieren impulsar su negocio con agentes inteligentes y automatización."
+      "description": "Descubre contenido pensado para líderes que quieren impulsar el negocio de su empresa con agentes inteligentes y automatización."
     },
     "contacto": {
       "title": "Contacto | AdimenAI",
-      "description": "Cuéntanos tu proyecto y te ayudamos a transformarlo con IA. Solicita una llamada gratuita sin compromiso."
+      "description": "Cuéntenos su proyecto y le ayudamos a transformarlo con IA. Solicite una llamada gratuita sin compromiso."
     },
     "hosteleria": {
       "title": "Soluciones para hostelería | AdimenAI",
@@ -501,7 +499,7 @@
     },
     "privacidad": {
       "title": "Política de privacidad | AdimenAI",
-      "description": "Consulta cómo AdimenAI recoge, trata y protege tus datos personales conforme al RGPD."
+      "description": "Consulta cómo AdimenAI recoge, trata y protege sus datos personales conforme al RGPD."
     },
     "terminos": {
       "title": "Términos y condiciones | AdimenAI",
@@ -509,7 +507,7 @@
     },
     "webDesign": {
       "title": "Diseño de páginas web en Gipuzkoa con SEO | AdimenAI",
-      "description": "Diseño de páginas web en Gipuzkoa con SEO incluido: webs rápidas, adaptadas a móvil y pensadas para que te llamen. Presupuesto cerrado. Llama al 641 195184."
+      "description": "Diseño de páginas web en Gipuzkoa con SEO incluido: webs rápidas, adaptadas a móvil y pensadas para que le llamen. Presupuesto cerrado. Llama al 641 195184."
     }
   }
 }

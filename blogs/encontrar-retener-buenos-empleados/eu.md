@@ -14,7 +14,7 @@ language: eu
 
 ## Zergatik da zaila kontratatzea ETE batean
 
-Enpresa handiek baliabide amaigabeekin lehiatzen dute: marka-bideoak, prozesu leunduak, soldata-abantailak. Zuk zure aktibo handienarekin lehiatzen duzu: **hurbiltasunarekin**. Hautagai on batek ez du diruagatik bakarrik aukeratzen; proiektuak, bere rol zehatzak eta ekarpena egingo duen sentimenduak eragiten diote.
+Enpresa handiek baliabide amaigabeekin lehiatzen dute: marka-bideoak, prozesu leunduak, soldata-abantailak. Zuen zuen aktibo handienarekin lehiatzen duzue: **hurbiltasunarekin**. Hautagai on batek ez du diruagatik bakarrik aukeratzen; proiektuak, bere rol zehatzak eta ekarpena egingo duen sentimenduak eragiten diote.
 
 ETEetan ohikoa dena:
 
@@ -27,7 +27,7 @@ ETEetan ohikoa dena:
 
 ### 1. Idatzi eskaintza hautagaia pentsatuz
 
-"Erantzukizunak" esan beharrean, idatzi "zure lehen hilabetea nolakoa izango den". "Polibalentea" edo "dinamikoa" esan beharrean, idatzi ebatziko dituen arazo zehatzak. Hautagai onek kilometrora usaintzen dituzte eskaintza generikoak.
+"Erantzukizunak" esan beharrean, idatzi "zuen lehen hilabetea nolakoa izango den". "Polibalentea" edo "dinamikoa" esan beharrean, idatzi ebatziko dituen arazo zehatzak. Hautagai onek kilometrora usaintzen dituzte eskaintza generikoak.
 
 ### 2. Soldata-tartea argia jarri
 
@@ -82,4 +82,4 @@ Espainian absentismoa eta errotazioa Europako altuenen artekoak dira. Benetan po
 
 Talentua erakartzea eta mantentzea ez da sail bat: egunero hartzen diren erabaki-sorta bat da. Eskaintza argiak, prozesu azkarra, onboarding ondo egina, hilabeteko feedbacka eta zentzuzko rola. Albiste ona da gauza hauek ETE batek enpresa handi bat baino hobeto egin ditzakeela: bere jendea ezagutzen duelako.
 
-Hautagaiak ez galtzeko edo zure jendea ez galtzeko sistema xume bat —eskaintzak antolatu, prozesuak jarraitu, lehen kontaktua automatizatu— prest uzteko laguntza behar baduzu, gihar hori onartu dezakegu ahaleginik gabe.
+Hautagaiak ez galtzeko edo zuen jendea ez galtzeko sistema xume bat —eskaintzak antolatu, prozesuak jarraitu, lehen kontaktua automatizatu— prest uzteko laguntza behar baduzu, gihar hori onartu dezakegu ahaleginik gabe.

@@ -53,7 +53,7 @@ export function Header() {
     setIsOpen(false);
   };
 
-  const navItems = buildNavLinks(locale, t);
+  const navItems = buildNavLinks(locale, t, true);
 
   return (
     <>

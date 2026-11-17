@@ -1,20 +1,20 @@
 ---
-title: "Los colores de tu marca: qué transmiten según la psicología del color"
+title: "Los colores de su marca: qué transmiten según la psicología del color"
 slug: psicologia-colores-branding
-excerpt: "El color equivocado puede costarte el 85% de la decisión de compra de tu cliente. Rojo para hostelería, azul para profesionalidad, verde para salud... Descubre qué color transmite tu sector y cómo evitar errores de branding."
+excerpt: "El color equivocado puede costarle el 85% de la decisión de compra de su cliente. Rojo para hostelería, azul para profesionalidad, verde para salud... Descubra qué color transmite su sector y cómo evitar errores de branding."
 tags: ["Branding", "Psicología del color", "Identidad visual", "Marketing"]
-metaDescription: "Psicología del color aplicada al branding: qué transmite cada color, cómo elegir el color de tu marca según sector, paletas efectivas con códigos hex y errores comunes."
+metaDescription: "Psicología del color aplicada al branding: qué transmite cada color, cómo elegir el color de su marca según sector, paletas efectivas con códigos hex y errores comunes."
 publishedAt: 2026-08-17
 language: es
 ---
 
-# Los colores de tu marca: qué transmiten según la psicología del color
+# Los colores de su marca: qué transmiten según la psicología del color
 
-**** El 85 % de la decisión de compra de tu cliente se ve influenciada por el color (Labrecque, 2015). Un rojo intenso transmite energía y apetito; un azul corporativo transmite confianza y profesionalidad. Aquí la tabla definitiva de colores, sector por sector, con códigos hex concretos. La primera paleta de colores para tu marca cuesta **0 €**.
+**** El 85 % de la decisión de compra de su cliente se ve influenciada por el color (Labrecque, 2015). Un rojo intenso transmite energía y apetito; un azul corporativo transmite confianza y profesionalidad. Aquí la tabla definitiva de colores, sector por sector, con códigos hex concretos. La primera paleta de colores para su marca cuesta **0 €**.
 
 ## Escenario: el emprendedor que duda del color
 
-Has montado un bar en San Sebastián. Has escogido un azul intenso porque "parece profesional". Pero los clientes lo asocian al banco, no a la animación. La facturación baja en 15 %.
+Ha montado un bar en San Sebastián. Ha escogido un azul intenso porque "parece profesional". Pero los clientes lo asocian al banco, no a la animación. La facturación baja en 15 %.
 
 > "El azul frío no engancha. Lo asociamos al trabajo, no a la diversión." — Cliente de bar de donostiarra.
 
@@ -151,30 +151,30 @@ El problema no es el diseño. Es la **psicología del color**.
 ### AdimenAi (Tech)
 - Azul (#1976D2) + Púrpura (#6C47FF)
 - Resultado: 60 % más leads en software B2B
-- *(Este color ya lo usamos. Tú sí puedes elegirlo mejor.)*
+- *(Este color ya lo usamos. Usted sí puede elegirlo mejor.)*
 
 ## Errores comunes (y cómo evitarlos)
 
-1. **"Colores bonitos" sin sector.** Un rosa intenso en un banco no funciona. Piensa en asociaciones.
+1. **"Colores bonitos" sin sector.** Un rosa intenso en un banco no funciona. Piense en asociaciones.
 
 2. **Demasiados colores.** 3 colores máximo: primario, secundario, acento.
 
-3. **Sin contraste.** Tu color de texto debe tener contraste ≥ 4.5:1 contra el fondo. Usa [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/).
+3. **Sin contraste.** Su color de texto debe tener contraste ≥ 4.5:1 contra el fondo. Use [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/).
 
-4. **Ignorar accesibilidad.** El 8 % de hombres tienen daltonismo. Prueba [Colour Contrast Analyzer](https://www.sa11yproject.com/tool/).
+4. **Ignorar accesibilidad.** El 8 % de hombres tienen daltonismo. Pruebe [Colour Contrast Analyzer](https://www.sa11yproject.com/tool/).
 
 ## En resumen: el plan de 3 pasos
 
-1. **Define tu sector y emoción principal.** Hostelería → energía (rojo). Tecnología → confianza (azul).
-2. **Escoge 1 color primario y 1 secundario.** Usa la tabla. Puedes combinar rojo + marrón, pero no rojo + azul.
-3. **Prueba con 10 clientes reales.** Pregúntales qué sienten con tu paleta. Si dudan, vuelve al paso 1.
+1. **Defina su sector y emoción principal.** Hostelería → energía (rojo). Tecnología → confianza (azul).
+2. **Escoja 1 color primario y 1 secundario.** Use la tabla. Puede combinar rojo + marrón, pero no rojo + azul.
+3. **Pruebe con 10 clientes reales.** Pregúnteles qué sienten con su paleta. Si dudan, vuelva al paso 1.
 
-> "El color no es decoración. Es la primera palabra que le dices a un cliente sin abrir la boca." — *Design School*.
+> "El color no es decoración. Es la primera palabra que le dice a un cliente sin abrir la boca." — *Design School*.
 
-La primera paleta de colores para tu marca: **gratuita** y sin compromiso. Te damos 3 propuestas psicológicamente validadas.
+La primera paleta de colores para su marca: **gratuita** y sin compromiso. Le damos 3 propuestas psicológicamente validadas.
 
 ---
 
-En **AdimenAi** (Gipuzkoa) creamos identidades visuales con psicología del color aplicada. La primera paleta para tu marca es **gratuita**.
+En **AdimenAi** (Gipuzkoa) creamos identidades visuales con psicología del color aplicada. La primera paleta para su marca es **gratuita**.
 
 📞 +34 641 195184 · [Habla con nosotros](https://adimenai.com/contactar)

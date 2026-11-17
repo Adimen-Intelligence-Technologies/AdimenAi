@@ -1,24 +1,24 @@
 ---
-title: "Redes sociales que no funcionan: cómo hacerlas rentar a tu pyme"
+title: "Redes sociales que no funcionan: cómo hacerlas rentar a su pyme"
 slug: redes-sociales-que-no-funcionan
-excerpt: "El 73 % de las pymes dice que las redes no les generan ventas. Por qué pasa y qué cambia cuando dejas de publicar y empiezas a pensar como negocio. 9 errores y 7 estrategias que funcionan."
+excerpt: "El 73 % de las pymes dice que las redes no les generan ventas. Por qué pasa y qué cambia cuando deja de publicar y empieza a pensar como negocio. 9 errores y 7 estrategias que funcionan."
 tags: ["Redes sociales", "Marketing", "Captación"]
-metaDescription: "Por qué tus redes sociales no generan ventas y cómo arreglarlo: 9 errores típica, 7 estrategias que funcionan en 2026, métricas reales y cuánto cuesta externalizarlo."
+metaDescription: "Por qué sus redes sociales no generan ventas y cómo arreglarlo: 9 errores típicas, 7 estrategias que funcionan en 2026, métricas reales y cuánto cuesta externalizarlo."
 publishedAt: 2026-08-17
 language: es
 ---
 
-# Redes sociales que no funcionan: cómo hacerlas rentar a tu pyme
+# Redes sociales que no funcionan: cómo hacerlas rentar a su pyme
 
 **** El **73 % de las pymes españolas** reconoce que las redes sociales no les generan ventas directas (Encuesta de Cámara de España 2024). El problema casi nunca es la red social, sino **publicar sin estrategia, sin mensaje claro y sin medir**. Cuando una pyme pasa de "publicar por publicar" a **"publicar con objetivo de negocio"**, los resultados cambian. Esta guía explica los 9 errores más comunes, las 7 estrategias que sí funcionan en 2026, qué contenido crear y cuánto cuesta externalizar o hacerlo internamente.
 
-## ¿Por qué tus redes no funcionan?
+## ¿Por qué sus redes no funcionan?
 
 Lo que vemos cuando auditamos la presencia en redes de una pyme:
 
 - **23 publicaciones/mes sin nadie que las lea.** El alcance orgánico ha caído un 50 % en Instagram y un 30 % en Facebook desde 2022.
-- **Sin objetivo definido.** "¿Qué quieres conseguir?" → "Que la gente nos siga." Eso no es un objetivo.
-- **Contenido genérico.** "Buenos días", memes de lunes, frases motivacionales. No conecta con tu cliente.
+- **Sin objetivo definido.** "¿Qué quiere conseguir?" → "Que la gente nos siga." Eso no es un objetivo.
+- **Contenido genérico.** "Buenos días", memes de lunes, frases motivacionales. No conecta con su cliente.
 - **Sin consistencia.** Se publica 5 días y luego 2 meses sin nada.
 - **Sin interacción humana.** Solo programar. Nadie responde comentarios ni DMs.
 - **Sin medición.** No saben qué post funcionó ni qué trafico llevó a la web.
@@ -28,12 +28,12 @@ Lo que vemos cuando auditamos la presencia en redes de una pyme:
 ## Los 9 errores que más cuestan
 
 ### Error 1: Confundir "lifestyle de marca" con estrategia
-Publicar fotos bonitas de tu oficina o equipo sin utilidad pedagógica para el cliente es ruido.
+Publicar fotos bonitas de su oficina o equipo sin utilidad pedagógica para el cliente es ruido.
 **Solución:** contenido que resuelva un problema, eduque o entretenga con ángulo de negocio.
 
 ### Error 2: Publicar en todas las redes a la vez
 Cada red tiene su idioma. Lo que funciona en TikTok no funciona en LinkedIn.
-**Solución:** elige 1–2 redes donde está tu cliente y trabaja bien esas.
+**Solución:** elija 1–2 redes donde está su cliente y trabaje bien esas.
 
 ### Error 3: No tener un calendario editorial
 "Si tengo tiempo, publico." Nunca funciona.
@@ -60,16 +60,16 @@ Instagram permite 1 enlace. Si no tiene CTA, se pierde.
 **Solución:** usar Linktree, Beacons o una página propia con landings específicas para cada campaña.
 
 ### Error 9: No medir nada
-Si no mides, no sabes qué funciona.
+Si no mide, no sabe qué funciona.
 **Solución:** dashboard mensual con KPIs claros (alcance, leads, conversions).
 
 ## Las 7 estrategias que sí funcionan en 2026
 
-### 1. Elige una red protagonista
+### 1. Elija una red protagonista
 
-No puedes estar fuerte en todas. **Elige una red** donde está tu cliente y hazla muy bien.
+No puede estar fuerte en todas. **Elija una red** donde está su cliente y hágala muy bien.
 
-| Tu cliente... | Red protagonista |
+| Su cliente... | Red protagonista |
 |---|---|
 | Es B2B, profesional,企业管理 | LinkedIn |
 | Vende a consumidor final, moda, belleza, gastro, lifestyle | Instagram + TikTok |
@@ -78,9 +78,9 @@ No puedes estar fuerte en todas. **Elige una red** donde está tu cliente y hazl
 | Es tech, SaaS, producto digital | LinkedIn + X (Twitter) |
 | Es mayor de 50 años | Facebook |
 
-### 2. Define un ángulo de contenido
+### 2. Defina un ángulo de contenido
 
-No publiques "sobre tu empresa". Publica sobre algo que a tu cliente le importa.
+No publique "sobre su empresa". Publique sobre algo que a su cliente le importa.
 
 **Ángulos que funcionan:**
 - **Educativo:** "Cómo hacer X en 5 pasos"
@@ -89,7 +89,7 @@ No publiques "sobre tu empresa". Publica sobre algo que a tu cliente le importa.
 - **Polémico (controlado):** "3 errores que todos cometen en..."
 - **Datos:** "El 73 % de las pymes..."
 
-### 3. Usa la regla 70/20/10
+### 3. Use la regla 70/20/10
 
 - **70 %** contenido útil, educativo o entretenimiento.
 - **20 %** inspiracional, casos reales, demostraciones.
@@ -117,14 +117,14 @@ La IA es perfecta para:
 - **Traducir** a otros idiomas.
 - **Analizar** qué tipo de contenido funciona mejor.
 
-**Pero siempre con supervisión humana.** La IA genera el borrador, tú pones la voz y la marca.
+**Pero siempre con supervisión humana.** La IA genera el borrador, usted pone la voz y la marca.
 
 ### 6. Crea una comunidad, no solo audiencia
 
-Responde a TODOS los comentarios en las primeras 2 horas.
-Pregunta a tu audiencia (encuestas, AMA).
-Involucra a tu equipo (que todos publiquen desde su perfil).
-Premia a los que más interactúan.
+Responda a TODOS los comentarios en las primeras 2 horas.
+Pregunte a su audiencia (encuestas, AMA).
+Involucre a su equipo (que todos publiquen desde su perfil).
+Premie a los que más interactúan.
 
 ### 7. Conecta redes con el resto del negocio
 
@@ -138,8 +138,8 @@ Las redes no son un silo. Conectan con:
 ## ¿Qué contenido crear? Banco de 14 ideas
 
 1. **Tutorial:** "Cómo hacer X en 5 pasos" (carrusel).
-2. **Pregunta:** "¿Tú qué opinas?" (texto + encuesta).
-3. **Detrás de cámaras:** cómo trabajas, tu equipo, tu local.
+2. **Pregunta:** "¿Usted qué opina?" (texto + encuesta).
+3. **Detrás de cámaras:** cómo trabaja, su equipo, su local.
 4. **Caso de éxito:** cliente concreto con resultados.
 5. **Dato sorprendente:** "El 80 % de las empresas X hace Y" (texto + infografía).
 6. **Comparación:** "X vs Y, ¿cuál elegir?" (carrusel).
@@ -147,12 +147,12 @@ Las redes no son un silo. Conectan con:
 8. **Listado:** "5 errores que..." (carrusel).
 9. **Story del cliente:** "Mira lo que pasó con..." (vídeo).
 10. **Un día en la vida:**"Mi día en [empresa]" (reel).
-11. **Live / directo:** Q&A con tu audiencia.
-12. **Newsletter preview:** adelanta contenido de tu email.
+11. **Live / directo:** Q&A con su audiencia.
+12. **Newsletter preview:** adelante contenido de su email.
 13. **Repost de cliente:** user-generated content.
 14. **Anuncio de evento:** lanzamiento, webinar, oferta.
 
-**Publica 3–5 a la semana.**
+**Publique 3–5 a la semana.**
 
 ## ¿Cuánto cuesta externalizar?
 
@@ -164,9 +164,9 @@ Las redes no son un silo. Conectan con:
 | Adicionalmente: campañas de Ads | — | 300–1.500 €/mes | Alcance amplificado |
 
 **Lo que merece la pena:**
-- **Freelance con experiencia en tu sector** (no primo que "sabe de redes").
+- **Freelance con experiencia en su sector** (no primo que "sabe de redes").
 - **Agencia con casos demostrables** y reporting real.
-- **IA supervisada** por alguien que entienda tu cliente.
+- **IA supervisada** por alguien que entienda su cliente.
 
 ## ¿Cómo medir si funciona?
 
@@ -194,9 +194,9 @@ Las redes no son un silo. Conectan con:
 - **Tráfico a la web:** 4–8 meses.
 - **Leads y ventas:** 6–12 meses (o antes con Ads bien segmentados).
 
-**Si en 6 meses no tienes leads desde redes, revisa la estrategia, no la plataforma.**
+**Si en 6 meses no tiene leads desde redes, revise la estrategia, no la plataforma.**
 
-## ¿Cómo encaja en el resto de tu marketing?
+## ¿Cómo encaja en el resto de su marketing?
 
 Las redes son una pieza. Lo ideal:
 - **SEO** para ser encontrado en Google.
@@ -213,28 +213,28 @@ En **AdimenAi** (Gipuzkoa) diseñamos estrategias de contenido y campañas de Ad
 Entre 500 € y 3.000 €/mes en 2026. Un freelance con experiencia: 500–1.200 €. Una agencia: 1.200–3.000 €.
 
 **¿Qué red social es mejor para mi negocio?**
-Depende de tu cliente. B2B → LinkedIn. Consumidor final → Instagram + TikTok. Local → Instagram + Facebook. Mayor de 50 → Facebook.
+Depende de su cliente. B2B → LinkedIn. Consumidor final → Instagram + TikTok. Local → Instagram + Facebook. Mayor de 50 → Facebook.
 
 **¿Cuánto tarda en dar resultados una estrategia de redes?**
 Visibilidad: 3–6 meses. Leads: 6–12 meses. Resultados sólidos: 12 meses.
 
 **¿Y si tengo poco tiempo?**
-Elige UNA red, publica 3 veces/semana con calidad y responde TODO. Es mejor que estar en 5 redes abandonadas.
+Elija UNA red, publique 3 veces/semana con calidad y responda TODO. Es mejor que estar en 5 redes abandonadas.
 
 **¿La IA puede hacer mi estrategia de redes?**
-La IA puede generar borradores, ideas, recortar vídeos, analizar datos. Pero la estrategia, la voz y la decisión final las pones tú.
+La IA puede generar borradores, ideas, recortar vídeos, analizar datos. Pero la estrategia, la voz y la decisión final las pone usted.
 
 **¿Merece la pena pagar Ads en redes?**
-Para arrancar rápido, sí. Para sostener, depende del CPC de tu sector. En B2B industrial, el CPC en LinkedIn es alto (5–15 €) pero el lead es cualificado.
+Para arrancar rápido, sí. Para sostener, depende del CPC de su sector. En B2B industrial, el CPC en LinkedIn es alto (5–15 €) pero el lead es cualificado.
 
 **¿Cómo mido si funcionan las redes?**
-Conecta tus redes a GA4 con UTM, define objetivos de conversión en tu CRM, y mide leads y ventas atribuibles.
+Conecte sus redes a GA4 con UTM, defina objetivos de conversión en su CRM, y mida leads y ventas atribuibles.
 
 **¿Y si no tengo material gráfico?**
-Un banco de fotos decente más tu móvil + Canva o similares bastan para empezar. Invierte en un fotógrafo profesional 1–2 veces al año.
+Un banco de fotos decente más su móvil + Canva o similares bastan para empezar. Invierta en un fotógrafo profesional 1–2 veces al año.
 
-## ¿Listo para que tus redes generen clientes?
+## ¿Listo para que sus redes generen clientes?
 
-En **AdimenAi** (Gipuzkoa) montamos tu **estrategia de redes con enfoque de negocio**: contenido, calendario, monitorización y reporting. La auditoría es **gratuita**.
+En **AdimenAi** (Gipuzkoa) montamos su **estrategia de redes con enfoque de negocio**: contenido, calendario, monitorización y reporting. La auditoría es **gratuita**.
 
-📞 +34 641 195184 · [Reserva tu auditoría gratuita](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Reserve su auditoría gratuita](https://adimenai.com/contactar)

@@ -3,20 +3,20 @@ title: "Bezero bakar baten menpe zaudenean: arriskuak eta nola dibertsifikatu"
 slug: depender-un-solo-cliente
 excerpt: "Bezero handi bat edukitzea erosoa da joan arte. Alerta-seinaleak, menpekotasuna nola neurtu eta arriskua banatzeko zer egin kontu horri uko egin gabe."
 tags: ["Arriskua", "Bezeroak", "Hazkundea"]
-metaDescription: "Bezero bakar baten menpekotasuna: benetako arriskuak, alerta-seinaleak, adierazleekin nola neurtu eta zure kartera dibertsifikatzeko estrategiak bezero handia galdu gabe."
+metaDescription: "Bezero bakar baten menpekotasuna: benetako arriskuak, alerta-seinaleak, adierazleekin nola neurtu eta zuen kartera dibertsifikatzeko estrategiak bezero handia galdu gabe."
 publishedAt: 2026-08-17
 language: eu
 ---
 
 # Bezero bakar baten menpe zaudenean: arriskuak eta nola dibertsifikatu
 
-**Laburpena.** Zure fakturazioaren % 20 baino gehiago ordezkatzen duen bezero handi batek ez da abantaila, hipoteka bat baizik. Bezero hori joaten denean, bere baldintzak aldatzen dituenean edo eskaerak mozten dituenean, zure egitura osoa dardarka hasten da. Gakoa ez da bertan behera uztea, baizik eta **arriskua ulertzea, neurtzea eta bidea prestatzea** haien joateak ez zaitzan hondoratu. Artikulu honek alerta-seinaleak eta dibertsifikatzeko estrategiak azaltzen ditu, hazten uzten dizun kontuari uko egin gabe.
+**Laburpena.** Zuen fakturazioaren % 20 baino gehiago ordezkatzen duen bezero handi batek ez da abantaila, hipoteka bat baizik. Bezero hori joaten denean, bere baldintzak aldatzen dituenean edo eskaerak mozten dituenean, zuen egitura osoa dardarka hasten da. Gakoa ez da bertan behera uztea, baizik eta **arriskua ulertzea, neurtzea eta bidea prestatzea** haien joateak ez zaitzan hondoratu. Artikulu honek alerta-seinaleak eta dibertsifikatzeko estrategiak azaltzen ditu, hazten uzten dizun kontuari uko egin gabe.
 
 ## Zergatik da arazoa bezero handi bat edukitzea
 
 Erosgarria da: diru-sarrera egonkorrak, gestio gutxi, harreman estua. Baina arriskua ez da ikusten gertatu arte.
 
-- **Diru-sarrerak berehala galtzea.** Kontu bat zure fakturazioaren % 40 bada, haren joatea hilabete batean xurgatzea ezinezko kolpea da.
+- **Diru-sarrerak berehala galtzea.** Kontu bat zuen fakturazioaren % 40 bada, haren joatea hilabete batean xurgatzea ezinezko kolpea da.
 - **Baldintzak aldatzea.** Ez du joan beharrik: prezioak urtean % 10 estutzen baditu, jada margena kentzen ari da.
 - **Negoziazio-gaitasuna kontzentratzea.** Bezero batekiko menpekotasuna zenbat eta handiagoa, orduan eta negoziazio-ahalmen txikiagoa. Badakite.
 - **Elur-bola efektua.** Kontu handi bat galtzeak, batzuetan, sektore bereko besteak arrastaka eramaten ditu, hari lotuta ikusten baitzintuzten.
@@ -25,15 +25,15 @@ Galdera ez da bezero hori egunen batean joango den, baizik eta **noiz eta zenbat
 
 ## Menpekotasuna nola neurtu
 
-Ez duzu sistema konplexurik behar. Hiru adierazle:
+Ez duzue sistema konplexurik behar. Hiru adierazle:
 
 1. **Bezerorik handienaren fakturazio-%.A** % 20-25 baino gehiago bada, menpeko zara.
-2. **5 bezero handienen fakturazio-%.** % 50 baino gehiago bada, zure kartera kontzentratuta dago.
+2. **5 bezero handienen fakturazio-%.** % 50 baino gehiago bada, zuen kartera kontzentratuta dago.
 3. **Karteraren batez besteko antzinatasuna.** Fakturazioaren gehiena 2 urte baino gutxiagoko kontuetatik badator, epe luzera hauskorra zara.
 
-Kalkulatu urtean behin eta ikusiko duzu bilakaera. ETE askok arazoa deskubritzen dute beranduegi, kontu handia joaten denean eta beti "egon zen" bigarren bezeroak hamarren bat ekarri duela ikusten denean.
+Kalkulatu urtean behin eta ikusiko duzue bilakaera. ETE askok arazoa deskubritzen dute beranduegi, kontu handia joaten denean eta beti "egon zen" bigarren bezeroak hamarren bat ekarri duela ikusten denean.
 
-## Zure bezero handia aldatzen ari dela ohartarazten duten seinaleak
+## Zuen bezero handia aldatzen ari dela ohartarazten duten seinaleak
 
 Joanera baino lehen seinaleak daude. Ez utzi:
 
@@ -53,7 +53,7 @@ Bezero handiak ematen dizun diru-sarrera egonkorra erabili besteak aurkitzeko: i
 
 ### 2. Kaleko nitxoak jopu, ez fronte jotze
 
-Ez duzu hornitzaile handiekin borrokatu beharrik. Bilatu jada duzunaren antzeko bezeroak, edo sektore bereko ñimiñoagoak, zure eskaintzak zehatz-mehatz egokitzen dituenak.
+Ez duzue hornitzaile handiekin borrokatu beharrik. Bilatu jada duzunaren antzeko bezeroak, edo sektore bereko ñimiñoagoak, zuen eskaintzak zehatz-mehatz egokitzen dituenak.
 
 ### 3. Arriskua parteka
 
@@ -61,20 +61,20 @@ Bilatu nahasketa: bi edo hiru bezero ertain gehi bezero txikien oinarri bat. Txi
 
 ### 4. Atxikitzen duen zerbitzua sortu
 
-Joaten den bezero handi batek haien negozioari buruzko zure ezagutza metatua galtzen du. Baloratu balio hori: aldizkako txostenak, errepikatzen diren hobekuntzak, ibilbide-orri bateratua. Zenbat eta integratuago egon, orduan eta zailagoa da zu ordeztea, eta merkeagoa haientzat zurekin jarraitzea.
+Joaten den bezero handi batek haien negozioari buruzko zuen ezagutza metatua galtzen du. Baloratu balio hori: aldizkako txostenak, errepikatzen diren hobekuntzak, ibilbide-orri bateratua. Zenbat eta integratuago egon, orduan eta zailagoa da zu ordeztea, eta merkeagoa haientzat zuenekin jarraitzea.
 
 ### 5. Prestatu beti larrialdi-kita
 
 Ezer gertatu baino lehen, argi izan:
 
-- Merkatu orokorrerako zure eskaintza (non zaren eztabaidaezina).
+- Merkatu orokorrerako zuen eskaintza (non zaren eztabaidaezina).
 - Diru-sarrera errepikakorren lerro bat (mantentzea, harpidetza, retainer).
 - Fakturazio automatikoa eta berankortasun-arrisku kontrolatua.
 - 3-6 hilabeteko tesoreria-kuxina ustekabe bati bizirauteko.
 
 ### 6. Ez utzi bezero handiak dena egiten dizun
 
-Bezero handiak hain integratuta edukita besteentzako ia ezer egiten ez baduzu, monokultiboan zaude. Zure denbora eta talentuaren parte bat beste jarduera batzuetara bideratu beti, orain diru gutxiago eman arren.
+Bezero handiak hain integratuta edukita besteentzako ia ezer egiten ez baduzu, monokultiboan zaude. Zuen denbora eta talentuaren parte bat beste jarduera batzuetara bideratu beti, orain diru gutxiago eman arren.
 
 ## Noiz da onargarria bezero batez menpe egotea?
 
@@ -82,6 +82,6 @@ Salbuespen legitimoak daude: oraintxe hasi zara, edo bezero hori estrategikoa da
 
 ## Ondorioa
 
-Bezero handi bat ez da txarra berez. Txarra da zer arriskatzen duzun ez jakitea eta abantaila horren parte bat independentzia eraikitzeko ez erabiltzea. Neurtu zure menpekotasuna, begiratu seinaleak, eraiki kartera indartsu zaudenean eta prestatu larrialdi-kita. Dibertsifikatzea ez da kontu ona uztea: berez baliatuta ez amaitzea baizik.
+Bezero handi bat ez da txarra berez. Txarra da zer arriskatzen duzun ez jakitea eta abantaila horren parte bat independentzia eraikitzeko ez erabiltzea. Neurtu zuen menpekotasuna, begiratu seinaleak, eraiki kartera indartsu zaudenean eta prestatu larrialdi-kita. Dibertsifikatzea ez da kontu ona uztea: berez baliatuta ez amaitzea baizik.
 
-Zure kontu handia osatzen duen bezeroak harrapatzeko sistema bat (web, SEO, jarraipen automatikoa) jartzen lagundu nahi badugu, zure kasua aztertu eta plan errealista proposa dezakegu.
+Zuen kontu handia osatzen duen bezeroak harrapatzeko sistema bat (web, SEO, jarraipen automatikoa) jartzen lagundu nahi badugu, zuen kasua aztertu eta plan errealista proposa dezakegu.

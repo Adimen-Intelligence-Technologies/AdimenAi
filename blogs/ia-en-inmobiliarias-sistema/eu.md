@@ -14,7 +14,7 @@ language: eu
 
 Inmobiliarraren gehienek IA erabiltzen dute jadanik. Irekitzen dute, *«posten ideiak eman»* esaten, testxto bat jasotzen, eta itxigen. Egunero, berriro hasi egin gaudela bezala, IA laguntzaile etengabea dela uste.
 
-**Hau ez da IA zure inmobiliarran eduktea.**
+**Hau ez da IA zuen inmobiliarran eduktea.**
 
 ## Zein dago % 5-keta eta % 92-ketarekin?
 
@@ -32,7 +32,7 @@ Eta hori gertatzen ez da. Parametroekin 500.000.000.000-tan dagoen IA ez da CRMa
 
 Arazorik dago **truke solto bat bezala erabiltzea** eta ez sistema bateko osagarri gisa.
 
-Begizu zure inmobiliaria zuzen ere. Gaur egun, zein pausak dira garrantzetsueneko lead bat klientera bihurtzeko? Idatziak dira? Nor jarraitzen ditu? Zein treskak erabiltzen dituzu? Guztiek elkarriekin hitz egiten dute?
+Begizu zuen inmobiliaria zuzen ere. Gaur egun, zein pausak dira garrantzetsueneko lead bat klientera bihurtzeko? Idatziak dira? Nor jarraitzen ditu? Zein treskak erabiltzen dituzue? Guztiek elkarriekin hitz egiten dute?
 
 IA ez da kaosera ordezten. **Tu egiten.** IA funtzionatzen duena galdu duen arte besaltzen du.
 
@@ -40,7 +40,7 @@ IA ez da kaosera ordezten. **Tu egiten.** IA funtzionatzen duena galdu duen arte
 
 | Egiaztagatik egin duen | % 5-k honek egiten du | % 92-k honek egiten du |
 |---|---|---|
-| «Irekiten dizut ChatGPT eta post bat eskatzen» | Edukia egutikoa da eta zure bezero-ekintza, jatorri eta transakzio-istorioa kargatuak | Parametro bakoitzak mundu berri bat da, jarraera ez duena |
+| «Irekiten dizut ChatGPT eta post bat eskatzen» | Edukia egutikoa da eta zuen bezero-ekintza, jatorri eta transakzio-istorioa kargatuak | Parametro bakoitzak mundu berri bat da, jarraera ez duena |
 | Edukia ad-hoc sortzea | Edukia brief-riptan errepikgaiagatik eraikia da, marken ahotsa | Ahotsa aldatzen da bakoitzean eta bezeroa zirritu egiten du |
 | Segmentu gabeko kontuak jasotzea | CRMak etiketa, puntuazioak eta flusus automatizatutakoak ditu | Kontuak arranken galdu egiten dira ordezko koadro batean |
 | WhatsApp erantzuten eskularik | IA agenteak WhatsApp erantzuten duen bezeroaren kontzeptuarekin | Izan izenekoak eta hotzagoak erantzuten dira berdin |
@@ -53,7 +53,7 @@ IA ez da kaosera ordezten. **Tu egiten.** IA funtzionatzen duena galdu duen arte
 Ez da asko, baina oraindik ez da guztiek egiten:
 
 1. **Zehaztu bezero-helburu zuri.** Ez «familia gaztea»; «familia gaztea, 30-38 urte, 4.500 €-ren gaineko sarrima, [distentzian] kalea eta eskola konpertatua duten lekuak barikusita». Pertson hori IA-ra sartzen zaio, eta IA ez da berdin erantzuten.
-2. **Idatzi zure prozesuak.** Lead-etik klientera-fluxua, deietako scriptak, marketing- brief-ak. Ez badago idatzi, IA ezin du errepikatzekin lagundu.
+2. **Idatzi zuen prozesuak.** Lead-etik klientera-fluxua, deietako scriptak, marketing- brief-ak. Ez badago idatzi, IA ezin du errepikatzekin lagundu.
 3. **Kentralizatu ezagutza.** Galderketa maizarrak, testigomaia, jatorriko fitxaak, transakzio-istiorioa. Kontzepturik gabeko IA soin-arraina soilik sortzen du.
 4. **Zehaztu emaitza minimoa.** Ez da «aurretarekin hobeto» jasgarri. Batzat da, bihurtzen badu, trafikoa eragiten badu, denbora ahorratzen badu.
 
@@ -61,9 +61,9 @@ Horrekin, IA ez da truke solto bat. Gako bat da.
 
 ## Galdera erlijioa bat, jabea jabeara
 
-> **Zure inmobiliarrak gaur egun IA-sistemarekin dago… edo IA bat dago, jasotzen duen galderketa askotan?**
+> **Zuen inmobiliarrak gaur egun IA-sistemarekin dago… edo IA bat dago, jasotzen duen galderketa askotan?**
 
-Erantzuna zure teknologia-inversioa gehiago itxura-mantentzeko edo norabidezko edukia sortzeko zehatzen du. % 5-k ez dute IA hobeto erabiltzen. % 5-k sistema bat eraiki zuen IA onartzen duenak. % 92-k IA-ri ordenatua espero du.
+Erantzuna zuen teknologia-inversioa gehiago itxura-mantentzeko edo norabidezko edukia sortzeko zehatzen du. % 5-k ez dute IA hobeto erabiltzen. % 5-k sistema bat eraiki zuen IA onartzen duenak. % 92-k IA-ri ordenatua espero du.
 
 Ez dago bidea labirritik. Baina bidea argia dago: lehen sistema, eta oraindik IA.
 

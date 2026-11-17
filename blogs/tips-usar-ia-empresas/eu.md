@@ -1,14 +1,14 @@
 ---
-title: "Nola erabili IA zure enpresatan konplikazio gabe: funtzionatzen duten 7 lagin"
+title: "Nola erabili IA zuen enpresatan konplikazio gabe: funtzionatzen duten 7 lagin"
 slug: tips-usar-ia-empresas
 excerpt: "IA erabiltzea ez da kostu referentzia galdera: konplikazio gabeko modu praktikoak. Enpresa erreal oferditzen dituen 7 aplikazio zehatz."
 tags: ["IA", "Enpresa", "Produktibotasuna"]
-metaDescription: "IA zure enpresan erabiltzeko 7 modu: ez truke solto bat bezala, baizik eta galdera errealak konduko duen moduak. Irudikapenik gabe, adibide zehatzekin."
+metaDescription: "IA zuen enpresan erabiltzeko 7 modu: ez truke solto bat bezala, baizik eta galdera errealak konduko duen moduak. Irudikapenik gabe, adibide zehatzekin."
 publishedAt: 2026-08-17
 language: eu
 ---
 
-# Nola erabili IA zure enpresatan konplikazio gabe: funtzionatzen duten 7 lagin
+# Nola erabili IA zuen enpresatan konplikazio gabe: funtzionatzen duten 7 lagin
 
 **Laburpena.** IA ez da marketin-esterotipoa. Pentsamendu umaniko luzapena da, ongi erabilita orduan, ordun aldatzen du eta akatxeak gutxitzen ditu. Tip hauen funtzionatzen duten 7 laginak ofer dit dizut, talde handirik izan barik.
 
@@ -18,23 +18,23 @@ language: eu
 
 Ez galdera egin "zer egin dezakegu IA-rekin?" — horrela chatbot erabilgarri bat sortzen da nik inork ez du erabaketa. Galdetu:
 
-> **Nola eragiten du zure astean 5 ordu joateko erroutine bat?**
+> **Nola eragiten du zuen astean 5 ordu joateko erroutine bat?**
 
 Hau da lehentasuna. IA ez da "zen zehatza izan"tzeko erabilgarri. Gaur egun doala konduko duen gauza bat da.
 
-## 2. Perfila enpresa zurekin, ez internetsarekin
+## 2. Perfila enpresa zuenekin, ez internetsarekin
 
 Kontzteko ez duenekin IA bat testu generikoak sortzen ditu. Funtzionatzen duena horren gainkidea da.
 
-- Zure galderketa erregularrak.
-- Zure preziios eta zerbitzuak.
-- Zure prozesu operatiba.
-- Zure bezten eta kasu errealak.
+- Zuen galderketa erregularrak.
+- Zuen preziios eta zerbitzuak.
+- Zuen prozesu operatiba.
+- Zuen bezten eta kasu errealak.
 
 **Laginketa praktikoak:**
 - "Zer egiten dugula", "gure barnean", "nola lan egiten" azpimarratzen duen dokumentu barneratua sortu.
 - IA-arentzat posta elektroniko errealak (ez generikoak), salmentak, kasu errealak ematen itxura eman.
-- Markaren ahotsa eman:  ofiziala, hurbil, teknikoa... zure bezala erantzuten duen modu hartu.
+- Markaren ahotsa eman:  ofiziala, hurbil, teknikoa... zuen bezala erantzuten duen modu hartu.
 
 ## 3. Ez erabili idazle gisa. Erabili lehen editorea gisa
 
@@ -43,7 +43,7 @@ Testu bat zero-striptik sortzea guztiek egiten dute. Haiak ez dira erabiltzen:
 - Korrekzioa eta xurgapena (ortografia, argiro, tonua).
 - Mezua bezeroarentzat-adaptatzea (ofiziala vs hurbil).
 - Batzuetan testu anitzak sortzea (posta elektroniko, LinkedIn, lan-ohar).
-- Zuretzat erabakia hartu den borradorak sortzea.
+- Zuentzat erabakia hartu den borradorak sortzea.
 
 **Adibide erreal bat:** gure kudeatzaileak faktura-postaren email-a idazten du. IA-k 3 bertsio ematen ditu, hauest eta azkenik datu batzuk gehitzen ditu.
 
@@ -64,7 +64,7 @@ Funtzionatzen duten prompt-ak gorditu. Gure prompt-liburutia eraiki.
 
 ## 5. Ez automatizatu guztia. Garrantzitsua izan daiteke oinarza
 
-IA **zuretzat lagundu** behar du, ez erabakitu. Arretrak:
+IA **zuentzat lagundu** behar du, ez erabakitu. Arretrak:
 
 - Kasu berrientzat beti egiaztapen urrats bat izan.
 - Kritikoak diren emaitzak beti egiaztatzea.
@@ -120,7 +120,7 @@ Patroia erakartzen duen edozein ataza: galderketa erregularraren erantzukizunak,
 Laudean ez, ez. IA komplementatzen du, ez ordezten. Prozesuak errajatzen ditu, pertsonentzat estrategikoko atazetara liberatzen ditu eta akatxeak gutxitzen, baina pertsonak oraindik erabaki konplexuak hartzen jarraitzen dute.
 
 **Segurtasuna aldatu daiteke informazio barneratua IA-arentzat?**
-Kontratzailearen eta erabileraren arabera. tresnak enpresarako (GPT for Work, Azure OpenAI) konfidantzia-agiriak ahalbidetzen dute eta zure datuetan ez dute traintzen. Helburu ez da sartzea informazio delikadua bertsio doanikoa ez direnetan.
+Kontratzailearen eta erabileraren arabera. tresnak enpresarako (GPT for Work, Azure OpenAI) konfidantzia-agiriak ahalbidetzen dute eta zuen datuetan ez dute traintzen. Helburu ez da sartzea informazio delikadua bertsio doanikoa ez direnetan.
 
 **AIak ezin du idazten?**
 BAI, bereziki ezagupen faktuetan, egun zehazletan, edo informazio oso zehatzetan. beti egiazta datuak, zenbakiak, erreferentziak eta preziiosak.

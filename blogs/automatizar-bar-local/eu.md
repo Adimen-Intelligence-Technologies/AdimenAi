@@ -10,31 +10,31 @@ language: eu
 
 # Bar baten jabea naizenez, zer automatizatu dezaket? 5 prozesu ordu gehiago itzurtzen laguntzen dituenak
 
-**** Ez saiatu dena batera automatizatzen. Automatizatu neurtu duen gauza, mostratikoaren aurrean zure lana ezabatzen duena: ticket digitala, erreserbak, stocka, hornitzaileak eta nómina. Bakoitzak astean ordu 2-3 itzortzen ditu, gizartearen ekarpenik gabe. Puntu hauek frogatzeko lehen begirada **0 €** profitala.
+**** Ez saiatu dena batera automatizatzen. Automatizatu neurtu duen gauza, mostratikoaren aurrean zuen lana ezabatzen duena: ticket digitala, erreserbak, stocka, hornitzaileak eta nómina. Bakoitzak astean ordu 2-3 itzortzen ditu, gizartearen ekarpenik gabe. Puntu hauek frogatzeko lehen begirada **0 €** profitala.
 
 ## Azalpen azpian dagoen problema
 
-Zure barrekin izaro zaudela asmoz egin duzula. Baina andertzen 7etan ertzen zaude, irekitzen, zerbitzaten, itxitzen... eta ez duzula **negozioari buruz pentsatzen** den denbora. Barretako arriskua: jabeak *baretan* lanean dago, *bararen* zuzentzean ez.
+Zuen barrekin izaro zaudela asmoz egin duzula. Baina andertzen 7etan ertzen zaude, irekitzen, zerbitzaten, itxitzen... eta ez duzula **negozioari buruz pentsatzen** den denbora. Barretako arriskua: jabeak *baretan* lanean dago, *bararen* zuzentzean ez.
 
-Automatizazioak ez da zuretzat ordez egotea. Automatizazioak gauza hauek ken dezake: zure esamoldearen ondorioak, libretan idatzi den stocka, hornitzaileekin WhatsApp-n.
+Automatizazioak ez da zuentzat ordez egotea. Automatizazioak gauza hauek ken dezake: zuen esamoldearen ondorioak, libretan idatzi den stocka, hornitzaileekin WhatsApp-n.
 
 > Donostiako bar batek kontabilitatea automatizatuz astebete 4 ordu aurreko 30 minutura bateztildu. Jabea astebete terassan dago.
 
 ## 1. TPV eta ticket digitala (paperaren 100% aurreko kostua)
 
-Zure TPV-k ticket digitala jasaten du jadanik (Tactil, ICG, Bridge, Clover). Aktibatu:
+Zuen TPV-k ticket digitala jasaten du jadanik (Tactil, ICG, Bridge, Clover). Aktibatu:
 
-- **QR bat zure webgaztetik edo menu online aholkulatik.**
+- **QR bat zuen webgaztetik edo menu online aholkulatik.**
 - **WhatsApp mezu aurrez idatsitua** ("Gauza bat ez baduzu? Idatzi 👉 hello@zuremaila.com").
 - **Deskuentu kode bat** hurrengo bisitaerarako.
 
-Digitalak ez daude "txikiago" salmenta egiten soilik. Salmenta egiten du zure klienteek zure kontuagatik iritsi zenean, tapa antzeman ahala. Gure "TPV eta ticket digitalak: nola saldu 30% gehiago" argitaldiarekin ikus daiteke, Barek 12-15 % errepikatzea hiritarazi dutela.
+Digitalak ez daude "txikiago" salmenta egiten soilik. Salmenta egiten du zuen klienteek zuen kontuagatik iritsi zenean, tapa antzeman ahala. Gure "TPV eta ticket digitalak: nola saldu 30% gehiago" argitaldiarekin ikus daiteke, Barek 12-15 % errepikatzea hiritarazi dutela.
 
 **Konfigurazioa:** 15 minutu. Ez aldatu TPV-a.
 
 ## 2. Erreserbak online (terranean ez daudala erezten)
 
-Instagram erabiltzen duzu, baina erreserbak? Zure bio-n link bat edo mostratikoan QR bat **ReservaYa** edo **TheFork**-en lotura duzula, terraza osoa denbora errealan ikusi dezakezu eta mahaiak baieztatu dezakezu mugikortik.
+Instagram erabiltzen duzue, baina erreserbak? Zuen bio-n link bat edo mostratikoan QR bat **ReservaYa** edo **TheFork**-en lotura duzula, terraza osoa denbora errealan ikusi dezakezu eta mahaiak baieztatu dezakezu mugikortik.
 
 **Kontu Gipuzkoa:** Udaberriean, erreserbak **20:30-etan lehenago** ireki soilik. Jende zaharrak erreserbarik gabeko kontuagatik joaten dira; jende gazagoek erreserbatzen. Orduan, ordu bateko arriskua ekiditeko.
 
@@ -49,25 +49,25 @@ Negozioa txikikoa denean, ordurokoa izaten da stockak betetzea. Stocka ez da "ne
 
 ## 4. Nómina eta JI (barrutik irtzea gabe)
 
-Arrelegiak kontratzen dituzu, baina nómina ostiraunek 8 ordu izaten dute astean.
+Arrelegiak kontratzen dituzue, baina nómina ostiraunek 8 ordu izaten dute astean.
 
 - **Kontabilitasun firma IA-rena** overtime automatikzeko.
 - **Kalendaratutako partekatutako egutura** (Google Calendar) jabeaketa eta jaiotzea gehiago.
 
-Ezinbestezko departamentura JI-aren. Gauza bi behar dituzu astelehenetan ez daudalakoak: parte, egutura.
+Ezinbestezko departamentura JI-aren. Gauza bi behar dituzue astelehenetan ez daudalakoak: parte, egutura.
 
-## 5. Mezularitza eta entregak (zure WhatsApp barneterakoak)
+## 5. Mezularitza eta entregak (zuen WhatsApp barneterakoak)
 
-Klienteek kontuetan joaten badira? Zure WhatsApp játsitzaile gisa dago jadanik. Baina:
+Klienteek kontuetan joaten badira? Zuen WhatsApp játsitzaile gisa dago jadanik. Baina:
 
 - Mezu aurrez idatsita: "Berdin? Idatzi 'Pedruak' eta prestatuko dut."
 - "Errepikatu azkena" botoa klienteekin ezagupeko.
 
-Ezinbestezko Deliveroon. Partekatutako WhatsApp bat behar duzu.
+Ezinbestezko Deliveroon. Partekatutako WhatsApp bat behar duzue.
 
 ## Errua arrunta bat (eta nola ekiditea)
 
-Den batean automatizatzea nahi duzu. Bar bat ez da factory bat. Pprioritatzen:
+Den batean automatizatzea nahi duzue. Bar bat ez da factory bat. Pprioritatzen:
 
 1. **Ticket digitala** (15 min, 10 €/hilabete).
 2. **Erreserbak online** (30 min, doan Google Forms-ekin).
@@ -89,6 +89,6 @@ Automatizatzea ez da "hotza" izatea. **Denbora lortzea da:** gure barra, bezeroa
 
 ---
 
-**AdimenAi**-n (Gipuzkoa) zure 5 automatizazio puntuak **doan begirada** ematen dugu. Lehen begirada doan eta konpromisurik gabekoa: lehen zein automatizatzea eta zenbat ordu itzortzen duen esaten dugu.
+**AdimenAi**-n (Gipuzkoa) zuen 5 automatizazio puntuak **doan begirada** ematen dugu. Lehen begirada doan eta konpromisurik gabekoa: lehen zein automatizatzea eta zenbat ordu itzortzen duen esaten dugu.
 
 📞 +34 641 195184 · [Jarri harremanetan](https://adimenai.com/contactar)

@@ -18,7 +18,7 @@ const preferenceItems: PreferenceItem[] = [
   {
     id: "preferences",
     title: "Preferencias",
-    description: "Recuerda ajustes de interfaz y opciones para personalizar tu experiencia.",
+    description: "Recuerda ajustes de interfaz y opciones para personalizar su experiencia.",
   },
   {
     id: "analytics",

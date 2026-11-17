@@ -12,15 +12,15 @@ language: eu
 
 **Laburpena.** Ordainketa atzeratuak ia estandarrak dira ETE askotan, baina ez du halakorik izan behar. Kontratu argiak, aurrerakinak, epe laburrak, gogorarazpen automatikoak eta pronto ordaintzeagatiko deskontuak bateratzeak hobeto funtzionatzen du gero erreklamatzeak baino. Gida honek bezeroekin harremana hondatu gabe lehenago kobratzeko estrategia errealak biltzen ditu.
 
-## Zergatik ez dizu zure bezeroak garaiz ordaintzen?
+## Zergatik ez dizu zuen bezeroak garaiz ordaintzen?
 
-Soluzioei buruz hitz egin baino lehen, kausak ulertzea merezi du. Gehienak ez dira txar-ohorezkoak: bezeroak ondoen eskatzen dionari ordaintzen dio. Zure faktura mezu-pila batean galtzen bada eta inoiz ez baduzu erreklamatzen, ilararen bukaeran geratzen zara.
+Soluzioei buruz hitz egin baino lehen, kausak ulertzea merezi du. Gehienak ez dira txar-ohorezkoak: bezeroak ondoen eskatzen dionari ordaintzen dio. Zuen faktura mezu-pila batean galtzen bada eta inoiz ez baduzu erreklamatzen, ilararen bukaeran geratzen zara.
 
 Kausa ohikoenak:
 
-- **Ez dago idatzizko ordainketa-baldintzarik.** Zuk 30 egun espero dituzu, bezeroak 90.
+- **Ez dago idatzizko ordainketa-baldintzarik.** Zuen 30 egun espero dituzue, bezeroak 90.
 - **Faktura berandu iristen da edo gaizki egina.** Edozein akatsek ordainketa-prozesu automatikotik ateratzen du.
-- **Ez dago gogorarazpen sistematikorik.** Ez duzu eskatzen, ez duzu kobratzen.
+- **Ez dago gogorarazpen sistematikorik.** Ez duzue eskatzen, ez duzue kobratzen.
 - **Ordainketa eskatze modua deserosoa da.** Ordainketa-estekarik gabe, bezeroak aitzakia du.
 
 ## Lehenago kobratzeko estrategiak (benetan funtzionatzen dutenak)
@@ -35,7 +35,7 @@ Proiektua hasi edo eskaera bidali aurretik, idatziz berretsi:
 
 ### 2. Aurrerakina eskatu
 
-% 20-30ko aurrerakinak ordaintzeko asmorik ez duten bezeroak iragazten ditu eta zure gastuaren parte estaltzen du. Zerbitzu profesionaletan eta sektore askotan ohikoa da. Bezeroa aurrerakin arrazoizko batengatik minduta badago, bere kaudimenari buruzko datua da.
+% 20-30ko aurrerakinak ordaintzeko asmorik ez duten bezeroak iragazten ditu eta zuen gastuaren parte estaltzen du. Zerbitzu profesionaletan eta sektore askotan ohikoa da. Bezeroa aurrerakin arrazoizko batengatik minduta badago, bere kaudimenari buruzko datua da.
 
 ### 3. Ordainketa-epeak laburtu
 
@@ -58,7 +58,7 @@ Prozesu finko bat definitu:
 - **30. eguna:** email sendoagoa faktura-zenbakiarekin.
 - **45. egunetik aurrera:** deia edo gutun formalaren bidalketa.
 
-Lehenengo bi emailek CRM batekin edo fakturazio-tresna batekin automatizatu daitezke. Zuretzat ez da ahaleginik, eta bezeroak gauza normal bat bezala jasotzen du.
+Lehenengo bi emailek CRM batekin edo fakturazio-tresna batekin automatizatu daitezke. Zuentzat ez da ahaleginik, eta bezeroak gauza normal bat bezala jasotzen du.
 
 ### 7. Hainbat ordainketa-metodo eskaini
 
@@ -80,7 +80,7 @@ Zorra baduzu:
 
 ## Nola kontrolatu taula xume batekin
 
-Ez duzu ERP garestirik behar. Fitxa bat honekin:
+Ez duzue ERP garestirik behar. Fitxa bat honekin:
 
 - Bezeroa, faktura, iraungitze-data, atzerapen-egunak.
 - Zorraren antzinatasuna tarteka (0-30, 31-60, 61-90, 90+).
@@ -92,4 +92,4 @@ Hilean behin berrikusita irudi osoa ematen dizu eta ezer ez dela ihes egiten ziu
 
 Garaiz kobratzea ez da gehiago erreklamatzea, **prebenitzea baizik**: baldintza argiak, aurrerakinak, epe laburrak, gogorarazpen automatikoak eta hainbat ordainketa-metodo. Ordainketa atzeratuen arazoa baduzu, erreklamazio-prozesu eskalatu eta ondo dokumentatua da funtzionatzen duena.
 
-Gogorarazpen automatikoak, ordainketa-estekak edo zure fakturazioak araudi berria betetzen duen berrikusteko laguntza behar baduzu, konpromisorik gabe begiratu dezakegu.
+Gogorarazpen automatikoak, ordainketa-estekak edo zuen fakturazioak araudi berria betetzen duen berrikusteko laguntza behar baduzu, konpromisorik gabe begiratu dezakegu.

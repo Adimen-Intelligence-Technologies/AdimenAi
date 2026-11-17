@@ -1,7 +1,7 @@
 ---
 title: "Videoanalitika AI kafetarian: zenbat irits tenpero egiten du barista bakoitzak?"
 slug: ia-cafeteria-videovigilancia
-excerpt: "Zure CCTV-kin barista produktibotasuna neurtu: irits tenpero/ordu, bezeroen itxaropen denbora, lerroak. Hardware berririk gabe, aurpegi ez. Software IA bat eta 49 €/hilabete dashboard."
+excerpt: "Zuen CCTV-kin barista produktibotasuna neurtu: irits tenpero/ordu, bezeroen itxaropen denbora, lerroak. Hardware berririk gabe, aurpegi ez. Software IA bat eta 49 €/hilabete dashboard."
 tags: ["Hostelería", "IA aplicatua", "CCTV", "Errendimendua"]
 metaDescription: "IA CCTV existitik kafetarako: irits tenpero barista bakoitzaren, bezeroen itxaropen denbora, lerroak. Hardware berririk gabe, pribatutasuna, 49 €/hilabete."
 publishedAt: 2026-08-17
@@ -10,7 +10,7 @@ language: eu
 
 # Videoanalitika AI kafetarian: zenbat irits tenpero egiten du barista bakoitzak?
 
-**** Zure CCTV existitik **bararen errendimendu dashboard bat** izan daiteke. Software IA batekin (hardware berririk gabe, aurpegi ez), neurtu dezakezu zenbat irits tenpero egiten duen barista bakoitzak, zenbat denbura itxaroten duen bezerroak eta lerroaren patronak. Lehen dashboard: **doan**.
+**** Zuen CCTV existitik **bararen errendimendu dashboard bat** izan daiteke. Software IA batekin (hardware berririk gabe, aurpegi ez), neurtu dezakezu zenbat irits tenpero egiten duen barista bakoitzak, zenbat denbura itxaroten duen bezerroak eta lerroaren patronak. Lehen dashboard: **doan**.
 
 ## Ez zagutzen egin dezakeen egoera
 
@@ -24,7 +24,7 @@ Daturik gabe, intuitsioaren oinarri gain. Baina **zuri CCTV-k ikusten du guztia*
 
 ## Nola funtzionatzen du (hardware berririk gabe)
 
-1. Zure **CCTV existitik** ikusten du video (analogo edo IP).
+1. Zuen **CCTV existitik** ikusten du video (analogo edo IP).
 2. **Software IA** bat (OpenCV + YOLO) pertsonen mugimendua denbema errealan aztertzen du.
 3. **Dashboard** bat metrikoak erakusten ditu kolorekin (gorri = alerta, hai = OK).
 
@@ -85,8 +85,8 @@ Teknologia honek **EZ du aurpegi errekurtsoa** erabiltzen. IA modeluak (YOLOv8, 
 
 ## Gida azelaa: 5 pausa instalatzeko
 
-### Pausa 1: Egitiatsu zure CCTV existitik
-Behar duzu:
+### Pausa 1: Egitiatsu zuen CCTV existitik
+Behar duzue:
 - Bararen eta itxaropen lekuaren ikusmena argi duen kamera bat.
 - Bidea (HDMI, USB edo IP lokalan).
 
@@ -127,13 +127,13 @@ CCTV-aren bidea mini PC-ra (Intel NUC) edo softwarea web-eremuan instalatu. Soft
 
 ## Laburbilduz: pausa plana 3-ek
 
-1. **Egitiatsu zure CCTV.** Bararen ikusmena argi bat → prest.
+1. **Egitiatsu zuen CCTV.** Bararen ikusmena argi bat → prest.
 2. **Probatu egun 15 doan.** Sensive Go edo Deep Sentinel, kreditua ez.
 3. **Neurtu KPIs garrantzitsu 3-ek:** Irits tenpero/ordu, bezerroak iristen, lerro gehiena.
 
-> "Errendimendua sentitzen ez da. Neurtzen da. Eta zure CCTV-k ikusten du guztia." — *Retail Tech Journal*.
+> "Errendimendua sentitzen ez da. Neurtzen da. Eta zuen CCTV-k ikusten du guztia." — *Retail Tech Journal*.
 
-Zure CCTV-ri IA jaritzeko lehen egiaztatza: **doan** eta konpromisurik gabekoa.
+Zuen CCTV-ri IA jaritzeko lehen egiaztatza: **doan** eta konpromisurik gabekoa.
 
 ---
 

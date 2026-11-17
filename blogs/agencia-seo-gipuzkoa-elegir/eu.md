@@ -16,7 +16,7 @@ language: eu
 
 Prezioez hitz egin aurretik, komeni da bereiztea asko "SEO" gisa saltzen dutena:
 
-- **SEO teknikoa:** Googlek zure webgunea ondo arakatu eta indexatu dezan. Abiadura, datu egituratuak, sitemapa, HTTPS, etiketa kanonikoa.
+- **SEO teknikoa:** Googlek zuen webgunea ondo arakatu eta indexatu dezan. Abiadura, datu egituratuak, sitemapa, HTTPS, etiketa kanonikoa.
 - **SEO on-page:** orri bakoitzaren optimizazioa (title etiketak, meta deskribapenak, izenburuak, edukia, irudiak).
 - **Eduki SEOa:** artikuluak edo produktu-fitxak idaztea edo berridaztea, sailkatzeko pentsatuak.
 - **SEO lokala:** Google Maps-en eta "inguruan" bilaketetan agertzea, Google Business Profile fitxa on batekin, NAP koherentea (izena, helbidea, telefonoa) eta iritziak.
@@ -120,7 +120,7 @@ Euskadik eta Gipuzkoak kanpoko agentzia askok ulertzen ez dituzten SEO ezaugarri
 - Search Console datuen araberako doikuntzak
 - Gako-hitz berrietara zabaltzea
 
-## SEOa zure gainerako presentzia digitalarekin nola uztartzen den
+## SEOa zuen gainerako presentzia digitalarekin nola uztartzen den
 
 SEOak bakarrik ez du gaizki eginiko web bat salbatzen. Idealena hau izatea da:
 - Web azkarra eta ondo egituratua (Core Web Vitals berdean)
@@ -163,8 +163,8 @@ Hiru seinale:
 
 Hiru puntu horiek betetzen ez badituzu, aldatu.
 
-## Prest al zaude zure enpresa Gipuzkoan posizionatzeko?
+## Prest al zaude zuen enpresa Gipuzkoan posizionatzeko?
 
 **AdimenAIn** (Gipuzkoa) **doako SEO auditoria + proposamen pertsonalizatua 48 orduan** egiten dugu. Permanentziarik gabe eta fakturarekin. Web orria baduzu, zer aldatu esango dizugu; ez baduzu, egingo dizugu eta lehen egunetik SEOa sartuko diogu.
 
-📞 +34 641 195184 · [Eskatu zure SEO auditoria](https://www.adimenai.com/eu/contacto)
+📞 +34 641 195184 · [Eskatu zuen SEO auditoria](https://www.adimenai.com/eu/contacto)

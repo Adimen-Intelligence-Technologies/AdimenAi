@@ -3,7 +3,7 @@ title: "Erantzun gabeko bezero-emailak: leadak eta dirua galtzeari uzteko modua"
 slug: emails-clientes-sin-contestar
 excerpt: "ETEen % 62k 24 ordu baino gehiago behar ditu bezero baten email bati erantzuteko. Nola utzi leadak galtzeari kudeaketa-sistema eta erantzun automatizatu batekin 2026an."
 tags: ["Emailak", "Bezero-arreta", "CRM"]
-metaDescription: "Zergatik galtzen ditu zure enpresak leadak emailei berandu erantzuteagatik, benetako kostua nola kalkulatu eta zer automatizatu jende gehiago kontratatu gabe ordu 1 baino gutxiagoan erantzuteko."
+metaDescription: "Zergatik galtzen ditu zuen enpresak leadak emailei berandu erantzuteagatik, benetako kostua nola kalkulatu eta zer automatizatu jende gehiago kontratatu gabe ordu 1 baino gutxiagoan erantzuteko."
 publishedAt: 2026-08-17
 language: eu
 ---
@@ -18,13 +18,13 @@ Egin dezagun kalkulua. Hilean **100 lead** dituen eta batez besteko **500 €ko 
 
 - Erantzun-tasa < 4h: % 60 (% 40 galtzen edo hondatzen dira).
 - Erantzun-tasa > 24h: % 30 (gehienak galtzen dira).
-- Erantzun-tasa % 90era hobetzen baduzu, lehen galtzen ziren **20 lead/hilean** berreskuratzen dituzu.
+- Erantzun-tasa % 90era hobetzen baduzu, lehen galtzen ziren **20 lead/hilean** berreskuratzen dituzue.
 - **20 lead × % 30eko itxiera × 500 €** = 3.000 €/hilean gehiago.
 - **Urtean: 36.000 €.**
 
 **SuperOfficeren 2024ko txostenaren** arabera, enpresen **% 7k** bakarrik erantzuten dio lehen emailari ordu 1 baino gutxiagoan. **% 38k** 24 ordu baino gehiago behar ditu. Eta **InsideSales**en arabera, lehen 60 minutuetan erantzuteak leadaren kualifikazio-tasa **21 aldiz** biderkatzen du.
 
-**Zure enpresak 4 ordu baino gehiago behar baditu erantzuteko, salmenta-leadeen % 30 eta % 50 artean galtzen ari zara.** Hori bota egiten den dirua da.
+**Zuen enpresak 4 ordu baino gehiago behar baditu erantzuteko, salmenta-leadeen % 30 eta % 50 artean galtzen ari zara.** Hori bota egiten den dirua da.
 
 ## Zergatik gertatzen da "hainbeste email ez badugu ere"?
 
@@ -91,14 +91,14 @@ Auditorietan ikusten ditugun arrazoi ohikoak:
 - **IA agentea:** Claude, GPT-4o, Mistral — APIaren bidez integratuta.
 - **WhatsApp + email bateratua:** respond.io, Front, Trengo.
 
-**AdimenAIn** kate osoa zure tresnekin diseinatzen dugu eta operatiba eten gabe funtzionatzen uzten dugu.
+**AdimenAIn** kate osoa zuen tresnekin diseinatzen dugu eta operatiba eten gabe funtzionatzen uzten dugu.
 
 ## Konponbidea jartzean akats tipikoak
 
 1. **Tresna bakarrik erostea, prozesua berrantolatu gabe.** Tresnek bakarrik ez dute erantzuten ez duen talde bat konpontzen.
 2. **Aurretik ez neurtzea.** Nondik abiatzen zaren ez badakizu, ez dakizu hobetzen ari zaren.
-3. **IAri DENA gainbegiratu gabe erantzutea uztea.** Giza balidazioa behar duzu email kritikoetan (kexak, itzulketak, egoera sentikorrak).
-4. **Ahots-tonua ahaztea.** Tonu robotikoarekin erantzuten duen IA batek marka apurtzen du. Zure estiloarekin entrenatu behar da.
+3. **IAri DENA gainbegiratu gabe erantzutea uztea.** Giza balidazioa behar duzue email kritikoetan (kexak, itzulketak, egoera sentikorrak).
+4. **Ahots-tonua ahaztea.** Tonu robotikoarekin erantzuten duen IA batek marka apurtzen du. Zuen estiloarekin entrenatu behar da.
 5. **Eskalatze-protokolorik ez izatea.** IAk ez badaki, nori abisatzen dio? Zein lehentasunekin? Zein kanaletan?
 
 ## Zenbat aurrezten da benetan?
@@ -135,10 +135,10 @@ FAQetan bai (lagin baten giza balidazioarekin). Email pertsonalizatu edo sentiko
 Bai. HubSpot, Salesforce, Zoho, Pipedrive, Bitrix24, SugarCRM eta abarrekin integratzen dugu. APIrik ez badu, pantailako RPA.
 
 **Eta WhatsApp-ekin?**
-Bai. WhatsApp + email + web formularioa posta-kutxa bakar batean batu ditzakegu, zure taldeak panel batetik guztia artatu dezan.
+Bai. WhatsApp + email + web formularioa posta-kutxa bakar batean batu ditzakegu, zuen taldeak panel batetik guztia artatu dezan.
 
 **FAQak idatzita izan behar ditut?**
-Gomendagarria da. Ez badituzu, zure bezeroen benetako galderetatik sortzen ditugu (azken 6 hilabeteetako emailetatik).
+Gomendagarria da. Ez badituzu, zuen bezeroen benetako galderetatik sortzen ditugu (azken 6 hilabeteetako emailetatik).
 
 **Nola neurtzen dut arrakasta?**
 - Erantzun-denbora batez bestekoa (lehen vs orain).
@@ -148,6 +148,6 @@ Gomendagarria da. Ez badituzu, zure bezeroen benetako galderetatik sortzen ditug
 
 ## Berandu erantzuteagatik leadak galtzeari utzi nahi al diozu?
 
-**AdimenAIn** (Gipuzkoa) zure email-postontziaren **doako analisia** egiten dugu: zenbat denbora behar duzun, zenbat lead galtzen diren eta zer automatizatu behar den lehenik. Konpromisorik gabe eta fakturarekin aurrera jarraitzea erabakitzen baduzu.
+**AdimenAIn** (Gipuzkoa) zuen email-postontziaren **doako analisia** egiten dugu: zenbat denbora behar duzun, zenbat lead galtzen diren eta zer automatizatu behar den lehenik. Konpromisorik gabe eta fakturarekin aurrera jarraitzea erabakitzen baduzu.
 
-📞 +34 641 195184 · [Eskatu zure analisia](https://www.adimenai.com/eu/contacto)
+📞 +34 641 195184 · [Eskatu zuen analisia](https://www.adimenai.com/eu/contacto)

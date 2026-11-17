@@ -1,26 +1,26 @@
 ---
 title: "Web que no vende: cómo convertir visitas en clientes (guía 2026)"
 slug: web-que-no-vende-convertir
-excerpt: "Una web media convierte el 1–2 % de sus visitas en clientes. Las buenas, el 5–8 %. Diagnóstico de por qué tu web no vende y 11 cambios que puedes aplicar esta semana."
+excerpt: "Una web media convierte el 1–2 % de sus visitas en clientes. Las buenas, el 5–8 %. Diagnóstico de por qué su web no vende y 11 cambios que puede aplicar esta semana."
 tags: ["Web", "Conversión", "CRO"]
-metaDescription: "Por qué tu web no vende y cómo arreglarla: 11 cambios de CRO (conversión) probados, herramientas, precios y casos prácticos para pymes en 2026."
+metaDescription: "Por qué su web no vende y cómo arreglarla: 11 cambios de CRO (conversión) probados, herramientas, precios y casos prácticos para pymes en 2026."
 publishedAt: 2026-08-17
 language: es
 ---
 
 # Web que no vende: cómo convertir visitas en clientes (guía 2026)
 
-**** La web media de una pyme convierte el **1–2 % de las visitas en clientes**. Las webs optimizadas, el **5–8 %**. Si tu web recibe 1.000 visitas/mes y convierte al 1 %, tienes 10 clientes potenciales/mes. Si la subes al 5 %, tienes 50. **Eso es hacer 5× más negocio con el mismo tráfico, sin gastar más en Ads.** Esta guía te explica cómo detectar dónde falla tu web, los 11 cambios que mejor funcionan en 2026 y por qué orden aplicarlos.
+**** La web media de una pyme convierte el **1–2 % de las visitas en clientes**. Las webs optimizadas, el **5–8 %**. Si su web recibe 1.000 visitas/mes y convierte al 1 %, tiene 10 clientes potenciales/mes. Si la sube al 5 %, tiene 50. **Eso es hacer 5× más negocio con el mismo tráfico, sin gastar más en Ads.** Esta guía le explica cómo detectar dónde falla su web, los 11 cambios que mejor funcionan en 2026 y por qué orden aplicarlos.
 
-## ¿Por qué tu web no convierte? (las 7 causas reales)
+## ¿Por qué su web no convierte? (las 7 causas reales)
 
 Antes de tocar nada, hay que diagnosticar. Las causas más habituales que vemos en auditorías:
 
-1. **No se entiende qué haces en los primeros 5 segundos.** El visitante tiene que hacer scroll para entender tu producto/servicio.
+1. **No se entiende qué hace en los primeros 5 segundos.** El visitante tiene que hacer scroll para entender su producto/servicio.
 2. **No hay una acción clara (CTA).** El usuario llega y no sabe si llamar, rellenar formulario, comprar o escribir.
 3. **Carga lenta.** El **53 % de los usuarios abandona si la web tarda más de 3 segundos** (Google). Core Web Vitals mal medido.
-4. **No es mobile-first.** El **63 % del tráfico web ya es móvil** (Statcounter 2025). Si tu web no está optimizada, estás perdiendo al grueso.
-5. **No transmite confianza.** Sin testimonios, sin casos reales, sin fotos de tu equipo, sin datos verificables.
+4. **No es mobile-first.** El **63 % del tráfico web ya es móvil** (Statcounter 2025). Si su web no está optimizada, está perdiendo al grueso.
+5. **No transmite confianza.** Sin testimonios, sin casos reales, sin fotos de su equipo, sin datos verificables.
 6. **El formulario es demasiado largo.** Pedir 12 campos para un primer contacto es perder al 80 % de los leads.
 7. **No hay seguimiento del lead.** El usuario rellena el formulario y nadie le contesta en 24 horas → se fue.
 
@@ -28,7 +28,7 @@ Antes de tocar nada, hay que diagnosticar. Las causas más habituales que vemos 
 
 ## El embudo de conversión: cómo piensa un visitante
 
-Un visitante de tu web pasa por 5 fases en pocos segundos:
+Un visitante de su web pasa por 5 fases en pocos segundos:
 
 1. **¿Dónde estoy?** (¿es lo que buscaba?)
 2. **¿Qué hace esta empresa exactamente?**
@@ -36,9 +36,9 @@ Un visitante de tu web pasa por 5 fases en pocos segundos:
 4. **¿Cuánto cuesta? ¿Cómo empiezo?**
 5. **¿Son de fiar? ¿Hay pruebas?**
 
-**Si tu web falla en cualquiera de las 5, abandonan.** Se van a Google. Hacen clic en la siguiente opción.
+**Si su web falla en cualquiera de las 5, abandonan.** Se van a Google. Hacen clic en la siguiente opción.
 
-Tu trabajo es contestar las 5 preguntas de forma escaneable:
+Su trabajo es contestar las 5 preguntas de forma escaneable:
 - Hero con propuesta de valor clara.
 - 3–4 servicios/productos principales.
 - Diferenciadores frente a competencia.
@@ -50,10 +50,10 @@ Tu trabajo es contestar las 5 preguntas de forma escaneable:
 ### 1. Hero claro con un solo CTA (alto impacto)
 
 **El problema:** la mayoría de heroes dicen "Bienvenido a [empresa]" o tienen una imagen bonita sin mensaje.
-**La solución:** título claro que dice QUÉ HACES y PARA QUIÉN, subtítulo con el BENEFICIO, y un ÚNICO CTA destacado.
+**La solución:** título claro que dice QUÉ HACE y PARA QUIÉN, subtítulo con el BENEFICIO, y un ÚNICO CTA destacado.
 
 **Ejemplo malo:** "Bienvenido a AdimenAi. Soluciones tecnológicas."
-**Ejemplo bueno:** "Automatiza los procesos de tu pyme con IA en 4 semanas. Primera auditoría gratis."
+**Ejemplo bueno:** "Automatiza los procesos de su pyme con IA en 4 semanas. Primera auditoría gratis."
 
 **Tiempo:** 1 día.
 
@@ -112,7 +112,7 @@ Tu trabajo es contestar las 5 preguntas de forma escaneable:
 **La solución:** una página de precios con rangos o "desde X €". Que no sea excusa para no llamar, sino para saber si encaja.
 
 **Tiempo:** 1 día.
-**Riesgo:** si tu pricing es sensible, haz "desde X €" o "rango + conversación".
+**Riesgo:** si su pricing es sensible, haga "desde X €" o "rango + conversación".
 
 ### 9. FAQ en la página de servicio (medio impacto)
 
@@ -156,11 +156,11 @@ Tu trabajo es contestar las 5 preguntas de forma escaneable:
 
 ## ¿Cómo medir si funciona?
 
-Tres KPIs que tienes que tener en dashboard:
+Tres KPIs que tiene que tener en dashboard:
 
 - **Tasa de conversión visita → lead:** % de visitas que dejan email, teléfono o hacen pedido.
 - **Tasa de conversión lead → cliente:** % de leads que terminan comprando.
-- **Coste por lead y Coste por cliente.** Para saber cuánto te cuesta cada uno.
+- **Coste por lead y Coste por cliente.** Para saber cuánto le cuesta cada uno.
 
 **Herramientas gratuitas:** Google Analytics 4, Google Search Console, Microsoft Clarity (grabaciones de sesión gratis).
 
@@ -168,9 +168,9 @@ Tres KPIs que tienes que tener en dashboard:
 
 ## Errores frecuentes al intentar mejorar la conversión
 
-1. **Hacer A/B test sin tráfico suficiente.** Necesitas 1.000+ visitas/mes por variante para resultados fiables.
+1. **Hacer A/B test sin tráfico suficiente.** Necesita 1.000+ visitas/mes por variante para resultados fiables.
 2. **Optimizar la home sin mirar datos.** Quizás lo que falla es la página de servicio, no la home.
-3. **Cambios de diseño sin medir.** Si no mides antes/después, no sabes si funcionan.
+3. **Cambios de diseño sin medir.** Si no mide antes/después, no sabe si funcionan.
 4. **Confundir "precio" con "valor".** Mejorar el hero no es poner más bonito, es comunicar mejor.
 5. **Olvidar el SEO.** Una web con buena conversión pero sin tráfico es un restaurante vacío.
 
@@ -185,7 +185,7 @@ Tres KPIs que tienes que tener en dashboard:
 
 **Típicamente, en una pyme, una auditoría CRO + 3–4 cambios concretos recupera la inversión en 2–4 meses gracias al aumento de leads.**
 
-## ¿Cómo se conecta con el resto de tu funnel?
+## ¿Cómo se conecta con el resto de su funnel?
 
 Una web que convierte bien es solo una parte. Necesita:
 
@@ -211,16 +211,16 @@ Cambios simples (hero, CTA, formulario): 1–2 semanas. Cambios técnicos (veloc
 Con menos de 1.000 visitas/mes no merece la pena hacer A/B test. Mejor aplicar las "best practices" y medir.
 
 **¿Vale con cambiar el hero?**
-Es el primer paso, pero no basta. Cuantas másOptimizaciones CRO hagas, mayor la mejora acumulada.
+Es el primer paso, pero no basta. Cuantas más Optimizaciones CRO haga, mayor la mejora acumulada.
 
 **¿Cómo sé qué página falla?**
-Con GA4 mira la tasa de conversión por página. Si tu home convierte al 0,5 % y una de servicio al 5 %, la home tiene el problema.
+Con GA4 mira la tasa de conversión por página. Si su home convierte al 0,5 % y una de servicio al 5 %, la home tiene el problema.
 
 **¿Y si rediseño la web entera?**
 Aprovecha para hacerla con CRO + SEO + chatbot desde el inicio. Es más barato que empezar y luego Optimizar.
 
-## ¿Quieres una web que multiplique tus clientes?
+## ¿Quiere una web que multiplique sus clientes?
 
-En **AdimenAi** (Gipuzkoa) hacemos **auditoría CRO + mejora de conversión sin compromiso**: te decimos qué falla y qué cambiar, con cifras. Si decides seguir, presupuesto cerrado.
+En **AdimenAi** (Gipuzkoa) hacemos **auditoría CRO + mejora de conversión sin compromiso**: le decimos qué falla y qué cambiar, con cifras. Si decide seguir, presupuesto cerrado.
 
-📞 +34 641 195184 · [Solicita tu auditoría CRO](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Solicite su auditoría CRO](https://adimenai.com/contactar)

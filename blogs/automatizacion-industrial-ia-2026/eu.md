@@ -19,7 +19,7 @@ Bi gauzaren konbinazioa da:
 - **RPA (Robotic Process Automation):** pertsona batek saguarekin eta teklatuarekin egingo lukeena imitatzen duen softwarea: PDF bat irekitzea, datuak Excel batera kopiatzea, eskaera bat ERPan sartzea.
 - **IA (Adimen Artifiziala):** eduki ez-egituratua (eskaneatutako fakturak, emailak, produktu-irudiak) *ulertzen* duten eta harekin zer egin *erabakitzen* duten ereduak.
 
-Biak batera, sistema batek 24/7 lan egin dezake akatsik gabe, orain arte pertsona bat behar zuten prozesuetan. Robotika klasikoarekiko (besoi mekanikoak, PLCak) aldea da **ez duzula zure makinaria aldatu behar**: IA jada erabiltzen dituzun sistemekin konektatzen da (SAP, Holded, Sage, kalkulu-orriak, posta).
+Biak batera, sistema batek 24/7 lan egin dezake akatsik gabe, orain arte pertsona bat behar zuten prozesuetan. Robotika klasikoarekiko (besoi mekanikoak, PLCak) aldea da **ez duzula zuen makinaria aldatu behar**: IA jada erabiltzen dituzun sistemekin konektatzen da (SAP, Holded, Sage, kalkulu-orriak, posta).
 
 ### Edozein ETEtan ikusiko duzun adibide erreala
 
@@ -51,7 +51,7 @@ Prozesu guztiek ez dute itzulera bera ematen. Hauek dira industria edo banaketa 
 - **OCR duen IA agentea** (fakturak, emailak irakurri, ERParekin balidatu): 6.000 €tik gora + 200–400 €/hilean.
 - **Prozesu anitzeko proiektu osoa** (integratutako hainbat agente): 12.000 €tik gora + 500–1.200 €/hilean.
 
-Horri **zure ERParekin integrazioa** gehitu behar zaio (SAP, Holded, Sage, Dynamics AX, etab.). ERPak API irekia badu, integrazioa zuzena da. Ez badu, datu-basera sarbidearen bidez edo pantailako RPAren bidez egiten da.
+Horri **zuen ERParekin integrazioa** gehitu behar zaio (SAP, Holded, Sage, Dynamics AX, etab.). ERPak API irekia badu, integrazioa zuzena da. Ez badu, datu-basera sarbidearen bidez edo pantailako RPAren bidez egiten da.
 
 ### Eta itzulera?
 
@@ -59,21 +59,21 @@ Proiektu errealetan erabiltzen dugun araua: automatizazio batek bere burua ordai
 
 ## Nola hasi? 5 pausoko prozesua
 
-1. **Prozesuen auditoria (doakoa):** zurekin eserita, zein zeregin diren errepikakorrak, zeinek dituzten akatsak eta zenbat kostatzen diren orduetan ikusten dugu.
+1. **Prozesuen auditoria (doakoa):** zuenekin eserita, zein zeregin diren errepikakorrak, zeinek dituzten akatsak eta zenbat kostatzen diren orduetan ikusten dugu.
 2. **Lehentasuna ezartzea:** itzulera azkarra duten 1-2 prozesu aukeratzen ditugu lehen pilotu baterako.
 3. **Fluxuaren diseinua:** sarrerak (PDF, email, formularioa), balidazioak eta irteerak (ERP, Excel, Slack) definitzen ditugu.
-4. **Garapena (2-8 aste):** agentea eraikitzen dugu, datu errealekin probatzen dugu eta zure sistemekin konektatzen dugu.
-5. **Prestakuntza eta laguntza:** zure taldeari erabiltzen irakasten diogu eta lehen 30 egunak monitorizatzen ditugu.
+4. **Garapena (2-8 aste):** agentea eraikitzen dugu, datu errealekin probatzen dugu eta zuen sistemekin konektatzen dugu.
+5. **Prestakuntza eta laguntza:** zuen taldeari erabiltzen irakasten diogu eta lehen 30 egunak monitorizatzen ditugu.
 
-**AdimenAIn** lehen urratsa doan egiten dugu: 30 minutuko dei bat, non zure prozesuak aztertzen ditugun eta lehenik zer automatizatu (eta zer ez) esaten dizugun. Konpromisorik gabe.
+**AdimenAIn** lehen urratsa doan egiten dugu: 30 minutuko dei bat, non zuen prozesuak aztertzen ditugun eta lehenik zer automatizatu (eta zer ez) esaten dizugun. Konpromisorik gabe.
 
 ## Galdera maiztuak (FAQ)
 
 **Nire makinak edo ERPa aldatu behar ditut automatizatzeko?**
-Ez. SAP, Dynamics AX, Holded, Sage eta API edo datu-basera sarbidea duen edozein sistemarekin lan egiten dugu. Zure ERPa oso zaharra bada, pantailako RPAren bidez integratzen dugu.
+Ez. SAP, Dynamics AX, Holded, Sage eta API edo datu-basera sarbidea duen edozein sistemarekin lan egiten dugu. Zuen ERPa oso zaharra bada, pantailako RPAren bidez integratzen dugu.
 
 **IAk nire taldea lanik gabe utziko al du?**
-Ez, ondo eginez gero. Desagertzen dena lan errepikakorra eta aspergarria da. Zure taldea balio handiagoko zereginetara pasatzen da: analisia, salbuespenak, arreta pertsonala. Praktikan, automatizatzen duten enpresek jendea beste zeregin batzuetara birkokatu ohi dute, ez kaleratu.
+Ez, ondo eginez gero. Desagertzen dena lan errepikakorra eta aspergarria da. Zuen taldea balio handiagoko zereginetara pasatzen da: analisia, salbuespenak, arreta pertsonala. Praktikan, automatizatzen duten enpresek jendea beste zeregin batzuetara birkokatu ohi dute, ez kaleratu.
 
 **Zenbat denbora behar da emaitza ikusteko?**
 Lehen automatizazioek 2-4 astetan hasten dute emaitzak ematen. Inbertsioaren itzulera osoa, 4 eta 12 hilabete artean, prozesuaren arabera.

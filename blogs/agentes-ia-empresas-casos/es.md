@@ -10,19 +10,19 @@ language: es
 
 # Agentes de IA para empresas: qué pueden hacer (y qué no) en 2026
 
-**** Un agente de IA es un programa que **ejecuta tareas reales por sí solo** en los sistemas de tu empresa: lee un email, busca el pedido en el ERP, lo registra, responde al cliente y avisa al almacén. No es un chatbot que solo contesta preguntas. En 2026 un agente bien diseñado cuesta entre 6.000 € y 25.000 € + 200–800 €/mes de mantenimiento, y se implanta en 4–8 semanas. Los usos con retorno más rápido en pymes son: gestión de pedidos por email, extracción de datos de facturas, informes automáticos, cualificación de leads y atención al cliente 24/7. Lo que **no** puede hacer (todavía) es sustituir decisiones estratégicas, cerrar ventas complejas o entender instrucciones ambiguas.
+**** Un agente de IA es un programa que **ejecuta tareas reales por sí solo** en los sistemas de su empresa: lee un email, busca el pedido en el ERP, lo registra, responde al cliente y avisa al almacén. No es un chatbot que solo contesta preguntas. En 2026 un agente bien diseñado cuesta entre 6.000 € y 25.000 € + 200–800 €/mes de mantenimiento, y se implanta en 4–8 semanas. Los usos con retorno más rápido en pymes son: gestión de pedidos por email, extracción de datos de facturas, informes automáticos, cualificación de leads y atención al cliente 24/7. Lo que **no** puede hacer (todavía) es sustituir decisiones estratégicas, cerrar ventas complejas o entender instrucciones ambiguas.
 
 ## ¿Qué es un agente de IA? (sin jargon)
 
-Un chatbot te responde. Un asistente necesita que le digas qué hacer. Un **agente de IA ejecuta el proceso de principio a fin**.
+Un chatbot le responde. Un asistente necesita que le diga qué hacer. Un **agente de IA ejecuta el proceso de principio a fin**.
 
 Pongamos un ejemplo que cambia todo:
 
-> **Chatbot:** "¿Cómo puedo ayudarte?" → recibe tu pregunta → te da una respuesta.
-> **Asistente de IA:** "Pídele que redacte un email" → lo redacta → tú lo envías.
+> **Chatbot:** "¿Cómo puedo ayudarle?" → recibe su pregunta → le da una respuesta.
+> **Asistente de IA:** "Pídale que redacte un email" → lo redacta → usted lo envía.
 > **Agente de IA:** "Llega un email de un cliente con un PDF de pedido" → lee el PDF → extrae cliente, productos y cantidades → busca el producto en el ERP → valida el stock → registra el pedido → responde al cliente con la confirmación → notifica al almacén por Slack.
 
-**El agente trabaja con tus sistemas reales (ERP, CRM, correo, Excel, bases de datos) y termina el proceso.** Esa es la diferencia que importa.
+**El agente trabaja con sus sistemas reales (ERP, CRM, correo, Excel, bases de datos) y termina el proceso.** Esa es la diferencia que importa.
 
 ## ¿Qué puede hacer un agente de IA hoy en una pyme española?
 
@@ -35,13 +35,13 @@ Llegan 30 pedidos al día en formato libre (PDF, email, WhatsApp). El agente los
 Llegan facturas escaneadas y en PDF. El agente extrae NIF, fecha, base imponible, IVA y total. Las pasa al programa contable. Si algo no cuadra, avisa a una persona. **Ahorro: 80 % del tiempo de grabación.**
 
 ### 3. Cualificación de leads
-Entra un contacto por la web. El agente investiga la empresa (LinkedIn, web, tamaño), la cruza con tu base de datos y decide si es lead cualificado. Si lo es, lo pasa al comercial con un resumen. **Aumento de conversión: 25–35 %.**
+Entra un contacto por la web. El agente investiga la empresa (LinkedIn, web, tamaño), la cruza con su base de datos y decide si es lead cualificado. Si lo es, lo pasa al comercial con un resumen. **Aumento de conversión: 25–35 %.**
 
 ### 4. Informes automáticos semanales
 Cada lunes el agente genera el informe de ventas, márgenes, productos top y desviaciones. Lo envía por email a dirección. **Lo que antes era 3 horas, ahora son 2 minutos.**
 
 ### 5. Atención al cliente 24/7
-Un chatbot en tu web y WhatsApp que responde preguntas frecuentes (horarios, pedidos, precios, devoluciones) y escala a un humano cuando toca. Resuelve el 60–70 % de consultas sin intervención humana. **Ahorro: 1–2 personas en atención al cliente.**
+Un chatbot en su web y WhatsApp que responde preguntas frecuentes (horarios, pedidos, precios, devoluciones) y escala a un humano cuando toca. Resuelve el 60–70 % de consultas sin intervención humana. **Ahorro: 1–2 personas en atención al cliente.**
 
 ### 6. Conciliación bancaria
 El agente cruza los movimientos del banco con los apuntes contables. Si hay diferencia, la marca y la pasa al contable. **Ahorro: 4–6 horas/mes.**
@@ -79,7 +79,7 @@ Precio realista en 2026 según tipo de proyecto:
 **Variables que más influencian el precio:**
 - Cuántos sistemas hay que tocar (ERP, CRM, web, email, WhatsApp, Slack…)
 - Calidad de los datos de origen
-- Si necesitas integración en tiempo real o batch (cada noche)
+- Si necesita integración en tiempo real o batch (cada noche)
 - Complejidad del lenguaje natural a interpretar (emails en español técnico, en euskera, con abreviaturas…)
 - Volumen (100 emails/día vs 3.000)
 
@@ -89,9 +89,9 @@ Precio realista en 2026 según tipo de proyecto:
 
 **Fase 2 – Diseño del flujo (1 semana):** entradas, validaciones, acciones, excepciones, integraciones.
 
-**Fase 3 – Desarrollo (2–6 semanas):** construcción del agente, conexión con tus sistemas, entrenamiento con datos reales.
+**Fase 3 – Desarrollo (2–6 semanas):** construcción del agente, conexión con sus sistemas, entrenamiento con datos reales.
 
-**Fase 4 – Piloto controlado (1–2 semanas):** el agente funciona en paralelo con tu sistema actual. Vas corrigiendo casos raros.
+**Fase 4 – Piloto controlado (1–2 semanas):** el agente funciona en paralelo con su sistema actual. Va corrigiendo casos raros.
 
 **Fase 5 – Puesta en producción:** el agente toma el relevo. Monitorización diaria las primeras 2 semanas, luego semanal.
 
@@ -99,41 +99,41 @@ Precio realista en 2026 según tipo de proyecto:
 
 ## ¿Qué errores evitar al contratar un agente de IA?
 
-1. **Empezar por el agente, no por el proceso.** Antes de automatizar, define qué proceso duele más y cuánto.
+1. **Empezar por el agente, no por el proceso.** Antes de automatizar, defina qué proceso duele más y cuánto.
 2. **Pensar que la IA "mágica" lo entiende todo.** Hay que invertir tiempo en instrucciones claras y datos limpios.
-3. **No medir el retorno.** Si no defines cuánto te ahorra antes, no sabrás si la inversión vale la pena.
-4. **No tener casos de fallback.** ¿Qué pasa si el agente se equivoca? Necesitas un canal humano de respaldo.
-5. **Ignorar la seguridad y privacidad.** Un agente con acceso a tu ERP necesita autenticación, registro de actividad y políticas de qué puede y qué no puede hacer.
+3. **No medir el retorno.** Si no define cuánto le ahorra antes, no sabrá si la inversión vale la pena.
+4. **No tener casos de fallback.** ¿Qué pasa si el agente se equivoca? Necesita un canal humano de respaldo.
+5. **Ignorar la seguridad y privacidad.** Un agente con acceso a su ERP necesita autenticación, registro de actividad y políticas de qué puede y qué no puede hacer.
 
-## ¿Cómo encaja con tu negocio?
+## ¿Cómo encaja con su negocio?
 
 Un agente de IA no es un proyecto aislado. Funciona mejor como parte de un **ecosistema digital**:
 
-- Lee emails que llegan a tu **correo corporativo**
-- Valida con tu **ERP** (SAP, Holded, Sage, Dynamics AX, cualquier API)
-- Habla con tu **CRM** (HubSpot, Salesforce, Bitrix24)
-- Habla con tu **TPV** (Tactil, ICG, Clover)
-- Conversa con tus clientes en **WhatsApp, web o Telegram**
-- Notifica a tu equipo en **Slack, Teams o email**
+- Lee emails que llegan a su **correo corporativo**
+- Valida con su **ERP** (SAP, Holded, Sage, Dynamics AX, cualquier API)
+- Habla con su **CRM** (HubSpot, Salesforce, Bitrix24)
+- Habla con su **TPV** (Tactil, ICG, Clover)
+- Conversa con sus clientes en **WhatsApp, web o Telegram**
+- Notifica a su equipo en **Slack, Teams o email**
 
-Cuando conectas todos esos puntos, el retorno se multiplica.
+Cuando conecta todos esos puntos, el retorno se multiplica.
 
 ## Preguntas frecuentes (FAQ)
 
 **¿Necesito conocimientos técnicos para usar un agente de IA?**
-No. Una vez implantado, tu equipo solo tiene que usar el resultado. La parte de mantenimiento y mejora la hace el proveedor.
+No. Una vez implantado, su equipo solo tiene que usar el resultado. La parte de mantenimiento y mejora la hace el proveedor.
 
 **¿El agente aprende solo con el tiempo?**
 Puede hacerlo, pero siempre con supervisión. Lo habitual es revisar los casos fallidos y ajustar reglas o reentrenar el modelo.
 
 **¿Y si me equivoco al elegir el proceso?**
-Por eso hacemos siempre una auditoría previa. No es una venta a ciegas. Si vemos que un proceso no es buen candidato, te lo decimos.
+Por eso hacemos siempre una auditoría previa. No es una venta a ciegas. Si vemos que un proceso no es buen candidato, se lo decimos.
 
 **¿Funciona en español y otros idiomas?**
-Sí. Trabajamos en español, euskera, inglés, francés y alemán. Si tu operativa es multi-idioma, el agente puede responder en el idioma del cliente.
+Sí. Trabajamos en español, euskera, inglés, francés y alemán. Si su operativa es multi-idioma, el agente puede responder en el idioma del cliente.
 
 **¿Tengo que cambiar mi ERP o CRM?**
-No. Integramos con SAP, Holded, Sage, Dynamics AX, Bitrix24, HubSpot, Salesforce, Zoho, Pipedrive, etc. Si tu sistema tiene API o acceso a base de datos, conectamos.
+No. Integramos con SAP, Holded, Sage, Dynamics AX, Bitrix24, HubSpot, Salesforce, Zoho, Pipedrive, etc. Si su sistema tiene API o acceso a base de datos, conectamos.
 
 **¿Y la privacidad de los datos?**
 Cumplimos RGPD. Los datos no se usan para entrenar modelos públicos. Podemos trabajar con infraestructura europea (UE) y firmar cláusulas de encargo de tratamiento.
@@ -144,8 +144,8 @@ Las primeras automatizaciones reportan valor en 2–4 semanas. El payback comple
 **¿Puedo empezar con algo pequeño?**
 Sí. Recomendamos un primer proyecto piloto de 4–6 semanas con un proceso claro. Si funciona, vamos sumando.
 
-## ¿Listo para tener un agente trabajando 24/7 para tu empresa?
+## ¿Listo para tener un agente trabajando 24/7 para su empresa?
 
-En **AdimenAi** diseñamos e implantamos agentes de IA adaptados a tu operativa: conectan con tu ERP, tu CRM, tu TPV, tu web y tu correo. La primera auditoría es **gratuita** y te decimos exactamente qué procesos te conviene automatizar primero y cuánto te costaría.
+En **AdimenAi** diseñamos e implantamos agentes de IA adaptados a su operativa: conectan con su ERP, su CRM, su TPV, su web y su correo. La primera auditoría es **gratuita** y le decimos exactamente qué procesos le conviene automatizar primero y cuánto le costaría.
 
-📞 +34 641 195184 · [Solicita tu auditoría gratuita](https://www.adimenai.com/contacto)
+📞 +34 641 195184 · [Solicite su auditoría gratuita](https://www.adimenai.com/contacto)

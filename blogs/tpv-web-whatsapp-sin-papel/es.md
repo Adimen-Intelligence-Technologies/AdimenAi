@@ -1,16 +1,16 @@
 ---
 title: "TPV + web + WhatsApp: el fin del papel y de los pedidos perdidos"
 slug: tpv-web-whatsapp-sin-papel
-excerpt: "Si anotas pedidos en papel y luego hay que pasarlos al TPV, el 25% se te pierde. Esta guía te conecta todo en 1 hora: pedidos por WhatsApp directamente al TPV sin tocar una hoja."
+excerpt: "Si anota pedidos en papel y luego hay que pasarlos al TPV, el 25% se le pierde. Esta guía le conecta todo en 1 hora: pedidos por WhatsApp directamente al TPV sin tocar una hoja."
 tags: ["TPV", "Web", "WhatsApp"]
-metaDescription: "Conecta tu TPV con WhatsApp y web para evitar pedidos perdidos: sin papel, sin errores, sin doble trabajo. Guía práctica para pymes en 1 hora."
+metaDescription: "Conecte su TPV con WhatsApp y web para evitar pedidos perdidos: sin papel, sin errores, sin doble trabajo. Guía práctica para pymes en 1 hora."
 publishedAt: 2026-08-17
 language: es
 ---
 
 # TPV + web + WhatsApp: el fin del papel y de los pedidos perdidos
 
-**** Si anotas pedidos en papel y luego los pasas al TPV a mano, **el 25 % de los pedidos se pierden** por error o olvido. La solución no es "un nuevo software": es **conectar WhatsApp con tu TPV directamente**. En 1 hora, puedes hacer que pedidos por WhatsApp, web o Instagram lleguen al TPV sin tocar una sola hoja. El 80 % de los comercios que lo consigue gana entre el 15 % y el 30 % en ventas del primer mes.
+**** Si anota pedidos en papel y luego los pasa al TPV a mano, **el 25 % de los pedidos se pierden** por error o olvido. La solución no es "un nuevo software": es **conectar WhatsApp con su TPV directamente**. En 1 hora, puede hacer que pedidos por WhatsApp, web o Instagram lleguen al TPV sin tocar una sola hoja. El 80 % de los comercios que lo consigue gana entre el 15 % y el 30 % en ventas del primer mes.
 
 ## El problema de los papeles
 
@@ -18,9 +18,9 @@ Un cliente llama por WhatsApp:
 
 > "Quiero 5 tortillas y 2 bocadillos de atún para mañana, por favor."
 
-Tú anotas en una servilleta o en una nota. Al día siguiente, tocas el TPV, marcas los productos... y te das cuenta de que **no encuentras la nota**. O que la leíste mal. O que el cliente cambió de idea y no te avisó.
+Usted anota en una servilleta o en una nota. Al día siguiente, toca el TPV, marca los productos... y se da cuenta de que **no encuentra la nota**. O que la leyó mal. O que el cliente cambió de idea y no le avisó.
 
-**Ese es el 25 % de pedidos perdidos** que no sabías que tenías.
+**Ese es el 25 % de pedidos perdidos** que no sabía que tenía.
 
 > Según el informe de comercio digital de la CNMC (2025), el **38 % de los pedidos por WhatsApp en pymes se pierden** por falta de integración.
 
@@ -28,7 +28,7 @@ Tú anotas en una servilleta o en una nota. Al día siguiente, tocas el TPV, mar
 
 No se trata de un "chatbot". Se trata de:
 
-- Un flujo donde WhatsApp **conecta directamente con tu TPV**.
+- Un flujo donde WhatsApp **conecta directamente con su TPV**.
 - Un menú de productos que se actualiza solo.
 - Una confirmación de pedido automática.
 - Un historial de pedidos por cliente.
@@ -45,7 +45,7 @@ No se trata de un "chatbot". Se trata de:
 
 ## Cómo conectarlo en 3 pasos (1 hora)
 
-### Paso 1: Usa un conector de WhatsApp para pymes
+### Paso 1: Use un conector de WhatsApp para pymes
 
 Herramientas que ya conectan con TPV:
 
@@ -54,18 +54,18 @@ Herramientas que ya conectan con TPV:
 - **Chatlayer** + integración a medida.
 - **Meta Business Suite** + conectores (más manual).
 
-Si usas Tactil o Bridge, ya tienes API. Si usas Clover, Witty es el camino más rápido.
+Si usa Tactil o Bridge, ya tiene API. Si usa Clover, Witty es el camino más rápido.
 
-### Paso 2: Define el flujo de pedido
+### Paso 2: Defina el flujo de pedido
 
 1. Cliente escribe "pedido" o pulsa el botón web.
 2. Aparece menú con productos → cantidad → confirmar.
 3. Se crea ticket en el TPV automáticamente.
 4. Cliente recibe confirmación con número y tiempo estimado.
 
-### Paso 3: Integra el historial
+### Paso 3: Integre el historial
 
-Cada número de WhatsApp se convierte en un cliente en tu TPV/base de datos. Puedes ver su historial de pedidos y, de paso, hacer marketing.
+Cada número de WhatsApp se convierte en un cliente en su TPV/base de datos. Puede ver su historial de pedidos y, de paso, hacer marketing.
 
 ## WhatsApp vs formulario web vs app
 
@@ -80,7 +80,7 @@ Lo ideal: **WhatsApp como punto de entrada + TPV como punto de salida**.
 
 ## Errores que rompen la integración
 
-1. **No tener el menú actualizado.** Si cambias precios y WhatsApp sigue con los viejos, confusión total.
+1. **No tener el menú actualizado.** Si cambia precios y WhatsApp sigue con los viejos, confusión total.
 2. **No confirmar pedidos.** El cliente escribe y nunca sabe si llegó.
 3. **No tener horarios de atención claros en el bot.**
 4. **Atender fuera de horario.** WhatsApp no es 24h/7.
@@ -90,17 +90,17 @@ Lo ideal: **WhatsApp como punto de entrada + TPV como punto de salida**.
 1. **Pedidos perdidos/mes:** antes vs después.
 2. **Ticket medio:** aumenta si el cliente pide más al no tener fricción.
 3. **Repetición:** WhatsApp activo suele duplicar la frecuencia de pedido.
-4. **Tiempo de atención:** si tardabas 2 minutos en anotar un pedido y ahora 0, ganas productividad.
+4. **Tiempo de atención:** si tardaba 2 minutos en anotar un pedido y ahora 0, gana productividad.
 
 ## En resumen
 
 - WhatsApp y TPV conectados = 0 pedidos perdidos.
 - Se hace en 1 hora, no en 1 mes.
-- Ganas entre 15 y 30 % si ya usabas WhatsApp para pedidos.
-- No necesitas app ni formulario. Solo conexión real.
+- Gana entre 15 y 30 % si ya usaba WhatsApp para pedidos.
+- No necesita app ni formulario. Solo conexión real.
 
 ---
 
-En **AdimenAi** (Gipuzkoa) conectamos WhatsApp directamente con tu TPV y web: sin papel, sin pedidos perdidos. La primera revisión es **gratuita** y ves el resultado en 1 semana.
+En **AdimenAi** (Gipuzkoa) conectamos WhatsApp directamente con su TPV y web: sin papel, sin pedidos perdidos. La primera revisión es **gratuita** y ve el resultado en 1 semana.
 
 📞 +34 641 195184 · [Habla con nosotros](https://adimenai.com/contactar)

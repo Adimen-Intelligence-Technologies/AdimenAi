@@ -1,7 +1,7 @@
 ---
 title: "AI lokala GPU zerbitzuetan: zergatik konfiatzen datuetan handi enpresak"
 slug: ia-local-gpu-servidor-privacidad
-excerpt: "Claude, OpenAI eta Gemini datuak zerbitzu ezagutzera igozten ditu. GPU bat zure zerbituarena (NVIDIA H100/A100) pribatutasuna ematen du, RGPD beti ez daude eta 3 urtean 30% kostu gehiago askotan."
+excerpt: "Claude, OpenAI eta Gemini datuak zerbitzu ezagutzera igozten ditu. GPU bat zuen zerbituarena (NVIDIA H100/A100) pribatutasuna ematen du, RGPD beti ez daude eta 3 urtean 30% kostu gehiago askotan."
 tags: ["AI lokala", "GPU zerbitzua", "Pribatutasuna", "RGPD", "Transformazio digitala"]
 metaDescription: "Handi enpresentzat GPU zerbitu berenak (NVIDIA H100, A100, RTX 6000) AI lokarako: RGPD pribatutasuna, 3 urteko kostua, datuen kontrola. Konparazioa Claude, OpenAI etoren proveatorekin."
 publishedAt: 2026-08-17
@@ -10,11 +10,11 @@ language: eu
 
 # AI lokala GPU zerbitzuetan: zergatik konfiatzen datuetan handi enpresak
 
-**** Claude, OpenAI edo Gemini-ra galdera bidaltzen baduzu, datuak zuregaina zerbitzuan dagoela irakurtzen duzu. GPU bat zure zerbituarena (NVIDIA H100, A100) **RGPD pribatutasuna, ISO 27001 beti ez daude eta 3 urtean 30% kostu gehiago askotan** ematen dio. Gakoa: "txikiko edo lokala", "datuak ezin diren kanporatzea". Gure lea audi ezaugarpen bat **doan** profitala.
+**** Claude, OpenAI edo Gemini-ra galdera bidaltzen baduzu, datuak zuregaina zerbitzuan dagoela irakurtzen duzue. GPU bat zuen zerbituarena (NVIDIA H100, A100) **RGPD pribatutasuna, ISO 27001 beti ez daude eta 3 urtean 30% kostu gehiago askotan** ematen dio. Gakoa: "txikiko edo lokala", "datuak ezin diren kanporatzea". Gure lea audi ezaugarpen bat **doan** profitala.
 
 ## Helburu erreala: CISO-aren deia
 
-Zure talde legalak 12,000 bezero-dokumentu kargatu ditu Claude-ra laburpen soinkurik. Directiborea galdera egiten du:
+Zuen talde legalak 12,000 bezero-dokumentu kargatu ditu Claude-ra laburpen soinkurik. Directiborea galdera egiten du:
 
 > "Zer ematen duenez horiek OpenAI-ren entrenamenduan? Zein da AEP-ren egiaztatzek datuetan?"
 
@@ -22,7 +22,7 @@ Galdera horrek asko pisatzen du. Askotan.
 
 Bitartean, Bilbono zerbitu batean, bancoaren infraestructura taldekoak bi **NVIDIA H100** jarri ditu, horiek prozesatzen ari dira. Ez da inork etorriko haien datuetan.
 
-## Erregela handia: sailkatu zure datuak
+## Erregela handia: sailkatu zuen datuak
 
 | Datu mota | Adibidea | Gomendioa |
 |---|---|---|
@@ -35,9 +35,9 @@ Bitartean, Bilbono zerbitu batean, bancoaren infraestructura taldekoak bi **NVID
 
 ### 1. Pribatutasuna eta beti ez daude (RGPD, ISO 27001, ENS)
 
-Claude 3 edo GPT-4 erabiltzean, [retentzio politika](https://openai.com/policies/row-data) onartzen duzu. OpenAI-ek 30 egunetik gehiago galtzeko daiteke modelak hobetzeko. Horrek ez du **minimizazio printzipioa** RGPD-aren.
+Claude 3 edo GPT-4 erabiltzean, [retentzio politika](https://openai.com/policies/row-data) onartzen duzue. OpenAI-ek 30 egunetik gehiago galtzeko daiteke modelak hobetzeko. Horrek ez du **minimizazio printzipioa** RGPD-aren.
 
-GPU lokala (zure zerbitu-eremu barnean) datuak **konfiantzia murroian** mantentzen ditu. Behar duen:
+GPU lokala (zuen zerbitu-eremu barnean) datuak **konfiantzia murroian** mantentzen ditu. Behar duen:
 - **Banco edo segirosua** (11/2021 Leya, Datu Komunikazio Segurtasuna).
 - **Abogazia** (profesional sekretua bermearen).
 - **Ospital edo klinika** (41/2002 Leya, osasun datuak).
@@ -65,12 +65,12 @@ GPU lokala (zure zerbitu-eremu barnean) datuak **konfiantzia murroian** mantentz
 
 ### 4. Ez da vendor lock-in
 
-OpenAI-ek preziorea aldatzen badu edo GPT-4 ezabatzen badu, zer egituko zure 50,000 kontsulta/hilabetearekin? **Llama 3 (Meta) edo Mistral** zure hardware-ean, ez zara lotuta enpresa batean.
+OpenAI-ek preziorea aldatzen badu edo GPT-4 ezabatzen badu, zer egituko zuen 50,000 kontsulta/hilabetearekin? **Llama 3 (Meta) edo Mistral** zuen hardware-ean, ez zara lotuta enpresa batean.
 
 ### 5. Infraestructura segurtasuna
 
-- **Gakoa eskuan:** zuk kontrolatzen duzu eguneratzea, patch-eak, sarbidea.
-- **Data center ziurtatua:** DC pribado batean isosatuta **ISO 27001, ENS edo HIPAA** badituzu, zure infra egungo aipu horren segurantsuagoa da.
+- **Gakoa eskuan:** zuen kontrolatzen duzue eguneratzea, patch-eak, sarbidea.
+- **Data center ziurtatua:** DC pribado batean isosatuta **ISO 27001, ENS edo HIPAA** badituzu, zuen infra egungo aipu horren segurantsuagoa da.
 
 ## Tabla konparatzailea: GPU lokala vs proveatoreak
 
@@ -124,6 +124,6 @@ Inbersioa 8.000 € (RTX 6000 + zerbitua) hasi egiten da eta hedatzen ari da. Le
 
 ---
 
-**AdimenAi**-n (Gipuzkoa) zure AI infraestructura azteratzen dugu — hardwarea, beti ez dauda eta modelo lokalak — egun batean. Lehen begirada **doan** profitala eta konpromisurik gabekoa.
+**AdimenAi**-n (Gipuzkoa) zuen AI infraestructura azteratzen dugu — hardwarea, beti ez dauda eta modelo lokalak — egun batean. Lehen begirada **doan** profitala eta konpromisurik gabekoa.
 
 📞 +34 641 195184 · [Jarri harremanetan](https://adimenai.com/contactar)

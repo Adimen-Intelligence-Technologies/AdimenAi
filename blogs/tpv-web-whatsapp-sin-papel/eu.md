@@ -18,9 +18,9 @@ Bezeroa WhatsApp-aren bat deitu:
 
 > "5 omelette eta 2 ton-kafe barrekin, mesedez."
 
-Notan jartzen duzun eta gero, TPV-arena, produktuak... eta *ezin duzu notakia aurkitu*. Edo hau irakurri gaizki. Edo bezeroa aldatu duenez ez du zuzena.
+Notan jartzen duzun eta gero, TPV-arena, produktuak... eta *ezin duzue notakia aurkitu*. Edo hau irakurri gaizki. Edo bezeroa aldatu duenez ez du zuzena.
 
-**Hau da zure 25% komanda galduenik ezagutzaren artea.**
+**Hau da zuen 25% komanda galduenik ezagutzaren artea.**
 
 > CNMC-ren txartel-zerrenda digitalaren istorioaren arabera (2025), **WhatsApp-aren komanda SME-ek % 38** galtzen ditu konexioarik izan barik.
 

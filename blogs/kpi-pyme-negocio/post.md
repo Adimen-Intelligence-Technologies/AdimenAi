@@ -1,9 +1,9 @@
 ---
 title: "12 KPIs que toda pyme debería mirar para saber si va bien (guía 2026)"
 slug: kpi-pyme-negocio
-excerpt: "12 indicadores clave para tu pyme: cuáles importan, cómo se calculan, qué valores son sanos y cómo montar un dashboard que no te haga perder horas cada mes."
+excerpt: "12 indicadores clave para su pyme: cuáles importan, cómo se calculan, qué valores son sanos y cómo montar un dashboard que no le haga perder horas cada mes."
 tags: ["KPIs", "Control de gestión", "Empresa"]
-metaDescription: "Los 12 KPIs imprescindibles para saber si tu pyme va bien: fórmulas, valores de referencia, herramientas gratuitas y cómo montar un dashboard en menos de 1 día."
+metaDescription: "Los 12 KPIs imprescindibles para saber si su pyme va bien: fórmulas, valores de referencia, herramientas gratuitas y cómo montar un dashboard en menos de 1 día."
 publishedAt: 2026-08-17
 language: es
 ---
@@ -23,9 +23,9 @@ El patrón que vemos en dirección de pymes:
 
 **Tres de cada cuatro veces, la causa raíz es que no hay KPIs definidos.** Se gestiona por sensaciones.
 
-Montar un sistema de KPIs no requiere grandes inversiones. Con **hoja de cálculo + Google Data Studio / Looker Studio** tienes un dashboard profesional en 1 día. O con **Power BI / Tableau** si quieres ir más lejos.
+Montar un sistema de KPIs no requiere grandes inversiones. Con **hoja de cálculo + Google Data Studio / Looker Studio** tiene un dashboard profesional en 1 día. O con **Power BI / Tableau** si quiere ir más lejos.
 
-## Categorías de KPIs (no mires todos cada día)
+## Categorías de KPIs (no mire todos cada día)
 
 Los 12 KPIs se agrupan en 5 categorías:
 
@@ -35,7 +35,7 @@ Los 12 KPIs se agrupan en 5 categorías:
 4. **Operaciones** (¿escala mi negocio?)
 5. **Equipo** (¿somos productivos?)
 
-**Míralos con esta frecuencia:**
+**Mírelos con esta frecuencia:**
 
 | Frecuencia | Para qué sirve |
 |---|---|
@@ -48,15 +48,15 @@ Los 12 KPIs se agrupan en 5 categorías:
 
 ### 1. Margen bruto (Rentabilidad)
 
-**Qué mide:** cuánto te queda después de pagar el coste de lo que vendes.
+**Qué mide:** cuánto le queda después de pagar el coste de lo que vende.
 **Fórmula:** (Ingresos - Coste directo) / Ingresos × 100.
-**Valor sano:** 30–60 % según sector. Si es menor, o subes precios o reduces coste.
+**Valor sano:** 30–60 % según sector. Si es menor, o sube precios o reduce coste.
 **Frecuencia:** mensual.
 **Dónde:** ERP o contabilidad.
 
 ### 2. Margen neto (Rentabilidad)
 
-**Qué mide:** cuánto ganas de verdad después de todos los gastos.
+**Qué mide:** cuánto gana de verdad después de todos los gastos.
 **Fórmula:** Beneficio neto / Ingresos × 100.
 **Valor sano:** 5–15 % en servicios, 2–8 % en comercio.
 **Frecuencia:** mensual.
@@ -64,15 +64,15 @@ Los 12 KPIs se agrupan en 5 categorías:
 
 ### 3. Flujo de caja (Liquidez)
 
-**Qué mide:** cuánto dinero entra y sale realmente (no lo que facturas, lo que cobras).
+**Qué mide:** cuánto dinero entra y sale realmente (no lo que factura, lo que cobra).
 **Fórmula:** Cobros - Pagos.
-**Valor sano:** positivo y creciente. Si tienes beneficios pero flujo negativo, tienes un problema de cobros.
+**Valor sano:** positivo y creciente. Si tiene beneficios pero flujo negativo, tiene un problema de cobros.
 **Frecuencia:** semanal o diaria.
 **Dónde:** conciliación bancaria + ERP.
 
 ### 4. Días medios de cobro (Liquidez)
 
-**Qué mide:** cuántos días tardas en cobrar a tus clientes.
+**Qué mide:** cuántos días tarda en cobrar a sus clientes.
 **Fórmula:** (Clientes / Facturación) × 365.
 **Valor sano:** 30–60 días en B2B. Si supera 90, problemas.
 **Frecuencia:** mensual.
@@ -80,14 +80,15 @@ Los 12 KPIs se agrupan en 5 categorías:
 
 ### 5. Días medios de pago (Liquidez)
 
-**Qué mide:** cuántos días tardas en pagar a tus proveedores.
+**Qué mide:** cuántos días tarda en pagar a sus proveedores.
 **Fórmula:** (Proveedores / Compras) × 365.
-**Valor sano:** 30–90 días. Si pagas más rápido de lo que cobras, tienes tensión de caja.
+**Valor sano:** 30–90 días. Si paga más rápido de lo que cobra, tiene tensión de caja.
 **Frecuencia:** mensual.
+**Dónde:** contabilidad + ERP.
 
 ### 6. CAC (Coste de Adquisición de Cliente) (Clientes)
 
-**Qué mide:** cuánto te cuesta conseguir un cliente nuevo.
+**Qué mide:** cuánto le cuesta conseguir un cliente nuevo.
 **Fórmula:** Gasto en marketing y ventas / Nuevos clientes del periodo.
 **Valor sano:** el CAC debe ser menor que el LTV (siguiente KPI). Ratio LTV/CAC > 3 está sano.
 **Frecuencia:** mensual.
@@ -95,7 +96,7 @@ Los 12 KPIs se agrupan en 5 categorías:
 
 ### 7. LTV (Valor de Vida del Cliente) (Clientes)
 
-**Qué mide:** cuánto te deja un cliente a lo largo de toda la relación.
+**Qué mide:** cuánto le deja un cliente a lo largo de toda la relación.
 **Fórmula:** Ticket medio × Frecuencia de compra × Margen × Años de relación.
 **Valor sano:** debe ser 3× o más que el CAC.
 **Frecuencia:** trimestral.
@@ -105,7 +106,7 @@ Los 12 KPIs se agrupan en 5 categorías:
 
 **Qué mide:** porcentaje de clientes que repiten.
 **Fórmula:** (Clientes que repiten / Clientes totales) × 100.
-**Valor sano:** 60–80 % según sector. Si está por debajo, necesitas programa de fidelización.
+**Valor sano:** 60–80 % según sector. Si está por debajo, necesita programa de fidelización.
 **Frecuencia:** mensual.
 **Dónde:** CRM.
 
@@ -121,14 +122,14 @@ Los 12 KPIs se agrupan en 5 categorías:
 
 **Qué mide:** facturación por persona.
 **Fórmula:** Ingresos / Número de empleados.
-**Valor sano:** depende mucho del sector. Compara con tu propio histórico.
+**Valor sano:** depende mucho del sector. Compare con su propio histórico.
 **Frecuencia:** trimestral.
 
 ### 11. Rotación de stock (Operaciones)
 
-**Qué mide:** cuántas veces entra y sale tu inventario en un año.
+**Qué mide:** cuántas veces entra y sale su inventario en un año.
 **Fórmula:** Coste de ventas / Stock medio.
-**Valor sano:** 4–8 veces en comercio. Si es menor, tienes demasiado stock parado.
+**Valor sano:** 4–8 veces en comercio. Si es menor, tiene demasiado stock parado.
 **Frecuencia:** mensual.
 
 ### 12. Ingresos recurrentes (Operaciones)
@@ -140,7 +141,7 @@ Los 12 KPIs se agrupan en 5 categorías:
 
 ## ¿Qué valor objetivo poner?
 
-Aquí tienes referencias generales, pero cada sector tiene sus particularidades:
+Aquí tiene referencias generales, pero cada sector tiene sus particularidades:
 
 | KPI | Valor sano | Valor problemático |
 |---|---|---|
@@ -162,10 +163,10 @@ Aquí tienes referencias generales, pero cada sector tiene sus particularidades:
 
 **Opción gratuita:** Looker Studio (antes Google Data Studio) + Google Sheets.
 
-1. **Conecta tu fuente de datos:** ERP, contabilidad, CRM.
-2. **Importa los datos a Sheets** o directamente con conector.
-3. **Crea visualizaciones:** 12 KPIs como tarjetas grandes arriba, gráficos debajo.
-4. **Comparte con tu equipo.**
+1. **Conecte su fuente de datos:** ERP, contabilidad, CRM.
+2. **Importe los datos a Sheets** o directamente con conector.
+3. **Cree visualizaciones:** 12 KPIs como tarjetas grandes arriba, gráficos debajo.
+4. **Comparta con su equipo.**
 
 **Opción profesional:** Power BI / Tableau / Looker Studio Pro.
 
@@ -177,10 +178,10 @@ Aquí tienes referencias generales, pero cada sector tiene sus particularidades:
 
 ## Errores frecuentes al medir KPIs
 
-1. **Medir demasiados KPIs.** Elige 5–7 críticos para tu modelo de negocio.
+1. **Medir demasiados KPIs.** Elija 5–7 críticos para su modelo de negocio.
 2. **Medirlos y no actuar.** El dato es para tomar decisiones.
 3. **No definir responsable.** Cada KPI debe tener un dueño.
-4. **Medir con datos sucios.** Si tu CRM está mal, el KPI está mal.
+4. **Medir con datos sucios.** Si su CRM está mal, el KPI está mal.
 5. **Comparar con empresas de otro sector.** "Mi margen neto es 5 %" puede ser excelente (comercio) o pésimo (consultoría).
 6. **Olvidar la tendencia.** Un KPI de valor absoluto importa menos que su evolución.
 
@@ -203,9 +204,9 @@ Aquí tienes referencias generales, pero cada sector tiene sus particularidades:
 ## ¿Cómo se conecta con la automatización?
 
 Un buen sistema de KPIs debería:
-- **Capturar datos automáticamente** desde tu ERP, CRM, TPV.
+- **Capturar datos automáticamente** desde su ERP, CRM, TPV.
 - **Actualizarse solo** cada día o cada hora.
-- **Alertarte** cuando un KPI se sale del rango.
+- **Alertarle** cuando un KPI se sale del rango.
 - **Generar el informe** automáticamente.
 
 En **AdimenAi** (Gipuzkoa) diseñamos e implementamos este sistema para pymes: conectamos ERP + CRM + TPV + web + Ads y montamos un dashboard automático. La auditoría es **gratuita**.
@@ -222,13 +223,13 @@ Para una pyme típica: **margen bruto, flujo de caja, CAC, LTV, días de cobro, 
 Suma todo el gasto en marketing y ventas (Ads, herramientas, sueldos, eventos) y divide entre los clientes nuevos que vinieron por esas acciones.
 
 **¿Y si no tengo CRM?**
-Empieza con una hoja de cálculo. Luego migra a un CRM (HubSpot, Zoho, Bitrix24) cuando el volumen lo justifique.
+Empiece con una hoja de cálculo. Luego migre a un CRM (HubSpot, Zoho, Bitrix24) cuando el volumen lo justifique.
 
 **¿Cada cuánto hago el informe?**
 Diario para caja. Semanal para ventas y leads. Mensual para rentabilidad. Trimestral para tendencias.
 
 **¿Vale la pena pagar Power BI o Tableau?**
-Para una pyme de menos de 30 empleados, Looker Studio (gratuito) basta. Cuando escalas, sí merece la pena.
+Para una pyme de menos de 30 empleados, Looker Studio (gratuito) basta. Cuando escala, sí merece la pena.
 
 **¿Y si mi ERP no tiene conectores?**
 En AdimenAi integramos ERP sin API mediante RPA de pantalla. Conectamos cualquier sistema con cualquier dashboard.
@@ -236,8 +237,8 @@ En AdimenAi integramos ERP sin API mediante RPA de pantalla. Conectamos cualquie
 **¿Cuánto cuesta montar un sistema de KPIs?**
 Entre 1.500 € y 6.000 € para una pyme, más 100–300 €/mes de mantenimiento. Listo en 2–4 semanas.
 
-## ¿Quieres saber si tu pyme va bien o mal?
+## ¿Quiere saber si su pyme va bien o mal?
 
-En **AdimenAi** (Gipuzkoa) montamos tu **dashboard de KPIs conectado con todo** en 2–4 semanas. La primera auditoría es **gratuita** y te decimos qué medir y por dónde empezar.
+En **AdimenAi** (Gipuzkoa) montamos su **dashboard de KPIs conectado con todo** en 2–4 semanas. La primera auditoría es **gratuita** y le decimos qué medir y por dónde empezar.
 
-📞 +34 641 195184 · [Reserva tu auditoría gratuita](https://adimenai.com/contactar)
+📞 +34 641 195184 · [Reserve su auditoría gratuita](https://adimenai.com/contactar)

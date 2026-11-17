@@ -1,9 +1,9 @@
 ---
 title: "Markaren koloreak: zergatik komunikatzen duen kolore psikologia segiben"
 slug: psicologia-colores-branding
-excerpt: "Kolorea okerrekin bezeroaren %85 lortzeko erabaketa galdu daiteke. Gorria hosteleriarako, udarra profesionalizazarako, beltza osasunerako... Descubre zein da kolorea zure sektorekoa eta nola evitatzea branding erroreak."
+excerpt: "Kolorea okerrekin bezeroaren %85 lortzeko erabaketa galdu daiteke. Gorria hosteleriarako, udarra profesionalizazarako, beltza osasunerako... Descubre zein da kolorea zuen sektorekoa eta nola evitatzea branding erroreak."
 tags: ["Branding", "Kolore psikologia", "identitate bisuela", "Marketinuga"]
-metaDescription: "Kolore psikologia branding-era: zein komunikatzen duen kolorea, nola aukeratu mararen kolorea zure sektorean, paleta efizienteak hex arrekin eta erroreak arruntak."
+metaDescription: "Kolore psikologia branding-era: zein komunikatzen duen kolorea, nola aukeratu mararen kolorea zuen sektorean, paleta efizienteak hex arrekin eta erroreak arruntak."
 publishedAt: 2026-08-17
 language: eu
 ---
@@ -14,7 +14,7 @@ language: eu
 
 ## Helburu: kolorea eietsia dudabidea
 
-San Sebastiartako bar bat martxatan duzu. Udarraren kolorea aukeratu duzu "profesionalagoa" delako. Baina bezeroek bankia, ez gozatzekoarekin lotzen dute. Fakturazioa %15 jaisten da.
+San Sebastiartako bar bat martxatan duzue. Udarraren kolorea aukeratu duzue "profesionalagoa" delako. Baina bezeroek bankia, ez gozatzekoarekin lotzen dute. Fakturazioa %15 jaisten da.
 
 > "Urdinezko udarra ez da elkarrekin. Lanekin, ez gozatzekoarekin lotzen dugu." — Bar bezero bat Donostiarraren.
 
@@ -151,7 +151,7 @@ Arazoa diseinua ez da. **Kolore psikologia** da.
 ### AdimenAi (Teknologia)
 - Urdin (#1976D2) + Moras (#6C47FF)
 - Emaitza: %60 gehiago B2B leihatu
-- *(Dugun kolorea dago jadanik. Zurea aukeratzen duzu hobetik.)*
+- *(Dugun kolorea dago jadanik. Zurea aukeratzen duzue hobetik.)*
 
 ## Erroreak arrunta (eta nola ekiditea)
 
@@ -165,7 +165,7 @@ Arazoa diseinua ez da. **Kolore psikologia** da.
 
 ## Laburbilduz: pausak 3-ek
 
-1. **Zehaztu zure sektorea eta emozio nagusia.** Hosteleria → energia (gorri). Teknologia → konfiantzaz (urdin).
+1. **Zehaztu zuen sektorea eta emozio nagusia.** Hosteleria → energia (gorri). Teknologia → konfiantzaz (urdin).
 2. **Aukeratu kolorea nagusia eta bigarrena.** Erabili taula. Gorri + marroi konbina daiteke, baina ez gorri + urdin.
 3. **Probatu bezero ezagupekin 10-ek.** Galdetu nola sentitzen duten paleta batekin. Ezaustea badute, itxura pausan 1. 44
 

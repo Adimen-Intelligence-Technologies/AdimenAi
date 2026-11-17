@@ -10,7 +10,7 @@ language: eu
 
 # Prozesuen automatizazioa: zer den eta nola aplikatu
 
-**Laburpena.** Prozesuen automatizazioa softwarea lan errepikakorra egiten duen pertsonaren ordez jartzea da: eskaera bat erregistratzea, faktura bat albaranarekin gurutzatzea, materialaren falta abisatzea, asteko txostena prestatzea. Ez da fabrikako robot bat: urrats errepikakorrak beren kabian exekutatzea da, zure erregela berak jarraituz, inork nekatik edo idazketa txarreko bat eginik. Post honetan teknikorik gabe azaldu dizugu, edozein enpresetan aurkituko dituzun adibideekin, eta zergatik **Adimen**-en gure espezialitatea **prozesu industrialen automatizazioa** den azaldu dizugu: hor delako ordu bat aurreztzea biltegian, ekoizpen lerroan eta fakturan somatzen dela.
+**Laburpena.** Prozesuen automatizazioa softwarea lan errepikakorra egiten duen pertsonaren ordez jartzea da: eskaera bat erregistratzea, faktura bat albaranarekin gurutzatzea, materialaren falta abisatzea, asteko txostena prestatzea. Ez da fabrikako robot bat: urrats errepikakorrak beren kabian exekutatzea da, zuen erregela berak jarraituz, inork nekatik edo idazketa txarreko bat eginik. Post honetan teknikorik gabe azaldu dizugu, edozein enpresetan aurkituko dituzun adibideekin, eta zergatik **Adimen**-en gure espezialitatea **prozesu industrialen automatizazioa** den azaldu dizugu: hor delako ordu bat aurreztzea biltegian, ekoizpen lerroan eta fakturan somatzen dela.
 
 ## Prozesu bat urratsen katea baino ez da
 
@@ -24,7 +24,7 @@ Galdera hori da, funtsean, prozesuen automatizazioaren osoa.
 
 ## Zer den zehazki prozesuen automatizazioa
 
-Prozesuen automatizazioa da zure enpresaren lan errepikakorrak berek egitea, zuk definitutako erregelak aplikatuz eta jada erabiltzen duzun softwarearekin konektatuz.
+Prozesuen automatizazioa da zuen enpresaren lan errepikakorrak berek egitea, zuen definitutako erregelak aplikatuz eta jada erabiltzen duzun softwarearekin konektatuz.
 
 Hobeto ulertzeko alderaketa bat erabiltzea da, askoz errazagoa baita ulertzen:
 
@@ -44,7 +44,7 @@ Jendeak "automatizatu nahi dut" esaten duenean, askotan fabrikoetako film bat go
 
 ## Asteko bi egunetan ikusiko dituzun automatizazioaren adibideak
 
-Automatizatzeko fabrika handia behar ez duzu. Hauek prozesu errealak dira, edozein enpresetan agertzen direnak, gaur zer gertatzen den eta automatizatzen denean zer aldatzen den erakusteko.
+Automatizatzeko fabrika handia behar ez duzue. Hauek prozesu errealak dira, edozein enpresetan agertzen direnak, gaur zer gertatzen den eta automatizatzen denean zer aldatzen den erakusteko.
 
 | Prozesua | Lehen | Ondoren |
 |---|---|---|
@@ -65,7 +65,7 @@ Kasu guzti hauek badute zerbait komun: **sarrera digitala da, erregela argia dag
 
 Egia esan beste egiteak gehiago balio du, beraz, bost gauza argitzea ondo dago.
 
-**Ez da zure taldea botatzea.** Desagertzen dena lan errepikakorra eta aspergarria da. Zure jendeak salbuespenak ebazteko, bezeroei ondo zaintzeko eta saltzeari ematen dio. Praktikan, automatizatzen duten enpresek jendea beste zereginetara birkokatu ohi dute, ez kaleratu.
+**Ez da zuen taldea botatzea.** Desagertzen dena lan errepikakorra eta aspergarria da. Zuen jendeak salbuespenak ebazteko, bezeroei ondo zaintzeko eta saltzeari ematen dio. Praktikan, automatizatzen duten enpresek jendea beste zereginetara birkokatu ohi dute, ez kaleratu.
 
 **Ez da urte bateko proiektua.** Prozesu bakarra 2-8 asteetan zeratzen da, ahoz zer hartu behar denaren arabera. Prozesu anitzeko proiektu osoa, 4-8 hilabetean.
 
@@ -73,7 +73,7 @@ Egia esan beste egiteak gehiago balio du, beraz, bost gauza argitzea ondo dago.
 
 **Ez da guztiagatik baliozko.** Zuzentasuna eskatzen duten erabakiak, haserre dagoen bezeroarekin artzea eta sorkuntza giza eskuen geratzen dira. Automatizazioak lan mekanikoa estutu du, ez zuzentasuna.
 
-**Ez du zure makinak edo ERPa aldatu beharrik.** Zutaz dagoenarekin konektatzen da: SAP, Dynamics, Holded, Sage, kalkulu-orriak, posta eta barneko mezuak.
+**Ez du zuen makinak edo ERPa aldatu beharrik.** Zutaz dagoenarekin konektatzen da: SAP, Dynamics, Holded, Sage, kalkulu-orriak, posta eta barneko mezuak.
 
 ## Prozesu industrialen automatizazioa: gure espezialitatea
 
@@ -85,15 +85,15 @@ Industriako enpresek abantaila bat dute gainera: **ERPak dago jada ordainuta**. 
 
 ### Nola lan egiten dugu, pausoz pauso
 
-1. **Doan bisita eta auditoria.** Zure lantegira goaz, prozesu errealak ikusten dugu (zuk uste duzuna ez, baizik), non orduek galtzen diren eta non akatsak sartu nahi dituzun detektatzen dugu.
+1. **Doan bisita eta auditoria.** Zuen lantegira goaz, prozesu errealak ikusten dugu (zuen uste duzuen ez, baizik), non orduek galtzen diren eta non akatsak sartu nahi dituzun detektatzen dugu.
 2. **Lehentasuna.** Lehengo pilotarentzat itzuli azkarra duten 1 edo 2 prozesu aukeratzen dugu, denak batera automatizatu beharrean.
 3. **Fluxuaren diseinua.** Informazioa nondik datorren, zer validatzen den eta emaitza non amaitzen den (ERP, kalkulu-orria, telefonoaren abisua) zehazten dugu.
-4. **Garapena eta konexioa.** Automatizazioa eraikitzen dugu, datu errealekin probatzen dugu eta zure sistemekin konektatzen dugu, zure makinak ukitu gabe.
-5. **Prestakuntza eta jarraitzea.** Zure taldeari erabiltzen irakasten diogu eta lehen asteak zaintzen ditugu, inork zalantzan geratzeko.
+4. **Garapena eta konexioa.** Automatizazioa eraikitzen dugu, datu errealekin probatzen dugu eta zuen sistemekin konektatzen dugu, zuen makinak ukitu gabe.
+5. **Prestakuntza eta jarraitzea.** Zuen taldeari erabiltzen irakasten diogu eta lehen asteak zaintzen ditugu, inork zalantzan geratzeko.
 
-Eta zure enpresa industriala ez bada, lagundu dezakegu orain ere: administrazioa, fakturazioa, salmentak eta bezeroarentzako arreta berdin ondo automatizatzen dira. Diferentzia da industrial ingurunean ERPareko konexioaren eta trazabilitatearen xehetasun bakoitzak askozeko ibilbidea ematen duela.
+Eta zuen enpresa industriala ez bada, lagundu dezakegu orain ere: administrazioa, fakturazioa, salmentak eta bezeroarentzako arreta berdin ondo automatizatzen dira. Diferentzia da industrial ingurunean ERPareko konexioaren eta trazabilitatearen xehetasun bakoitzak askozeko ibilbidea ematen duela.
 
-Zure enpresan txertatzeko metodo osoa pausoz pausu (nondik hasi, prozesoa nola dokumentatu, 4 asteetako pilotua nola ezarri eta zer neurtu) hemen dago: *[prozesuen automatizazioa: nola aplikatu zure enpresan](https://www.adimenai.com/eu/blog/automatizacion-de-procesos-en-tu-empresa)*.
+Zuen enpresan txertatzeko metodo osoa pausoz pausu (nondik hasi, prozesoa nola dokumentatu, 4 asteetako pilotua nola ezarri eta zer neurtu) hemen dago: *[prozesuen automatizazioa: nola aplikatu zuen enpresan](https://www.adimenai.com/eu/blog/automatizacion-de-procesos-en-tu-empresa)*.
 
 Xehetasun teknikoa, epeak eta 2026ko zenbakietan nahi baduzu, guzti dago *[industria-automatizazioa IArekin 2026an: enpresentzako gida praktikoa](https://www.adimenai.com/eu/blog/automatizacion-industrial-ia-2026)* artikuluan.
 
@@ -105,20 +105,20 @@ Apolutu gabe, hauek dira benetako zenbakiak:
 - **Agiriak irakurtzen dituen eta ERParekin konektatutako prozesua** (fakturazioa, faktura eta albaranen gurutzatzea): **6.000 €**tik gora eta 3-4 aste.
 - **Prozesu anitzeko proiektu osoa**: **12.000 €**tik gora eta 4-8 aste.
 
-Erregela erraza da: automatizazio bat bere burua ordaintzen du zure taldean askatzen dituen orduak mantentzeko kostua baino gehiago badira. Proiektu errealetan, itzultza **4 eta 8 hilabete** artean agertzen da.
+Erregela erraza da: automatizazio bat bere burua ordaintzen du zuen taldean askatzen dituen orduak mantentzeko kostua baino gehiago badira. Proiektu errealetan, itzultza **4 eta 8 hilabete** artean agertzen da.
 
-Horiek tartea dira, ez zure kasua. Deian zure kasuaren zenbaki zehatza ematen dizugu, konpromisorik gabe.
+Horiek tartea dira, ez zuen kasua. Deian zuen kasuaren zenbaki zehatza ematen dizugu, konpromisorik gabe.
 
 ## Galdera maiztuak (FAQ)
 
 **Automatizatzeak jendea botatzea dakar?**
-Ez. Desagertzen dena lan errepikakorra da. Zure taldea balio handiagoko zereginetara pasatzen da: analisia, salbuespenak ebaztea, pertsonak zaintzea. Ohiko emaitza da birkokatzea, ez kaleratzea.
+Ez. Desagertzen dena lan errepikakorra da. Zuen taldea balio handiagoko zereginetara pasatzen da: analisia, salbuespenak ebaztea, pertsonak zaintzea. Ohiko emaitza da birkokatzea, ez kaleratzea.
 
 **Zenbat denbora ematen du lehen emaitzak ikusteko?**
 Lehen automatizazioek 2-4 asteetan ematen dute emaitzak. Inbertsioaren itzultza osoa 4 eta 12 hilabete artean agertzen da, prozesuaren arabera.
 
-**Zure ERParekin bat dator?**
-Bai. SAP, Dynamics AX, Holded, Sage eta API edo datu-basera sarbidea duen edozein sistemarekin lan egiten dugu. Zure ERPak oso zaharra bada, hori bide bidez integratzen dugu.
+**Zuen ERParekin bat dator?**
+Bai. SAP, Dynamics AX, Holded, Sage eta API edo datu-basera sarbidea duen edozein sistemarekin lan egiten dugu. Zuen ERPak oso zaharra bada, hori bide bidez integratzen dugu.
 
 **Eta nire datuak desantolatuta badaude?**
 Datuen kalitatea diagnostikatzea hasierako auditoriaren zati bat da. Garbi ez badaude, lehenik garbitzen ditugu edo automatizazioa zarata jasateko moduan diseinatzen dugu.
@@ -127,16 +127,16 @@ Datuen kalitatea diagnostikatzea hasierako auditoriaren zati bat da. Garbi ez ba
 Bai, eta kasu ohikoena da. Pertsonak urrats mekanikoa utzi egiten du eta sistemaak salbuespen gisa markatzen duena ebazteko pasatzen da. Hori guzti edo ezer ez egitea baino askoz onartezagoa da.
 
 **Teknologiaz jakin behar al dut?**
-Ez. Garapena eta integrazioa gure esku uzten dizugu. Zure taldeak emaitza erabiltzen jakiteko beste izan beharko du, eta ahalik eta errazena izateko diseinatzen dugu.
+Ez. Garapena eta integrazioa gure esku uzten dizugu. Zuen taldeak emaitza erabiltzen jakiteko beste izan beharko du, eta ahalik eta errazena izateko diseinatzen dugu.
 
-## Hasiko al dezuke zure kasuarekin?
+## Hasiko al dezuke zuen kasuarekin?
 
 Lehenengo egiten duguna **30 minutuko dei bat da, konpromisorik gabe**, non:
 
-- Esaten diguzu zer zure denbora janari edo nola bidaltzen duzu (prosesua zuzenean lantegian erakustea).
+- Esaten diguzu zer zuen denbora janari edo nola bidaltzen duzue (prosesua zuzenean lantegian erakustea).
 - Esaten dizugu zein prozesu automatizatzeko merezi duen eta zein ez.
 - Ematen dizugu kostu eta epearen estimazioa interesatzen zaion horretarako.
 
-**Aukeratu nahi duzun modua:** deitu gaitzazu **+34 641 195184** telefonan edo bidal iezaguzu mezu bat inprimukoak. 24 ordu baino gutxiagorako erresponduten dizugu, eta badagok, zure prozesuen doan auditoria batekin hasten gara.
+**Aukeratu nahi duzun modua:** deitu gaitzazu **+34 641 195184** telefonan edo bidal iezaguzu mezu bat inprimukoak. 24 ordu baino gutxiagorako erresponduten dizugu, eta badagok, zuen prozesuen doan auditoria batekin hasten gara.
 
 📞 +34 641 195184 · [Kontaktu formularioa](https://www.adimenai.com/eu/contacto)

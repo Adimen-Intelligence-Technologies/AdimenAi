@@ -1,7 +1,7 @@
 ---
 title: "Bezero gehiago lortzeko modua publizitatean gehiago gastatu gabe (2026ko gida)"
 slug: como-conseguir-mas-clientes
-excerpt: "Zure ETEra bezero gehiago erakartzeko 9 kanal frogatu, publizitate-faktura handitu gabe: SEOa, gomendioak, aliantzak, edukia, iritziak, emaila eta IA automatizazioak."
+excerpt: "Zuen ETEra bezero gehiago erakartzeko 9 kanal frogatu, publizitate-faktura handitu gabe: SEOa, gomendioak, aliantzak, edukia, iritziak, emaila eta IA automatizazioak."
 tags: ["Erakarpena", "Bezeroak", "Hazkundea"]
 metaDescription: "Publizitatean gehiago gastatu gabe bezero gehiago lortzeko 9 kanal: SEO lokala, gomendioak, aliantzak, edukia, email marketina, iritziak eta IA automatizazioak, benetako prezioekin."
 publishedAt: 2026-08-17
@@ -27,21 +27,21 @@ Errealitatea da **ez duzula trafiko gehiago behar, kobertura hobea, jarraipen ho
 
 ### 1. SEO lokala (Google Maps + "inguruan")
 
-**Zer den:** norbaitek zure zerbitzua zure eskualdean bilatzean Googlen agertzea.
-**Zergatik funtzionatzen duen:** Googleko bilaketen **% 46k asmo lokala** dute (Think with Google, 2024). Ondo posizionatuta bazaude, "doako" bezeroak jasotzen dituzu.
+**Zer den:** norbaitek zuen zerbitzua zuen eskualdean bilatzean Googlen agertzea.
+**Zergatik funtzionatzen duen:** Googleko bilaketen **% 46k asmo lokala** dute (Think with Google, 2024). Ondo posizionatuta bazaude, "doako" bezeroak jasotzen dituzue.
 **Kostua:** 200–400 €/hilean (kudeatutako SEO lokala). Hasierako inbertsioa: 1.500–3.000 € (web optimizazioa + fitxa).
 **Emaitzak ikusteko epea:** 3-6 hilabete.
 **Idealak honentzat:** denda fisikoa duen edo eremu jakin bati zerbitzatzen dion edozein negoziorentzat.
 
 **Aste honetako ekintza zehatzak:**
-- Erreklamatu eta egiaztatu zure Google Business Profile fitxa.
+- Erreklamatu eta egiaztatu zuen Google Business Profile fitxa.
 - Bete eremu guztiak: ordutegiak, kategoriak, argazkiak, deskribapena.
 - Eskatu iritziak aste bakoitzean gustura dauden 5 bezeroei.
 - Mantendu NAP (izena, helbidea, telefonoa) koherentea direktorio guztietan.
 
 ### 2. Gomendio-programa (ordaindutako ahoz aho)
 
-**Zer den:** zure uneko bezeroak bezero berriak ekartzeagatik saritzen dituen sistema bat.
+**Zer den:** zuen uneko bezeroak bezero berriak ekartzeagatik saritzen dituen sistema bat.
 **Zergatik funtzionatzen duen:** kontsumitzaileen **% 92k ezagunen gomendioetan** publizitatean baino gehiago konfiantza dute (Nielsen). Gomendatutako bezero batek 4x gehiago bihurtzen du bezero hotz batek baino.
 **Kostua:** gomenditutako bezero bakoitzeko % 5-15eko deskontua edo oparia.
 **Epea:** 1-2 aste ezartzeko.
@@ -50,13 +50,13 @@ Errealitatea da **ez duzula trafiko gehiago behar, kobertura hobea, jarraipen ho
 **Aste honetako ekintza zehatzak:**
 - Definitu pizgarria (% 10eko deskontua, oparia, zerbitzu extra).
 - Bidali email bat uneko bezero-basera programa azalduz.
-- Jarri kartel bat zure lokalean eta popup bat zure webean.
+- Jarri kartel bat zuen lokalean eta popup bat zuen webean.
 - Neurtu bihurketak eta saritu gomendatzaile onenak.
 
 ### 3. Aliantzak enpresa osagarriekin
 
 **Zer den:** bezero-profil bera zerbitzatzen duten baina lehiakide ez diren negozioekin akordioak.
-**Zergatik funtzionatzen duen:** zure publikoa biderkatzen duzu publizitatean gastatu gabe. Ile-apaindegi batek eta loradenda batek elkar gomendatzen badute, biak hazten dira.
+**Zergatik funtzionatzen duen:** zuen publikoa biderkatzen duzue publizitatean gastatu gabe. Ile-apaindegi batek eta loradenda batek elkar gomendatzen badute, biak hazten dira.
 **Kostua:** denbora eta pizgarri txiki bat (komisioa, zerbitzu-trukea).
 **Epea:** 1-3 hilabete eragin erreala ikusteko.
 **Idealak honentzat:** negozio lokalak, profesionalak, B2B.
@@ -68,26 +68,26 @@ Errealitatea da **ez duzula trafiko gehiago behar, kobertura hobea, jarraipen ho
 - Arropa-denda + oinetako-denda + ile-apaindegia auzo berean.
 
 **Aste honetako ekintza zehatzak:**
-- Egin zure eremuko 10 negozio osagarriren zerrenda.
+- Egin zuen eremuko 10 negozio osagarriren zerrenda.
 - Bisitatu edo idatzi bakoitzari. Proposatu trukea.
 - Definitu nola neurtu (txartel gurutzatuak, kodeak, kuponak).
 
 ### 4. Eduki erabilgarria (bloga, YouTube, bideo laburra)
 
-**Zer den:** zure bezeroen benetako galderei erantzuten dien edukia argitaratzea.
-**Zergatik funtzionatzen duen:** aditu gisa posizionatzen zaitu, zure SEOa hobetzen du, ikertzen ari diren bezeroak erakartzen ditu.
+**Zer den:** zuen bezeroen benetako galderei erantzuten dien edukia argitaratzea.
+**Zergatik funtzionatzen duen:** aditu gisa posizionatzen zaitu, zuen SEOa hobetzen du, ikertzen ari diren bezeroak erakartzen ditu.
 **Kostua:** 300–1.000 €/hilean (erredaktorea + SEO) edo barne-barnean eginez.
 **Epea:** 6-12 hilabete emaitza jarraituetarako.
 **Idealak honentzat:** zerbitzu profesionalak, B2B, zalantza errepikakorrak dituzten nitxoak.
 
 **Aste honetako ekintza zehatzak:**
-- Zerrendatu zure bezeroen 10 galdera maiztuenak.
+- Zerrendatu zuen bezeroen 10 galdera maiztuenak.
 - Bihurtu bakoitza artikulu batean (800-1.500 hitz) edo bideo batean (3-5 min).
 - Argitaratu 2/hilean eta neurtu trafikoa eta leadak GA4rekin.
 
-### 5. Email marketina zure uneko basera
+### 5. Email marketina zuen uneko basera
 
-**Zer den:** zure uneko bezeroekin aldizka komunikatzea emailez, eduki erabilgarria, eskaintzak eta berriak eskainiz.
+**Zer den:** zuen uneko bezeroekin aldizka komunikatzea emailez, eduki erabilgarria, eskaintzak eta berriak eskainiz.
 **Zergatik funtzionatzen duen:** DMAren arabera, email marketinak inbertitutako euro bakoitzeko **36 €ko ROI** du. Uneko bezeroak berri bat lortzea baino 5-7 aldiz errentagarriagoak dira.
 **Kostua:** 50–250 €/hilean (Mailchimp, ActiveCampaign, Brevo).
 **Epea:** 3-6 hilabete eragin argia ikusteko.
@@ -108,15 +108,15 @@ Errealitatea da **ez duzula trafiko gehiago behar, kobertura hobea, jarraipen ho
 **Idealak honentzat:** azken bezeroak dituen edozein negoziorentzat.
 
 **Aste honetako ekintza zehatzak:**
-- Berrikusi zure Google fitxa eta erantzun iritzi GUZTIEI (positiboak eta negatiboak).
+- Berrikusi zuen Google fitxa eta erantzun iritzi GUZTIEI (positiboak eta negatiboak).
 - Eskatu iritziak modu proaktiboan salmenta/zerbitzu bakoitzaren ondoren.
 - Sortu erosketa osteko email bat Googlerako esteka zuzenarekin.
-- Monitorizatu zure markaren aipamenak (Google Alerts, Mention, Brand24).
+- Monitorizatu zuen markaren aipamenak (Google Alerts, Mention, Brand24).
 
 ### 7. Leadeen jarraipenaren automatizazioa
 
 **Zer den:** lead bakoitza harrapatzen, sailkatzen, jarraipen automatikoa bidaltzen eta une egokian komertzialari abisatzen dion sistema bat.
-**Zergatik funtzionatzen duen:** salmenten **% 80 5. eta 12. kontaktuen artean ixten da**. Sistemarik gabe, zure taldeak bigarrenean uzten du.
+**Zergatik funtzionatzen duen:** salmenten **% 80 5. eta 12. kontaktuen artean ixten da**. Sistemarik gabe, zuen taldeak bigarrenean uzten du.
 **Kostua:** 200–600 €/hilean (CRM + automatizazioak).
 **Epea:** 4-8 aste muntatzeko, 3-6 hilabete optimizatzeko.
 **Idealak honentzat:** talde komertziala duen edozein ETErentzat.
@@ -130,20 +130,20 @@ Errealitatea da **ez duzula trafiko gehiago behar, kobertura hobea, jarraipen ho
 ### 8. Presentzia B2B/B2C direktorio eta merkatuetan
 
 **Zer den:** Yelp, TripAdvisor, sektoreko plataformetan, etxebizitza edo iragarki-webguneetan egotea, etab.
-**Zergatik funtzionatzen duen:** trafiko kualifikatua eta ospea. Autoritatea duen direktorio bakoitzak zure SEOa hobetzen du.
+**Zergatik funtzionatzen duen:** trafiko kualifikatua eta ospea. Autoritatea duen direktorio bakoitzak zuen SEOa hobetzen du.
 **Kostua:** 0 € (oinarrizko profila) edo 50–500 €/hilean (premium).
 **Epea:** berehalakoa (ikusgarritasuna) + 3-6 hilabete (SEO).
 **Idealak honentzat:** ostalaritza, turismoa, zerbitzu profesionalak, B2B.
 
 **Aste honetako ekintza zehatzak:**
-- Identifikatu zure sektorerako 10 direktorio garrantzitsuenak.
-- Sortu edo erreklamatu zure profila bakoitzean.
+- Identifikatu zuen sektorerako 10 direktorio garrantzitsuenak.
+- Sortu edo erreklamatu zuen profila bakoitzean.
 - Mantendu informazioa koherentea.
 - Eskatu iritziak plataforma bakoitzetik.
 
 ### 9. IA automatizazioa leadak 24/7 harrapatu eta kualifikatzeko
 
-**Zer den:** zure webean eta WhatsApp-en galdera maiztuei erantzuten dien, leadak kualifikatzen dituen eta gizakiekin hitzorduak antolatzen dituen chatbot bat.
+**Zer den:** zuen webean eta WhatsApp-en galdera maiztuei erantzuten dien, leadak kualifikatzen dituen eta gizakiekin hitzorduak antolatzen dituen chatbot bat.
 **Zergatik funtzionatzen duen:** kontsumitzaileen **% 67k 5 minutu itxaron baino chatbot bat nahiago du** (Salesforce). Eta bisiten % 30-40 gehiago bihurtzen ditu lead kualifikatu.
 **Kostua:** 1.500–6.000 € (instalazioa) + 150–400 €/hilean.
 **Epea:** 4-6 aste.
@@ -151,7 +151,7 @@ Errealitatea da **ez duzula trafiko gehiago behar, kobertura hobea, jarraipen ho
 
 **Aste honetako ekintza zehatzak:**
 - Zerrendatu 10 galdera maiztuenak.
-- Instalatu oinarrizko chatbot bat zure webean (Tidio, Crisp, Botpress, gure agente propioa).
+- Instalatu oinarrizko chatbot bat zuen webean (Tidio, Crisp, Botpress, gure agente propioa).
 - Konektatu WhatsApp Business APIrekin.
 - Neurtu: lead kualifikatuak, antolatutako hitzorduak, bihurketa.
 
@@ -177,19 +177,19 @@ Errealitatea da **ez duzula trafiko gehiago behar, kobertura hobea, jarraipen ho
 2. **Ezer ez neurtzea.** Daturik gabe ez dakizu zer funtzionatzen duen.
 3. **2 astetan emaitzak espero izatea.** Kanal batzuek 3-6 hilabete behar dituzte.
 4. **"Jarduera" eta "emaitza" nahastea.** Astean 3 post argitaratzea ez da marketina, bezerorik erakartzen ez badu.
-5. **Jarraipen-sistemarik ez izatea.** Lead bat harrapatzen duzu eta 3 egunetan ahazten zaizu.
+5. **Jarraipen-sistemarik ez izatea.** Lead bat harrapatzen duzue eta 3 egunetan ahazten zaizu.
 6. **Lehiakidea pentsatu gabe kopiatzea.** Negozio bakoitzak bere publikoa eta testuingurua ditu.
 
-## Nola uztartzen den zure gainerako presentzia digitalarekin
+## Nola uztartzen den zuen gainerako presentzia digitalarekin
 
 9 kanal hauetako bat ere ez du bakarrik funtzionatzen. Idealena sistema batean konbinatzea da:
 
 - **Bezeroak Googlen bilatzen zaitu** → SEO lokalaren bidez aurkitzen zaitu.
-- **Zure webean sartzen da** → IA chatbotak lagundu eta leada harrapatzen du.
+- **Zuen webean sartzen da** → IA chatbotak lagundu eta leada harrapatzen du.
 - **Email automatiko bat iristen zaio** → kualifikatzen da.
 - **Komertzialak deitu/erantzuten dio** → salmenta ixten du.
 - **Erosketaren ondoren, iritzia eskatzen diozu** → beste bati gomendatzen dizu.
-- **Zure newsletterrean sartzen duzu** → bezero errepikaria da.
+- **Zuen newsletterrean sartzen duzue** → bezero errepikaria da.
 
 Hori **erakarpen + bihurketa + fidelizazio** sistema bat da. 500 € eta 1.500 €/hilean artean balio du mantentzeak, baina 12 hilabetetan leadak x3-x5 biderkatzen ditu.
 
@@ -215,8 +215,8 @@ Bai, batez ere. ETE lokalek dira SEO lokalari, iritziei eta auzoko aliantzei ete
 **Eta bezero-datu-baserik ez badut?**
 Hasi orain bertan emailak eta telefonoak biltzen baimenarekin. Datu-basea da 5 urtera duzun aktiborik baliotsuena.
 
-## Hurrengo 6 hilabeteetarako plan errealista bat nahi al duzu?
+## Hurrengo 6 hilabeteetarako plan errealista bat nahi al duzue?
 
-**AdimenAIn** (Gipuzkoa) zurekin batera **publizitatea puztu gabeko erakarpen-plan bat** muntatzen dugu: zein kanal, zein ordenatan, zer inbertsio eta zer espero. Lehen auditoria **doakoa** da.
+**AdimenAIn** (Gipuzkoa) zuenekin batera **publizitatea puztu gabeko erakarpen-plan bat** muntatzen dugu: zein kanal, zein ordenatan, zer inbertsio eta zer espero. Lehen auditoria **doakoa** da.
 
-📞 +34 641 195184 · [Erreserbatu zure doako auditoria](https://www.adimenai.com/eu/contacto)
+📞 +34 641 195184 · [Erreserbatu zuen doako auditoria](https://www.adimenai.com/eu/contacto)

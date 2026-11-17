@@ -7,34 +7,42 @@ export interface NavLink {
 }
 
 /**
- * Lista única de páginas del sitio. La usan el header y el footer para que
+ * Lista única de secciones del sitio. La usan el header y el footer para que
  * ambos menús se mantengan sincronizados.
+ *
+ * `includeBlog` añade el blog al final. El header lo incluye; el footer lo
+ * muestra en el bloque "Otras páginas".
  */
 export function buildNavLinks(
   locale: string,
   t: (key: string) => string,
+  includeBlog = false,
 ): NavLink[] {
-  return [
-    { id: "home", label: t("pages.home"), href: toLocalePath(locale, "/") },
+  const links: NavLink[] = [
     {
-      id: "services",
-      label: t("pages.services"),
+      id: "aiAutomation",
+      label: t("pillars.aiAutomation"),
       href: toLocalePath(locale, "/#servicios"),
     },
     {
-      id: "webDesign",
-      label: t("pages.webDesign"),
+      id: "digitalization",
+      label: t("pillars.digitalization"),
+      href: toLocalePath(locale, "/#servicios"),
+    },
+    {
+      id: "apps",
+      label: t("pillars.apps"),
       href: toLocalePath(locale, "/diseno-web"),
     },
-    {
-      id: "commerce",
-      label: t("pages.commerce"),
-      href: toLocalePath(locale, "/#comercios"),
-    },
-    {
-      id: "useCases",
-      label: t("pages.useCases"),
-      href: toLocalePath(locale, "/#casos-de-uso"),
-    },
   ];
+
+  if (includeBlog) {
+    links.push({
+      id: "blog",
+      label: t("blog"),
+      href: toLocalePath(locale, "/blog"),
+    });
+  }
+
+  return links;
 }
